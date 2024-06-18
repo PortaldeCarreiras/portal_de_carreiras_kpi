@@ -1,0 +1,49 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Estilos para o CSV Reader */
+  .csv-reader-input {
+    margin: 20px 0;
+  }
+  
+  /* Estilos para os gráficos */
+  .chart-container {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .chart {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Estilos para os filtros */
+  label {
+    margin-right: 10px;
+  }
+  
+  select {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  div {
+    margin: 10px 0;
+  }
+  
