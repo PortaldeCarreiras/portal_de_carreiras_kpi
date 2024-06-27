@@ -19,12 +19,12 @@ body {
   /* Estilos para os gráficos */
   .chart-container {
     width: 80%;
-    height: 400px;
-    margin: 20px auto;
+    height: 400px; /* estava 400 */
+    margin: 10px auto 100px auto;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 100px 20px;
   }
   
   .chart {

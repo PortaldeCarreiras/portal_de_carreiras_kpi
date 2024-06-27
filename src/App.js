@@ -1,13 +1,15 @@
+// src/App.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import Dashboard from './pages/Dashboard';
 import './App.css';
+import { CsvDataProvider } from './contexts/CsvDataContext';
 
-class App extends React.Component {
-  render() {
-    return (
+const App = () => {
+  return (
+    <CsvDataProvider>
       <Router>
         <Routes>
           <Route path="/" element={<LoginPage />} />
@@ -15,9 +17,9 @@ class App extends React.Component {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
-    );
-  }
-}
+    </CsvDataProvider>
+  );
+};
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -127,6 +127,7 @@ class App extends Component {
     const currentYear = new Date().getFullYear(); // Definindo o ano atual
     return (
       <div className='App'>
+        <h2>Total de Acessos ao Portal</h2>
       <div className="container">
         <CSVReader
           cssClass="csv-reader-input"

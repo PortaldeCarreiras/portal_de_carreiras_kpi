@@ -1,4 +1,4 @@
-// pages/LoginPage.js
+// src/pages/LoginPage.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LoginPage.css';
@@ -15,7 +15,7 @@ const LoginPage = () => {
     } else if (username === 'user' && password === 'user123') {
       navigate('/dashboard/user');
     } else {
-      setError('Invalid credentials');
+      setError('Credenciais inválidas');
     }
   }
 
@@ -24,17 +24,17 @@ const LoginPage = () => {
       <h2>Login</h2>
       <input
         type="text"
-        placeholder="Username"
+        placeholder="Nome de Usuário"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
       <input
         type="password"
-        placeholder="Password"
+        placeholder="Senha"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button onClick={handleLogin}>Login</button>
+      <button onClick={handleLogin}>Entrar</button>
       {error && <p className="error">{error}</p>}
     </div>
   );

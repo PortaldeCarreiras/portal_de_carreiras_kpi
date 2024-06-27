@@ -16,10 +16,13 @@ class TotalEstagiandoChart extends Component {
       totalStudents: 0,
       eixosCounts: {},
       vagasCounts: {},
-      selectedYear: 'all',
+      selectedYearDataFinal: 'all',
+      selectedYearAcademico: 'all',
       selectedSemester: 'all',
       selectedCourse: 'all',
-      selectedTurn: 'all'
+      selectedTurn: 'all',
+      validYearsDataFinal: [], // Armazena os anos únicos extraídos da coluna data_final
+      validYearsAcademico: [] // Armazena os anos únicos extraídos da coluna aluno
     };
     this.chartRef = React.createRef();
     this.chartEixosRef = React.createRef();
@@ -36,19 +39,117 @@ class TotalEstagiandoChart extends Component {
 
   handleCSVData = (data) => {
     console.log(data);
-    this.setState({ csvData: data }, this.createCharts);
+    this.setState({ csvData: data }, () => {
+      const validYearsDataFinal = this.extractUniqueYearsDataFinal();
+      const validYearsAcademico = this.extractUniqueYearsAcademico();
+      this.setState({
+        validYearsDataFinal,
+        validYearsAcademico
+      }, this.createCharts);
+    });
   }
 
   handleCSVError = (error) => {
     console.error(error);
   }
 
-  filterData = () => {
+  extractUniqueYearsDataFinal = () => {
     const { csvData } = this.state;
     if (!csvData) return [];
 
-    return csvData.filter(item => item.data_final && item.data_final.trim() !== '');
+    const uniqueYears = new Set();
+    csvData.forEach(item => {
+      const dataFinal = item.data_final;
+      if (dataFinal && dataFinal.trim() !== '') {
+        const year = new Date(dataFinal).getFullYear();
+        uniqueYears.add(year);
+      }
+    });
+
+    return Array.from(uniqueYears).sort(); // Converte para array e ordena os anos
   }
+
+  extractUniqueYearsAcademico = () => {
+    const { csvData } = this.state;
+    if (!csvData) return [];
+  
+    const uniqueYears = new Set();
+    csvData.forEach(item => {
+      const aluno = item.aluno;
+      if (aluno && aluno.trim() !== '') {
+        // Regex para extrair o ano acadêmico a partir do formato especificado
+        const regex = /\d{4}-\d{2}-\d{2}$/; // Padrão: AAAA-MM-DD
+        const match = aluno.match(regex);
+        if (match) {
+          const year = match[0].slice(0, 4); // Extrai apenas o ano
+          uniqueYears.add(year);
+        }
+      }
+    });
+  
+    return Array.from(uniqueYears).sort(); // Converte para array e ordena os anos
+  }
+  
+
+  filterData = () => {
+    const {
+      csvData,
+      selectedYearDataFinal,
+      selectedYearAcademico,
+      selectedSemester,
+      selectedCourse,
+      selectedTurn
+    } = this.state;
+  
+    if (!csvData) return [];
+  
+    return csvData.filter(item => {
+      const aluno = item.aluno;
+  
+      // Extrai o ano acadêmico usando regex
+      if (aluno && aluno.trim() !== '') {
+        const regex = /\d{4}-\d{2}-\d{2}$/;
+        const match = aluno.match(regex);
+        if (match) {
+          const yearAcademico = match[0].slice(0, 4);
+  
+          // Extrai curso, semestre e turno
+          const subColumns = aluno.split(' - ');
+          if (subColumns.length > 1) {
+            const courseCode = subColumns[1].slice(3, 6);
+            const semesterCode = subColumns[1].slice(6, 9);
+            const periodCode = subColumns[1].slice(9, 10);
+  
+            const courseName = {
+              '048': 'Análise e Desenvolvimento de Sistemas',
+              '028': 'Banco de Dados',
+              '139': 'Desenvolvimento de Software Multiplataforma',
+              '077': 'Gestão de Produção Industrial',
+              '064': 'Gestão Empresarial',
+              '074': 'Logística',
+              '068': 'Manutenção de Aeronaves',
+              '115': 'Projetos de Estruturas Aeronáuticas'
+            }[courseCode];
+  
+            const year = '20' + semesterCode.slice(0, 2);
+            const semester = semesterCode[2] === '1' ? '1º' : '2º';
+            const turn = periodCode === '1' ? 'Manhã' : (periodCode === '2' ? 'Tarde' : 'Noite');
+  
+            // Verifica correspondência com os filtros selecionados
+            return (
+              (selectedYearAcademico === 'all' || selectedYearAcademico === yearAcademico) &&
+              (selectedSemester === 'all' || selectedSemester === semester) &&
+              (selectedCourse === 'all' || selectedCourse === courseName) &&
+              (selectedTurn === 'all' || selectedTurn === turn)
+            );
+          }
+        }
+      }
+  
+      return false; // Caso não haja correspondência ou dados inválidos
+    });
+  }
+  
 
   countStudentsByCompany = (filteredData) => {
     const companyCounts = {};
@@ -135,7 +236,13 @@ class TotalEstagiandoChart extends Component {
 
   countStudentsByCourseSemesterTurn = (filteredData) => {
     const courseSemesterTurnCounts = {};
-
+    const {
+      selectedSemester,
+      selectedCourse,
+      selectedTurn,
+      selectedYearAcademico
+    } = this.state;
+  
     filteredData.forEach(item => {
       const aluno = item.aluno;
       if (aluno) {
@@ -144,8 +251,8 @@ class TotalEstagiandoChart extends Component {
           const courseCode = subColumns[1].slice(3, 6);
           const semesterCode = subColumns[1].slice(6, 9);
           const periodCode = subColumns[1].slice(9, 10);
-
-          const course = {
+  
+          const courseName = {
             '048': 'Análise e Desenvolvimento de Sistemas',
             '028': 'Banco de Dados',
             '139': 'Desenvolvimento de Software Multiplataforma',
@@ -155,22 +262,46 @@ class TotalEstagiandoChart extends Component {
             '068': 'Manutenção de Aeronaves',
             '115': 'Projetos de Estruturas Aeronáuticas'
           }[courseCode];
-
+  
           const year = '20' + semesterCode.slice(0, 2);
           const semester = semesterCode[2] === '1' ? '1º' : '2º';
-          const period = periodCode === '1' ? 'Manhã' : (periodCode === '2' ? 'Tarde' : 'Noite');
-
-          const key = `${course} - ${year}/${semester} - ${period}`;
-          if (!courseSemesterTurnCounts[key]) {
-            courseSemesterTurnCounts[key] = 0;
+          const turn = periodCode === '1' ? 'Manhã' : (periodCode === '2' ? 'Tarde' : 'Noite');
+  
+          // Extrai o ano acadêmico
+          let yearAcademico = '';
+          if (aluno && aluno.trim() !== '') {
+            const regex = /\d{4}-\d{2}-\d{2}$/; // Padrão: AAAA-MM-DD
+            const match = aluno.match(regex);
+            if (match) {
+              yearAcademico = match[0].slice(0, 4); // Extrai apenas o ano
+            }
           }
-          courseSemesterTurnCounts[key]++;
+  
+          // Verifica se o ano acadêmico atual corresponde ao selecionado
+          if ((!selectedSemester || selectedSemester === 'all' || selectedSemester === semester) &&
+              (!selectedCourse || selectedCourse === 'all' || selectedCourse === courseName) &&
+              (!selectedTurn || selectedTurn === 'all' || selectedTurn === turn) &&
+              (!selectedYearAcademico || selectedYearAcademico === 'all' || selectedYearAcademico === yearAcademico)) {
+  
+            const key = `${courseName} - ${year}/${semester} - ${turn}`;
+  
+            if (!courseSemesterTurnCounts[key]) {
+              courseSemesterTurnCounts[key] = 0;
+            }
+            courseSemesterTurnCounts[key]++;
+          }
         }
       }
     });
-
+  
     return courseSemesterTurnCounts;
   }
+  
+  
+  
+  
+  
+  
 
   createCharts = () => {
     const ctx = this.chartRef.current.getContext('2d');
@@ -179,12 +310,11 @@ class TotalEstagiandoChart extends Component {
     const ctxCourseSemesterTurn = this.chartCourseSemesterTurnRef.current.getContext('2d');
 
     const filteredData = this.filterData();
-    const filteredDataByCriteria = this.filterDataByCriteria(filteredData);
 
     const { companyCounts, totalStudents } = this.countStudentsByCompany(filteredData);
     const eixosCounts = this.countStudentsByEixos(filteredData);
     const vagasCounts = this.countVagasByCompany(filteredData);
-    const courseSemesterTurnCounts = this.countStudentsByCourseSemesterTurn(filteredDataByCriteria);
+    const courseSemesterTurnCounts = this.countStudentsByCourseSemesterTurn(filteredData);
 
     const sortedCompanies = Object.entries(companyCounts).sort((a, b) => b[1] - a[1]);
     const labels = sortedCompanies.map(([company]) => company);
@@ -366,8 +496,12 @@ class TotalEstagiandoChart extends Component {
     });
   }
 
-  handleYearChange = (event) => {
-    this.setState({ selectedYear: event.target.value }, this.createCharts);
+  handleYearDataFinalChange = (event) => {
+    this.setState({ selectedYearDataFinal: event.target.value }, this.createCharts);
+  }
+
+  handleYearAcademicoChange = (event) => {
+    this.setState({ selectedYearAcademico: event.target.value }, this.createCharts);
   }
 
   handleSemesterChange = (event) => {
@@ -382,51 +516,14 @@ class TotalEstagiandoChart extends Component {
     this.setState({ selectedTurn: event.target.value }, this.createCharts);
   }
 
-  filterDataByCriteria = (filteredData) => {
-    const { selectedYear, selectedSemester, selectedCourse, selectedTurn } = this.state;
-    return filteredData.filter(item => {
-      const aluno = item.aluno;
-      if (!aluno) return false;
-
-      const subColumns = aluno.split(' - ');
-      if (subColumns.length < 2) return false;
-
-      const courseCode = subColumns[1].slice(3, 6);
-      const semesterCode = subColumns[1].slice(6, 9);
-      const periodCode = subColumns[1].slice(9, 10);
-
-      const year = '20' + semesterCode.slice(0, 2);
-      const semester = semesterCode[2] === '1' ? '1º' : '2º';
-      const period = periodCode === '1' ? 'Manhã' : (periodCode === '2' ? 'Tarde' : 'Noite');
-
-      const course = {
-        '048': 'Análise e Desenvolvimento de Sistemas',
-        '028': 'Banco de Dados',
-        '139': 'Desenvolvimento de Software Multiplataforma',
-        '077': 'Gestão de Produção Industrial',
-        '064': 'Gestão Empresarial',
-        '074': 'Logística',
-        '068': 'Manutenção de Aeronaves',
-        '115': 'Projetos de Estruturas Aeronáuticas'
-      }[courseCode];
-
-      return (selectedYear === 'all' || selectedYear === year) &&
-             (selectedSemester === 'all' || selectedSemester === semester) &&
-             (selectedCourse === 'all' || selectedCourse === course) &&
-             (selectedTurn === 'all' || selectedTurn === period);
-    });
-  }
-
   render() {
-    const { selectedYear, selectedSemester, selectedCourse, selectedTurn } = this.state;
-    const yearOptions = [];
-    const currentYear = new Date().getFullYear();
-    for (let year = currentYear; year >= 2000; year--) {
-      yearOptions.push(year.toString());
-    }
+    const { selectedYearDataFinal, selectedYearAcademico, selectedSemester, selectedCourse, selectedTurn, validYearsDataFinal, validYearsAcademico } = this.state;
+    const yearDataFinalOptions = ['all', ...validYearsDataFinal]; // Inclui 'all' como opção para todos os anos de data final
+    const yearAcademicoOptions = ['all', ...validYearsAcademico]; // Inclui 'all' como opção para todos os anos acadêmicos
 
-    const semesterOptions = ['1º', '2º'];
+    const semesterOptions = ['all', '1º', '2º'];
     const courseOptions = [
+      'all',
       'Análise e Desenvolvimento de Sistemas',
       'Banco de Dados',
       'Desenvolvimento de Software Multiplataforma',
@@ -436,7 +533,7 @@ class TotalEstagiandoChart extends Component {
       'Manutenção de Aeronaves',
       'Projetos de Estruturas Aeronáuticas'
     ];
-    const turnOptions = ['Manhã', 'Tarde', 'Noite'];
+    const turnOptions = ['all', 'Manhã', 'Tarde', 'Noite'];
 
     return (
       <div className="App">
@@ -452,22 +549,37 @@ class TotalEstagiandoChart extends Component {
           inputStyle={{ color: 'red' }}
         />
         <div className="chart-container">
+          <h2>Gráfico por Empresa</h2>
+          <br></br>
           <canvas ref={this.chartRef} className="chart" />
         </div>
         <div className="chart-container">
+          <h2>Gráfico por Eixo</h2>
+          <br></br>
           <canvas ref={this.chartEixosRef} className="chart" />
         </div>
         <div className="chart-container">
+          <h2>Gráfico Quantidadede Vagas por empresa x eixo</h2>
+          <br></br>
           <canvas ref={this.chartVagasRef} className="chart" />
         </div>
         <div className="chart-container">
+          <h2>Gráfico por Curso, Período, Turno e Ano Final</h2>
+          <br></br>
           <canvas ref={this.chartCourseSemesterTurnRef} className="chart" />
         </div>
         <div>
-          <label>Ano:</label>
-          <select value={selectedYear} onChange={this.handleYearChange}>
-            <option value="all">Todos</option>
-            {yearOptions.map(year => (
+          <label>Ano de Data Final:</label>
+          <select value={selectedYearDataFinal} onChange={this.handleYearDataFinalChange}>
+            {yearDataFinalOptions.map(year => (
+              <option key={year} value={year}>{year}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label>Ano Acadêmico:</label>
+          <select value={selectedYearAcademico} onChange={this.handleYearAcademicoChange}>
+            {yearAcademicoOptions.map(year => (
               <option key={year} value={year}>{year}</option>
             ))}
           </select>
@@ -475,7 +587,6 @@ class TotalEstagiandoChart extends Component {
         <div>
           <label>Semestre:</label>
           <select value={selectedSemester} onChange={this.handleSemesterChange}>
-            <option value="all">Todos</option>
             {semesterOptions.map(semester => (
               <option key={semester} value={semester}>{semester}</option>
             ))}
@@ -484,7 +595,6 @@ class TotalEstagiandoChart extends Component {
         <div>
           <label>Curso:</label>
           <select value={selectedCourse} onChange={this.handleCourseChange}>
-            <option value="all">Todos</option>
             {courseOptions.map(course => (
               <option key={course} value={course}>{course}</option>
             ))}
@@ -493,7 +603,6 @@ class TotalEstagiandoChart extends Component {
         <div>
           <label>Turno:</label>
           <select value={selectedTurn} onChange={this.handleTurnChange}>
-            <option value="all">Todos</option>
             {turnOptions.map(turn => (
               <option key={turn} value={turn}>{turn}</option>
             ))}
