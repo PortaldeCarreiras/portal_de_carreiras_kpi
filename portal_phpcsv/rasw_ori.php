@@ -5,6 +5,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 // Conexão com o banco de dados (ajuste as credenciais - substitua pelos seus dados)
 include('conn.php');
 
+
 // Função para inserir dados na tabela
 function inserir_dados($conn, $tabela, $dados)
 { 
@@ -18,6 +19,8 @@ function inserir_dados($conn, $tabela, $dados)
     $valores = "'$valor1','$valor2','$valor3','$valor4','$valor5'"; // retirado ",'$valor6'"
     echo "INSERT INTO $tabela ($campos) VALUES ($valores)";
     echo "$valores <br>";
+
+
 
     if(mysqli_query($conn,"INSERT INTO $tabela ($campos) VALUES ($valores)" ));  
 }
@@ -177,6 +180,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $tipo_arquivo = strtolower(pathinfo($_FILES['arquivo_xls']['name'], PATHINFO_EXTENSION));
     $nome_arquivo = $_FILES['arquivo_xls']['name'];
     $data_criacao = date('Y-m-d H:i:s', filemtime($arquivo));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     if ($tipo_arquivo == 'xlsx' || $tipo_arquivo == 'xls') {
         // if ($nome_arquivo == 'AcessoPortal') {

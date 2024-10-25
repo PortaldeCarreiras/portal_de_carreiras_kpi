@@ -7,8 +7,9 @@ include('conn.php');
 
 // Função para inserir dados na tabela portal_acesso.
 // Usada mais abaixo após a coleta de dados do arquivo AcessoPortal.xls
-function inserir_dados($conn, $tabela, $dados){ 
-    $campos = implode(", ", array_keys($dados));  
+function inserir_dados($conn, $tabela, $dados)
+{
+    $campos = implode(", ", array_keys($dados));
     $valor1 = $dados['codigo'];
     $valor2 = $dados['portal'];
     $valor3 = $dados['mes_acesso'];
@@ -16,12 +17,12 @@ function inserir_dados($conn, $tabela, $dados){
     $valor5 = $dados['numero_acessos'];
     $valor6 = $dados['data'];   // Essa data pode ser inserida
     $valores = "'$valor1','$valor2','$valor3','$valor4','$valor5','$valor6'";
-    // Echos abaixo para verificar se os dados foram adquiridos corretamente
+    // Check - echos abaixo para verificar se os dados foram adquiridos corretamente
     // Imprime eles na tela
     echo "INSERT INTO $tabela ($campos) VALUES ($valores)";
     echo "$valores <br>";
 
-    if(mysqli_query($conn,"INSERT INTO $tabela ($campos) VALUES ($valores)" ));  
+    if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)"));
 }
 
 // Função para processar o arquivo AcessoPortal.xls
@@ -31,37 +32,37 @@ function processar_acesso_portal($arquivo, $conn)
     // Exemplo:
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($arquivo);
     $worksheet = $spreadsheet->getActiveSheet();
-   
+
 
     foreach ($worksheet->getRowIterator()  as $indice => $row) {
-     if($indice > 1){    // não pegar o cabeçalho 
-        $cellIterator = $row->getCellIterator();       
-        $cellIterator->setIterateOnlyExistingCells(false);  // Inclui células vazias
+        if ($indice > 1) {    // não pegar o cabeçalho 
+            $cellIterator = $row->getCellIterator();
+            $cellIterator->setIterateOnlyExistingCells(false);  // Inclui células vazias
 
-        // Obtendo os valores de cada célula
-        $codigo = (int)$cellIterator->current()->getValue();
-        $cellIterator->next(); // Move para a próxima célula
-        $portal = $cellIterator->current()->getValue();
-        $cellIterator->next();
-        $mesAcesso = (int)$cellIterator->current()->getValue();
-        $cellIterator->next();
-        $anoAcesso = (int)$cellIterator->current()->getValue();
-        $cellIterator->next();
-        $numero_acessos = (int)$cellIterator->current()->getValue();
+            // Obtendo os valores de cada célula
+            $codigo = (int)$cellIterator->current()->getValue();
+            $cellIterator->next(); // Move para a próxima célula
+            $portal = $cellIterator->current()->getValue();
+            $cellIterator->next();
+            $mesAcesso = (int)$cellIterator->current()->getValue();
+            $cellIterator->next();
+            $anoAcesso = (int)$cellIterator->current()->getValue();
+            $cellIterator->next();
+            $numero_acessos = (int)$cellIterator->current()->getValue();
 
-        // Construindo o array de dados
-        $dados = [
-            'codigo' => $codigo,
-            'portal' => $portal,
-            'mes_acesso' => $mesAcesso,
-            'ano_acesso' => $anoAcesso,
-            'numero_acessos' => $numero_acessos,
-            // Adicionar a data atual para a coluna 'data'
-            'data' => date('Y-m-d H:i:s')   //carregar data direto do mysql melhora performance
-        ];
+            // Construindo o array de dados
+            $dados = [
+                'codigo' => $codigo,
+                'portal' => $portal,
+                'mes_acesso' => $mesAcesso,
+                'ano_acesso' => $anoAcesso,
+                'numero_acessos' => $numero_acessos,
+                // Adicionar a data atual para a coluna 'data'
+                'data' => date('Y-m-d H:i:s')   // pode carregar data direto do mysql melhora performance
+            ];
 
-        // Inserindo os dados no banco de dados
-        inserir_dados($conn, 'portal_acesso', $dados);
+            // Inserindo os dados no DB tabela portal_acesso
+            inserir_dados($conn, 'portal_acesso', $dados);
         }
     }
 }
@@ -158,17 +159,17 @@ function separar_dados_aluno($valor)
 
 // Função para processar o arquivo saida.csv
 function processar_saida_csv($arquivo, $conn)
-{   
+{
     if (($handle = fopen($arquivo, "r")) !== FALSE) {
-       
+
         $data = fgetcsv($handle);
 
-        $valor = explode(";",$data[0]);
-        
-        echo $valor[0]; 
-        echo $valor[1];
-        echo $valor[2];
-       
+        $valor = explode(";", $data[0]);
+
+        echo "<label>$valor[0]&nbsp-&nbsp</label>"; 
+        echo "<label>$valor[1]&nbsp-&nbsp</label>";
+        echo "<label>$valor[2]&nbsp-&nbsp</label>";
+
     }
 }
 
@@ -180,35 +181,36 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nome_arquivo = $_FILES['arquivo_xls']['name'];
     $data_criacao = date('Y-m-d H:i:s', filemtime($arquivo));
 
-    if ($arquivo['error'] === UPLOAD_ERR_OK) {
-        // Nome original do arquivo
-        $nomeArquivo = $arquivo['name'];
-        
-        // Tipo MIME do arquivo
-        $tipoMime = $arquivo['type'];
-        
-        // Tamanho do arquivo (em bytes)
-        $tamanhoArquivo = $arquivo['size'];
-        
-        // Caminho temporário no servidor
-        $caminhoTemp = $arquivo['tmp_name'];
+    // Metadados            VERIFICAR????
+    // if ($arquivo['error'] === UPLOAD_ERR_OK) {
+    //     // Nome original do arquivo
+    //     $nomeArquivo = $arquivo['name'];
 
-        // Data da última modificação (usando filemtime)
-        $dataModificacao = date('Y-m-d H:i:s', filemtime($caminhoTemp));
+    //     // Tipo MIME do arquivo
+    //     $tipoMime = $arquivo['type'];
 
-        // Exibir os metadados
-        echo "<div class='mt-4'>";
-        echo "<h2>Metadados do Arquivo</h2>";
-        echo "<ul>";
-        echo "<li><strong>Nome do Arquivo:</strong> " . htmlspecialchars($nomeArquivo) . "</li>";
-        echo "<li><strong>Tipo MIME:</strong> " . htmlspecialchars($tipoMime) . "</li>";
-        echo "<li><strong>Tamanho:</strong> " . htmlspecialchars($tamanhoArquivo) . " bytes</li>";
-        echo "<li><strong>Data de Modificação:</strong> " . htmlspecialchars($dataModificacao) . "</li>";
-        echo "</ul>";
-        echo "</div>";
-    } else {
-        echo "<p class='text-danger'>Erro ao enviar o arquivo.</p>";
-    }
+    //     // Tamanho do arquivo (em bytes)
+    //     $tamanhoArquivo = $arquivo['size'];
+
+    //     // Caminho temporário no servidor
+    //     $caminhoTemp = $arquivo['tmp_name'];
+
+    //     // Data da última modificação (usando filemtime)
+    //     $dataModificacao = date('Y-m-d H:i:s', filemtime($caminhoTemp));
+
+    //     // Exibir os metadados
+    //     echo "<div class='mt-4'>";
+    //     echo "<h2>Metadados do Arquivo</h2>";
+    //     echo "<ul>";
+    //     echo "<li><strong>Nome do Arquivo:</strong> " . htmlspecialchars($nomeArquivo) . "</li>";
+    //     echo "<li><strong>Tipo MIME:</strong> " . htmlspecialchars($tipoMime) . "</li>";
+    //     echo "<li><strong>Tamanho:</strong> " . htmlspecialchars($tamanhoArquivo) . " bytes</li>";
+    //     echo "<li><strong>Data de Modificação:</strong> " . htmlspecialchars($dataModificacao) . "</li>";
+    //     echo "</ul>";
+    //     echo "</div>";
+    // } else {
+    //     echo "<p class='text-danger'>Erro ao enviar o arquivo.</p>";
+    // }
 
     if ($tipo_arquivo == 'xlsx' || $tipo_arquivo == 'xls') {
         // if ($nome_arquivo == 'AcessoPortal') {
@@ -216,7 +218,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // } elseif ($nome_arquivo == '') {
         //     // processar_vagas_estagio($arquivo, $conn); // não está acessando aqui
-           
+
         // }       
         processar_acesso_portal($arquivo, $conn); // parou aqui
     } elseif ($tipo_arquivo == 'csv') {
