@@ -52,4 +52,9 @@ CREATE TABLE `portal_saida_estagio` (
   PRIMARY KEY (`id`)  -- Chave primária definida
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
--- --------------------------------------------------------
+
+
+-- Alguns comandos
+DELETE FROM portal_acesso;  -- Deleta todos itens de uma tabela
+TRUNCATE TABLE portal_acesso; -- Deleta todos itens de uma tabela e Retorna para o ID 01
+>>>>>>> portal-jffvale/master
