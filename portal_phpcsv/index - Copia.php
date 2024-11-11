@@ -8,7 +8,7 @@ include('conn.php');
 
 // Função para inserir dados na tabela portal_acesso.
 // Usada mais abaixo após a coleta de dados do arquivo AcessoPortal.xls
-function inserirDadosAcessoPortal($conn, $tabela, $dados)
+function inserir_dados($conn, $tabela, $dados)
 {
     $campos = implode(", ", array_keys($dados));
     $valor1 = $dados['codigo'];
@@ -26,40 +26,10 @@ function inserirDadosAcessoPortal($conn, $tabela, $dados)
     if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)"));
 }
 
-// Função para inserir dados na tabela portal_vagas_estagio.
-// Usada mais abaixo após a coleta de dados do arquivo Consulta de Vagas de estágio.xls
-function inserirDadosPortalVagas($conn, $tabela, $dados)
-{
-    $campos = implode(", ", array_keys($dados));
-    $valor1 = $dados['empresa'];
-    $valor2 = $dados['item'];
-    $valor3 = $dados['codigo'];
-    $valor4 = $dados['nome_vaga'];
-    $valor5 = $dados['data_abertura'];
-    $valor6 = $dados['data_final_candidatar'];
-    $valor7 = $dados['data_previsao_contratacao'];
-    $valor8 = $dados['eixo_formacao'];
-    $valor9 = $dados['confidencial'];
-    $valor10 = $dados['responsavel'];
-    $valor11 = $dados['responsavel_email'];
-    $valor12 = $dados['responsavel_telefone'];
-    $valor47 = $dados['data_alteracao'];
-    $valor48 = $dados['revisao'];
-    $valor49 = $dados['data'];   // Essa data pode ser inserida
-    $valores = "'$valor1','$valor2','$valor3','$valor4','$valor5','$valor6','$valor7',
-    '$valor8','$valor9','$valor10','$valor11','$valor12','$valor47','$valor48','$valor49'";
-    // Check - echos abaixo para verificar se os dados foram adquiridos corretamente
-    // Imprime eles na tela
-    echo "INSERT INTO $tabela ($campos) VALUES ($valores)";
-    echo "$valores <br>";
-
-    if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)"));
-}
-
 // Função para processar o arquivo AcessoPortal.xls
-function processarAcessoPortal($file, $conn)
+function processar_acesso_portal($file, $conn)
 {
-    // ... (lógica para ler o arquivo e inserir os dados na tabela portalacesso)
+    // ... (lógica para ler o arquivo e inserir os dados na tabela acesso_portal)
     // Exemplo:
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
     $worksheet = $spreadsheet->getActiveSheet();
@@ -93,153 +63,76 @@ function processarAcessoPortal($file, $conn)
             ];
 
             // Inserindo os dados no DB tabela portal_acesso
-            inserirDadosAcessoPortal($conn, 'portal_acesso', $dados);
+            inserir_dados($conn, 'portal_acesso', $dados);
         }
     }
 }
 
-// Função para processar o arquivo Consulta de Vagas de estágio.xlsx
-function processarVagasEstagio($file, $conn)
+// Função para processar o arquivo Consulta de Vagas de estágio.xls
+function processar_vagas_estagio($file, $conn)
 {
-    // ... (lógica para ler o arquivo e inserir os dados na tabela portal_vagas_estagio)
-    // Exemplo:
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
     $worksheet = $spreadsheet->getActiveSheet();
+    $colunas_a_ler = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 46, 47];
 
+    $rowIterator = $worksheet->getRowIterator();
+    $rowIterator->next(); // Pula o cabeçalho
 
-    foreach ($worksheet->getRowIterator()  as $indice => $row) {
-        if ($indice > 1) {    // não pegar o cabeçalho 
-            $cellIterator = $row->getCellIterator();
-            $cellIterator->setIterateOnlyExistingCells(false);  // Inclui células vazias
+    foreach ($rowIterator as $row) {
+        $cellIterator = $row->getCellIterator();
+        $cellIterator->setIterateOnlyExistingCells(false);
 
-            // Obtendo os valores de cada célula
-            $empresa = $cellIterator->current()->getValue();
-            $cellIterator->next(); // Move para a próxima célula
-            $item = (int)$cellIterator->current()->getValue();
-            $cellIterator->next();
-            $codigo = (int)$cellIterator->current()->getValue();
-            $cellIterator->next();
-            $nome_vaga = $cellIterator->current()->getValue();
-            $cellIterator->next();
+        // Inicializa um array para armazenar os dados a serem inseridos
+        $dados = [];
 
-            // As próximas 3 colunas serão carregadas com os dados da planilha, mas é necessaário
-            // formatar a data segundo o padrão do DB (y-m-d)
-            $data_abertura_raw = $cellIterator->current()->getValue();
-            // Verifica se $data_abertura_raw é um número (data serial do Excel representa um dia
-            // contado a partir de 1º de janeiro de 1900)
-            if (is_numeric($data_abertura_raw)) {
-                // Converte o número serial do Excel em uma data no formato MySQL (yyyy-mm-dd)
-                $data_abertura = date('Y-m-d', \PhpOffice\PhpSpreadsheet\Shared\Date::excelToTimestamp($data_abertura_raw));
-                echo "Data convertida para MySQL: $data_abertura<br>";
-            } else {
-                // Se o valor não for um número, tenta interpretá-lo como data no formato dd/mm/yyyy
-                $data_abertura_obj = DateTime::createFromFormat('d/m/Y', $data_abertura_raw);
-                if ($data_abertura_obj) {
-                    $data_abertura = $data_abertura_obj->format('Y-m-d');
-                    echo "Data convertida para MySQL: $data_abertura<br>";
+        // Contador para as colunas
+        $colunaIndex = 0;
+
+        // Lê os dados das colunas especificadas
+        foreach ($cellIterator as $cell) {
+            if (in_array($colunaIndex, $colunas_a_ler)) {
+                $valor = $cell->getValue(); // Obtém o valor da célula
+
+                // Verifica se o valor não é nulo
+                if ($valor !== null) {
+                    // Formata os dados conforme necessário (colunas com formato inteiro)
+                    if (in_array($colunaIndex, [1, 2, 7, 47])) {
+                        if (is_numeric($valor)) {
+                            $valor = (int)$valor;
+                        }
+                    }
+                    $dados[] = $valor; // Adiciona o valor ao array de dados
                 } else {
-                    echo "Erro: formato de data incorreto ou falha na conversão.<br>";
-                    $data_abertura = null;
+                    $dados[] = null; // Ou um valor padrão, se preferir
                 }
             }
-            $cellIterator->next(); // Move para a próxima célula
-
-            $data_final_candidatar_raw = $cellIterator->current()->getValue();
-            // Verifica se $data_final_candidatar_raw é um número (data serial do Excel)
-            if (is_numeric($data_final_candidatar_raw)) {
-                // Converte o número serial do Excel em uma data no formato MySQL (yyyy-mm-dd)
-                $data_final_candidatar = date('Y-m-d', \PhpOffice\PhpSpreadsheet\Shared\Date::excelToTimestamp($data_final_candidatar_raw));
-                echo "Data convertida para MySQL: $data_final_candidatar<br>";
-            } else {
-                // Se o valor não for um número, tenta interpretá-lo como data no formato dd/mm/yyyy
-                $data_final_candidatar_obj = DateTime::createFromFormat('d/m/Y', $data_final_candidatar_raw);
-                if ($data_final_candidatar_obj) {
-                    $data_final_candidatar = $data_final_candidatar_obj->format('Y-m-d');
-                    echo "Data convertida para MySQL: $data_final_candidatar<br>";
-                } else {
-                    echo "Erro: formato de data incorreto ou falha na conversão.<br>";
-                    $data_final_candidatar = null;
-                }
-            }
-            $cellIterator->next(); // Move para a próxima célula
-
-            $data_previsao_contratacao_raw = $cellIterator->current()->getValue();
-            // Verifica se $data_previsao_contratacao_raw é um número (data serial do Excel)
-            if (is_numeric($data_previsao_contratacao_raw)) {
-                // Converte o número serial do Excel em uma data no formato MySQL (yyyy-mm-dd)
-                $data_previsao_contratacao = date('Y-m-d', \PhpOffice\PhpSpreadsheet\Shared\Date::excelToTimestamp($data_previsao_contratacao_raw));
-                echo "Data convertida para MySQL: $data_previsao_contratacao<br>";
-            } else {
-                // Se o valor não for um número, tenta interpretá-lo como data no formato dd/mm/yyyy
-                $data_previsao_contratacao_obj = DateTime::createFromFormat('d/m/Y', $data_previsao_contratacao_raw);
-                if ($data_previsao_contratacao_obj) {
-                    $data_previsao_contratacao = $data_previsao_contratacao_obj->format('Y-m-d');
-                    echo "Data convertida para MySQL: $data_previsao_contratacao<br>";
-                } else {
-                    echo "Erro: formato de data incorreto ou falha na conversão.<br>";
-                    $data_previsao_contratacao = null;
-                }
-            }
-            $cellIterator->next(); // Move para a próxima célula
-
-            $eixo_formacao = (int)$cellIterator->current()->getValue();
-            $cellIterator->next();
-            $confidencial = $cellIterator->current()->getValue();
-            $cellIterator->next();
-            $responsavel = $cellIterator->current()->getValue();
-            $cellIterator->next();
-            $responsavel_email = $cellIterator->current()->getValue();
-            $cellIterator->next();
-            $responsavel_telefone = $cellIterator->current()->getValue();
-            $cellIterator->next();
-
-            // Obtendo os valores diretamente das células especificadas            
-            $data_alteracao_raw = $worksheet->getCell('AU' . $indice)->getValue();  // Coluna "AU" da planilha excel.
-            // Verifica se $data_alteracao_raw é um número (data serial do Excel)
-            if (is_numeric($data_alteracao_raw)) {
-                // Converte o número serial do Excel em uma data no formato MySQL (yyyy-mm-dd)
-                $data_alteracao = date('Y-m-d', \PhpOffice\PhpSpreadsheet\Shared\Date::excelToTimestamp($data_alteracao_raw));
-                echo "Data convertida para MySQL: $data_alteracao<br>";
-            } else {
-                // Se o valor não for um número, tenta interpretá-lo como data no formato dd/mm/yyyy
-                $data_alteracao_obj = DateTime::createFromFormat('d/m/Y', $data_alteracao_raw);
-                if ($data_alteracao_obj) {
-                    $data_alteracao = $data_alteracao_obj->format('Y-m-d');
-                    echo "Data convertida para MySQL: $data_alteracao<br>";
-                } else {
-                    echo "Erro: formato de data incorreto ou falha na conversão.<br>";
-                    $data_alteracao = null;
-                }
-            }
-            
-            $revisao = $worksheet->getCell('AV' . $indice)->getValue(); // Coluna "AV" da planilha excel.
-
-            // Construindo o array de dados
-            $dados = [
-                'empresa' => $empresa,
-                'item' => $item,
-                'codigo' => $codigo,
-                'nome_vaga' => $nome_vaga,
-                'data_abertura' => $data_abertura,
-                'data_final_candidatar' => $data_final_candidatar,
-                'data_previsao_contratacao' => $data_previsao_contratacao,
-                'eixo_formacao' => $eixo_formacao,
-                'confidencial' => $confidencial,
-                'responsavel' => $responsavel,
-                'responsavel_email' => $responsavel_email,
-                'responsavel_telefone' => $responsavel_telefone,
-                'data_alteracao' => $data_alteracao,
-                'revisao' => $revisao,
-                // Adicionar a data atual para a coluna 'data'
-                'data' => date('Y-m-d H:i:s')   // pode carregar data direto do mysql melhora performance
-            ];
-
-            // Inserindo os dados no DB tabela portal_acesso
-            inserirDadosPortalVagas($conn, 'portal_vagas_estagio', $dados);
+            $colunaIndex++; // Incrementa o índice da coluna
         }
+
+        // Associa os valores aos nomes das colunas da tabela
+        $dadosAssociados = [
+            'empresa' => $dados[0],
+            'item' => $dados[1],
+            'codigo' => $dados[2],
+            'nome_vaga' => $dados[3],
+            'data_abertura' => \PhpOffice\PhpSpreadsheet\Shared\Date::excelToDateTimeObject($dados[4])->format('Y-m-d'),
+            'data_final_candidatar' => \PhpOffice\PhpSpreadsheet\Shared\Date::excelToDateTimeObject($dados[5])->format('Y-m-d'),
+            'previsao_contratacao' => \PhpOffice\PhpSpreadsheet\Shared\Date::excelToDateTimeObject($dados[6])->format('Y-m-d'),
+            'eixo_formacao' => $dados[7],
+            'confidencial' => $dados[8],
+            'responsavel' => $dados[9],
+            'email_responsavel' => $dados[10],
+            'telefone_responsavel' => $dados[11],
+            'data_alteracao'  => \PhpOffice\PhpSpreadsheet\Shared\Date::excelToDateTimeObject($dados[12])->format('Y-m-d'),
+            'revisao' => $dados[13],
+            // Adicionar a data atual para a coluna 'data'
+            'data' => date('Y-m-d H:i:s')
+        ];
+
+        // Insere os dados no banco de dados
+        inserir_dados($conn, 'portal_vagas_estagio', $dadosAssociados);
     }
 }
-
 
 // Função auxiliar para separar os dados da coluna "Aluno"
 function separar_dados_aluno($valor)
@@ -423,10 +316,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
 
 if ($fileExtension == 'xlsx' || $fileExtension == 'xls') {
     if ($newFileName == 'AcessoPortal.xlsx') {
-        processarAcessoPortal($fileTmpName, $conn); // Passa o caminho temporário correto
-    } elseif ($newFileName == 'Consulta de Vagas de estágio.xlsx') {
-        processarVagasEstagio($fileTmpName, $conn); // (não está acessando aqui) Passa o caminho temporário correto
-    } elseif ($newFileName == 'saida.xlsx') {
+        processar_acesso_portal($fileTmpName, $conn); // Passa o caminho temporário correto
+    } elseif ($newFileName == 'Consulta de Vagas de estágio') {
+        // processar_vagas_estagio($fileTmpName, $conn); // (não está acessando aqui) Passa o caminho temporário correto
+    } elseif ($newFileName == 'saida') {
         // processar_saida_csv($fileTmpName, $conn); // (não está acessando aqui) Passa o caminho temporário correto
     }
 }

@@ -20,15 +20,15 @@ CREATE TABLE `portal_vagas_estagio` (
   `nome_vaga` varchar(50) NOT NULL,
   `data_abertura` date NOT NULL,
   `data_final_candidatar` date NOT NULL,
-  `previsao_contratacao` date NOT NULL,
+  `data_previsao_contratacao` date NOT NULL,
   `eixo_formacao` int(2) NOT NULL,
   `confidencial` char(1),
   `responsavel` varchar(50) NOT NULL,
-  `email_responsavel` varchar(50),
-  `telefone_responsavel` varchar(50),
+  `responsavel_email` varchar(50),
+  `responsavel_telefone` varchar(50),
   `data_alteracao` datetime NOT NULL,
   `revisao` int(4),
-  `data` datetime NOT NULL,
+  `data` date NOT NULL,
   PRIMARY KEY (`id`)  -- Chave primária definida
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -56,5 +56,7 @@ CREATE TABLE `portal_saida_estagio` (
 
 -- Alguns comandos
 DELETE FROM portal_acesso;  -- Deleta todos itens de uma tabela
-TRUNCATE TABLE portal_acesso; -- Deleta todos itens de uma tabela e Retorna para o ID 01
+TRUNCATE TABLE portal_acesso; -- Deleta todos itens da tabela portal_acesso e Retorna para o ID 01
+TRUNCATE TABLE portal_vagas_estagio;  -- Deleta todos itens da tabela portal_vagas_estagio e Retorna para o ID 01
+TRUNCATE TABLE portal_saida_estagio;  -- Deleta todos itens da tabela portal_saida_estagio e Retorna para o ID 01
 >>>>>>> portal-jffvale/master
