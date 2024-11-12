@@ -6,6 +6,18 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 // Conexão com o banco de dados (ajuste as credenciais - substitua pelos seus dados)
 include('conn.php');
 
+// Função Truncar Tabela, para deletar e começar do "id01"
+// LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
+function truncarTabela($conn, $tabela)
+{
+    $sqlTruncate = "TRUNCATE TABLE $tabela";
+    if (mysqli_query($conn, $sqlTruncate)) {
+        echo "Dados da tabela $tabela foram apagados.<br>";
+    } else {
+        echo "Erro ao apagar dados da tabela $tabela: " . mysqli_error($conn) . "<br>";
+    }
+}
+
 // Função para inserir dados na tabela portal_acesso.
 // Usada mais abaixo após a coleta de dados do arquivo AcessoPortal.xls
 function inserirDadosAcessoPortal($conn, $tabela, $dados)
@@ -17,7 +29,10 @@ function inserirDadosAcessoPortal($conn, $tabela, $dados)
     $valor4 = $dados['ano_acesso'];
     $valor5 = $dados['numero_acessos'];
     $valor6 = $dados['data'];   // Essa data pode ser inserida
+
+    // Constrói a string de valores para a query
     $valores = "'$valor1','$valor2','$valor3','$valor4','$valor5','$valor6'";
+
     // Check - echos abaixo para verificar se os dados foram adquiridos corretamente
     // Imprime eles na tela
     echo "INSERT INTO $tabela ($campos) VALUES ($valores)";
@@ -27,13 +42,7 @@ function inserirDadosAcessoPortal($conn, $tabela, $dados)
     // e verifica o sucesso (// Faz parte da mensagem de Sucesso no envio ao DB)
     // Faz parte da mensagem de Sucesso no envio ao DB
     if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)")){
-        $processSuccess = true; // Define sucesso como verdadeiro
-        echo "<script>
-                alert('Dados enviados com sucesso!');
-                setTimeout(function() {
-                    window.location.href = 'index.php';
-                }, 2000); // Espera 2 segundos antes de redirecionar
-              </script>";
+        echo "Dados inseridos com sucesso!<br>";
     } else {
         echo "Erro na inserção: " . mysqli_error($conn) . "<br>";
     }
@@ -69,9 +78,14 @@ function inserirDadosPortalVagas($conn, $tabela, $dados)
     if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)"));
 }
 
-// Função para processar o arquivo AcessoPortal.xls
+// Função para PROCESSAR o arquivo "AcessoPortal.xlsX"
 function processarAcessoPortal($file, $conn)
 {
+
+    // Limpa a tabela antes de inserir novos dados
+    // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
+    // truncarTabela($conn, 'portal_acesso');
+
     // ... (lógica para ler o arquivo e inserir os dados na tabela portalacesso)
     // Exemplo:
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
@@ -111,9 +125,14 @@ function processarAcessoPortal($file, $conn)
     }
 }
 
-// Função para processar o arquivo Consulta de Vagas de estágio.xlsx
+// Função para PROCESSAR o arquivo "Consulta de Vagas de estágio.xlsx"
 function processarVagasEstagio($file, $conn)
 {
+
+    // Limpa a tabela no DB-SQL antes de inserir dados novos.
+    // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
+    // truncarTabela($conn, 'portal_vagas_estagio');
+
     // ... (lógica para ler o arquivo e inserir os dados na tabela portal_vagas_estagio)
     // Exemplo:
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
@@ -134,7 +153,6 @@ function processarVagasEstagio($file, $conn)
             $cellIterator->next();
             $nome_vaga = $cellIterator->current()->getValue();
             $cellIterator->next();
-
             // As próximas 3 colunas serão carregadas com os dados da planilha, mas é necessaário
             // formatar a data segundo o padrão do DB (y-m-d)
             $data_abertura_raw = $cellIterator->current()->getValue();
@@ -156,7 +174,6 @@ function processarVagasEstagio($file, $conn)
                 }
             }
             $cellIterator->next(); // Move para a próxima célula
-
             $data_final_candidatar_raw = $cellIterator->current()->getValue();
             // Verifica se $data_final_candidatar_raw é um número (data serial do Excel)
             if (is_numeric($data_final_candidatar_raw)) {
@@ -175,7 +192,6 @@ function processarVagasEstagio($file, $conn)
                 }
             }
             $cellIterator->next(); // Move para a próxima célula
-
             $data_previsao_contratacao_raw = $cellIterator->current()->getValue();
             // Verifica se $data_previsao_contratacao_raw é um número (data serial do Excel)
             if (is_numeric($data_previsao_contratacao_raw)) {
@@ -194,7 +210,6 @@ function processarVagasEstagio($file, $conn)
                 }
             }
             $cellIterator->next(); // Move para a próxima célula
-
             $eixo_formacao = (int)$cellIterator->current()->getValue();
             $cellIterator->next();
             $confidencial = $cellIterator->current()->getValue();
@@ -205,7 +220,6 @@ function processarVagasEstagio($file, $conn)
             $cellIterator->next();
             $responsavel_telefone = $cellIterator->current()->getValue();
             $cellIterator->next();
-
             // Obtendo os valores diretamente das células especificadas            
             $data_alteracao_raw = $worksheet->getCell('AU' . $indice)->getValue();  // Coluna "AU" da planilha excel.
             // Verifica se $data_alteracao_raw é um número (data serial do Excel)
@@ -224,7 +238,7 @@ function processarVagasEstagio($file, $conn)
                     $data_alteracao = null;
                 }
             }
-            
+
             $revisao = $worksheet->getCell('AV' . $indice)->getValue(); // Coluna "AV" da planilha excel.
 
             // Construindo o array de dados
@@ -328,13 +342,15 @@ function processar_saida_csv($file, $conn)
 // Variável que armazenará mensagens para exibir ao usuário
 $message = '';
 
-
+// Variáveis que serão utilizadas em IFs diferentes abaixo
 $fileExtension = '';
 $fileName = '';
 $data_criacao = '';
 
+// PEGA O FORMULÁRIO VIA POST, CARREGA, VERIFICA O TIPO DE EXTENSÃO,
+// ABRE COM O SPREADSHEET, CONVERT PARA XLSX E SALVA NA PASTA /UPLOAD DO PROJETO
 // Verifica se o formulário foi enviado via POST e se o arquivo foi submetido corretamente
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {    
     // Obtém informações sobre o arquivo enviado
     // Garante que as variáveis só sejam exibidas quando definidas:
     $file = $_FILES['xls_file'];
@@ -395,45 +411,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
 
         // Mensagem para informar ao usuário que o arquivo foi convertido com sucesso
         $message .= "Arquivo convertido para XLSX e salvo em: $outputFilePath<br>";
-
-        // // Leitura dos dados da planilha para inserção no banco de dados
-        // $sheet = $spreadsheet->getActiveSheet();  // Obtém a planilha ativa
-        // $rows = $sheet->toArray();  // Converte todas as linhas da planilha em um array
-
-        // // Define qual tabela será usada para armazenar os dados (neste caso, "portal_acesso" é usada como exemplo)
-        // $table = 'portal_acesso'; // Pode-se definir dinamicamente qual tabela usar, conforme sua lógica
-
-        // // Itera sobre as linhas (o índice 0 é geralmente o cabeçalho, por isso é ignorado)
-        // foreach ($rows as $index => $row) {
-        //     if ($index == 0) {
-        //         continue; // Pula o cabeçalho da planilha
-        //     }
-
-        //     // Lógica para inserção na tabela 'portal_acesso'
-        //     if ($table == 'portal_acesso') {
-        //         // Protege contra injeção SQL e prepara os dados
-        //         $nome = mysqli_real_escape_string($conn, trim($row[0]));
-        //         $cargo = intval($row[1]);
-
-        //         // Insere os dados na tabela 'portal_acesso' (nome e cargo)
-        //         $sql = "INSERT INTO portal_acesso (nome, cargo) VALUES ('$nome', $cargo)";
-        //         if (mysqli_query($conn, $sql)) {
-        //             // Exibe uma mensagem de sucesso caso a inserção funcione
-        //             $message .= "Inserido: Nome: $nome, Cargo: $cargo<br>";
-        //         } else {
-        //             // Exibe uma mensagem de erro caso ocorra algum problema na inserção
-        //             $message .= "Erro ao inserir dados: " . mysqli_error($conn) . "<br>";
-        //         }
-        //     }
-        //     // Aqui você pode adicionar lógica para outras tabelas como 'pasta2' ou 'pasta3', dependendo da sua necessidade.
-        // }
     } else {
         // Caso ocorra algum erro ao fazer o upload do arquivo, exibe uma mensagem de erro
         $message .= "Erro ao fazer upload do arquivo.";
     }
 }
 
-
+// PROCESSAMENTO DO ARQUIVO AO SER CLICADO O BOTÃO "ENVIAR".
 if ($fileExtension == 'xlsx' || $fileExtension == 'xls') {
     if ($newFileName == 'AcessoPortal.xlsx') {
         processarAcessoPortal($fileTmpName, $conn); // Passa o caminho temporário correto
@@ -459,6 +443,17 @@ $conn->close();
     <meta charset="utf-8" />
     <title>Upload de Arquivos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script>
+        function confirmarExclusao() {
+            // Captura o nome do arquivo selecionado
+            const arquivo = document.getElementById("arquivo").files[0];
+            if (arquivo) {
+                // Exibe a mensagem de confirmação com o nome do arquivo
+                return confirm(`Deseja realmente deletar todos os dados e carregar o novo arquivo ${arquivo.name}?`);
+            }
+            return false; // Caso não haja arquivo selecionado, impede o envio
+        }
+    </script>
 </head>
 
 <body>
@@ -466,9 +461,9 @@ $conn->close();
         <h1 class="text-danger">Upload de Arquivos</h1>
         <p>Selecione um arquivo para fazer o upload.</p>
 
-        <form action="" method="post" enctype="multipart/form-data">
+        <form action="" method="post" enctype="multipart/form-data" onsubmit="return confirmarExclusao();">
             <div class="form-group">
-                <input type="file" id="arquivo" name="xls_file" class="btn btn-success">
+                <input type="file" id="arquivo" name="xls_file" class="btn btn-success" required>
             </div>
             <input type="submit" value="Enviar" class="btn btn-success">
         </form>
