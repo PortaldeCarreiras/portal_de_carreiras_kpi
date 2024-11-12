@@ -23,7 +23,20 @@ function inserirDadosAcessoPortal($conn, $tabela, $dados)
     echo "INSERT INTO $tabela ($campos) VALUES ($valores)";
     echo "$valores <br>";
 
-    if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)"));
+    // Executa a query de inserção ""INSERT INTO $tabela ($campos) VALUES ($valores)""
+    // e verifica o sucesso (// Faz parte da mensagem de Sucesso no envio ao DB)
+    // Faz parte da mensagem de Sucesso no envio ao DB
+    if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)")){
+        $processSuccess = true; // Define sucesso como verdadeiro
+        echo "<script>
+                alert('Dados enviados com sucesso!');
+                setTimeout(function() {
+                    window.location.href = 'index.php';
+                }, 2000); // Espera 2 segundos antes de redirecionar
+              </script>";
+    } else {
+        echo "Erro na inserção: " . mysqli_error($conn) . "<br>";
+    }
 }
 
 // Função para inserir dados na tabela portal_vagas_estagio.
