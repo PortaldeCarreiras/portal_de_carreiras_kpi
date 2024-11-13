@@ -1,0 +1,4 @@
+[2024-11-13 22:12:57] Dados da tabela portal_acesso foram apagados.
+[2024-11-13 22:22:24] Dados da tabela portal_acesso foram apagados.
+[2024-11-13 22:22:24] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-13 22:22:24] Todas as informações carregadas com sucesso!
