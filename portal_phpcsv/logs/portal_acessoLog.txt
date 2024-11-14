@@ -2,3 +2,24 @@
 [2024-11-13 22:22:24] Dados da tabela portal_acesso foram apagados.
 [2024-11-13 22:22:24] Total de linhas inseridas: 28, Total de colunas: 6
 [2024-11-13 22:22:24] Todas as informações carregadas com sucesso!
+[2024-11-14 19:35:46] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-14 19:35:46] Todas as informações carregadas com sucesso!
+[2024-11-14 19:36:57] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-14 19:36:57] Todas as informações carregadas com sucesso!
+[2024-11-14 19:39:05] Dados da tabela portal_acesso foram apagados.
+[2024-11-14 19:39:06] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-14 19:39:06] Todas as informações carregadas com sucesso!
+[2024-11-14 20:13:39] Dados da tabela portal_acesso foram apagados.
+[2024-11-14 20:13:40] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-14 20:13:40] Total de linhas que apresentaram erro: 0
+[2024-11-14 20:13:40] Todas as informações carregadas com sucesso!
+[2024-11-14 20:13:40] 
+
+
+[2024-11-14 21:37:20] Dados da tabela portal_acesso foram apagados.
+[2024-11-14 21:37:20] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-14 21:37:20] Total de linhas que apresentaram erro: 0
+[2024-11-14 21:37:20] Todas as informações carregadas com sucesso!
+[2024-11-14 21:37:20] 
+
+

@@ -1,19 +1,8 @@
 <?php
 require_once 'vendor/autoload.php';
 include('conn.php');
-
-// Função Truncar Tabela, para deletar e começar do "id01"
-// LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
-function truncarTabela($conn, $tabela)
-{
-    $sqlTruncate = "TRUNCATE TABLE $tabela";
-    if (mysqli_query($conn, $sqlTruncate)) {
-        echo "Dados da tabela $tabela foram apagados.<br>";
-    } else {
-        echo "Erro ao apagar dados da tabela $tabela: " . mysqli_error($conn) . "<br>";
-    }
-}
-
+include('logs/criaLogs.php'); // Inclui a função de log
+include('dbSql/dateConverterSql.php'); // Inclui a função de conversão de data
 
 function inserirDadosPortalVagas($conn, $tabela, $dados) {
     $campos = implode(", ", array_keys($dados));
@@ -21,18 +10,24 @@ function inserirDadosPortalVagas($conn, $tabela, $dados) {
     if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)")) {
         echo "Dados inseridos com sucesso!<br>";
     } else {
-        echo "Erro na inserção: " . mysqli_error($conn) . "<br>";
+        $mensagem = "Erro na inserção: " . mysqli_error($conn);
+        echo $mensagem . "<br>";
+        criaLogs($tabela, $mensagem); // Chama a função de log
     }
 }
 
 function processarVagasEstagio($file, $conn) {
-
     // Limpa a tabela no DB-SQL antes de inserir dados novos.
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
+    include_once('dbSql/truncarTabelaSql.php');
     truncarTabela($conn, 'portal_vagas_estagio');
 
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
     $worksheet = $spreadsheet->getActiveSheet();
+
+    $totalLinhas = 0;
+    $totalColunas = 0;
+    $erros = 0;
 
     foreach ($worksheet->getRowIterator() as $indice => $row) {
         if ($indice > 1) { // não pegar o cabeçalho 
@@ -48,21 +43,15 @@ function processarVagasEstagio($file, $conn) {
             $cellIterator->next();
             $nome_vaga = $cellIterator->current()->getValue();
             $cellIterator->next();
-
-            // As próximas 3 colunas serão carregadas com os dados da planilha, mas é necessário
-            // formatar a data segundo o padrão do DB (y-m-d)
             $data_abertura_raw = $cellIterator->current()->getValue();
-            $data_abertura = formatarData($data_abertura_raw, $indice, $cellIterator);
-            $cellIterator->next(); // Move para a próxima célula
-
+            $data_abertura = converterDataExcelParaSQL($data_abertura_raw, $indice, $cellIterator->key(), $erros);
+            $cellIterator->next();
             $data_final_candidatar_raw = $cellIterator->current()->getValue();
-            $data_final_candidatar = formatarData($data_final_candidatar_raw, $indice, $cellIterator);
-            $cellIterator->next(); // Move para a próxima célula
-
+            $data_final_candidatar = converterDataExcelParaSQL($data_final_candidatar_raw, $indice, $cellIterator->key(), $erros);
+            $cellIterator->next();
             $data_previsao_contratacao_raw = $cellIterator->current()->getValue();
-            $data_previsao_contratacao = formatarData($data_previsao_contratacao_raw, $indice, $cellIterator);
-            $cellIterator->next(); // Move para a próxima célula
-
+            $data_previsao_contratacao = converterDataExcelParaSQL($data_previsao_contratacao_raw, $indice, $cellIterator->key(), $erros);
+            $cellIterator->next();
             $eixo_formacao = (int)$cellIterator->current()->getValue();
             $cellIterator->next();
             $confidencial = $cellIterator->current()->getValue();
@@ -73,14 +62,10 @@ function processarVagasEstagio($file, $conn) {
             $cellIterator->next();
             $responsavel_telefone = $cellIterator->current()->getValue();
             $cellIterator->next();
+            $data_alteracao_raw = $worksheet->getCell('AU' . $indice)->getValue();
+            $data_alteracao = converterDataExcelParaSQL($data_alteracao_raw, $indice, 'AU', $erros);
+            $revisao = $worksheet->getCell('AV' . $indice)->getValue();
 
-            // Obtendo os valores diretamente das células especificadas            
-            $data_alteracao_raw = $worksheet->getCell('AU' . $indice)->getValue(); // Coluna "AU" da planilha excel.
-            $data_alteracao = formatarData($data_alteracao_raw, $indice, $cellIterator);
-
-            $revisao = $worksheet->getCell('AV' . $indice)->getValue(); // Coluna "AV" da planilha excel.
-
-            // Construindo o array de dados
             $dados = [
                 'empresa' => $empresa,
                 'item' => $item,
@@ -96,34 +81,41 @@ function processarVagasEstagio($file, $conn) {
                 'responsavel_telefone' => $responsavel_telefone,
                 'data_alteracao' => $data_alteracao,
                 'revisao' => $revisao,
-                // Adicionar a data atual para a coluna 'data'
-                'data' => date('Y-m-d H:i:s') // pode carregar data direto do mysql melhora performance
+                'data' => date('Y-m-d H:i:s') // Adicionar a data atual para a coluna 'data'
             ];
 
-            // Inserindo os dados no DB tabela portal_acesso
-            inserirDadosPortalVagas($conn, 'portal_vagas_estagio', $dados);
+            if (!mysqli_query($conn, "INSERT INTO portal_vagas_estagio (empresa, item, codigo, nome_vaga, data_abertura, data_final_candidatar, data_previsao_contratacao, eixo_formacao, confidencial, responsavel, responsavel_email, responsavel_telefone, data_alteracao, revisao, data) VALUES ('$empresa', '$item', '$codigo', '$nome_vaga', '$data_abertura', '$data_final_candidatar', '$data_previsao_contratacao', '$eixo_formacao', '$confidencial', '$responsavel', '$responsavel_email', '$responsavel_telefone', '$data_alteracao', '$revisao', NOW())")) {
+                $mensagem = "Erro na inserção: " . mysqli_error($conn);
+                echo $mensagem . "<br>";
+                criaLogs('portal_vagas_estagio', $mensagem); // Chama a função de log
+                $erros++;
+            } else {
+                $totalLinhas++;
+                $totalColunas = max($totalColunas, count($dados));
+            }
         }
     }
-}
 
-function formatarData($data_raw, $indice, $cellIterator) {
-    if (is_numeric($data_raw)) {
-        // Converte o número serial do Excel em uma data no formato MySQL (yyyy-mm-dd)
-        return date('Y-m-d', \PhpOffice\PhpSpreadsheet\Shared\Date::excelToTimestamp($data_raw));
-    } else {
-        // Se o valor não for um número, tenta interpretá-lo como data no formato dd/mm/yyyy
-        $data_obj = DateTime::createFromFormat('d/m/Y', $data_raw);
-        if ($data_obj) {
-            return $data_obj->format('Y-m-d');
-        } else {
-            echo "Erro na linha $indice, coluna " . $cellIterator->key() . ": formato de data incorreto ou falha na conversão.<br>";
-            return null;
-        }
+    $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
+    criaLogs('portal_vagas_estagio', $mensagemFinal); // Chama a função de log
+    echo $mensagemFinal . "<br>";
+
+    $mensagemErros = "Total de linhas que apresentaram erro: $erros";
+    criaLogs('portal_vagas_estagio', $mensagemErros); // Chama a função de log
+    echo $mensagemErros . "<br>";
+
+    if ($erros === 0) {
+        $mensagemSucesso = "Todas as informações carregadas com sucesso!";
+        criaLogs('portal_vagas_estagio', $mensagemSucesso); // Chama a função de log
+        echo $mensagemSucesso . "<br>";
     }
+
+    // Adiciona duas linhas em branco ao final do log
+    criaLogs('portal_vagas_estagio', "\n\n");
 }
 
 if (isset($_GET['file'])) {
-    $file = $_GET['file'];
+    $file = urldecode($_GET['file']);
     processarVagasEstagio($file, $conn);
 }
 

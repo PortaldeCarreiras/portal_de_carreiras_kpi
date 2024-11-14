@@ -1,13 +1,28 @@
 <?php
-require_once 'vendor/autoload.php';
-include('conn.php');
-include('logs/criaLogs.php'); // Inclui a função de log
+require_once '../vendor/autoload.php';
+include('../conn.php');
+include('../logs/criaLogs.php'); // Inclui a função de log
+
+// Função Truncar Tabela, para deletar e começar do "id01"
+// LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
+function truncarTabela($conn, $tabela) {
+    $sqlTruncate = "TRUNCATE TABLE $tabela";
+    if (mysqli_query($conn, $sqlTruncate)) {
+        $mensagem = "Dados da tabela $tabela foram apagados.";
+        echo $mensagem . "<br>";
+        criaLogs($tabela, $mensagem); // Chama a função de log
+    } else {
+        $mensagem = "Erro ao apagar dados da tabela $tabela: " . mysqli_error($conn);
+        echo $mensagem . "<br>";
+        criaLogs($tabela, $mensagem); // Chama a função de log
+    }
+}
 
 function inserirDadosAcessoPortal($conn, $tabela, $dados) {
     $campos = implode(", ", array_keys($dados));
     $valores = "'" . implode("','", array_values($dados)) . "'";
     if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)")) {
-        echo "Dados inseridos com sucesso!<br>";    
+        echo "Dados inseridos com sucesso!<br>";
     } else {
         $mensagem = "Erro na inserção: " . mysqli_error($conn);
         echo $mensagem . "<br>";
@@ -18,7 +33,6 @@ function inserirDadosAcessoPortal($conn, $tabela, $dados) {
 function processarAcessoPortal($file, $conn) {
     // Limpa a tabela antes de inserir novos dados
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
-    include_once('dbSql/truncarTabelaSql.php');
     truncarTabela($conn, 'portal_acesso');
 
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
@@ -68,18 +82,11 @@ function processarAcessoPortal($file, $conn) {
     criaLogs('portal_acesso', $mensagemFinal); // Chama a função de log
     echo $mensagemFinal . "<br>";
 
-    $mensagemErros = "Total de linhas que apresentaram erro: $erros";
-    criaLogs('portal_acesso', $mensagemErros); // Chama a função de log
-    echo $mensagemErros . "<br>";
-
     if ($erros === 0) {
         $mensagemSucesso = "Todas as informações carregadas com sucesso!";
         criaLogs('portal_acesso', $mensagemSucesso); // Chama a função de log
         echo $mensagemSucesso . "<br>";
     }
-
-    // Adiciona duas linhas em branco ao final do log
-    criaLogs('portal_acesso', "\n\n");
 }
 
 if (isset($_GET['file'])) {
