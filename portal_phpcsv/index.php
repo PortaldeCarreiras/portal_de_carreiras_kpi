@@ -80,6 +80,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
             header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath)); // Linha alterada
         } elseif ($newFileName == 'Consulta de Vagas de estágio.xlsx') {
             header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath)); // Linha alterada
+        } elseif ($newFileName == 'saida.xlsx') {
+            header("Location: data_processing/fileSaida.php?file=" . urlencode($outputFilePath)); // Linha alterada
         }
         exit();
     } else {
