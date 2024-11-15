@@ -1,13 +1,14 @@
 <?php
-require_once 'vendor/autoload.php';
-include('conn.php');
-include('logs/criaLogs.php'); // Inclui a função de log
+require_once '../vendor/autoload.php';
+include('../conn.php');
+include('../logs/criaLogs.php'); // Inclui a função de log
 
-function inserirDadosAcessoPortal($conn, $tabela, $dados) {
+function inserirDadosAcessoPortal($conn, $tabela, $dados)
+{
     $campos = implode(", ", array_keys($dados));
     $valores = "'" . implode("','", array_values($dados)) . "'";
     if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)")) {
-        echo "Dados inseridos com sucesso!<br>";    
+        echo "Dados inseridos com sucesso!<br>";
     } else {
         $mensagem = "Erro na inserção: " . mysqli_error($conn);
         echo $mensagem . "<br>";
@@ -15,10 +16,11 @@ function inserirDadosAcessoPortal($conn, $tabela, $dados) {
     }
 }
 
-function processarAcessoPortal($file, $conn) {
+function processarAcessoPortal($file, $conn)
+{
     // Limpa a tabela antes de inserir novos dados
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
-    include_once('dbSql/truncarTabelaSql.php');
+    include_once('../dbSql/truncarTabelaSql.php');
     truncarTabela($conn, 'portal_acesso');
 
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
@@ -89,5 +91,4 @@ if (isset($_GET['file'])) {
 
 $conn->close();
 
-echo "<a href='index.php'>Voltar</a>";
-?>
+echo "<a href='../index.php'>Voltar</a>";

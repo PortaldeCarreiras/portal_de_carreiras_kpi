@@ -18,13 +18,13 @@ $data_criacao = '';
 // PEGA O FORMULÁRIO VIA POST, CARREGA, VERIFICA O TIPO DE EXTENSÃO,
 // ABRE COM O SPREADSHEET, CONVERT PARA XLSX E SALVA NA PASTA /UPLOAD DO PROJETO
 // Verifica se o formulário foi enviado via POST e se o arquivo foi submetido corretamente
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {    
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     // Obtém informações sobre o arquivo enviado
     // Garante que as variáveis só sejam exibidas quando definidas:
     $file = $_FILES['xls_file'];
     // Pega o nome e o caminho temporário do arquivo
     $fileName = $file['name'];
-$fileTmpName = $file['tmp_name'];
+    $fileTmpName = $file['tmp_name'];
     // Pega a extensão do arquivo (csv, xls ou xlsx)
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
     $data_criacao = date('Y-m-d H:i:s', filemtime($fileTmpName));
@@ -54,7 +54,7 @@ $fileTmpName = $file['tmp_name'];
         // Carrega o arquivo temporário para ser manipulado
         $spreadsheet = $reader->load($fileTmpName);
 
-        // Define o nome do arquivo convertido, convertento o nome do arquivo original
+        // Define o nome do arquivo convertido, convertendo o nome do arquivo original
         // para o formato XLSX, salvando com o mesmo nome, mas extensão .xlsx
         $newFileName = pathinfo($fileName, PATHINFO_FILENAME) . '.xlsx';
 
@@ -62,14 +62,12 @@ $fileTmpName = $file['tmp_name'];
         $writer = IOFactory::createWriter($spreadsheet, 'Xlsx');
 
         // Define o caminho onde o arquivo convertido será salvo
-        $outputFilePath = 'uploads/' . $newFileName;
+        $outputFilePath = __DIR__ . '/uploads/' . $newFileName; // Use __DIR__ para garantir o caminho absoluto
 
         // Verifica se o diretório 'uploads' existe, se não, cria-o
-        if (!file_exists('uploads')) {
-            mkdir('uploads', 0777, true);
-        }   // O terceiro parâmetro, "true", indica que a função deve criar automaticamente todos os
-        // diretórios pais necessários, caso eles não existam. Por exemplo, se o diretório "uploads"
-        // estiver dentro de outro diretório que não existe, a função irá criar esse diretório pai também.
+        if (!file_exists(__DIR__ . '/uploads')) {
+            mkdir(__DIR__ . '/uploads', 0777, true);
+        }
 
         // Salva o arquivo convertido no diretório de uploads
         $writer->save($outputFilePath);
@@ -77,12 +75,11 @@ $fileTmpName = $file['tmp_name'];
         // Mensagem para informar ao usuário que o arquivo foi convertido com sucesso
         $message .= "Arquivo convertido para XLSX e salvo em: $outputFilePath<br>";
 
-
         // PROCESSAMENTO DO ARQUIVO AO SER CLICADO O BOTÃO "ENVIAR".
         if ($newFileName == 'AcessoPortal.xlsx') {
-            header("Location: AcessoPortal.php?file=$outputFilePath");
+            header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath)); // Linha alterada
         } elseif ($newFileName == 'Consulta de Vagas de estágio.xlsx') {
-            header("Location: VagasEstagio.php?file=$outputFilePath");
+            header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath)); // Linha alterada
         }
         exit();
     } else {
@@ -104,13 +101,11 @@ $conn->close();
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script>
         function confirmarExclusao() {
-            // Captura o nome do arquivo selecionado
             const arquivo = document.getElementById("arquivo").files[0];
             if (arquivo) {
-                // Exibe a mensagem de confirmação com o nome do arquivo
                 return confirm(`Deseja realmente deletar todos os dados e carregar o novo arquivo ${arquivo.name}?`);
             }
-            return false; // Caso não haja arquivo selecionado, impede o envio
+            return false;
         }
     </script>
 </head>
@@ -119,7 +114,6 @@ $conn->close();
     <div class="container">
         <h1 class="text-danger">Upload de Arquivos</h1>
         <p>Selecione um arquivo para fazer o upload.</p>
-
         <form action="" method="post" enctype="multipart/form-data" onsubmit="return confirmarExclusao();">
             <div class="form-group">
                 <input type="file" id="arquivo" name="xls_file" class="btn btn-success" required>
@@ -128,3 +122,5 @@ $conn->close();
         </form>
     </div>
 </body>
+
+</html>

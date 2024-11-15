@@ -23,3 +23,30 @@
 [2024-11-14 21:37:20] 
 
 
+[2024-11-15 11:58:44] Dados da tabela portal_acesso foram apagados.
+[2024-11-15 11:58:44] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-15 11:58:44] Total de linhas que apresentaram erro: 0
+[2024-11-15 11:58:44] Todas as informações carregadas com sucesso!
+[2024-11-15 11:58:44] 
+
+
+[2024-11-15 12:01:07] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-15 12:01:07] Total de linhas que apresentaram erro: 0
+[2024-11-15 12:01:07] Todas as informações carregadas com sucesso!
+[2024-11-15 12:01:07] 
+
+
+[2024-11-15 12:10:19] Dados da tabela portal_acesso foram apagados.
+[2024-11-15 12:10:19] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-15 12:10:19] Total de linhas que apresentaram erro: 0
+[2024-11-15 12:10:19] Todas as informações carregadas com sucesso!
+[2024-11-15 12:10:19] 
+
+
+[2024-11-15 12:24:14] Dados da tabela portal_acesso foram apagados.
+[2024-11-15 12:24:14] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-15 12:24:14] Total de linhas que apresentaram erro: 0
+[2024-11-15 12:24:14] Todas as informações carregadas com sucesso!
+[2024-11-15 12:24:14] 
+
+
