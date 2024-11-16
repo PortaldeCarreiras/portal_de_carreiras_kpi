@@ -52,7 +52,7 @@ function processarPortalSaidaEstagio($file, $conn) {
             $aluno_ra_periodo = substr($aluno_ra, 9, 1); // Apenas 1 dígito
             $aluno_ra_siga = substr($aluno_ra, 10, 3); // Garante três dígitos como string
             $aluno_eixo = (int)$aluno_eixo;
-            $aluno_data = converterDataExcelParaSQL($aluno_data_raw, $indice, 'B', $erros);
+            $aluno_data = converterDataExcelParaSQL($aluno_data_raw, $indice, 'B', $erros, 'portal_saida_estagio');
 
             // Mostra os valores capturados no browser
             // echo "Aluno Código: $aluno_codigo<br>";
@@ -65,10 +65,10 @@ function processarPortalSaidaEstagio($file, $conn) {
             
             $cellIterator->next(); // Move para a próxima célula, pulando a coluna "C" - Vagas de Estágio.
             $data_inicio_raw = $cellIterator->current()->getValue();
-            $data_inicio = converterDataExcelParaSQL($data_inicio_raw, $indice, $cellIterator->key(), $erros);
+            $data_inicio = converterDataExcelParaSQL($data_inicio_raw, $indice, $cellIterator->key(), $erros, 'portal_saida_estagio');
             $cellIterator->next();
             $data_final_raw = $cellIterator->current()->getValue();
-            $data_final = converterDataExcelParaSQL($data_final_raw, $indice, $cellIterator->key(), $erros);
+            $data_final = converterDataExcelParaSQL($data_final_raw, $indice, $cellIterator->key(), $erros, 'portal_saida_estagio');
             $cellIterator->next();
             $orientador = $cellIterator->current()->getValue();
             $cellIterator->next();
@@ -95,12 +95,14 @@ function processarPortalSaidaEstagio($file, $conn) {
                 'data' => date('Y-m-d H:i:s') // Adicionar a data atual para a coluna 'data'
             ];
 
-            if (!mysqli_query($conn, "INSERT INTO portal_saida_estagio (empresa_estagio, aluno_codigo, aluno_ra_unidade, aluno_ra_curso, 
-                    aluno_ra_ano_sem, aluno_ra_periodo, aluno_ra_siga, aluno_nome, aluno_eixo, aluno_periodo, aluno_categoria, aluno_data, 
-                    data_inicio, data_final, orientador, resp_empresa, data) 
-                    VALUES ('$empresa_estagio', '$aluno_codigo', '$aluno_ra_unidade', '$aluno_ra_curso', '$aluno_ra_ano_sem', '$aluno_ra_periodo', 
-                    '$aluno_ra_siga', '$aluno_nome', '$aluno_eixo', '$aluno_periodo', '$aluno_categoria', '$aluno_data', '$data_inicio', 
-                    '$data_final', '$orientador', '$resp_empresa', NOW())")) {
+            if (!mysqli_query($conn, "INSERT INTO portal_saida_estagio (empresa_estagio, aluno_codigo, 
+                    aluno_ra_unidade, aluno_ra_curso, aluno_ra_ano_sem, aluno_ra_periodo, aluno_ra_siga, 
+                    aluno_nome, aluno_eixo, aluno_periodo, aluno_categoria, aluno_data, 
+                    data_inicio, data_final, orientador, resp_empresa, data) VALUES ('$empresa_estagio', 
+                    '$aluno_codigo', '$aluno_ra_unidade', '$aluno_ra_curso', '$aluno_ra_ano_sem', 
+                    '$aluno_ra_periodo', '$aluno_ra_siga', '$aluno_nome', '$aluno_eixo', '$aluno_periodo', 
+                    '$aluno_categoria', '$aluno_data', '$data_inicio', '$data_final', 
+                    '$orientador', '$resp_empresa', NOW())")) {
                 $mensagem = "Erro na inserção na linha $indice: " . mysqli_error($conn);
                 echo $mensagem . "<br>";
                 criaLogs('portal_saida_estagio', $mensagem); // Chama a função de log

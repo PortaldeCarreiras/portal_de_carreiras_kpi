@@ -54,6 +54,8 @@ function processarAcessoPortal($file, $conn)
                 'data' => date('Y-m-d H:i:s')
             ];
 
+            // $data_acesso = converterDataExcelParaSQL($data_acesso_raw, $indice, $cellIterator->key(), $erros, 'portal_acesso');
+
             if (!mysqli_query($conn, "INSERT INTO portal_acesso (codigo, portal, mes_acesso, ano_acesso, numero_acessos, data) VALUES ('$codigo', '$portal', '$mes_acesso', '$ano_acesso', '$numero_acessos', NOW())")) {
                 $mensagem = "Erro na inserção: " . mysqli_error($conn);
                 echo $mensagem . "<br>";

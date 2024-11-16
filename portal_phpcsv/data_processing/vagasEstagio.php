@@ -48,15 +48,15 @@ function processarVagasEstagio($file, $conn)
             $cellIterator->next();
             $data_abertura_raw = $cellIterator->current()->getValue();
             // Chama a função de conversão de data
-            $data_abertura = converterDataExcelParaSQL($data_abertura_raw, $indice, $cellIterator->key(), $erros);
+            $data_abertura = converterDataExcelParaSQL($data_abertura_raw, $indice, $cellIterator->key(), $erros, 'portal_vagas_estagio');
             $cellIterator->next();
             $data_final_candidatar_raw = $cellIterator->current()->getValue();
             // Chama a função de conversão de data
-            $data_final_candidatar = converterDataExcelParaSQL($data_final_candidatar_raw, $indice, $cellIterator->key(), $erros);
+            $data_final_candidatar = converterDataExcelParaSQL($data_final_candidatar_raw, $indice, $cellIterator->key(), $erros, 'portal_vagas_estagio');
             $cellIterator->next();
             $data_previsao_contratacao_raw = $cellIterator->current()->getValue();
             // Chama a função de conversão de data
-            $data_previsao_contratacao = converterDataExcelParaSQL($data_previsao_contratacao_raw, $indice, $cellIterator->key(), $erros);
+            $data_previsao_contratacao = converterDataExcelParaSQL($data_previsao_contratacao_raw, $indice, $cellIterator->key(), $erros, 'portal_vagas_estagio');
             $cellIterator->next();
             $eixo_formacao = (int)$cellIterator->current()->getValue();
             $cellIterator->next();
@@ -70,7 +70,7 @@ function processarVagasEstagio($file, $conn)
             $cellIterator->next();
             $data_alteracao_raw = $worksheet->getCell('AU' . $indice)->getValue();
             // Chama a função de conversão de data
-            $data_alteracao = converterDataExcelParaSQL($data_alteracao_raw, $indice, 'AU', $erros);
+            $data_alteracao = converterDataExcelParaSQL($data_alteracao_raw, $indice, 'AU', $erros, 'portal_vagas_estagio');
             $revisao = $worksheet->getCell('AV' . $indice)->getValue();
 
             $dados = [
@@ -91,7 +91,13 @@ function processarVagasEstagio($file, $conn)
                 'data' => date('Y-m-d H:i:s') // Adicionar a data atual para a coluna 'data'
             ];
 
-            if (!mysqli_query($conn, "INSERT INTO portal_vagas_estagio (empresa, item, codigo, nome_vaga, data_abertura, data_final_candidatar, data_previsao_contratacao, eixo_formacao, confidencial, responsavel, responsavel_email, responsavel_telefone, data_alteracao, revisao, data) VALUES ('$empresa', '$item', '$codigo', '$nome_vaga', '$data_abertura', '$data_final_candidatar', '$data_previsao_contratacao', '$eixo_formacao', '$confidencial', '$responsavel', '$responsavel_email', '$responsavel_telefone', '$data_alteracao', '$revisao', NOW())")) {
+            if (!mysqli_query($conn, "INSERT INTO portal_vagas_estagio (empresa, item, codigo, nome_vaga, 
+                    data_abertura, data_final_candidatar, data_previsao_contratacao, eixo_formacao, 
+                    confidencial, responsavel, responsavel_email, responsavel_telefone, data_alteracao, 
+                    revisao, data) VALUES ('$empresa', '$item', '$codigo', '$nome_vaga', '$data_abertura', 
+                    '$data_final_candidatar', '$data_previsao_contratacao', '$eixo_formacao', 
+                    '$confidencial', '$responsavel', '$responsavel_email', '$responsavel_telefone', 
+                    '$data_alteracao', '$revisao', NOW())")) {
                 $mensagem = "Erro na inserção: " . mysqli_error($conn);
                 echo $mensagem . "<br>";
                 criaLogs('portal_vagas_estagio', $mensagem); // Chama a função de log
