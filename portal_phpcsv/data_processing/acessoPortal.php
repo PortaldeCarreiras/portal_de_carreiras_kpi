@@ -20,8 +20,8 @@ function processarAcessoPortal($file, $conn)
 {
     // Limpa a tabela antes de inserir novos dados
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
-    include_once('../dbSql/truncarTabelaSql.php');
-    truncarTabela($conn, 'portal_acesso');
+    // include_once('../dbSql/truncarTabelaSql.php');
+    // truncarTabela($conn, 'portal_acesso');
 
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
     $worksheet = $spreadsheet->getActiveSheet();

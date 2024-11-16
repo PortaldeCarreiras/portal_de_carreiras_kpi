@@ -6,6 +6,27 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 // Conexão com o banco de dados (ajuste as credenciais - substitua pelos seus dados)
 include('conn.php');
 
+// Função para converter caracteres acentuados para seus equivalentes sem acento
+function removerAcentos($string) {
+    $acentos = array(
+        'Á' => 'A', 'À' => 'A', 'Â' => 'A', 'Ã' => 'A', 'Ä' => 'A', 'á' => 'a', 'à' => 'a', 'â' => 'a', 'ã' => 'a', 'ä' => 'a',
+        'É' => 'E', 'È' => 'E', 'Ê' => 'E', 'Ë' => 'E', 'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
+        'Í' => 'I', 'Ì' => 'I', 'Î' => 'I', 'Ï' => 'I', 'í' => 'i', 'ì' => 'i', 'î' => 'i', 'ï' => 'i',
+        'Ó' => 'O', 'Ò' => 'O', 'Ô' => 'O', 'Õ' => 'O', 'Ö' => 'O', 'ó' => 'o', 'ò' => 'o', 'ô' => 'o', 'õ' => 'o', 'ö' => 'o',
+        'Ú' => 'U', 'Ù' => 'U', 'Û' => 'U', 'Ü' => 'U', 'ú' => 'u', 'ù' => 'u', 'û' => 'u', 'ü' => 'u',
+        'Ç' => 'C', 'ç' => 'c', 'Ñ' => 'N', 'ñ' => 'n'
+    );
+    return strtr($string, $acentos);
+}
+
+// Função para converter o nome do arquivo para camelCase
+function converterParaCamelCase($string) {
+    $string = removerAcentos($string);
+    $string = preg_replace('/[^a-zA-Z0-9]/', ' ', $string);
+    $string = ucwords(strtolower($string));
+    $string = str_replace(' ', '', $string);
+    return lcfirst($string);
+}
 
 // Variável que armazenará mensagens para exibir ao usuário
 $message = '';
@@ -76,11 +97,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
         $message .= "Arquivo convertido para XLSX e salvo em: $outputFilePath<br>";
 
         // PROCESSAMENTO DO ARQUIVO AO SER CLICADO O BOTÃO "ENVIAR".
-        if ($newFileName == 'AcessoPortal.xlsx') {
+        $newFileName = converterParaCamelCase(pathinfo($newFileName, PATHINFO_FILENAME)) . '.xlsx';
+        if (strcasecmp($newFileName, 'acessoPortal.xlsx') == 0) {
             header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath)); // Linha alterada
-        } elseif ($newFileName == 'Consulta de Vagas de estágio.xlsx') {
+        } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
             header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath)); // Linha alterada
-        } elseif ($newFileName == 'saida.xlsx') {
+        } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
             header("Location: data_processing/fileSaida.php?file=" . urlencode($outputFilePath)); // Linha alterada
         }
         exit();

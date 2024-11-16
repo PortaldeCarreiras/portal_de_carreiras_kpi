@@ -21,8 +21,8 @@ function processarVagasEstagio($file, $conn)
 {
     // Limpa a tabela no DB-SQL antes de inserir dados novos.
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
-    include_once('../dbSql/truncarTabelaSql.php');
-    truncarTabela($conn, 'portal_vagas_estagio');
+    // include_once('../dbSql/truncarTabelaSql.php');
+    // truncarTabela($conn, 'portal_vagas_estagio');
 
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
     $worksheet = $spreadsheet->getActiveSheet();
