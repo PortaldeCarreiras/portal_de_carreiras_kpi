@@ -157,9 +157,15 @@ $conn->close();
         function confirmarExclusao() {
             const arquivo = document.getElementById("arquivo").files[0];
             if (arquivo) {
-                return confirm(`Deseja realmente deletar todos os dados e carregar o novo arquivo ${arquivo.name}?`);
+                return confirm(`Deseja realmente deletar todos os dados e carregar o novo arquivo ${arquivo.name} ao Banco de dados?`);
             }
             return false;
+        }
+
+        // Função para exibir a mensagem de processamento
+        function exibirMensagemProcessamento() {
+            const mensagemProcessamento = document.getElementById("mensagemProcessamento");
+            mensagemProcessamento.style.display = "block";
         }
     </script>
 </head>
@@ -168,12 +174,17 @@ $conn->close();
     <div class="container">
         <h1 class="text-danger">Upload de Arquivos</h1>
         <p>Selecione um arquivo para fazer o upload.</p>
-        <form action="" method="post" enctype="multipart/form-data" onsubmit="return confirmarExclusao();">
+        <!-- Adiciona a chamada para exibir a mensagem de processamento ao enviar o formulário -->
+        <form action="" method="post" enctype="multipart/form-data" onsubmit="exibirMensagemProcessamento(); return confirmarExclusao();">
             <div class="form-group">
                 <input type="file" id="arquivo" name="xls_file" class="btn btn-success" required>
             </div>
             <input type="submit" value="Enviar" class="btn btn-success">
         </form>
+        <!-- Div para exibir a mensagem de processamento -->
+        <div id="mensagemProcessamento" style="display:none;">
+            <p class="text-warning">Sua solicitação está sendo executada, aguarde o término da mesma!</p>
+        </div>
     </div>
 </body>
 

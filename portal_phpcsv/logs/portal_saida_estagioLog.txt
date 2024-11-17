@@ -110,3 +110,19 @@
 [2024-11-17 10:52:20] 
 
 
+[2024-11-17 11:04:21] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-17 11:04:21] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-17 11:04:21] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-17 11:04:22] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-17 11:04:22] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-17 11:04:22] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-17 11:04:22] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-17 11:04:22] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-17 11:04:23] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-17 11:04:23] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-17 11:04:23] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-17 11:04:23] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-17 11:04:23] Total de linhas que apresentaram erro: 10
+[2024-11-17 11:04:23] 
+
+

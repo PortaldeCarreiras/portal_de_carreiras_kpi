@@ -131,3 +131,17 @@
 [2024-11-17 10:49:17] 
 
 
+[2024-11-17 11:04:08] Dados da tabela portal_acesso foram apagados.
+[2024-11-17 11:04:08] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-17 11:04:08] Total de linhas que apresentaram erro: 0
+[2024-11-17 11:04:08] Todas as informações carregadas com sucesso!
+[2024-11-17 11:04:08] 
+
+
+[2024-11-17 11:17:14] Dados da tabela portal_acesso foram apagados.
+[2024-11-17 11:17:14] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-17 11:17:14] Total de linhas que apresentaram erro: 0
+[2024-11-17 11:17:14] Todas as informações carregadas com sucesso!
+[2024-11-17 11:17:14] 
+
+
