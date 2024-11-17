@@ -28,6 +28,12 @@ function converterParaCamelCase($string) {
     return lcfirst($string);
 }
 
+// Função para normalizar o nome do arquivo
+function normalizarNomeArquivo($nomeArquivo) {
+    $nomeArquivo = removerAcentos($nomeArquivo);
+    return strtolower($nomeArquivo);
+}
+
 // Variável que armazenará mensagens para exibir ao usuário
 $message = '';
 
@@ -35,6 +41,13 @@ $message = '';
 $fileExtension = '';
 $fileName = '';
 $data_criacao = '';
+
+// Lista de nomes de arquivos permitidos (normalizados, sem extensão)
+$nomesPermitidos = [
+    'acessoportal',
+    'consulta de vagas de estagio',
+    'saida'
+];
 
 // PEGA O FORMULÁRIO VIA POST, CARREGA, VERIFICA O TIPO DE EXTENSÃO,
 // ABRE COM O SPREADSHEET, CONVERT PARA XLSX E SALVA NA PASTA /UPLOAD DO PROJETO
@@ -49,6 +62,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     // Pega a extensão do arquivo (csv, xls ou xlsx)
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
     $data_criacao = date('Y-m-d H:i:s', filemtime($fileTmpName));
+
+    // Normaliza o nome do arquivo (sem a extensão)
+    $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($fileName, PATHINFO_FILENAME));
+
+    // Verificar nome de arquivo para ver se ele corresponde aos três esperados
+    if (!in_array($nomeArquivoNormalizado, $nomesPermitidos)) {
+        $nomesEsperados = implode(', ', $nomesPermitidos);
+        echo "<script>alert('Nome de arquivo não permitido. Os nomes esperados são: $nomesEsperados'); window.location.href = 'index.php';</script>";
+        exit();
+    }
+
+    // Verificar extensão de arquivo para ver se ela é permitida (csv, xls, xlsx)
+    $extensoesPermitidas = ['csv', 'xls', 'xlsx'];
+    if (!in_array(strtolower($fileExtension), $extensoesPermitidas)) {
+        echo "<script>alert('Extensão de arquivo não permitida.'); window.location.href = 'index.php';</script>";
+        exit();
+    }
 
     // Verifica se o arquivo foi enviado sem erros
     if ($file['error'] == UPLOAD_ERR_OK) {
