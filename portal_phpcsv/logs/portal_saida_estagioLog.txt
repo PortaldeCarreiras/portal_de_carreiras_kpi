@@ -46,3 +46,35 @@
 [2024-11-17 13:51:23] 
 
 
+[2024-11-17 14:07:51] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-17 14:07:52] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:07:52] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:07:52] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:07:52] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:07:52] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:07:52] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-17 14:07:52] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:07:53] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:07:53] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:07:53] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-17 14:07:53] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-17 14:07:53] Total de linhas que apresentaram erro: 10
+[2024-11-17 14:07:53] 
+
+
+[2024-11-17 14:08:08] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-17 14:08:09] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:08:09] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:08:09] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:08:09] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:08:09] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:08:09] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-17 14:08:09] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:08:10] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:08:10] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-17 14:08:10] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-17 14:08:10] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-17 14:08:10] Total de linhas que apresentaram erro: 10
+[2024-11-17 14:08:10] 
+
+
