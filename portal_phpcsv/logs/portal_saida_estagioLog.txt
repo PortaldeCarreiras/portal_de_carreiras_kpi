@@ -126,3 +126,339 @@
 [2024-11-17 11:04:23] 
 
 
+[2024-11-18 08:11:19] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 08:11:20] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:11:20] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:11:20] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:11:20] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:11:20] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:11:20] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:11:20] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:11:21] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:11:21] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:11:21] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:11:21] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 08:11:21] Total de linhas que apresentaram erro: 10
+[2024-11-18 08:11:21] 
+
+
+[2024-11-18 08:20:50] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 08:20:50] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:20:50] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:20:51] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:20:51] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:20:51] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:20:51] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:20:51] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:20:51] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:20:52] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:20:52] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:20:52] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 08:20:52] Total de linhas que apresentaram erro: 10
+[2024-11-18 08:20:52] 
+
+
+[2024-11-18 08:25:21] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 08:25:22] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:25:22] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:25:22] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:25:22] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:25:22] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:25:22] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:25:22] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:25:23] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:25:23] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:25:23] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:25:23] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 08:25:23] Total de linhas que apresentaram erro: 10
+[2024-11-18 08:25:23] 
+
+
+[2024-11-18 08:29:57] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 08:29:58] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:29:58] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:29:58] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:29:58] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:29:58] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:29:58] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:29:58] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:29:59] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:29:59] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:29:59] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:29:59] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 08:29:59] Total de linhas que apresentaram erro: 10
+[2024-11-18 08:29:59] 
+
+
+[2024-11-18 08:47:23] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 08:47:24] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:47:24] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:47:24] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:47:24] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:47:24] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:47:24] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:47:25] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:47:25] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:47:25] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:47:25] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:47:26] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 08:47:26] Total de linhas que apresentaram erro: 10
+[2024-11-18 08:47:26] 
+
+
+[2024-11-18 08:50:01] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 08:50:02] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:02] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:02] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:02] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:02] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:02] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:50:02] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:03] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:03] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:03] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:50:03] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 08:50:03] Total de linhas que apresentaram erro: 10
+[2024-11-18 08:50:03] 
+
+
+[2024-11-18 08:50:14] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 08:50:14] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:14] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:15] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:15] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:15] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:15] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:50:15] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:15] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:16] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 08:50:16] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 08:50:16] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 08:50:16] Total de linhas que apresentaram erro: 10
+[2024-11-18 08:50:16] 
+
+
+[2024-11-18 09:10:56] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 09:10:56] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:10:56] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:10:57] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:10:57] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:10:57] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:10:57] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 09:10:57] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:10:57] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:10:58] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:10:58] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 09:10:58] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 09:10:58] Total de linhas que apresentaram erro: 10
+[2024-11-18 09:10:58] 
+
+
+[2024-11-18 09:15:45] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 09:15:46] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:15:46] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:15:46] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:15:46] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:15:46] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:15:46] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 09:15:46] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:15:47] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:15:47] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:15:47] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 09:15:47] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 09:15:47] Total de linhas que apresentaram erro: 10
+[2024-11-18 09:15:47] 
+
+
+[2024-11-18 09:36:27] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 09:36:28] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:36:28] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:36:28] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:36:28] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:36:28] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:36:28] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 09:36:28] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:36:29] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:36:29] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 09:36:29] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 09:36:29] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 09:36:29] Total de linhas que apresentaram erro: 10
+[2024-11-18 09:36:29] 
+
+
+[2024-11-18 10:30:09] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 10:30:10] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:10] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:10] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:11] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:11] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:11] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 10:30:11] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:11] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:11] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:11] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 10:30:12] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 10:30:12] Total de linhas que apresentaram erro: 10
+[2024-11-18 10:30:12] 
+
+
+[2024-11-18 10:30:32] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 10:30:32] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:32] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:33] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:33] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:33] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:33] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 10:30:33] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:33] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:34] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 10:30:34] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 10:30:34] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 10:30:34] Total de linhas que apresentaram erro: 10
+[2024-11-18 10:30:34] 
+
+
+[2024-11-18 11:11:10] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 11:11:11] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 11:11:11] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 11:11:11] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 11:11:11] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 11:11:11] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 11:11:11] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 11:11:11] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 11:11:12] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 11:11:12] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 11:11:12] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 11:11:12] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 11:11:12] Total de linhas que apresentaram erro: 10
+[2024-11-18 11:11:12] 
+
+
+[2024-11-18 15:38:14] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 15:38:15] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 15:38:15] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 15:38:15] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 15:38:15] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 15:38:15] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 15:38:15] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 15:38:16] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 15:38:16] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 15:38:16] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 15:38:16] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 15:38:17] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 15:38:17] Total de linhas que apresentaram erro: 10
+[2024-11-18 15:38:17] 
+
+
+[2024-11-18 16:01:13] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 16:01:13] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:13] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:13] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:14] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:14] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:14] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 16:01:14] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:14] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:15] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:15] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 16:01:15] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 16:01:15] Total de linhas que apresentaram erro: 10
+[2024-11-18 16:01:15] 
+
+
+[2024-11-18 16:01:29] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 16:01:29] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:29] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:30] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:30] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:30] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:30] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 16:01:30] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:30] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:31] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:01:31] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 16:01:31] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 16:01:31] Total de linhas que apresentaram erro: 10
+[2024-11-18 16:01:31] 
+
+
+[2024-11-18 16:17:40] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 16:17:41] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:17:41] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:17:41] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:17:42] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:17:42] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:17:42] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 16:17:42] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:17:42] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:17:43] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 16:17:43] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 16:17:43] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 16:17:43] Total de linhas que apresentaram erro: 10
+[2024-11-18 16:17:43] 
+
+
+[2024-11-18 17:07:16] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-18 17:07:17] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-18 17:07:17] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-18 17:07:17] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-18 17:07:17] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-18 17:07:17] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-18 17:07:17] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-18 17:07:17] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-18 17:07:18] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-18 17:07:18] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-18 17:07:18] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-18 17:07:18] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-18 17:07:18] Total de linhas que apresentaram erro: 10
+[2024-11-18 17:07:18] 
+
+
+[2024-11-19 10:43:01] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-19 10:43:02] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:43:02] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:43:02] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:43:02] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:43:02] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:43:02] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-19 10:43:03] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:43:03] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:43:03] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:43:03] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-19 10:43:03] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-19 10:43:03] Total de linhas que apresentaram erro: 10
+[2024-11-19 10:43:03] 
+
+
+[2024-11-19 10:45:13] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-19 10:45:14] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:45:14] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:45:14] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:45:15] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:45:15] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:45:15] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-19 10:45:15] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:45:15] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:45:15] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:45:15] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-19 10:45:16] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-19 10:45:16] Total de linhas que apresentaram erro: 10
+[2024-11-19 10:45:16] 
+
+
+[2024-11-19 10:47:24] Dados da tabela portal_saida_estagio foram apagados.
+[2024-11-19 10:47:25] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:47:25] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:47:25] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:47:25] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:47:25] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:47:25] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-19 10:47:25] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:47:26] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:47:26] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-19 10:47:26] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-19 10:47:26] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-19 10:47:26] Total de linhas que apresentaram erro: 10
+[2024-11-19 10:47:26] 
+
+

@@ -1,38 +1,10 @@
 <?php
 require_once 'vendor/autoload.php'; // Inclui o autoloader do PhpSpreadsheet
+require_once 'data_processing/utils.php'; // Inclui as funções comuns
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
-// Conexão com o banco de dados (ajuste as credenciais - substitua pelos seus dados)
-include('conn.php');
-
-// Função para converter caracteres acentuados para seus equivalentes sem acento
-function removerAcentos($string) {
-    $acentos = array(
-        'Á' => 'A', 'À' => 'A', 'Â' => 'A', 'Ã' => 'A', 'Ä' => 'A', 'á' => 'a', 'à' => 'a', 'â' => 'a', 'ã' => 'a', 'ä' => 'a',
-        'É' => 'E', 'È' => 'E', 'Ê' => 'E', 'Ë' => 'E', 'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
-        'Í' => 'I', 'Ì' => 'I', 'Î' => 'I', 'Ï' => 'I', 'í' => 'i', 'ì' => 'i', 'î' => 'i', 'ï' => 'i',
-        'Ó' => 'O', 'Ò' => 'O', 'Ô' => 'O', 'Õ' => 'O', 'Ö' => 'O', 'ó' => 'o', 'ò' => 'o', 'ô' => 'o', 'õ' => 'o', 'ö' => 'o',
-        'Ú' => 'U', 'Ù' => 'U', 'Û' => 'U', 'Ü' => 'U', 'ú' => 'u', 'ù' => 'u', 'û' => 'u', 'ü' => 'u',
-        'Ç' => 'C', 'ç' => 'c', 'Ñ' => 'N', 'ñ' => 'n'
-    );
-    return strtr($string, $acentos);
-}
-
-// Função para converter o nome do arquivo para camelCase
-function converterParaCamelCase($string) {
-    $string = removerAcentos($string);
-    $string = preg_replace('/[^a-zA-Z0-9]/', ' ', $string);
-    $string = ucwords(strtolower($string));
-    $string = str_replace(' ', '', $string);
-    return lcfirst($string);
-}
-
-// Função para normalizar o nome do arquivo
-function normalizarNomeArquivo($nomeArquivo) {
-    $nomeArquivo = removerAcentos($nomeArquivo);
-    return strtolower($nomeArquivo);
-}
+include('conn.php');    // Conexão com o banco de dados (ajuste as credenciais - substitua pelos seus dados)
 
 // Variável que armazenará mensagens para exibir ao usuário
 $message = '';
@@ -42,24 +14,27 @@ $fileExtension = '';
 $fileName = '';
 $data_criacao = '';
 
+
 // Lista de nomes de arquivos permitidos (normalizados, sem extensão)
 $nomesPermitidos = [
     'acessoportal',
+    'acesso portal',
+    'consultadevagasdeestagio',
     'consulta de vagas de estagio',
     'saida'
 ];
+
+// Lista de extensões de arquivos permitidas
+$extensoesPermitidas = ['csv', 'xls', 'xlsx'];
 
 // PEGA O FORMULÁRIO VIA POST, CARREGA, VERIFICA O TIPO DE EXTENSÃO,
 // ABRE COM O SPREADSHEET, CONVERT PARA XLSX E SALVA NA PASTA /UPLOAD DO PROJETO
 // Verifica se o formulário foi enviado via POST e se o arquivo foi submetido corretamente
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     // Obtém informações sobre o arquivo enviado
-    // Garante que as variáveis só sejam exibidas quando definidas:
     $file = $_FILES['xls_file'];
-    // Pega o nome e o caminho temporário do arquivo
     $fileName = $file['name'];
     $fileTmpName = $file['tmp_name'];
-    // Pega a extensão do arquivo (csv, xls ou xlsx)
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
     $data_criacao = date('Y-m-d H:i:s', filemtime($fileTmpName));
 
@@ -68,13 +43,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
 
     // Verificar nome de arquivo para ver se ele corresponde aos três esperados
     if (!in_array($nomeArquivoNormalizado, $nomesPermitidos)) {
-        $nomesEsperados = implode(', ', $nomesPermitidos);
-        echo "<script>alert('Nome de arquivo não permitido. Os nomes esperados são: $nomesEsperados'); window.location.href = 'index.php';</script>";
+        $nomesEsperados = "AcessoPortal, Consulta de Vagas de estágio e saida.";
+        $variacoesPermitidas = "acessoportal, Acesso Portal, Consulta de Vagas de Estágio, consultadevagasdeestagio, consulta de vagas de estágio, consulta de vagas de estagio, Saída, Saida, saída.";
+        echo "<script>alert('NOME DE ARQUIVO NÃO PERMITIDO!\\nOs nomes esperados são: $nomesEsperados\\nAs variações permitidas são: $variacoesPermitidas'); window.location.href = 'index.php';</script>";
         exit();
     }
 
     // Verificar extensão de arquivo para ver se ela é permitida (csv, xls, xlsx)
-    $extensoesPermitidas = ['csv', 'xls', 'xlsx'];
     if (!in_array(strtolower($fileExtension), $extensoesPermitidas)) {
         echo "<script>alert('Extensão de arquivo não permitida.'); window.location.href = 'index.php';</script>";
         exit();
@@ -141,8 +116,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     }
 }
 
-echo "<label>&nbsp Arquivo Carregado: $fileName</label><br>";
-echo "<label>&nbsp Data de Criação: $data_criacao</label><br>";
+// echo "<label>&nbsp Arquivo Carregado: $fileName</label><br>";
+// echo "<label>&nbsp Data de Criação: $data_criacao</label><br>";
+
 $conn->close();
 ?>
 
@@ -185,6 +161,11 @@ $conn->close();
         <div id="mensagemProcessamento" style="display:none;">
             <p class="text-warning">Sua solicitação está sendo executada, aguarde o término da mesma!</p>
         </div>
+        <!-- Exibe as informações do arquivo carregado -->
+        <?php if (isset($fileName) && isset($data_criacao)): ?>
+            <label>&nbsp Arquivo Carregado: <?php echo $fileName; ?></label><br>
+            <label>&nbsp Data de Criação: <?php echo $data_criacao; ?></label><br>
+        <?php endif; ?>
     </div>
 </body>
 
