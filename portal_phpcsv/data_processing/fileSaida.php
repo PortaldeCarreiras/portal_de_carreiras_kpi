@@ -39,11 +39,14 @@ function processarArquivoFileSaida($file, $conn, $tabela, $processarLinha)
         }
     }
 
+    // Cria logs com as informações sobre a execução (a sequencia de impressão está invertida no log)
     $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
     criaLogs($tabela, $mensagemFinal); // Chama a função de log
 
     $mensagemErros = "Total de linhas que apresentaram erro: $erros";
     criaLogs($tabela, $mensagemErros); // Chama a função de log
+
+    criaLogs($tabela, "Os dados da tabela $tabela substituídos!");
 
     if ($erros === 0) {
         $mensagemSucesso = "Todas as informações carregadas com sucesso!";
@@ -51,7 +54,7 @@ function processarArquivoFileSaida($file, $conn, $tabela, $processarLinha)
     }
 
     // Adiciona duas linhas em branco ao final do log
-    criaLogs($tabela, "\n\n");
+    // criaLogs($tabela, "\n\n");
 
     // Exibe a mensagem resumida no navegador
     // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
