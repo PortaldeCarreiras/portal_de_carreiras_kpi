@@ -6,6 +6,7 @@ include('../dbSql/dateConverterSql.php'); // Inclui a função de conversão de 
 include('../dbSql/inserirDados.php'); // Inclui a função genérica de inserção de dados
 include('../data_processing/utils.php'); // Inclui as funções comuns
 include_once('../dbSql/truncarTabelaSql.php');
+include_once('../logs/ordenarGravarErrosLog.php');
 
 function processarArquivoFileSaida($file, $conn, $tabela, $processarLinha)
 {
@@ -13,6 +14,7 @@ function processarArquivoFileSaida($file, $conn, $tabela, $processarLinha)
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
     truncarTabela($conn, $tabela);
 
+    // Carrega a planilha
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
     $worksheet = $spreadsheet->getActiveSheet();    // Pega a aba ativa
 
@@ -20,6 +22,8 @@ function processarArquivoFileSaida($file, $conn, $tabela, $processarLinha)
     $totalLinhas = 0;
     $totalColunas = 0;
     $erros = 0;
+    // Array para armazenar os erros detalhados
+    $errosDetalhados = [];
 
     // Itera sobre todas as linhas da planilha
     foreach ($worksheet->getRowIterator() as $indice => $row) {
@@ -28,43 +32,40 @@ function processarArquivoFileSaida($file, $conn, $tabela, $processarLinha)
             $cellIterator->setIterateOnlyExistingCells(false); // Inclui células vazias
 
             // Inicializa a variável $dados para processar cada linha e obter os valores de cada célula.
-            $dados = $processarLinha($cellIterator, $indice, $erros, $tabela);
+            $dados = $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados);
 
+            // Insere os dados no banco de dados
             if (!inserirDados($conn, $tabela, $dados)) {
                 $erros++;
             } else {
                 $totalLinhas++;
                 $totalColunas = max($totalColunas, count($dados));
-            }
-        }
-    }
+            }   //  Fim do IF de inserção de dados
+        }   //  Fim do IF de verificação de cabeçalho
+    }   //  Fim do loop de iteração sobre as linhas
 
+    // Esse bloco ordena e grava os erros no log
+    ordenarGravarErrosLog($errosDetalhados, $tabela);   // Chamar a função para ordenar e gravar erros no log
     // Cria logs com as informações sobre a execução (a sequencia de impressão está invertida no log)
-    $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
-    criaLogs($tabela, $mensagemFinal); // Chama a função de log
-
     $mensagemErros = "Total de linhas que apresentaram erro: $erros";
     criaLogs($tabela, $mensagemErros); // Chama a função de log
-
-    criaLogs($tabela, "Os dados da tabela $tabela substituídos!");
-
+    $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
+    criaLogs($tabela, $mensagemFinal); // Chama a função de log
+    criaLogs($tabela, "Os dados da tabela $tabela foram substituídos com sucesso!");
     if ($erros === 0) {
         $mensagemSucesso = "Todas as informações carregadas com sucesso!";
         criaLogs($tabela, $mensagemSucesso); // Chama a função de log
-    }
-
-    // Adiciona duas linhas em branco ao final do log
-    // criaLogs($tabela, "\n\n");
+    }   //  Fim do IF de verificação de erros
 
     // Exibe a mensagem resumida no navegador
-    // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
     exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);
 }   //  Fim da função processarArquivoFileSaida
 
+// Verifica se o arquivo foi enviado via GET
 if (isset($_GET['file'])) {
     $file = urldecode($_GET['file']);
     $tabela = 'portal_saida_estagio'; // Informar a tabela que será trabalhada
-    processarArquivoFileSaida($file, $conn, $tabela, function ($cellIterator, $indice, &$erros, $tabela) {
+    processarArquivoFileSaida($file, $conn, $tabela, function ($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados) {
         // Processar linha específica para portal_saida_estagio
         // Obtendo os valores de cada célula
         $empresa_estagio = $cellIterator->current()->getValue();
@@ -85,13 +86,13 @@ if (isset($_GET['file'])) {
         $aluno_ra_siga = substr($aluno_ra, 10, 3);
         $aluno_eixo = (int)$aluno_eixo;
         // Converte a data para o formato SQL
-        $aluno_data = converterDataExcelParaSQL($aluno_data_raw, $indice, 'B', $erros, $tabela);
+        $aluno_data = converterDataExcelParaSQL($aluno_data_raw, $indice, 'B', $erros, $tabela, $errosDetalhados);
 
         $data_inicio_raw = $cellIterator->current()->getValue();
-        $data_inicio = converterDataExcelParaSQL($data_inicio_raw, $indice, $cellIterator->key(), $erros, $tabela);
+        $data_inicio = converterDataExcelParaSQL($data_inicio_raw, $indice, $cellIterator->key(), $erros, $tabela, $errosDetalhados);
         $cellIterator->next();
         $data_final_raw = $cellIterator->current()->getValue();
-        $data_final = converterDataExcelParaSQL($data_final_raw, $indice, $cellIterator->key(), $erros, $tabela);
+        $data_final = converterDataExcelParaSQL($data_final_raw, $indice, $cellIterator->key(), $erros, $tabela, $errosDetalhados);
         $cellIterator->next();
         $orientador = $cellIterator->current()->getValue();
         $cellIterator->next();
@@ -126,8 +127,8 @@ if (isset($_GET['file'])) {
             'orientador' => $orientador,
             'resp_empresa' => $resp_empresa,
             'data' => date('Y-m-d H:i:s')
-        ];
-    });
-}
+        ];  // Fim do retorno de dados
+    }); // Fim da função de processamento de linha
+}   //  Fim do IF de verificação de arquivo enviado via GET
 
 $conn->close();

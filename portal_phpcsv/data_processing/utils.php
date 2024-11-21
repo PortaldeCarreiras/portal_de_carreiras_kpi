@@ -47,6 +47,7 @@ function exibirAlertaERedirecionar($mensagem) {
 
 // Função para exibir mensagem resumida no navegador
 function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros) {
+    // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
     echo "<script>
         alert('Dados da tabela $tabela foram apagados.\\n" .
                 "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .

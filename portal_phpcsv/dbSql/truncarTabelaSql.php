@@ -5,12 +5,12 @@
 function truncarTabela($conn, $tabela) {
     $sqlTruncate = "TRUNCATE TABLE $tabela";
     if (mysqli_query($conn, $sqlTruncate)) {
-        $mensagem = "Dados da tabela $tabela foram apagados.";
+        $mensagem = "Dados da tabela $tabela foram apagados, antes do Upload.";
         echo $mensagem . "<br>";
         criaLogs($tabela, "$mensagem\n\n"); // Chama a função de log
     } else {
         $mensagem = "Erro ao apagar dados da tabela $tabela: " . mysqli_error($conn);
         echo $mensagem . "<br>";
-        criaLogs($tabela, $mensagem); // Chama a função de log
+        criaLogs($tabela, "$mensagem\n\n"); // Chama a função de log
     }
 }

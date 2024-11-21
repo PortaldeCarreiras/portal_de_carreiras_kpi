@@ -14,22 +14,25 @@ function criaLogs($nomeArquivoOrigem, $mensagem)
 
     // Adiciona a data e hora local à mensagem
     $dataHora = date('Y-m-d H:i:s');
-    $mensagemCompleta = "[$dataHora] $mensagem";
+    if (trim($mensagem) !== '') { // Verifica se a mensagem não está vazia
+        $mensagemCompleta = "[$dataHora] $mensagem\n"; // Adiciona a quebra de linha aqui
 
-    // Old gravação de log
-    // Grava a mensagem no arquivo de log
-    // file_put_contents($logFilePath, $mensagemCompleta, FILE_APPEND);
+        // Old gravação de log
+        // Grava a mensagem no arquivo de log
+        // file_put_contents($logFilePath, $mensagemCompleta, FILE_APPEND);
 
-    // New gravação de log, cod. NOVO adicional    
-    // Verifica se o arquivo de log já existe
-    $conteudoExistente = '';
-    if (file_exists($logFilePath)) {
-        $conteudoExistente = file_get_contents($logFilePath); // Lê o conteúdo existente
+        // New gravação de log, cod. NOVO adicional
+
+        // Verifica se o arquivo de log já existe
+        $conteudoExistente = '';
+        if (file_exists($logFilePath)) {
+            $conteudoExistente = file_get_contents($logFilePath); // Lê o conteúdo existente
+        }
+
+        // Adiciona o novo log no topo do arquivo
+        $novoConteudo = $mensagemCompleta . $conteudoExistente;
+
+        // Escreve o novo conteúdo no arquivo de log
+        file_put_contents($logFilePath, $novoConteudo);
     }
-
-    // Adiciona duas linhas em branco entre as novas mensagens e o conteúdo existente
-    $novoConteudo = $mensagemCompleta . "\n" . $conteudoExistente;
-
-    // Grava o novo conteúdo no arquivo, sobrescrevendo o existente
-    file_put_contents($logFilePath, $novoConteudo);
 }

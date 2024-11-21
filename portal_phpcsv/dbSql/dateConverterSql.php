@@ -1,10 +1,11 @@
 <?php
 // Função para converter datas do Excel para o formato SQL
-function converterDataExcelParaSQL($data_raw, $indice, $coluna, &$erros, $tabela) {
+function converterDataExcelParaSQL($data_raw, $indice, $coluna, &$erros, $tabela, &$errosDetalhados) {
     if (empty($data_raw)) {    // Verifica se a célula está vazia
         $mensagem = "Erro na linha $indice, coluna $coluna: Célula vazia, sem informação.";
         // echo $mensagem . "<br>";
-        criaLogs($tabela, $mensagem); // Chama a função de log
+        $errosDetalhados[] = $mensagem;
+        // criaLogs($tabela, $mensagem); // Chama a função de log
         $data_sql = null;
         $erros++;
     } elseif (is_numeric($data_raw)) {   // Verifica se a data está em formato numérico excel
@@ -20,7 +21,8 @@ function converterDataExcelParaSQL($data_raw, $indice, $coluna, &$erros, $tabela
             $mensagem = "Erro na linha $indice, coluna $coluna: Formato de data incorreto ou falha na 
                     sconversão. Conteúdo da célula: " . $data_raw;
             // echo $mensagem . "<br>";
-            criaLogs($tabela, $mensagem); // Chama a função de log
+            $errosDetalhados[] = $mensagem;
+            // criaLogs($tabela, $mensagem); // Chama a função de log, agora está sendo armazenado no $errosDetalhados
             $data_sql = null;
             $erros++;
         }
