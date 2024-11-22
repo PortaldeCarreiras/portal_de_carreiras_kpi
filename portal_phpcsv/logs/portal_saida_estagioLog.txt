@@ -1,3 +1,2246 @@
+[2024-11-22 15:20:36] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 15:20:36] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 15:20:36] Total de linhas que apresentaram erro: 10
+[2024-11-22 15:20:36] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:20:36] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 15:20:34] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 15:10:46] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 15:10:46] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 15:10:46] Total de linhas que apresentaram erro: 10
+[2024-11-22 15:10:46] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:46] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 15:10:43] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 15:10:10] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 15:10:10] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 15:10:10] Total de linhas que apresentaram erro: 10
+[2024-11-22 15:10:10] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:10:10] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 15:10:07] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 15:05:30] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 15:05:30] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 15:05:30] Total de linhas que apresentaram erro: 10
+[2024-11-22 15:05:30] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 15:05:30] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 15:05:28] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 14:42:16] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 14:42:16] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 14:42:16] Total de linhas que apresentaram erro: 10
+[2024-11-22 14:42:16] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:42:16] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 14:42:14] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 14:28:04] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 14:28:04] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 14:28:04] Total de linhas que apresentaram erro: 10
+[2024-11-22 14:28:04] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:04] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 14:28:02] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 14:28:00] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 14:28:00] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 14:28:00] Total de linhas que apresentaram erro: 10
+[2024-11-22 14:28:00] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:28:00] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 14:27:58] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 14:16:15] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 14:16:15] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 14:16:15] Total de linhas que apresentaram erro: 10
+[2024-11-22 14:16:15] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 14:16:15] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 14:16:12] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 10:22:47] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 10:22:47] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 10:22:47] Total de linhas que apresentaram erro: 10
+[2024-11-22 10:22:47] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:22:47] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 10:22:45] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 10:19:59] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 10:19:59] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 10:19:59] Total de linhas que apresentaram erro: 10
+[2024-11-22 10:19:59] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:19:59] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 10:19:57] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 10:11:30] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 10:11:30] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 10:11:30] Total de linhas que apresentaram erro: 10
+[2024-11-22 10:11:30] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:11:30] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 10:11:28] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 10:02:51] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 10:02:51] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 10:02:51] Total de linhas que apresentaram erro: 10
+[2024-11-22 10:02:51] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 10:02:51] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 10:02:49] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 09:46:42] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 09:46:42] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 09:46:42] Total de linhas que apresentaram erro: 10
+[2024-11-22 09:46:42] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:46:42] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 09:46:40] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 09:43:55] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 09:43:55] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 09:43:55] Total de linhas que apresentaram erro: 10
+[2024-11-22 09:43:55] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:43:55] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 09:43:53] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 09:27:05] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 09:27:05] Total de linhas inseridas: 0, Total de colunas: 0
+[2024-11-22 09:27:05] Total de linhas que apresentaram erro: 1991
+[2024-11-22 09:27:05] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:05] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:04] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:03] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:02] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:01] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:27:00] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:59] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:58] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:57] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:56] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:55] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:54] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:53] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:52] Erro na inserção: Dados inválidos.
+[2024-11-22 09:26:51] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 09:10:11] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 09:09:05] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-22 08:56:03] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
+[2024-11-22 08:56:03] Total de linhas inseridas: 1981, Total de colunas: 17
+[2024-11-22 08:56:03] Total de linhas que apresentaram erro: 10
+[2024-11-22 08:56:03] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-22 08:56:03] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-22 08:56:01] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
 [2024-11-21 11:26:54] Os dados da tabela portal_saida_estagio foram substituídos com sucesso!
 [2024-11-21 11:26:54] Total de linhas inseridas: 1981, Total de colunas: 17
 [2024-11-21 11:26:54] Total de linhas que apresentaram erro: 10

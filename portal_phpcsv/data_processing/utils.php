@@ -3,54 +3,12 @@
 function removerAcentos($string)
 {
     $acentos = array(
-        'Á' => 'A',
-        'À' => 'A',
-        'Â' => 'A',
-        'Ã' => 'A',
-        'Ä' => 'A',
-        'á' => 'a',
-        'à' => 'a',
-        'â' => 'a',
-        'ã' => 'a',
-        'ä' => 'a',
-        'É' => 'E',
-        'È' => 'E',
-        'Ê' => 'E',
-        'Ë' => 'E',
-        'é' => 'e',
-        'è' => 'e',
-        'ê' => 'e',
-        'ë' => 'e',
-        'Í' => 'I',
-        'Ì' => 'I',
-        'Î' => 'I',
-        'Ï' => 'I',
-        'í' => 'i',
-        'ì' => 'i',
-        'î' => 'i',
-        'ï' => 'i',
-        'Ó' => 'O',
-        'Ò' => 'O',
-        'Ô' => 'O',
-        'Õ' => 'O',
-        'Ö' => 'O',
-        'ó' => 'o',
-        'ò' => 'o',
-        'ô' => 'o',
-        'õ' => 'o',
-        'ö' => 'o',
-        'Ú' => 'U',
-        'Ù' => 'U',
-        'Û' => 'U',
-        'Ü' => 'U',
-        'ú' => 'u',
-        'ù' => 'u',
-        'û' => 'u',
-        'ü' => 'u',
-        'Ç' => 'C',
-        'ç' => 'c',
-        'Ñ' => 'N',
-        'ñ' => 'n'
+        'Á' => 'A', 'À' => 'A', 'Â' => 'A', 'Ã' => 'A', 'Ä' => 'A', 'á' => 'a', 'à' => 'a', 'â' => 'a', 'ã' => 'a', 'ä' => 'a',
+        'É' => 'E', 'È' => 'E', 'Ê' => 'E', 'Ë' => 'E', 'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
+        'Í' => 'I', 'Ì' => 'I', 'Î' => 'I', 'Ï' => 'I', 'í' => 'i', 'ì' => 'i', 'î' => 'i', 'ï' => 'i',
+        'Ó' => 'O', 'Ò' => 'O', 'Ô' => 'O', 'Õ' => 'O', 'Ö' => 'O', 'ó' => 'o', 'ò' => 'o', 'ô' => 'o', 'õ' => 'o', 'ö' => 'o',
+        'Ú' => 'U', 'Ù' => 'U', 'Û' => 'U', 'Ü' => 'U', 'ú' => 'u', 'ù' => 'u', 'û' => 'u', 'ü' => 'u',
+        'Ç' => 'C', 'ç' => 'c', 'Ñ' => 'N', 'ñ' => 'n'
     );
     return strtr($string, $acentos);
 }
@@ -119,7 +77,7 @@ function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalL
             $cellIterator->setIterateOnlyExistingCells(false); // Inclui células vazias
 
             // Inicializa a variável $dados para processar cada linha e obter os valores de cada célula.
-            $dados = $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados);
+            $dados = $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados, $worksheet);
 
             // Insere os dados no banco de dados
             if (!inserirDados($conn, $tabela, $dados)) {
@@ -130,6 +88,22 @@ function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalL
             }   //  Fim do IF de inserção de dados
         }   //  Fim do IF de verificação de cabeçalho
     }   //  Fim do loop de iteração sobre as linhas
+}
+
+function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros)
+{
+    // Esse bloco ordena e grava os erros no log
+    ordenarGravarErrosLog($errosDetalhados, $tabela);   // Chamar a função para ordenar e gravar erros no log
+    // Cria logs com as informações sobre a execução (a sequencia de impressão está invertida no log)
+    $mensagemErros = "Total de linhas que apresentaram erro: $erros";
+    criaLogs($tabela, $mensagemErros); // Chama a função de log
+    $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
+    criaLogs($tabela, $mensagemFinal); // Chama a função de log
+    criaLogs($tabela, "Os dados da tabela $tabela foram substituídos com sucesso!");
+    if ($erros === 0) {
+        $mensagemSucesso = "Todas as informações carregadas com sucesso!";
+        criaLogs($tabela, $mensagemSucesso); // Chama a função de log
+    }   //  Fim do IF de verificação de erros
 }
 
 // Função genérica para exibir log de processamento no navegador
@@ -150,4 +124,3 @@ function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros)
         }, 10000);
     </script>";
 }
-?>

@@ -108,7 +108,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
         } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
             header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath)); // Linha alterada
         } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
-            header("Location: data_processing/fileSaida.php?file=" . urlencode($outputFilePath)); // Linha alterada
+            header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath)); // Linha alterada
         }
         exit();
     } else {
@@ -162,10 +162,10 @@ $conn->close();
             <p class="text-warning">Sua solicitação está sendo executada, aguarde o término da mesma!</p>
         </div>
         <!-- Exibe as informações do arquivo carregado -->
-        <?php if (isset($fileName) && isset($data_criacao)): ?>
+        <!-- <?php if (isset($fileName) && isset($data_criacao)): ?>
             <label>&nbsp Arquivo Carregado: <?php echo $fileName; ?></label><br>
             <label>&nbsp Data de Criação: <?php echo $data_criacao; ?></label><br>
-        <?php endif; ?>
+        <?php endif; ?> -->
     </div>
 </body>
 
