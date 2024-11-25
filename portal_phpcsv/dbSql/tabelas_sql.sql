@@ -52,9 +52,22 @@ CREATE TABLE 'portal_saida_estagio' (
 	'data_final' date NOT NULL,
 	'orientador' VARCHAR(50) NOT NULL,
 	'resp_empresa' VARCHAR(50) NOT NULL,
+  'data_arquivo' date NOT NULL,
   'data' datetime NOT NULL,
   PRIMARY KEY ('id')  -- Chave primária definida
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+-- Estrutura da tabela 'planilha_upload'
+CREATE TABLE planilha_upload (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    arquivo_nome VARCHAR(255) NOT NULL,
+    arquivo_tipo VARCHAR(255) NOT NULL,
+    arquivo_tamanho INT NOT NULL,
+    arquivo_data DATETIME NOT NULL,
+    arquivo_data_upload DATETIME NOT NULL,
+    arquivo_local_armazenado VARCHAR(255) NOT NULL
+);
 
 -- --------------------------------------------------------
 -- Alguns comandos

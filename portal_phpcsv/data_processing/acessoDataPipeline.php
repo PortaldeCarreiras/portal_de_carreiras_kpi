@@ -1,6 +1,6 @@
 <?php
-function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados){
-
+function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados, $dataArquivo)
+{
     // Processar linha específica para portal_acesso
     // Obtendo os valores de cada célula
     $codigo = (int)$cellIterator->current()->getValue();
@@ -19,6 +19,8 @@ function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, 
         'mes_acesso' => $mes_acesso,
         'ano_acesso' => $ano_acesso,
         'numero_acessos' => $numero_acessos,
-        'data' => date('Y-m-d H:i:s')
+        'data_arquivo' => $dataArquivo // Adiciona a data do arquivo
+        // 'data' => date('Y-m-d H:i:s')
     ];
 }
+?>

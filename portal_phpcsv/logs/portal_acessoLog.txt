@@ -1,3 +1,87 @@
+[2024-11-24 21:26:26] Todas as informações carregadas com sucesso!
+[2024-11-24 21:26:26] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-24 21:26:26] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-24 21:26:26] Total de linhas que apresentaram erro: 0
+[2024-11-24 21:26:26] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-24 21:24:11] Todas as informações carregadas com sucesso!
+[2024-11-24 21:24:11] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-24 21:24:11] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-24 21:24:11] Total de linhas que apresentaram erro: 0
+[2024-11-24 21:24:10] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-23 11:05:08] Todas as informações carregadas com sucesso!
+[2024-11-23 11:05:08] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-23 11:05:08] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-23 11:05:08] Total de linhas que apresentaram erro: 0
+[2024-11-23 11:05:08] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-23 10:51:14] Todas as informações carregadas com sucesso!
+[2024-11-23 10:51:14] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-23 10:51:14] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-23 10:51:14] Total de linhas que apresentaram erro: 0
+[2024-11-23 10:51:13] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-23 10:30:08] Todas as informações carregadas com sucesso!
+[2024-11-23 10:30:08] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-23 10:30:08] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-23 10:30:08] Total de linhas que apresentaram erro: 0
+[2024-11-23 10:30:08] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-23 09:50:35] Todas as informações carregadas com sucesso!
+[2024-11-23 09:50:35] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-23 09:50:35] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-23 09:50:35] Total de linhas que apresentaram erro: 0
+[2024-11-23 09:50:35] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-23 09:22:27] Todas as informações carregadas com sucesso!
+[2024-11-23 09:22:27] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-23 09:22:27] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-23 09:22:27] Total de linhas que apresentaram erro: 0
+[2024-11-23 09:22:27] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-23 09:16:33] Todas as informações carregadas com sucesso!
+[2024-11-23 09:16:33] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-23 09:16:33] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-23 09:16:33] Total de linhas que apresentaram erro: 0
+[2024-11-23 09:16:32] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-22 16:31:22] Todas as informações carregadas com sucesso!
+[2024-11-22 16:31:22] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-22 16:31:22] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-11-22 16:31:22] Total de linhas que apresentaram erro: 0
+[2024-11-22 16:31:22] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-22 16:23:12] Todas as informações carregadas com sucesso!
+[2024-11-22 16:23:12] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-22 16:23:12] Total de linhas inseridas: 28, Total de colunas: 7
+[2024-11-22 16:23:12] Total de linhas que apresentaram erro: 0
+[2024-11-22 16:23:12] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-22 16:13:44] Todas as informações carregadas com sucesso!
+[2024-11-22 16:13:44] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-22 16:13:44] Total de linhas inseridas: 28, Total de colunas: 7
+[2024-11-22 16:13:44] Total de linhas que apresentaram erro: 0
+[2024-11-22 16:13:44] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-11-22 16:00:46] Todas as informações carregadas com sucesso!
+[2024-11-22 16:00:46] Os dados da tabela portal_acesso foram substituídos com sucesso!
+[2024-11-22 16:00:46] Total de linhas inseridas: 28, Total de colunas: 7
+[2024-11-22 16:00:46] Total de linhas que apresentaram erro: 0
+[2024-11-22 16:00:46] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
 [2024-11-22 15:19:45] Todas as informações carregadas com sucesso!
 [2024-11-22 15:19:45] Os dados da tabela portal_acesso foram substituídos com sucesso!
 [2024-11-22 15:19:45] Total de linhas inseridas: 28, Total de colunas: 6
