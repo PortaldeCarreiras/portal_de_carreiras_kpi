@@ -64,7 +64,7 @@ function metaProcessFile($conn)
         capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess = true);
 
         // Exibir mensagem resumida no navegador
-        exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);
+        exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $metaProcess = true);
 
         return "Arquivo carregado e metadados salvos com sucesso.";
     }

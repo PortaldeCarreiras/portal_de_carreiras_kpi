@@ -51,22 +51,6 @@ function exibirAlertaERedirecionar($mensagem)
     exit();
 }
 
-// Função para exibir mensagem resumida no navegador
-function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros)
-{
-    // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
-    echo "<script>
-        alert('Dados da tabela $tabela foram apagados.\\n" .
-        "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
-        "Total de linhas que apresentaram erro: *** $erros ***\\n" .
-        ($erros === 0
-            ? "Todas as informações carregadas com sucesso!\\n"
-            : "Informações carregadas com sucesso!\\n" .
-            "As informações de erros podem ser vistas no arquivo de log {$tabela}Log.txt") . "');
-        window.location.href = '/portal/portal_phpcsv/index.php';
-        </script>";
-}
-
 // Itera sobre todas as linhas da planilha
 function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas, &$erros, &$errosDetalhados)
 {
@@ -90,10 +74,37 @@ function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalL
     }   //  Fim do loop de iteração sobre as linhas
 }
 
+// Função para exibir mensagem resumida no navegador
+function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $metaProcess = false)
+{
+    // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
+
+    $aux = $metaProcess ? "
+        alert('Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
+        "Total de linhas que apresentaram erro: *** $erros ***\\n" .
+        ($erros === 0
+            ? "Todas as informações carregadas com sucesso!\\n"
+            : "Informações carregadas com sucesso!\\n" .
+            "As informações de erros podem ser vistas no arquivo de log {$tabela}Log.txt") . "');
+        window.location.href = '/portal/portal_phpcsv/index.php';
+        " : "
+        alert('Dados da tabela $tabela foram apagados.\\n" .
+        "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
+        "Total de linhas que apresentaram erro: *** $erros ***\\n" .
+        ($erros === 0
+            ? "Todas as informações carregadas com sucesso!\\n"
+            : "Informações carregadas com sucesso!\\n" .
+            "As informações de erros podem ser vistas no arquivo de log {$tabela}Log.txt") . "');
+        window.location.href = '/portal/portal_phpcsv/index.php';
+        ";
+
+    echo "<script>$aux</script>";
+}
+
 // Inclui a função para ordenar e gravar erros no log
 include_once(__DIR__ . '/../logs/ordenarGravarErrosLog.php');
 
-function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess)
+function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess = false)
 {
     // Determina o valor de $acao
     $acao = $metaProcess ? "inseridas" : "substituídas";  // Determina a ação a ser realizada
