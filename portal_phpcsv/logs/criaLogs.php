@@ -19,7 +19,7 @@ function criaLogs($nomeArquivoOrigem, $mensagem)
 
         // Old gravação de log
         // Grava a mensagem no arquivo de log
-        // file_put_contents($logFilePath, $mensagemCompleta, FILE_APPEND);
+        file_put_contents($logFilePath, $mensagemCompleta, FILE_APPEND);
 
         // New gravação de log, cod. NOVO adicional
 
@@ -36,3 +36,4 @@ function criaLogs($nomeArquivoOrigem, $mensagem)
         file_put_contents($logFilePath, $novoConteudo);
     }
 }
+?>

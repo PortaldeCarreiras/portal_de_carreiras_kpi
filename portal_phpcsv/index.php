@@ -7,7 +7,7 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
 include('conn.php');
 
-$message = metaProcessFile($conn, 'planilha_upload');
+$message = metaProcessFile($conn);
 
 $conn->close();
 ?>

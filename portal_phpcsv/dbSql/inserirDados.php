@@ -1,5 +1,9 @@
 <?php   // Função para inserir dados no banco de dados
-require_once '../logs/criaLogs.php'; // Inclui a função de log
+include_once(__DIR__ . '/../logs/criaLogs.php'); // Inclui a função de log
+
+if (!file_exists(__DIR__ . '/../logs/criaLogs.php')) {
+    die("Arquivo criaLogs.php não encontrado no caminho esperado.");
+}
 
 // Função genérica para inserir dados no banco de dados
 function inserirDados($conn, $tabela, $dados) {

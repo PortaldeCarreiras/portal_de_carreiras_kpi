@@ -63,7 +63,7 @@ function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros)
             ? "Todas as informações carregadas com sucesso!\\n"
             : "Informações carregadas com sucesso!\\n" .
             "As informações de erros podem ser vistas no arquivo de log {$tabela}Log.txt") . "');
-        window.location.href = '../index.php';
+        window.location.href = '/portal/portal_phpcsv/index.php';
         </script>";
 }
 
@@ -90,20 +90,27 @@ function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalL
     }   //  Fim do loop de iteração sobre as linhas
 }
 
-function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros)
+// Inclui a função para ordenar e gravar erros no log
+include_once(__DIR__ . '/../logs/ordenarGravarErrosLog.php');
+
+function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess)
 {
+    // Determina o valor de $acao
+    $acao = $metaProcess ? "inseridas" : "substituídas";  // Determina a ação a ser realizada
+
     // Esse bloco ordena e grava os erros no log
     ordenarGravarErrosLog($errosDetalhados, $tabela);   // Chamar a função para ordenar e gravar erros no log
     // Cria logs com as informações sobre a execução (a sequencia de impressão está invertida no log)
-    $mensagemErros = "Total de linhas que apresentaram erro: $erros";
-    criaLogs($tabela, $mensagemErros); // Chama a função de log
+    $mensagemErros = "Total de linhas que apresentaram erro: $erros\n\n";
+    criaLogs($tabela, $mensagemErros); // Chama a função de log    
     $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
     criaLogs($tabela, $mensagemFinal); // Chama a função de log
-    criaLogs($tabela, "Os dados da tabela $tabela foram substituídos com sucesso!");
+    criaLogs($tabela, "Os dados da tabela $tabela foram $acao com sucesso!");
     if ($erros === 0) {
         $mensagemSucesso = "Todas as informações carregadas com sucesso!";
         criaLogs($tabela, $mensagemSucesso); // Chama a função de log
     }   //  Fim do IF de verificação de erros
+    criaLogs($tabela, $fileName); // Chama a função de log
 }
 
 // Função genérica para exibir log de processamento no navegador

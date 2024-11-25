@@ -1,11 +1,14 @@
 <?php
-require_once 'metaDataPipeline.php';
-require_once __DIR__ . '/../dbSql/truncarTabelaSql.php'; // Corrigir o caminho para o arquivo correto
+include_once(__DIR__ . '/../logs/criaLogs.php'); // Inclui a função de log
+include_once(__DIR__ . '/../dbSql/truncarTabelaSql.php'); // Inclui a função de truncar tabela
+include_once(__DIR__ . '/../dbSql/inserirDados.php'); // Inclui a função de inserção de dados
+include_once(__DIR__ . '/../data_processing/utils.php'); // Inclui as funções comuns
+include_once('metaDataPipeline.php');
 
-function metaProcessFile($conn, $tabela) {
-    // Limpa a tabela antes de inserir novos dados
-    // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
-    truncarTabela($conn, $tabela);
+function metaProcessFile($conn)
+{
+    // Define a tabela a ser usada
+    $tabela = 'planilha_upload';
 
     // Função para processar o arquivo e salvar os metadados no banco de dados
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
@@ -36,12 +39,32 @@ function metaProcessFile($conn, $tabela) {
         copy($fileTmpName, $outputFilePath);
         touch($outputFilePath, strtotime($dataModificacao));
 
+        // Chama a função para truncar a tabela antes de inserir novos dados
+        // Não mexer nessa função, ela serve para limpar a tabela durante o processo de desenvolvimento.
+        // truncarTabela($conn, $tabela);
+
         $fileMetaData = metaDataPipeline($fileName, $fileType, $fileSize, $dataModificacao, $dataUpload, $outputFilePath);
 
-        $stmt = $conn->prepare("INSERT INTO planilha_upload (arquivo_nome, arquivo_tipo, arquivo_tamanho, arquivo_data, arquivo_data_upload, arquivo_local_armazenado) VALUES (?, ?, ?, ?, ?, ?)");
-        $stmt->bind_param("ssisss", $fileMetaData['arquivo_nome'], $fileMetaData['arquivo_tipo'], $fileMetaData['arquivo_tamanho'], $fileMetaData['arquivo_data'], $fileMetaData['arquivo_data_upload'], $fileMetaData['arquivo_local_armazenado']);
-        $stmt->execute();
-        $stmt->close();
+        // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
+        $totalLinhas = 0;
+        $totalColunas = 0;
+        $erros = 0;
+        // Array para armazenar os erros detalhados
+        $errosDetalhados = [];
+
+        // Insere os dados no banco de dados
+        if (!inserirDados($conn, $tabela, $fileMetaData)) {
+            $erros++;
+        } else {
+            $totalLinhas++;
+            $totalColunas = max($totalColunas, count($fileMetaData));
+        }
+
+        // Captura e grava os erros no log com a variável $metaProcess
+        capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess = true);
+
+        // Exibir mensagem resumida no navegador
+        exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);
 
         return "Arquivo carregado e metadados salvos com sucesso.";
     }
