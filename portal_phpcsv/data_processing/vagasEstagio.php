@@ -9,14 +9,12 @@ include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
 include_once('vagasDataPipeline.php'); // Inclui a função de processamento de linha
 
-function processarVagasEstagio($file, $conn, $tabela, $processarLinha)
-{
+function processarVagasEstagio($file, $conn, $tabela, $processarLinha){
     registrarLogDepuracao("Função processarVagasEstagio iniciada.");
 
     // Limpa a tabela antes de inserir novos dados
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
     truncarTabela($conn, $tabela);
-    registrarLogDepuracao("Tabela $tabela truncada.");
 
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
     registrarLogDepuracao("Planilha $file carregada.");
@@ -32,17 +30,13 @@ function processarVagasEstagio($file, $conn, $tabela, $processarLinha)
     $errosDetalhados = [];
 
     // Itera sobre todas as linhas da planilha
-    registrarLogDepuracao("Iniciando iteração sobre as linhas da planilha.");
     iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, false);
-    registrarLogDepuracao("Iteração sobre as linhas finalizada. Total de linhas processadas: $totalLinhas. Total de erros: $erros.");
 
     // Essa função ordena e grava os erros no log
     capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file);
-    registrarLogDepuracao("Erros capturados e registrados no log.");
 
-    registrarLogDepuracao("Exibindo mensagem resumida no navegador.");
+    // Exibe a mensagem resumida no navegador
     exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);
-    registrarLogDepuracao("Mensagem resumida exibida.");
 }
 
 // Verifica se o arquivo foi enviado via GET
@@ -52,6 +46,5 @@ if (isset($_GET['file'])) {
     // $dataArquivo = urldecode($_GET['dataModificacao']); // Obtém a data do arquivo do formulário
     processarVagasEstagio($file, $conn, $tabela, 'vagasPlanilhaExtrairMapToDb');
 }   //  Fim do IF de verificação de arquivo enviado via GET
-
 
 $conn->close();

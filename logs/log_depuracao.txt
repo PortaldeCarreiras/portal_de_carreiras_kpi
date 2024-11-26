@@ -1,0 +1,18 @@
+[2024-11-26 18:03:11] Erros capturados e registrados no log.
+[2024-11-26 18:03:11] Exibindo mensagem resumida no navegador.
+[2024-11-26 18:03:11] Mensagem resumida exibida.
+
+
+
+[2024-11-26 18:03:22] Erros capturados e registrados no log.
+[2024-11-26 18:03:22] Exibindo mensagem resumida no navegador.
+[2024-11-26 18:03:22] Mensagem resumida exibida.
+
+
+
+[2024-11-26 18:03:58] Erros capturados e registrados no log.
+[2024-11-26 18:03:58] Exibindo mensagem resumida no navegador.
+[2024-11-26 18:03:58] Mensagem resumida exibida.
+
+
+

@@ -13,13 +13,13 @@ function metaProcessFile($conn)
     // Função para processar o arquivo e salvar os metadados no banco de dados
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
         $file = $_FILES['xls_file'];
-        $dataModificacao = $_POST['dataModificacao'];
-        $fileName = $file['name'];
         $fileTmpName = $file['tmp_name'];
         $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
-        $dataUpload = date('Y-m-d H:i:s');
-        $fileSize = $file['size'];
+        $fileName = $file['name'];
         $fileType = $file['type'];
+        $fileSize = $file['size'];
+        $dataModificacao = $_POST['dataModificacao'];
+        $dataUpload = date('Y-m-d H:i:s');
         $outputFilePath = __DIR__ . '/../uploads/original/' . $fileName;
 
         if (!file_exists(__DIR__ . '/../uploads/original')) {

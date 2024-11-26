@@ -10,9 +10,8 @@ function inserirDados($conn, $tabela, $dados) {
     $campos = implode(", ", array_keys($dados));
     $valores = "'" . implode("','", array_values($dados)) . "'";
 
-    registrarLogDepuracao("Tentando inserir dados na tabela $tabela: " . json_encode($dados));
+    // registrarLogDepuracao("Inserindo dados na tabela $tabela: " . json_encode($dados));
     if (mysqli_query($conn, "INSERT INTO $tabela ($campos) VALUES ($valores)")) {
-        registrarLogDepuracao("Inserção bem-sucedida na tabela $tabela.");
         return true;
     } else {
         $mensagem = "Erro na inserção: " . mysqli_error($conn);

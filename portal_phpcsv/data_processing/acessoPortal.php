@@ -11,12 +11,16 @@ include_once('acessoDataPipeline.php'); // Inclui a função de processamento de
 
 function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArquivo)
 {
+    registrarLogDepuracao("Função processarAcessoPortal iniciada.");
     // Limpa a tabela antes de inserir novos dados
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
     truncarTabela($conn, $tabela);
 
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
+    registrarLogDepuracao("Planilha $file carregada.");
+
     $worksheet = $spreadsheet->getActiveSheet();
+    registrarLogDepuracao("Aba ativa da planilha obtida.");
 
     // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
     $totalLinhas = 0;

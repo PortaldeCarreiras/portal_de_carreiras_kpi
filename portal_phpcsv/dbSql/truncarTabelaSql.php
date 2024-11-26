@@ -8,6 +8,7 @@ function truncarTabela($conn, $tabela) {
         $mensagem = "Dados da tabela $tabela foram apagados, antes do Upload.";
         // echo $mensagem . "<br>";
         criaLogs($tabela, "$mensagem\n\n"); // Chama a função de log
+        registrarLogDepuracao("Tabela $tabela truncada.");
     } else {
         $mensagem = "Erro ao apagar dados da tabela $tabela: " . mysqli_error($conn);
         // echo $mensagem . "<br>";

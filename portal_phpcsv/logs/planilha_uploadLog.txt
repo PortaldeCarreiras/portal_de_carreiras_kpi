@@ -1,3 +1,199 @@
+[2024-11-26 18:03:58] saida.csv
+[2024-11-26 18:03:58] Todas as informações carregadas com sucesso!
+[2024-11-26 18:03:58] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 18:03:58] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 18:03:58] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 18:03:22] Consulta de Vagas de estágio.xls
+[2024-11-26 18:03:22] Todas as informações carregadas com sucesso!
+[2024-11-26 18:03:22] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 18:03:22] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 18:03:22] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 18:03:11] AcessoPortal.xls
+[2024-11-26 18:03:11] Todas as informações carregadas com sucesso!
+[2024-11-26 18:03:11] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 18:03:11] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 18:03:11] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:43:46] saida.csv
+[2024-11-26 17:43:46] Todas as informações carregadas com sucesso!
+[2024-11-26 17:43:46] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:43:46] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:43:46] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:40:25] AcessoPortal.xls
+[2024-11-26 17:40:25] Todas as informações carregadas com sucesso!
+[2024-11-26 17:40:25] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:40:25] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:40:25] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:38:28] Consulta de Vagas de estágio.xls
+[2024-11-26 17:38:28] Todas as informações carregadas com sucesso!
+[2024-11-26 17:38:28] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:38:28] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:38:28] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:25:41] Consulta de Vagas de estágio.xls
+[2024-11-26 17:25:41] Todas as informações carregadas com sucesso!
+[2024-11-26 17:25:41] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:25:41] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:25:41] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:15:35] Consulta de Vagas de estágio.xls
+[2024-11-26 17:15:35] Todas as informações carregadas com sucesso!
+[2024-11-26 17:15:35] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:15:35] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:15:35] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:11:33] Consulta de Vagas de estágio.xls
+[2024-11-26 17:11:33] Todas as informações carregadas com sucesso!
+[2024-11-26 17:11:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:11:33] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:11:33] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:07:32] Consulta de Vagas de estágio.xls
+[2024-11-26 17:07:32] Todas as informações carregadas com sucesso!
+[2024-11-26 17:07:32] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:07:32] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:07:32] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:02:08] Consulta de Vagas de estágio.xls
+[2024-11-26 17:02:08] Todas as informações carregadas com sucesso!
+[2024-11-26 17:02:08] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:02:08] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:02:08] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:58:29] Consulta de Vagas de estágio.xls
+[2024-11-26 16:58:29] Todas as informações carregadas com sucesso!
+[2024-11-26 16:58:29] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:58:29] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:58:29] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:47:05] Consulta de Vagas de estágio.xls
+[2024-11-26 16:47:05] Todas as informações carregadas com sucesso!
+[2024-11-26 16:47:05] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:47:05] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:47:05] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:46:52] AcessoPortal.xls
+[2024-11-26 16:46:52] Todas as informações carregadas com sucesso!
+[2024-11-26 16:46:52] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:46:52] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:46:51] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:41:16] Consulta de Vagas de estágio.xls
+[2024-11-26 16:41:16] Todas as informações carregadas com sucesso!
+[2024-11-26 16:41:16] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:41:16] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:41:16] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:35:15] Consulta de Vagas de estágio.xls
+[2024-11-26 16:35:15] Todas as informações carregadas com sucesso!
+[2024-11-26 16:35:15] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:35:15] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:35:15] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:34:52] Consulta de Vagas de estágio.xls
+[2024-11-26 16:34:52] Todas as informações carregadas com sucesso!
+[2024-11-26 16:34:52] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:34:52] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:34:52] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:26:04] Consulta de Vagas de estágio.xls
+[2024-11-26 16:26:04] Todas as informações carregadas com sucesso!
+[2024-11-26 16:26:04] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:26:04] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:26:04] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:23:14] Consulta de Vagas de estágio.xls
+[2024-11-26 16:23:14] Todas as informações carregadas com sucesso!
+[2024-11-26 16:23:14] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:23:14] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:23:14] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:19:55] Consulta de Vagas de estágio.xls
+[2024-11-26 16:19:55] Todas as informações carregadas com sucesso!
+[2024-11-26 16:19:55] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:19:55] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:19:55] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:08:45] Consulta de Vagas de estágio.xls
+[2024-11-26 16:08:45] Todas as informações carregadas com sucesso!
+[2024-11-26 16:08:45] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:08:45] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:08:45] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:05:13] AcessoPortal.xls
+[2024-11-26 16:05:13] Todas as informações carregadas com sucesso!
+[2024-11-26 16:05:13] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:05:13] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:05:13] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:59:34] AcessoPortal.xls
+[2024-11-26 15:59:34] Todas as informações carregadas com sucesso!
+[2024-11-26 15:59:34] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:59:34] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:59:34] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:59:10] AcessoPortal.xls
+[2024-11-26 15:59:10] Todas as informações carregadas com sucesso!
+[2024-11-26 15:59:10] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:59:10] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:59:10] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:39:40] AcessoPortal.xls
+[2024-11-26 15:39:40] Todas as informações carregadas com sucesso!
+[2024-11-26 15:39:40] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:39:40] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:39:40] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:38:42] Consulta de Vagas de estágio10L.xls
+[2024-11-26 15:38:42] Todas as informações carregadas com sucesso!
+[2024-11-26 15:38:42] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:38:42] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:38:42] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:25:33] AcessoPortal.xls
+[2024-11-26 15:25:33] Todas as informações carregadas com sucesso!
+[2024-11-26 15:25:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:25:33] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:25:33] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:23:08] AcessoPortal.xls
+[2024-11-26 15:23:08] Todas as informações carregadas com sucesso!
+[2024-11-26 15:23:08] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:23:08] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:23:08] Total de linhas que apresentaram erro: 0
+
+
 [2024-11-26 08:20:16] saida.csv
 [2024-11-26 08:20:16] Todas as informações carregadas com sucesso!
 [2024-11-26 08:20:16] Os dados da tabela planilha_upload foram inseridas com sucesso!
@@ -1026,3 +1222,199 @@ Total de linhas que apresentaram erro: 0
 [2024-11-26 08:20:16] Os dados da tabela planilha_upload foram inseridas com sucesso!
 [2024-11-26 08:20:16] Todas as informações carregadas com sucesso!
 [2024-11-26 08:20:16] saida.csv
+[2024-11-26 15:23:08] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:23:08] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:23:08] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:23:08] Todas as informações carregadas com sucesso!
+[2024-11-26 15:23:08] AcessoPortal.xls
+[2024-11-26 15:25:33] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:25:33] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:25:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:25:33] Todas as informações carregadas com sucesso!
+[2024-11-26 15:25:33] AcessoPortal.xls
+[2024-11-26 15:38:42] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:38:42] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:38:42] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:38:42] Todas as informações carregadas com sucesso!
+[2024-11-26 15:38:42] Consulta de Vagas de estágio10L.xls
+[2024-11-26 15:39:40] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:39:40] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:39:40] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:39:40] Todas as informações carregadas com sucesso!
+[2024-11-26 15:39:40] AcessoPortal.xls
+[2024-11-26 15:59:10] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:59:10] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:59:10] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:59:10] Todas as informações carregadas com sucesso!
+[2024-11-26 15:59:10] AcessoPortal.xls
+[2024-11-26 15:59:34] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 15:59:34] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 15:59:34] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 15:59:34] Todas as informações carregadas com sucesso!
+[2024-11-26 15:59:34] AcessoPortal.xls
+[2024-11-26 16:05:13] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:05:13] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:05:13] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:05:13] Todas as informações carregadas com sucesso!
+[2024-11-26 16:05:13] AcessoPortal.xls
+[2024-11-26 16:08:45] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:08:45] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:08:45] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:08:45] Todas as informações carregadas com sucesso!
+[2024-11-26 16:08:45] Consulta de Vagas de estágio.xls
+[2024-11-26 16:19:55] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:19:55] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:19:55] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:19:55] Todas as informações carregadas com sucesso!
+[2024-11-26 16:19:55] Consulta de Vagas de estágio.xls
+[2024-11-26 16:23:14] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:23:14] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:23:14] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:23:14] Todas as informações carregadas com sucesso!
+[2024-11-26 16:23:14] Consulta de Vagas de estágio.xls
+[2024-11-26 16:26:04] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:26:04] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:26:04] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:26:04] Todas as informações carregadas com sucesso!
+[2024-11-26 16:26:04] Consulta de Vagas de estágio.xls
+[2024-11-26 16:34:52] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:34:52] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:34:52] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:34:52] Todas as informações carregadas com sucesso!
+[2024-11-26 16:34:52] Consulta de Vagas de estágio.xls
+[2024-11-26 16:35:15] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:35:15] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:35:15] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:35:15] Todas as informações carregadas com sucesso!
+[2024-11-26 16:35:15] Consulta de Vagas de estágio.xls
+[2024-11-26 16:41:16] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:41:16] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:41:16] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:41:16] Todas as informações carregadas com sucesso!
+[2024-11-26 16:41:16] Consulta de Vagas de estágio.xls
+[2024-11-26 16:46:51] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:46:52] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:46:52] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:46:52] Todas as informações carregadas com sucesso!
+[2024-11-26 16:46:52] AcessoPortal.xls
+[2024-11-26 16:47:05] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:47:05] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:47:05] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:47:05] Todas as informações carregadas com sucesso!
+[2024-11-26 16:47:05] Consulta de Vagas de estágio.xls
+[2024-11-26 16:58:29] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 16:58:29] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 16:58:29] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 16:58:29] Todas as informações carregadas com sucesso!
+[2024-11-26 16:58:29] Consulta de Vagas de estágio.xls
+[2024-11-26 17:02:08] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:02:08] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:02:08] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:02:08] Todas as informações carregadas com sucesso!
+[2024-11-26 17:02:08] Consulta de Vagas de estágio.xls
+[2024-11-26 17:07:32] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:07:32] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:07:32] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:07:32] Todas as informações carregadas com sucesso!
+[2024-11-26 17:07:32] Consulta de Vagas de estágio.xls
+[2024-11-26 17:11:33] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:11:33] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:11:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:11:33] Todas as informações carregadas com sucesso!
+[2024-11-26 17:11:33] Consulta de Vagas de estágio.xls
+[2024-11-26 17:15:35] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:15:35] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:15:35] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:15:35] Todas as informações carregadas com sucesso!
+[2024-11-26 17:15:35] Consulta de Vagas de estágio.xls
+[2024-11-26 17:25:41] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:25:41] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:25:41] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:25:41] Todas as informações carregadas com sucesso!
+[2024-11-26 17:25:41] Consulta de Vagas de estágio.xls
+[2024-11-26 17:38:28] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:38:28] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:38:28] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:38:28] Todas as informações carregadas com sucesso!
+[2024-11-26 17:38:28] Consulta de Vagas de estágio.xls
+[2024-11-26 17:40:25] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:40:25] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:40:25] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:40:25] Todas as informações carregadas com sucesso!
+[2024-11-26 17:40:25] AcessoPortal.xls
+[2024-11-26 17:43:46] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 17:43:46] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 17:43:46] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 17:43:46] Todas as informações carregadas com sucesso!
+[2024-11-26 17:43:46] saida.csv
+[2024-11-26 18:03:11] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 18:03:11] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 18:03:11] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 18:03:11] Todas as informações carregadas com sucesso!
+[2024-11-26 18:03:11] AcessoPortal.xls
+[2024-11-26 18:03:22] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 18:03:22] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 18:03:22] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 18:03:22] Todas as informações carregadas com sucesso!
+[2024-11-26 18:03:22] Consulta de Vagas de estágio.xls
+[2024-11-26 18:03:58] Total de linhas que apresentaram erro: 0
+
+
+[2024-11-26 18:03:58] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-11-26 18:03:58] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-11-26 18:03:58] Todas as informações carregadas com sucesso!
+[2024-11-26 18:03:58] saida.csv

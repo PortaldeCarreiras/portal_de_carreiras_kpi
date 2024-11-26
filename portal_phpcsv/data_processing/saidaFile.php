@@ -9,15 +9,18 @@ include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
 include_once('saidaDataPipeline.php'); // Inclui a função de processamento de linha
 
-function processarSaidaFile($file, $conn, $tabela, $processarLinha)
-{
+function processarSaidaFile($file, $conn, $tabela, $processarLinha){
+    registrarLogDepuracao("Função processarSaidaFile iniciada.");
     // Limpa a tabela no DB-SQL antes de inserir dados novos.
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
     truncarTabela($conn, $tabela);
 
     // Carrega a planilha
     $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
+    registrarLogDepuracao("Planilha $file carregada.");
+
     $worksheet = $spreadsheet->getActiveSheet();    // Pega a aba ativa
+    registrarLogDepuracao("Aba ativa da planilha obtida.");
 
     // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
     $totalLinhas = 0;
