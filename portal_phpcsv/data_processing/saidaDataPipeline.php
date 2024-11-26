@@ -1,5 +1,5 @@
 <?php
-function saidaPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados, $dataArquivo){
+function saidaPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados){
     // Processar linha específica para portal_saida_estagio
     // Obtendo os valores de cada célula
     $empresa_estagio = $cellIterator->current()->getValue();
@@ -67,7 +67,6 @@ function saidaPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &
         'data_inicio' => $data_inicio,
         'data_final' => $data_final,
         'orientador' => $orientador,
-        'resp_empresa' => $resp_empresa,
-        'data_arquivo' => $dataArquivo
+        'resp_empresa' => $resp_empresa
     ];  // Fim do retorno de dados
 }

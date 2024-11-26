@@ -1,13 +1,13 @@
 <?php
 require_once '../vendor/autoload.php';
-include('../conn.php');
-include('../logs/criaLogs.php'); // Inclui a função de log
-include('../dbSql/inserirDados.php'); // Inclui a função genérica de inserção de dados
-include('../dbSql/dateConverterSql.php'); // Inclui a função de conversão de data
-include('../data_processing/utils.php'); // Inclui as funções comuns
+include_once('../conn.php');
+include_once('../logs/criaLogs.php'); // Inclui a função de log
+include_once('../dbSql/inserirDados.php'); // Inclui a função genérica de inserção de dados
+include_once('../dbSql/dateConverterSql.php'); // Inclui a função de conversão de data
+include_once('../data_processing/utils.php'); // Inclui as funções comuns
 include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
-include('acessoDataPipeline.php'); // Inclui a função de processamento de linha
+include_once('acessoDataPipeline.php'); // Inclui a função de processamento de linha
 
 function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArquivo)
 {
@@ -28,10 +28,10 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
     // Itera sobre todas as linhas da planilha
     iterarSobreLinhas($worksheet, function($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados) use ($processarLinha, $dataArquivo) {
         return $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados, $dataArquivo);
-    }, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados);
+    }, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, $metaProcess = false, $dataArquivo);
 
     // Captura e grava os erros no log
-    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros);
+    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file, $metaProcess = false);
 
     // Exibe a mensagem resumida no navegador
     exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);

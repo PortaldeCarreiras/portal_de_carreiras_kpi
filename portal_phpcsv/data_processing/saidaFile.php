@@ -1,13 +1,13 @@
 <?php
 require_once '../vendor/autoload.php';
-include('../conn.php');
-include('../logs/criaLogs.php'); // Inclui a função de log
-include('../dbSql/dateConverterSql.php'); // Inclui a função de conversão de data
-include('../dbSql/inserirDados.php'); // Inclui a função genérica de inserção de dados
-include('../data_processing/utils.php'); // Inclui as funções comuns
+include_once('../conn.php');
+include_once('../logs/criaLogs.php'); // Inclui a função de log
+include_once('../dbSql/dateConverterSql.php'); // Inclui a função de conversão de data
+include_once('../dbSql/inserirDados.php'); // Inclui a função genérica de inserção de dados
+include_once('../data_processing/utils.php'); // Inclui as funções comuns
 include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
-include('saidaDataPipeline.php'); // Inclui a função de processamento de linha
+include_once('saidaDataPipeline.php'); // Inclui a função de processamento de linha
 
 function processarSaidaFile($file, $conn, $tabela, $processarLinha)
 {
@@ -30,7 +30,7 @@ function processarSaidaFile($file, $conn, $tabela, $processarLinha)
     iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados);
 
     // Essa função ordena e grava os erros no log
-    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros);
+    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file);
 
     // Exibe a mensagem resumida no navegador
     exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);

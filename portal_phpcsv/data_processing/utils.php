@@ -52,9 +52,11 @@ function exibirAlertaERedirecionar($mensagem)
 }
 
 // Itera sobre todas as linhas da planilha
-function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas, &$erros, &$errosDetalhados)
+function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas, 
+                            &$erros, &$errosDetalhados, $metaProcess = false)
 {
     // Itera sobre todas as linhas da planilha
+    registrarLogDepuracao("Iniciando iteração sobre as linhas da planilha.");
     foreach ($worksheet->getRowIterator() as $indice => $row) {
         if ($indice > 1) { // não pegar o cabeçalho 
             $cellIterator = $row->getCellIterator();    // Itera sobre todas as células da linha
@@ -62,10 +64,12 @@ function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalL
 
             // Inicializa a variável $dados para processar cada linha e obter os valores de cada célula.
             $dados = $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados, $worksheet);
+            registrarLogDepuracao("Linha $indice processada: " . json_encode($dados));
 
             // Insere os dados no banco de dados
             if (!inserirDados($conn, $tabela, $dados)) {
                 $erros++;
+                registrarLogDepuracao("Erro ao inserir linha $indice na tabela $tabela.");
             } else {
                 $totalLinhas++;
                 $totalColunas = max($totalColunas, count($dados));
@@ -112,7 +116,7 @@ function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColun
     // Esse bloco ordena e grava os erros no log
     ordenarGravarErrosLog($errosDetalhados, $tabela);   // Chamar a função para ordenar e gravar erros no log
     // Cria logs com as informações sobre a execução (a sequencia de impressão está invertida no log)
-    $mensagemErros = "Total de linhas que apresentaram erro: $erros\n\n";
+    $mensagemErros = "Total de linhas que apresentaram erro: $erros" . ($metaProcess ? "\n\n" : "");
     criaLogs($tabela, $mensagemErros); // Chama a função de log    
     $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
     criaLogs($tabela, $mensagemFinal); // Chama a função de log
@@ -141,4 +145,12 @@ function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros)
             window.location.href = '../index.php';
         }, 10000);
     </script>";
+}
+
+// Função para registrar log de depuração
+function registrarLogDepuracao($mensagem)
+{
+    $arquivoLog = '../logs/log_depuracao.txt';
+    $hora = date('Y-m-d H:i:s');
+    file_put_contents($arquivoLog, "[$hora] $mensagem\n", FILE_APPEND);
 }

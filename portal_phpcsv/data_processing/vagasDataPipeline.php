@@ -1,5 +1,5 @@
 <?php
-function vagasPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados, $worksheet, $dataArquivo)
+function vagasPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados, $worksheet)
 {
     // Processar linha específica para portal_vagas_estagio
     // Obtendo os valores de cada célula
@@ -48,7 +48,7 @@ function vagasPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &
         'responsavel_email' => $responsavel_email,
         'responsavel_telefone' => $responsavel_telefone,
         'data_alteracao' => $data_alteracao,
-        'revisao' => $revisao,
-        'data_arquivo' => $dataArquivo
+        'revisao' => $revisao//,
+        // 'data_arquivo' => $dataArquivo
     ];
 }
