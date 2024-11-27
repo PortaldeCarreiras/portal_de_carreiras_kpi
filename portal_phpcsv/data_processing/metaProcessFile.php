@@ -14,13 +14,13 @@ function metaProcessFile($conn)
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
         $file = $_FILES['xls_file'];
         $fileTmpName = $file['tmp_name'];
-        $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
         $fileName = $file['name'];
         $fileType = $file['type'];
         $fileSize = $file['size'];
         $dataModificacao = $_POST['dataModificacao'];
         $dataUpload = date('Y-m-d H:i:s');
         $outputFilePath = __DIR__ . '/../uploads/original/' . $fileName;
+        $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
 
         if (!file_exists(__DIR__ . '/../uploads/original')) {
             mkdir(__DIR__ . '/../uploads/original', 0777, true);

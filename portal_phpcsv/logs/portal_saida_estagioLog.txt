@@ -1,3 +1,20 @@
+[2024-11-27 08:42:26] C:\xampp\htdocs\portal\portal_phpcsv/uploads/saida.xlsx
+[2024-11-27 08:42:25] Os dados da tabela portal_saida_estagio foram substituídas com sucesso!
+[2024-11-27 08:42:25] Total de linhas inseridas: 1981, Total de colunas: 16
+[2024-11-27 08:42:25] Total de linhas que apresentaram erro: 10
+[2024-11-27 08:42:25] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-27 08:42:23] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
 [2024-11-26 18:04:01] C:\xampp\htdocs\portal\portal_phpcsv/uploads/saida.xlsx
 [2024-11-26 18:04:01] Os dados da tabela portal_saida_estagio foram substituídas com sucesso!
 [2024-11-26 18:04:01] Total de linhas inseridas: 1981, Total de colunas: 16
@@ -3071,3 +3088,20 @@ Dados da tabela portal_saida_estagio foram apagados.
 [2024-11-26 18:04:01] Total de linhas inseridas: 1981, Total de colunas: 16
 [2024-11-26 18:04:01] Os dados da tabela portal_saida_estagio foram substituídas com sucesso!
 [2024-11-26 18:04:01] C:\xampp\htdocs\portal\portal_phpcsv/uploads/saida.xlsx
+[2024-11-27 08:42:23] Dados da tabela portal_saida_estagio foram apagados, antes do Upload.
+
+
+[2024-11-27 08:42:25] Erro na linha 1821, coluna B: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 1741, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 1579, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 985, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 925, coluna B: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 921, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 888, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 594, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 484, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Erro na linha 477, coluna E: Célula vazia, sem informação.
+[2024-11-27 08:42:25] Total de linhas que apresentaram erro: 10
+[2024-11-27 08:42:25] Total de linhas inseridas: 1981, Total de colunas: 16
+[2024-11-27 08:42:25] Os dados da tabela portal_saida_estagio foram substituídas com sucesso!
+[2024-11-27 08:42:26] C:\xampp\htdocs\portal\portal_phpcsv/uploads/saida.xlsx

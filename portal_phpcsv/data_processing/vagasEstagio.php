@@ -9,9 +9,8 @@ include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
 include_once('vagasDataPipeline.php'); // Inclui a função de processamento de linha
 
-function processarVagasEstagio($file, $conn, $tabela, $processarLinha){
+function processarVagasEstagio($file, $conn, $tabela, $processarLinha, $dataArquivo){
     registrarLogDepuracao("Função processarVagasEstagio iniciada.");
-
     // Limpa a tabela antes de inserir novos dados
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
     truncarTabela($conn, $tabela);
@@ -30,7 +29,9 @@ function processarVagasEstagio($file, $conn, $tabela, $processarLinha){
     $errosDetalhados = [];
 
     // Itera sobre todas as linhas da planilha
-    iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, false);
+    iterarSobreLinhas($worksheet,function($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados) use ($processarLinha, $dataArquivo) {
+        return $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados, $dataArquivo);
+    }, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, false, $dataArquivo);
 
     // Essa função ordena e grava os erros no log
     capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file);
@@ -40,11 +41,11 @@ function processarVagasEstagio($file, $conn, $tabela, $processarLinha){
 }
 
 // Verifica se o arquivo foi enviado via GET
-if (isset($_GET['file'])) {
+if (isset($_GET['file']) && isset($_GET['dataModificacao'])) {
     $file = urldecode($_GET['file']);
     $tabela = 'portal_vagas_estagio'; // Informar a tabela que será trabalhada
-    // $dataArquivo = urldecode($_GET['dataModificacao']); // Obtém a data do arquivo do formulário
-    processarVagasEstagio($file, $conn, $tabela, 'vagasPlanilhaExtrairMapToDb');
+    $dataArquivo = urldecode($_GET['dataModificacao']); // Obtém a data do arquivo do formulário
+    processarVagasEstagio($file, $conn, $tabela, 'vagasPlanilhaExtrairMapToDb', $dataArquivo);
 }   //  Fim do IF de verificação de arquivo enviado via GET
 
 $conn->close();

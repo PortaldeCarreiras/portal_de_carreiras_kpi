@@ -16,3 +16,33 @@
 
 
 
+[2024-11-27 08:30:23] Erros capturados e registrados no log.
+[2024-11-27 08:30:23] Exibindo mensagem resumida no navegador.
+[2024-11-27 08:30:23] Mensagem resumida exibida.
+
+
+
+[2024-11-27 08:31:36] Erros capturados e registrados no log.
+[2024-11-27 08:31:36] Exibindo mensagem resumida no navegador.
+[2024-11-27 08:31:36] Mensagem resumida exibida.
+
+
+
+[2024-11-27 08:33:45] Erros capturados e registrados no log.
+[2024-11-27 08:33:45] Exibindo mensagem resumida no navegador.
+[2024-11-27 08:33:45] Mensagem resumida exibida.
+
+
+
+[2024-11-27 08:37:57] Erros capturados e registrados no log.
+[2024-11-27 08:37:57] Exibindo mensagem resumida no navegador.
+[2024-11-27 08:37:57] Mensagem resumida exibida.
+
+
+
+[2024-11-27 08:42:22] Erros capturados e registrados no log.
+[2024-11-27 08:42:22] Exibindo mensagem resumida no navegador.
+[2024-11-27 08:42:22] Mensagem resumida exibida.
+
+
+

@@ -9,8 +9,7 @@ include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
 include_once('acessoDataPipeline.php'); // Inclui a função de processamento de linha
 
-function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArquivo)
-{
+function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArquivo){
     registrarLogDepuracao("Função processarAcessoPortal iniciada.");
     // Limpa a tabela antes de inserir novos dados
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
