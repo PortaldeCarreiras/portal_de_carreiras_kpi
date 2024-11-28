@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     $fileName = $file['name'];
     $fileTmpName = $file['tmp_name'];
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
-    $data_criacao = date('Y-m-d H:i:s', filemtime($fileTmpName));
+    $data_criacao = $_POST['dataModificacao'] ?? date('Y-m-d H:i:s');
 
     // Normaliza o nome do arquivo (sem a extensão)
     $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($fileName, PATHINFO_FILENAME));
@@ -106,13 +106,25 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
 
         // PROCESSAMENTO DO ARQUIVO AO SER CLICADO O BOTÃO "ENVIAR".
         $newFileName = converterParaCamelCase(pathinfo($newFileName, PATHINFO_FILENAME)) . '.xlsx';
+        // if (strcasecmp($newFileName, 'acessoPortal.xlsx') == 0) {
+        //     header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath) . "&dataModificacao=" . urlencode($_POST['dataModificacao'])); // Linha alterada
+        // } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
+        //     header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath)); // Linha alterada
+        // } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
+        //     header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath)); // Linha alterada
+        // }
+
+        // Use SEMPRE o arquivo incrementado ($outputFilePath) ao redirecionar
         if (strcasecmp($newFileName, 'acessoPortal.xlsx') == 0) {
-            header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath) . "&dataModificacao=" . urlencode($_POST['dataModificacao'])); // Linha alterada
+            header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath));
         } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
-            header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath)); // Linha alterada
+            header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath));
         } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
-            header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath)); // Linha alterada
+            header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath));
         }
+
+
+
         exit();
     } else {
         $message .= "Erro ao fazer upload do arquivo.";

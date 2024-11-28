@@ -1,8 +1,10 @@
 <?php
 // Inclui a função para ordenar e gravar erros no log
 include_once(__DIR__ . '/../logs/ordenarGravarErrosLog.php');
-
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
+
+// $totalColunas = 0; // Define a variável antes de usá-la
+$textNumTotCol = "Total de colunas capturadas:";
 
 /**
  * Adiciona uma coluna adicional a uma planilha com um cabeçalho e valores para cada linha.
@@ -34,8 +36,9 @@ function adicionarColunaComValor(Spreadsheet $spreadsheet, $nomeColuna, $valorCo
 }
 
 // Função para capturar erros e gravar no log
-function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess)
-{
+function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess){
+    global $textNumTotCol; // Torna a variável global acessível dentro da função
+    global $totalColunas; // Torna a variável global acessível dentro da função
     // Determina o valor de $acao
     registrarLogDepuracao("Valor de metaProcess: " . ($metaProcess ? 'true' : 'false'));
     $acao = $metaProcess ? "inseridas" : "substituídas";  // Determina a ação a ser realizada
@@ -48,7 +51,7 @@ function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColun
         $mensagemErros .= "\n\n";
     }
     criaLogs($tabela, $mensagemErros); // Chama a função de log    
-    $mensagemFinal = "Total de linhas $acao: $totalLinhas, Total de colunas: $totalColunas";
+    $mensagemFinal = "Total de linhas $acao: $totalLinhas, $textNumTotCol $totalColunas";
     criaLogs($tabela, $mensagemFinal); // Chama a função de log
     criaLogs($tabela, "Os dados da tabela $tabela foram $acao com sucesso!");
     if ($erros === 0) {
@@ -77,13 +80,13 @@ function exibirAlertaERedirecionar($mensagem)
 }
 
 // Função para exibir mensagem resumida no navegador
-function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $isMetaProcess)
-{
+function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $isMetaProcess){
+    global $textNumTotCol; // Torna a variável global acessível dentro da função
     registrarLogDepuracao("Exibindo mensagem resumida no navegador.");
     // Condicional PHP com o uso de operador ternário
     // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
     $aux = $isMetaProcess ? "
-        alert('Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
+        alert('Total de linhas inseridas: $totalLinhas, $textNumTotCol $totalColunas\\n" .
         "Total de linhas que apresentaram erro: *** $erros ***\\n" .
         ($erros === 0
             ? "Todas as informações carregadas com sucesso!\\n"
@@ -92,7 +95,7 @@ function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $i
         window.location.href = '/portal/portal_phpcsv/index.php';
         " : "
         alert('Dados da tabela $tabela foram apagados.\\n" .
-        "Total de linhas substituídas: $totalLinhas, Total de colunas: $totalColunas\\n" .
+        "Total de linhas substituídas: $totalLinhas, $textNumTotCol $totalColunas\\n" .
         "Total de linhas que apresentaram erro: *** $erros ***\\n" .
         ($erros === 0
             ? "Todas as informações carregadas com sucesso!\\n"
@@ -102,19 +105,19 @@ function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $i
         ";
 
     echo "<script>$aux</script>";
-    registrarLogDepuracao("Mensagem resumida exibida.\n\n\n");
+    registrarLogDepuracao("Mensagem resumida exibida.\n\n");
 }
 
 // Função genérica para exibir log de processamento no navegador
-function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros)
-{
+function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros){
+    global $textNumTotCol; // Torna a variável global acessível dentro da função
     echo "<p>Dados da tabela $tabela foram apagados.</p>";
     echo "<p>Total de linhas inseridas: $totalLinhas</p>";
-    echo "<p>Total de colunas: $totalColunas</p>";
+    echo "<p>$textNumTotCol $totalColunas</p>";
     echo "<p>Total de linhas que apresentaram erro: $erros</p>";
     echo "<p>Resultados do Processamento</p>";
     echo "<p>Total de linhas inseridas: $totalLinhas</p>";
-    echo "<p>Total de colunas: $totalColunas</p>";
+    echo "<p>$textNumTotCol $totalColunas</p>";
     echo "<p>Total de linhas que apresentaram erro: $erros</p>";
     echo "<p>Redirecionando em 10 segundos...</p>";
     echo "<script>
@@ -167,15 +170,29 @@ function normalizarNomeArquivo($nomeArquivo)
 // Função para registrar log de depuração
 function registrarLogDepuracao($mensagem)
 {
-    $arquivoLog = '../logs/log_depuracao.txt';
-    $hora = date('Y-m-d H:i:s');
-    // Verifica se o diretório existe
-    if (!file_exists(dirname($arquivoLog))) {
-        mkdir(dirname($arquivoLog), 0755, true); // Cria o diretório se não existir
+    // Caminho absoluto para o diretório raiz do projeto
+    $diretorioRaiz = dirname(__DIR__, 2); // Vai para "C:\xampp\htdocs\portal\portal_phpcsv"
+    $arquivoLog = $diretorioRaiz . '/portal_phpcsv/logs'; // Caminho do diretório de logs
+
+    // Verifica se o diretório de logs existe, se não, cria-o
+    if (!file_exists($arquivoLog)) {
+        if (!mkdir($arquivoLog, 0777, true) && !is_dir($arquivoLog)) {
+            error_log("Erro ao criar o diretório de logs: $arquivoLog");
+            return; // Sai da função se não for possível criar o diretório
+        }
     }
+
+    // Define o caminho do arquivo de log
+    $logFilePath = $arquivoLog . '/log_depuracao.txt';
+
+    // Monta a mensagem de log com a data/hora atual
+    $hora = date('Y-m-d H:i:s');
+    $mensagem = "[$hora] $mensagem";
+
+
     // Tenta registrar a mensagem no log
-    if (file_put_contents($arquivoLog, "[$hora] $mensagem\n", FILE_APPEND) === false) {
-        error_log("Erro ao escrever no arquivo de log: $arquivoLog");
+    if (file_put_contents($logFilePath, "[$hora] $mensagem\n", FILE_APPEND) === false) {
+        error_log("Erro ao escrever no arquivo de log: $logFilePath");
     }
 }
 

@@ -21,6 +21,10 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
     $worksheet = $spreadsheet->getActiveSheet();    // Obtém a aba ativa da planilha
     registrarLogDepuracao("Aba ativa da planilha obtida.");
 
+    // Capturar a última coluna usada
+    $ultimaColuna = $worksheet->getHighestColumn(); // Exemplo: "D"
+    registrarLogDepuracao("Última coluna usada: $ultimaColuna");
+
     // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
     $totalLinhas = 0;
     $totalColunas = 0;
@@ -38,7 +42,7 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
 
     // Exibe a mensagem resumida no navegador
     exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, false);   // $metaProcess = false
-}
+}   //  Fim da função processarAcessoPortal
 
 // Verifica se o arquivo foi enviado via GET
 if (isset($_GET['file']) && isset($_GET['dataModificacao'])) {
