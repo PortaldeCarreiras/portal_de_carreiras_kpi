@@ -33,10 +33,10 @@ function processarSaidaFile($file, $conn, $tabela, $processarLinha){
     iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados);
 
     // Essa função ordena e grava os erros no log
-    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file);
+    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file, false);   // $metaProcess = false
 
     // Exibe a mensagem resumida no navegador
-    exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);
+    exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, false);   // $metaProcess = false
 }   //  Fim da função processarSaidaFile
 
 // Verifica se o arquivo foi enviado via GET

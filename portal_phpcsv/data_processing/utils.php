@@ -2,16 +2,53 @@
 // Inclui a função para ordenar e gravar erros no log
 include_once(__DIR__ . '/../logs/ordenarGravarErrosLog.php');
 
-function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess = false){
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+
+/**
+ * Adiciona uma coluna adicional a uma planilha com um cabeçalho e valores para cada linha.
+ *
+ * @param Spreadsheet $spreadsheet Objeto Spreadsheet carregado.
+ * @param string $nomeColuna Nome da nova coluna (cabeçalho).
+ * @param string $valorColuna Valor que será preenchido em todas as linhas da nova coluna.
+ * @return void
+ */
+function adicionarColunaComValor(Spreadsheet $spreadsheet, $nomeColuna, $valorColuna)
+{
+    // Obtém a aba ativa
+    $worksheet = $spreadsheet->getActiveSheet();
+
+    // Calcula a próxima coluna disponível
+    $ultimaColuna = $worksheet->getHighestColumn(); // Última coluna usada, no formato 'A', 'B', etc.
+    $novaColuna = ++$ultimaColuna; // Incrementa para obter a próxima coluna disponível (ex.: de 'Z' para 'AA')
+
+    // Define o cabeçalho da nova coluna
+    $worksheet->setCellValue($novaColuna . '1', $nomeColuna);
+
+    // Obtém o número total de linhas
+    $ultimaLinha = $worksheet->getHighestRow();
+
+    // Preenche a nova coluna com o valor especificado
+    for ($linha = 2; $linha <= $ultimaLinha; $linha++) {
+        $worksheet->setCellValue($novaColuna . $linha, $valorColuna);
+    }
+}
+
+// Função para capturar erros e gravar no log
+function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess)
+{
     // Determina o valor de $acao
+    registrarLogDepuracao("Valor de metaProcess: " . ($metaProcess ? 'true' : 'false'));
     $acao = $metaProcess ? "inseridas" : "substituídas";  // Determina a ação a ser realizada
 
     // Esse bloco ordena e grava os erros no log
     ordenarGravarErrosLog($errosDetalhados, $tabela);   // Chamar a função para ordenar e gravar erros no log
     // Cria logs com as informações sobre a execução (a sequencia de impressão está invertida no log)
-    $mensagemErros = "Total de linhas que apresentaram erro: $erros" . ($metaProcess ? "\n\n" : "");
+    $mensagemErros = "Total de linhas que apresentaram erro: $erros";
+    if ($metaProcess) {
+        $mensagemErros .= "\n\n";
+    }
     criaLogs($tabela, $mensagemErros); // Chama a função de log    
-    $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
+    $mensagemFinal = "Total de linhas $acao: $totalLinhas, Total de colunas: $totalColunas";
     criaLogs($tabela, $mensagemFinal); // Chama a função de log
     criaLogs($tabela, "Os dados da tabela $tabela foram $acao com sucesso!");
     if ($erros === 0) {
@@ -23,7 +60,8 @@ function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColun
 }
 
 // Função para converter o nome do arquivo para camelCase
-function converterParaCamelCase($string){
+function converterParaCamelCase($string)
+{
     $string = removerAcentos($string);
     $string = preg_replace('/[^a-zA-Z0-9]/', ' ', $string);
     $string = ucwords(strtolower($string));
@@ -32,17 +70,19 @@ function converterParaCamelCase($string){
 }
 
 // Função para exibir um alerta e redirecionar
-function exibirAlertaERedirecionar($mensagem){
+function exibirAlertaERedirecionar($mensagem)
+{
     echo "<script>alert('$mensagem'); window.location.href = 'index.php';</script>";
     exit();
 }
 
 // Função para exibir mensagem resumida no navegador
-function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $metaProcess = false){
+function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $isMetaProcess)
+{
     registrarLogDepuracao("Exibindo mensagem resumida no navegador.");
     // Condicional PHP com o uso de operador ternário
     // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
-    $aux = $metaProcess ? "
+    $aux = $isMetaProcess ? "
         alert('Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
         "Total de linhas que apresentaram erro: *** $erros ***\\n" .
         ($erros === 0
@@ -52,7 +92,7 @@ function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $m
         window.location.href = '/portal/portal_phpcsv/index.php';
         " : "
         alert('Dados da tabela $tabela foram apagados.\\n" .
-        "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
+        "Total de linhas substituídas: $totalLinhas, Total de colunas: $totalColunas\\n" .
         "Total de linhas que apresentaram erro: *** $erros ***\\n" .
         ($erros === 0
             ? "Todas as informações carregadas com sucesso!\\n"
@@ -66,7 +106,8 @@ function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $m
 }
 
 // Função genérica para exibir log de processamento no navegador
-function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros){
+function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros)
+{
     echo "<p>Dados da tabela $tabela foram apagados.</p>";
     echo "<p>Total de linhas inseridas: $totalLinhas</p>";
     echo "<p>Total de colunas: $totalColunas</p>";
@@ -86,8 +127,8 @@ function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros){
 // Itera sobre todas as linhas da planilha
 // Variável global para o contador de inserções bem-sucedidas
 $contadorInsercoes = 0;
-function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas, 
-                            &$erros, &$errosDetalhados, $metaProcess = false){
+function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas,
+                            &$erros, &$errosDetalhados, $metaProcess = false) {
     global $contadorInsercoes; // Torna o contador acessível dentro da função 
     // Itera sobre todas as linhas da planilha
     registrarLogDepuracao("Iniciando iteração sobre as linhas da planilha.");
@@ -116,14 +157,16 @@ function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalL
 }
 
 // Função para normalizar o nome do arquivo
-function normalizarNomeArquivo($nomeArquivo){
+function normalizarNomeArquivo($nomeArquivo)
+{
     $nomeArquivo = removerAcentos($nomeArquivo);
     $nomeArquivo = str_replace(' ', '', $nomeArquivo); // Remove espaços em branco
     return strtolower($nomeArquivo);
 }
 
 // Função para registrar log de depuração
-function registrarLogDepuracao($mensagem){
+function registrarLogDepuracao($mensagem)
+{
     $arquivoLog = '../logs/log_depuracao.txt';
     $hora = date('Y-m-d H:i:s');
     // Verifica se o diretório existe
@@ -137,7 +180,8 @@ function registrarLogDepuracao($mensagem){
 }
 
 // Função para converter caracteres acentuados para seus equivalentes sem acento
-function removerAcentos($string){
+function removerAcentos($string)
+{
     $acentos = array(
         'Á' => 'A', 'À' => 'A', 'Â' => 'A', 'Ã' => 'A', 'Ä' => 'A', 'á' => 'a', 'à' => 'a', 'â' => 'a', 'ã' => 'a', 'ä' => 'a',
         'É' => 'E', 'È' => 'E', 'Ê' => 'E', 'Ë' => 'E', 'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
@@ -150,12 +194,14 @@ function removerAcentos($string){
 }
 
 // Função para verificar se a extensão do arquivo é permitida
-function verificarExtensaoArquivo($extensaoArquivo, $extensoesPermitidas){
+function verificarExtensaoArquivo($extensaoArquivo, $extensoesPermitidas)
+{
     return in_array(strtolower($extensaoArquivo), $extensoesPermitidas);
 }
 
 // Função para verificar se o nome do arquivo é permitido
-function verificarNomeArquivo($nomeArquivo, $nomesPermitidos){
+function verificarNomeArquivo($nomeArquivo, $nomesPermitidos)
+{
     $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($nomeArquivo, PATHINFO_FILENAME));
     return in_array($nomeArquivoNormalizado, $nomesPermitidos);
 }

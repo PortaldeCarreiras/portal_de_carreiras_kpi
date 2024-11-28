@@ -61,10 +61,10 @@ function metaProcessFile($conn)
         }
 
         // Captura e grava os erros no log com a variável $metaProcess
-        capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess = true);
+        capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, true);    // $metaProcess = true
 
         // Exibir mensagem resumida no navegador
-        exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $metaProcess = true);
+        exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, true);  // $metaProcess = true
 
         return "Arquivo carregado e metadados salvos com sucesso.";
     }

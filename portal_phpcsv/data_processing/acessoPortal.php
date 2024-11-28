@@ -15,10 +15,10 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
     truncarTabela($conn, $tabela);
 
-    $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
+    $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);    // Carrega a planilha
     registrarLogDepuracao("Planilha $file carregada.");
 
-    $worksheet = $spreadsheet->getActiveSheet();
+    $worksheet = $spreadsheet->getActiveSheet();    // Obtém a aba ativa da planilha
     registrarLogDepuracao("Aba ativa da planilha obtida.");
 
     // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
@@ -31,13 +31,13 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
     // Itera sobre todas as linhas da planilha
     iterarSobreLinhas($worksheet, function($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados) use ($processarLinha, $dataArquivo) {
         return $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados, $dataArquivo);
-    }, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, $metaProcess = false, $dataArquivo);
+    }, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, false, $dataArquivo);  // $metaProcess = false
 
     // Captura e grava os erros no log
-    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file, $metaProcess = false);
+    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file, false);    // $metaProcess = false
 
     // Exibe a mensagem resumida no navegador
-    exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);
+    exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, false);   // $metaProcess = false
 }
 
 // Verifica se o arquivo foi enviado via GET

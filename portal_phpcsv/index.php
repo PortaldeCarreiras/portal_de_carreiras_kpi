@@ -80,6 +80,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
         // Carrega o arquivo temporário para ser manipulado
         $spreadsheet = $reader->load($fileTmpName);
 
+        // Adiciona a nova coluna com a data de modificação do arquivo
+        adicionarColunaComValor($spreadsheet, "Data Arquivo Ori", $data_criacao);
+
         // Define o nome do arquivo convertido, convertendo o nome do arquivo original
         // para o formato XLSX, salvando com o mesmo nome, mas extensão .xlsx
         $newFileName = pathinfo($fileName, PATHINFO_FILENAME) . '.xlsx';

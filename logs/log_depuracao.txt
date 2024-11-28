@@ -46,3 +46,109 @@
 
 
 
+[2024-11-28 08:10:15] Erros capturados e registrados no log.
+[2024-11-28 08:10:15] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:10:15] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:11:29] Erros capturados e registrados no log.
+[2024-11-28 08:11:29] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:11:29] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:17:10] Erros capturados e registrados no log.
+[2024-11-28 08:17:10] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:17:10] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:19:30] Erros capturados e registrados no log.
+[2024-11-28 08:19:30] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:19:30] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:22:51] Erros capturados e registrados no log.
+[2024-11-28 08:22:51] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:22:51] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:30:55] Erros capturados e registrados no log.
+[2024-11-28 08:30:55] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:30:55] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:32:49] Erros capturados e registrados no log.
+[2024-11-28 08:32:49] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:32:49] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:39:56] Erros capturados e registrados no log. Total de colunas importadas: 6. Total de colunas da planilha original: 0.
+[2024-11-28 08:39:56] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:39:56] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:43:38] Erros capturados e registrados no log.
+[2024-11-28 08:43:38] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:43:38] Mensagem resumida exibida.
+
+
+
+[2024-11-28 08:43:49] Erros capturados e registrados no log.
+[2024-11-28 08:43:49] Exibindo mensagem resumida no navegador.
+[2024-11-28 08:43:49] Mensagem resumida exibida.
+
+
+
+[2024-11-28 09:21:40] Erros capturados e registrados no log.
+[2024-11-28 09:21:40] Exibindo mensagem resumida no navegador.
+[2024-11-28 09:21:40] Mensagem resumida exibida.
+
+
+
+[2024-11-28 09:33:17] Erros capturados e registrados no log.
+[2024-11-28 09:33:17] Exibindo mensagem resumida no navegador.
+[2024-11-28 09:33:17] Mensagem resumida exibida.
+
+
+
+[2024-11-28 09:35:01] Erros capturados e registrados no log.
+[2024-11-28 09:35:01] Exibindo mensagem resumida no navegador.
+[2024-11-28 09:35:01] Mensagem resumida exibida.
+
+
+
+[2024-11-28 09:39:54] Valor de metaProcess: true
+[2024-11-28 09:39:54] Erros capturados e registrados no log.
+[2024-11-28 09:39:54] Exibindo mensagem resumida no navegador.
+[2024-11-28 09:39:54] Mensagem resumida exibida.
+
+
+
+[2024-11-28 09:40:11] Valor de metaProcess: true
+[2024-11-28 09:40:11] Erros capturados e registrados no log.
+[2024-11-28 09:40:11] Exibindo mensagem resumida no navegador.
+[2024-11-28 09:40:11] Mensagem resumida exibida.
+
+
+
+[2024-11-28 09:45:01] Valor de metaProcess: true
+[2024-11-28 09:45:01] Erros capturados e registrados no log.
+[2024-11-28 09:45:01] Exibindo mensagem resumida no navegador.
+[2024-11-28 09:45:01] Mensagem resumida exibida.
+
+
+
+[2024-11-28 09:45:12] Valor de metaProcess: true
+[2024-11-28 09:45:12] Erros capturados e registrados no log.
+[2024-11-28 09:45:12] Exibindo mensagem resumida no navegador.
+[2024-11-28 09:45:12] Mensagem resumida exibida.
+
+
+

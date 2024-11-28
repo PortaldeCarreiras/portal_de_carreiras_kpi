@@ -9,6 +9,13 @@ include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
 include_once('vagasDataPipeline.php'); // Inclui a função de processamento de linha
 
+ini_set('display_errors', 1);   // Exibir erros
+ini_set('display_startup_errors', 1);   // Exibir erros
+error_reporting(E_ALL);  // Exibir erros
+
+ini_set('max_execution_time', 300); // Tempo em segundos
+ini_set('memory_limit', '512M');   // Memória em MB
+
 function processarVagasEstagio($file, $conn, $tabela, $processarLinha, $dataArquivo){
     registrarLogDepuracao("Função processarVagasEstagio iniciada.");
     // Limpa a tabela antes de inserir novos dados
@@ -31,7 +38,7 @@ function processarVagasEstagio($file, $conn, $tabela, $processarLinha, $dataArqu
     // Itera sobre todas as linhas da planilha
     iterarSobreLinhas($worksheet,function($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados) use ($processarLinha, $dataArquivo) {
         return $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados, $dataArquivo);
-    }, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, false, $dataArquivo);
+    }, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, $metaProcess = false, $dataArquivo);
 
     // Essa função ordena e grava os erros no log
     capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file);
