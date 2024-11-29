@@ -75,13 +75,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
             default:
                 // Se o formato não for suportado, exibe uma mensagem de erro
                 die("Formato de arquivo não suportado.");
-        }
+        }   //  Fim do SWITCH de verificação de extensão de arquivo
 
         // Carrega o arquivo temporário para ser manipulado
         $spreadsheet = $reader->load($fileTmpName);
 
         // Adiciona a nova coluna com a data de modificação do arquivo
-        adicionarColunaComValor($spreadsheet, "Data Arquivo Ori", $data_criacao);
+        adicionarColunaComValor($spreadsheet, "Data Arquivo Original", $data_criacao);
 
         // Define o nome do arquivo convertido, convertendo o nome do arquivo original
         // para o formato XLSX, salvando com o mesmo nome, mas extensão .xlsx
@@ -106,14 +106,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
 
         // PROCESSAMENTO DO ARQUIVO AO SER CLICADO O BOTÃO "ENVIAR".
         $newFileName = converterParaCamelCase(pathinfo($newFileName, PATHINFO_FILENAME)) . '.xlsx';
-        // if (strcasecmp($newFileName, 'acessoPortal.xlsx') == 0) {
-        //     header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath) . "&dataModificacao=" . urlencode($_POST['dataModificacao'])); // Linha alterada
-        // } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
-        //     header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath)); // Linha alterada
-        // } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
-        //     header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath)); // Linha alterada
-        // }
-
         // Use SEMPRE o arquivo incrementado ($outputFilePath) ao redirecionar
         if (strcasecmp($newFileName, 'acessoPortal.xlsx') == 0) {
             header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath));
@@ -121,15 +113,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
             header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath));
         } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
             header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath));
-        }
-
-
+        }   //  Fim do IF de verificação de nome de arquivo
 
         exit();
     } else {
         $message .= "Erro ao fazer upload do arquivo.";
-    }
-}
+    }   //  Fim do IF de verificação de erro no upload do arquivo
+}   //  Fim do IF de verificação de envio de arquivo via POST
 
 // echo "<label>&nbsp Arquivo Carregado: $fileName</label><br>";
 // echo "<label>&nbsp Data de Criação: $data_criacao</label><br>";

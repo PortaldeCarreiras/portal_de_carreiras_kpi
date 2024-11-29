@@ -9,7 +9,7 @@ include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
 include_once('acessoDataPipeline.php'); // Inclui a função de processamento de linha
 
-function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArquivo){
+function processarAcessoPortal($file, $conn, $tabela, $processarLinha){
     registrarLogDepuracao("Função processarAcessoPortal iniciada.");
     // Limpa a tabela antes de inserir novos dados
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
@@ -21,9 +21,12 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
     $worksheet = $spreadsheet->getActiveSheet();    // Obtém a aba ativa da planilha
     registrarLogDepuracao("Aba ativa da planilha obtida.");
 
+
     // Capturar a última coluna usada
     $ultimaColuna = $worksheet->getHighestColumn(); // Exemplo: "D"
-    registrarLogDepuracao("Última coluna usada: $ultimaColuna");
+    // Converter para índice numérico a letra da coluna
+    $totalColunasOri = \PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString($ultimaColuna);
+    registrarLogDepuracao("Última coluna da planilha: $ultimaColuna, valor numerico: $totalColunasOri");
 
     // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
     $totalLinhas = 0;
@@ -33,9 +36,7 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
     $errosDetalhados = [];
 
     // Itera sobre todas as linhas da planilha
-    iterarSobreLinhas($worksheet, function($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados) use ($processarLinha, $dataArquivo) {
-        return $processarLinha($cellIterator, $indice, $erros, $tabela, $errosDetalhados, $dataArquivo);
-    }, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados, false, $dataArquivo);  // $metaProcess = false
+    iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados);
 
     // Captura e grava os erros no log
     capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file, false);    // $metaProcess = false
@@ -45,11 +46,10 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
 }   //  Fim da função processarAcessoPortal
 
 // Verifica se o arquivo foi enviado via GET
-if (isset($_GET['file']) && isset($_GET['dataModificacao'])) {
+if (isset($_GET['file'])) {
     $file = urldecode($_GET['file']);
     $tabela = 'portal_acesso'; // Informar a tabela que será trabalhada
-    $dataArquivo = urldecode($_GET['dataModificacao']); // Obtém a data do arquivo do formulário
-    processarAcessoPortal($file, $conn, $tabela, 'acessoPlanilhaExtrairMapToDb', $dataArquivo);
+    processarAcessoPortal($file, $conn, $tabela, 'acessoPlanilhaExtrairMapToDb');
 }   //  Fim do IF de verificação de arquivo enviado via GET
 
 $conn->close();
