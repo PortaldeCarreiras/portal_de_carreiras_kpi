@@ -1,10 +1,8 @@
 <?php
 // Inclui a função para ordenar e gravar erros no log
 include_once(__DIR__ . '/../logs/ordenarGravarErrosLog.php');
-use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
-// $totalColunas = 0; // Define a variável antes de usá-la
-$textNumTotCol = "Total de colunas capturadas:";
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
 /**
  * Adiciona uma coluna adicional a uma planilha com um cabeçalho e valores para cada linha.
@@ -14,8 +12,7 @@ $textNumTotCol = "Total de colunas capturadas:";
  * @param string $valorColuna Valor que será preenchido em todas as linhas da nova coluna.
  * @return void
  */
-function adicionarColunaComValor(Spreadsheet $spreadsheet, $nomeColuna, $valorColuna)
-{
+function adicionarColunaComValor(Spreadsheet $spreadsheet, $nomeColuna, $valorColuna) {
     // Obtém a aba ativa
     $worksheet = $spreadsheet->getActiveSheet();
 
@@ -34,24 +31,16 @@ function adicionarColunaComValor(Spreadsheet $spreadsheet, $nomeColuna, $valorCo
         $worksheet->setCellValue($novaColuna . $linha, $valorColuna);
     }
 }
-
-// Função para capturar erros e gravar no log
-function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess){
-    global $textNumTotCol; // Torna a variável global acessível dentro da função
-    global $totalColunas; // Torna a variável global acessível dentro da função
+function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess = false){
     // Determina o valor de $acao
-    registrarLogDepuracao("Valor de metaProcess: " . ($metaProcess ? 'true' : 'false'));
     $acao = $metaProcess ? "inseridas" : "substituídas";  // Determina a ação a ser realizada
 
     // Esse bloco ordena e grava os erros no log
     ordenarGravarErrosLog($errosDetalhados, $tabela);   // Chamar a função para ordenar e gravar erros no log
     // Cria logs com as informações sobre a execução (a sequencia de impressão está invertida no log)
-    $mensagemErros = "Total de linhas que apresentaram erro: $erros";
-    if ($metaProcess) {
-        $mensagemErros .= "\n\n";
-    }
+    $mensagemErros = "Total de linhas que apresentaram erro: $erros" . ($metaProcess ? "\n\n" : "");
     criaLogs($tabela, $mensagemErros); // Chama a função de log    
-    $mensagemFinal = "Total de linhas $acao: $totalLinhas, $textNumTotCol $totalColunas";
+    $mensagemFinal = "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas";
     criaLogs($tabela, $mensagemFinal); // Chama a função de log
     criaLogs($tabela, "Os dados da tabela $tabela foram $acao com sucesso!");
     if ($erros === 0) {
@@ -63,8 +52,7 @@ function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColun
 }
 
 // Função para converter o nome do arquivo para camelCase
-function converterParaCamelCase($string)
-{
+function converterParaCamelCase($string){
     $string = removerAcentos($string);
     $string = preg_replace('/[^a-zA-Z0-9]/', ' ', $string);
     $string = ucwords(strtolower($string));
@@ -73,20 +61,18 @@ function converterParaCamelCase($string)
 }
 
 // Função para exibir um alerta e redirecionar
-function exibirAlertaERedirecionar($mensagem)
-{
+function exibirAlertaERedirecionar($mensagem){
     echo "<script>alert('$mensagem'); window.location.href = 'index.php';</script>";
     exit();
 }
 
 // Função para exibir mensagem resumida no navegador
-function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $isMetaProcess){
-    global $textNumTotCol; // Torna a variável global acessível dentro da função
+function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $metaProcess = false){
     registrarLogDepuracao("Exibindo mensagem resumida no navegador.");
     // Condicional PHP com o uso de operador ternário
     // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
-    $aux = $isMetaProcess ? "
-        alert('Total de linhas inseridas: $totalLinhas, $textNumTotCol $totalColunas\\n" .
+    $aux = $metaProcess ? "
+        alert('Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
         "Total de linhas que apresentaram erro: *** $erros ***\\n" .
         ($erros === 0
             ? "Todas as informações carregadas com sucesso!\\n"
@@ -95,7 +81,7 @@ function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $i
         window.location.href = '/portal/portal_phpcsv/index.php';
         " : "
         alert('Dados da tabela $tabela foram apagados.\\n" .
-        "Total de linhas substituídas: $totalLinhas, $textNumTotCol $totalColunas\\n" .
+        "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
         "Total de linhas que apresentaram erro: *** $erros ***\\n" .
         ($erros === 0
             ? "Todas as informações carregadas com sucesso!\\n"
@@ -105,19 +91,18 @@ function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $i
         ";
 
     echo "<script>$aux</script>";
-    registrarLogDepuracao("Mensagem resumida exibida.\n\n");
+    registrarLogDepuracao("Mensagem resumida exibida.\n\n\n");
 }
 
 // Função genérica para exibir log de processamento no navegador
 function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros){
-    global $textNumTotCol; // Torna a variável global acessível dentro da função
     echo "<p>Dados da tabela $tabela foram apagados.</p>";
     echo "<p>Total de linhas inseridas: $totalLinhas</p>";
-    echo "<p>$textNumTotCol $totalColunas</p>";
+    echo "<p>Total de colunas: $totalColunas</p>";
     echo "<p>Total de linhas que apresentaram erro: $erros</p>";
     echo "<p>Resultados do Processamento</p>";
     echo "<p>Total de linhas inseridas: $totalLinhas</p>";
-    echo "<p>$textNumTotCol $totalColunas</p>";
+    echo "<p>Total de colunas: $totalColunas</p>";
     echo "<p>Total de linhas que apresentaram erro: $erros</p>";
     echo "<p>Redirecionando em 10 segundos...</p>";
     echo "<script>
@@ -130,8 +115,8 @@ function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros){
 // Itera sobre todas as linhas da planilha
 // Variável global para o contador de inserções bem-sucedidas
 $contadorInsercoes = 0;
-function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas,
-                            &$erros, &$errosDetalhados, $metaProcess = false) {
+function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas, 
+                            &$erros, &$errosDetalhados, $metaProcess = false){
     global $contadorInsercoes; // Torna o contador acessível dentro da função 
     // Itera sobre todas as linhas da planilha
     registrarLogDepuracao("Iniciando iteração sobre as linhas da planilha.");
@@ -160,45 +145,28 @@ function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalL
 }
 
 // Função para normalizar o nome do arquivo
-function normalizarNomeArquivo($nomeArquivo)
-{
+function normalizarNomeArquivo($nomeArquivo){
     $nomeArquivo = removerAcentos($nomeArquivo);
     $nomeArquivo = str_replace(' ', '', $nomeArquivo); // Remove espaços em branco
     return strtolower($nomeArquivo);
 }
 
 // Função para registrar log de depuração
-function registrarLogDepuracao($mensagem)
-{
-    // Caminho absoluto para o diretório raiz do projeto
-    $diretorioRaiz = dirname(__DIR__, 2); // Vai para "C:\xampp\htdocs\portal\portal_phpcsv"
-    $arquivoLog = $diretorioRaiz . '/portal_phpcsv/logs'; // Caminho do diretório de logs
-
-    // Verifica se o diretório de logs existe, se não, cria-o
-    if (!file_exists($arquivoLog)) {
-        if (!mkdir($arquivoLog, 0777, true) && !is_dir($arquivoLog)) {
-            error_log("Erro ao criar o diretório de logs: $arquivoLog");
-            return; // Sai da função se não for possível criar o diretório
-        }
-    }
-
-    // Define o caminho do arquivo de log
-    $logFilePath = $arquivoLog . '/log_depuracao.txt';
-
-    // Monta a mensagem de log com a data/hora atual
+function registrarLogDepuracao($mensagem){
+    $arquivoLog = '../logs/log_depuracao.txt';
     $hora = date('Y-m-d H:i:s');
-    $mensagem = "[$hora] $mensagem";
-
-
+    // Verifica se o diretório existe
+    if (!file_exists(dirname($arquivoLog))) {
+        mkdir(dirname($arquivoLog), 0755, true); // Cria o diretório se não existir
+    }
     // Tenta registrar a mensagem no log
-    if (file_put_contents($logFilePath, "[$hora] $mensagem\n", FILE_APPEND) === false) {
-        error_log("Erro ao escrever no arquivo de log: $logFilePath");
+    if (file_put_contents($arquivoLog, "[$hora] $mensagem\n", FILE_APPEND) === false) {
+        error_log("Erro ao escrever no arquivo de log: $arquivoLog");
     }
 }
 
 // Função para converter caracteres acentuados para seus equivalentes sem acento
-function removerAcentos($string)
-{
+function removerAcentos($string){
     $acentos = array(
         'Á' => 'A', 'À' => 'A', 'Â' => 'A', 'Ã' => 'A', 'Ä' => 'A', 'á' => 'a', 'à' => 'a', 'â' => 'a', 'ã' => 'a', 'ä' => 'a',
         'É' => 'E', 'È' => 'E', 'Ê' => 'E', 'Ë' => 'E', 'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
@@ -211,14 +179,12 @@ function removerAcentos($string)
 }
 
 // Função para verificar se a extensão do arquivo é permitida
-function verificarExtensaoArquivo($extensaoArquivo, $extensoesPermitidas)
-{
+function verificarExtensaoArquivo($extensaoArquivo, $extensoesPermitidas){
     return in_array(strtolower($extensaoArquivo), $extensoesPermitidas);
 }
 
 // Função para verificar se o nome do arquivo é permitido
-function verificarNomeArquivo($nomeArquivo, $nomesPermitidos)
-{
+function verificarNomeArquivo($nomeArquivo, $nomesPermitidos){
     $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($nomeArquivo, PATHINFO_FILENAME));
     return in_array($nomeArquivoNormalizado, $nomesPermitidos);
 }

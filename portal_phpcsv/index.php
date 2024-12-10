@@ -36,7 +36,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     $fileName = $file['name'];
     $fileTmpName = $file['tmp_name'];
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
-    $data_criacao = $_POST['dataModificacao'] ?? date('Y-m-d H:i:s');
+    
+    // Captura o valor do timestamp enviado pelo cliente
+    $timestamp = isset($_POST['dataModificacao']) ? intval($_POST['dataModificacao']) : time();
+    // Converte o timestamp para o formato desejado
+    $data_criacao = date('Y-m-d H:i:s', $timestamp / 1000); // Dividido por 1000 para converter de milissegundos para segundos
 
     // Normaliza o nome do arquivo (sem a extensão)
     $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($fileName, PATHINFO_FILENAME));
@@ -75,13 +79,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
             default:
                 // Se o formato não for suportado, exibe uma mensagem de erro
                 die("Formato de arquivo não suportado.");
-        }   //  Fim do SWITCH de verificação de extensão de arquivo
+        }
 
         // Carrega o arquivo temporário para ser manipulado
         $spreadsheet = $reader->load($fileTmpName);
 
         // Adiciona a nova coluna com a data de modificação do arquivo
-        adicionarColunaComValor($spreadsheet, "Data Arquivo Original", $data_criacao);
+        adicionarColunaComValor($spreadsheet, "Data Arquivo Ori", $data_criacao);
 
         // Define o nome do arquivo convertido, convertendo o nome do arquivo original
         // para o formato XLSX, salvando com o mesmo nome, mas extensão .xlsx
@@ -106,20 +110,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
 
         // PROCESSAMENTO DO ARQUIVO AO SER CLICADO O BOTÃO "ENVIAR".
         $newFileName = converterParaCamelCase(pathinfo($newFileName, PATHINFO_FILENAME)) . '.xlsx';
-        // Use SEMPRE o arquivo incrementado ($outputFilePath) ao redirecionar
         if (strcasecmp($newFileName, 'acessoPortal.xlsx') == 0) {
-            header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath));
+            header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath) . "&dataModificacao=" . urlencode($data_criacao)); // Linha alterada
         } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
-            header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath));
+            header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath)); // Linha alterada
         } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
-            header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath));
-        }   //  Fim do IF de verificação de nome de arquivo
-
+            header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath)); // Linha alterada
+        }
         exit();
     } else {
         $message .= "Erro ao fazer upload do arquivo.";
-    }   //  Fim do IF de verificação de erro no upload do arquivo
-}   //  Fim do IF de verificação de envio de arquivo via POST
+    }
+}
 
 // echo "<label>&nbsp Arquivo Carregado: $fileName</label><br>";
 // echo "<label>&nbsp Data de Criação: $data_criacao</label><br>";
@@ -157,7 +159,9 @@ $conn->close();
                 const nomeArquivo = arquivo.name;
                 const tipoMime = arquivo.type;
                 const tamanho = arquivo.size;
-                const dataModificacao = new Date(arquivo.lastModifiedDate).toISOString().slice(0, 19).replace('T', ' ');
+
+                // Envia o timestamp exato de "lastModified"
+                const dataModificacao = arquivo.lastModified;   // Timestamp em milissegundos
 
                 // Atualiza os campos hidden com os metadados do arquivo
                 document.getElementById("nomeArquivo").value = nomeArquivo;
@@ -169,15 +173,17 @@ $conn->close();
                 console.log("Nome do Arquivo:", nomeArquivo); // Adiciona um log no console para verificar o nome do arquivo
                 console.log("Tipo MIME:", tipoMime); // Adiciona um log no console para verificar o tipo MIME
                 console.log("Tamanho:", tamanho); // Adiciona um log no console para verificar o tamanho
-                console.log("Data de Modificação:", dataModificacao); // Adiciona um log no console para verificar a data
+                console.log("Data de Modificação (formato milisegundos):", dataModificacao); // Adiciona um log no console para verificar a data
+                console.log("Data de Modificação  (formato legível-date):", new Date(dataModificacao).toLocaleString());                
+                // Chamando diretamente o método toLocaleString() de um objeto Date no JavaScript. Nesse contexto não é necessário usar ${} para interpolação
 
-                // Exibir os metadados no HTML
+                // Exibe os metadados no HTML (opcional)
                 document.getElementById("metadadosArquivo").innerHTML = `
                     <p>Nome do Arquivo: ${nomeArquivo}</p>
                     <p>Tipo MIME: ${tipoMime}</p>
                     <p>Tamanho: ${tamanho} bytes</p>
-                    <p>Data de Modificação Original: ${new Date(arquivo.lastModifiedDate).toLocaleString()}</p>
-                `;
+                    <p>Data de Modificação Original: ${new Date(dataModificacao).toLocaleString()}</p>
+                `; // Está usando template literals do JavaScript (marcados por ${} dentro de uma string delimitada por crases ` `)
             }
         }
     </script>

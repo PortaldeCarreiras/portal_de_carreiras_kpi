@@ -9,8 +9,7 @@ include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
 include_once('saidaDataPipeline.php'); // Inclui a função de processamento de linha
 
-function processarSaidaFile($file, $conn, $tabela, $processarLinha)
-{
+function processarSaidaFile($file, $conn, $tabela, $processarLinha){
     registrarLogDepuracao("Função processarSaidaFile iniciada.");
     // Limpa a tabela no DB-SQL antes de inserir dados novos.
     // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
@@ -23,12 +22,6 @@ function processarSaidaFile($file, $conn, $tabela, $processarLinha)
     $worksheet = $spreadsheet->getActiveSheet();    // Pega a aba ativa
     registrarLogDepuracao("Aba ativa da planilha obtida.");
 
-    // Capturar a última coluna usada
-    $ultimaColuna = $worksheet->getHighestColumn(); // Exemplo: "D"
-    // Converter para índice numérico a letra da coluna
-    $totalColunasOri = \PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString($ultimaColuna);
-    registrarLogDepuracao("Última coluna da planilha: $ultimaColuna, valor numerico: $totalColunasOri");
-
     // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
     $totalLinhas = 0;
     $totalColunas = 0;
@@ -40,10 +33,10 @@ function processarSaidaFile($file, $conn, $tabela, $processarLinha)
     iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, $totalLinhas, $totalColunas, $erros, $errosDetalhados);
 
     // Essa função ordena e grava os erros no log
-    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file, false);   // $metaProcess = false
+    capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $file);
 
     // Exibe a mensagem resumida no navegador
-    exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, false);   // $metaProcess = false
+    exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros);
 }   //  Fim da função processarSaidaFile
 
 // Verifica se o arquivo foi enviado via GET
@@ -54,3 +47,4 @@ if (isset($_GET['file'])) {
 }   //  Fim do IF de verificação de arquivo enviado via GET
 
 $conn->close();
+?>

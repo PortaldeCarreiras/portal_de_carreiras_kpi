@@ -1,5 +1,5 @@
 <?php
-function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados, $worksheet){
+function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados, $dataArquivo) {
     // Processar linha específica para portal_acesso
     // Obtendo os valores de cada célula
     $codigo = (int)$cellIterator->current()->getValue();
@@ -11,8 +11,9 @@ function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, 
     $ano_acesso = (int)$cellIterator->current()->getValue();
     $cellIterator->next();
     $numero_acessos = (int)$cellIterator->current()->getValue();
-    $dataArquivo_raw = $worksheet->getCell('F' . $indice)->getValue();
-    $dataArquivo = converterDataExcelParaSQL($dataArquivo_raw, $indice, 'F', $erros, $tabela, $errosDetalhados);
+    $cellIterator->next();
+    $data_arquivo_raw = $cellIterator->current()->getValue();
+    $data_arquivo = converterDataExcelParaSQL($data_arquivo_raw, $indice, $cellIterator->key(), $erros, $tabela, $errosDetalhados);
 
     return [
         'codigo' => $codigo,
@@ -20,7 +21,7 @@ function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, 
         'mes_acesso' => $mes_acesso,
         'ano_acesso' => $ano_acesso,
         'numero_acessos' => $numero_acessos,
-        'data_arquivo' => $dataArquivo
+        'data_arquivo' => $data_arquivo // Adiciona a data do arquivo
     ];
 }
 ?>
