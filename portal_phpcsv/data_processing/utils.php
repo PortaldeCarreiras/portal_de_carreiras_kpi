@@ -12,7 +12,7 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
  * @param string $valorColuna Valor que será preenchido em todas as linhas da nova coluna.
  * @return void
  */
-function adicionarColunaComValor(Spreadsheet $spreadsheet, $nomeColuna, $valorColuna) {
+function addColumnAndFill(Spreadsheet $spreadsheet, $nomeColuna, $valorColuna) {
     // Obtém a aba ativa
     $worksheet = $spreadsheet->getActiveSheet();
 
@@ -48,7 +48,7 @@ function capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColun
         criaLogs($tabela, $mensagemSucesso); // Chama a função de log
     }   //  Fim do IF de verificação de erros
     criaLogs($tabela, $fileName); // Chama a função de log
-    registrarLogDepuracao("Erros capturados e registrados no log.");
+    registrarLogDepuracao("Erros capturados e registrados no log ($tabela).");
 }
 
 // Função para converter o nome do arquivo para camelCase
@@ -68,7 +68,7 @@ function exibirAlertaERedirecionar($mensagem){
 
 // Função para exibir mensagem resumida no navegador
 function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $metaProcess = false){
-    registrarLogDepuracao("Exibindo mensagem resumida no navegador.");
+    registrarLogDepuracao("Exibindo mensagem resumida no navegador ($tabela).");
     // Condicional PHP com o uso de operador ternário
     // Concatenando as linhas com " . " para quebra de linha no cod PHP (senão não funciona)"
     $aux = $metaProcess ? "
@@ -91,7 +91,7 @@ function exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $m
         ";
 
     echo "<script>$aux</script>";
-    registrarLogDepuracao("Mensagem resumida exibida.\n\n\n");
+    registrarLogDepuracao("Mensagem resumida exibida ($tabela).\n");
 }
 
 // Função genérica para exibir log de processamento no navegador
@@ -153,7 +153,7 @@ function normalizarNomeArquivo($nomeArquivo){
 
 // Função para registrar log de depuração
 function registrarLogDepuracao($mensagem){
-    $arquivoLog = '../logs/log_depuracao.txt';
+    $arquivoLog = __DIR__ . '/../logs/log_depuracao.txt';
     $hora = date('Y-m-d H:i:s');
     // Verifica se o diretório existe
     if (!file_exists(dirname($arquivoLog))) {

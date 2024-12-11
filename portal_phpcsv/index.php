@@ -2,6 +2,7 @@
 require_once 'vendor/autoload.php';
 require_once 'data_processing/utils.php';
 require_once 'data_processing/metaProcessFile.php';
+require_once 'data_processing/processSpreadSheetFileAndSave.php';
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -27,9 +28,7 @@ $nomesPermitidos = [
 // Lista de extensões de arquivos permitidas
 $extensoesPermitidas = ['csv', 'xls', 'xlsx'];
 
-// PEGA O FORMULÁRIO VIA POST, CARREGA, VERIFICA O TIPO DE EXTENSÃO,
-// ABRE COM O SPREADSHEET, CONVERT PARA XLSX E SALVA NA PASTA /UPLOAD DO PROJETO
-// Verifica se o formulário foi enviado via POST e se o arquivo foi submetido corretamente
+// PEGA O FORMULÁRIO VIA POST, verifica se ele foi enviado e se o arquivo foi submetido corretamente
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     // Obtém informações sobre o arquivo enviado
     $file = $_FILES['xls_file'];
@@ -37,8 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     $fileTmpName = $file['tmp_name'];
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
     
-    // Captura o valor do timestamp enviado pelo cliente
+    // Captura o valor do timestamp obtido do Metadado
     $timestamp = isset($_POST['dataModificacao']) ? intval($_POST['dataModificacao']) : time();
+    
     // Converte o timestamp para o formato desejado
     $data_criacao = date('Y-m-d H:i:s', $timestamp / 1000); // Dividido por 1000 para converter de milissegundos para segundos
 
@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
         $spreadsheet = $reader->load($fileTmpName);
 
         // Adiciona a nova coluna com a data de modificação do arquivo
-        adicionarColunaComValor($spreadsheet, "Data Arquivo Ori", $data_criacao);
+        addColumnAndFill($spreadsheet, "Data Arquivo Ori", $data_criacao);
 
         // Define o nome do arquivo convertido, convertendo o nome do arquivo original
         // para o formato XLSX, salvando com o mesmo nome, mas extensão .xlsx
@@ -131,62 +131,14 @@ $conn->close();
 
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="utf-8" />
     <title>Upload de Arquivos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script>
-        function confirmarExclusao() {
-            const arquivo = document.getElementById("arquivo").files[0];
-            if (arquivo) {
-                return confirm(`Deseja realmente deletar todos os dados e carregar o novo arquivo ${arquivo.name} ao Banco de dados?`);
-            }
-            return false;
-        }
-
-        // Função para exibir a mensagem de processamento
-        function exibirMensagemProcessamento() {
-            const mensagemProcessamento = document.getElementById("mensagemProcessamento");
-            mensagemProcessamento.style.display = "block";
-        }
-
-        // Função para obter os metadados do arquivo
-        function obterMetadadosArquivo() {
-            const arquivo = document.getElementById("arquivo").files[0];
-            if (arquivo) {
-                // Obtém os metadados do arquivo
-                const nomeArquivo = arquivo.name;
-                const tipoMime = arquivo.type;
-                const tamanho = arquivo.size;
-
-                // Envia o timestamp exato de "lastModified"
-                const dataModificacao = arquivo.lastModified;   // Timestamp em milissegundos
-
-                // Atualiza os campos hidden com os metadados do arquivo
-                document.getElementById("nomeArquivo").value = nomeArquivo;
-                document.getElementById("tipoMime").value = tipoMime;
-                document.getElementById("tamanho").value = tamanho;
-                document.getElementById("dataModificacao").value = dataModificacao;
-
-                // Exibe os metadados no console
-                console.log("Nome do Arquivo:", nomeArquivo); // Adiciona um log no console para verificar o nome do arquivo
-                console.log("Tipo MIME:", tipoMime); // Adiciona um log no console para verificar o tipo MIME
-                console.log("Tamanho:", tamanho); // Adiciona um log no console para verificar o tamanho
-                console.log("Data de Modificação (formato milisegundos):", dataModificacao); // Adiciona um log no console para verificar a data
-                console.log("Data de Modificação  (formato legível-date):", new Date(dataModificacao).toLocaleString());                
-                // Chamando diretamente o método toLocaleString() de um objeto Date no JavaScript. Nesse contexto não é necessário usar ${} para interpolação
-
-                // Exibe os metadados no HTML (opcional)
-                document.getElementById("metadadosArquivo").innerHTML = `
-                    <p>Nome do Arquivo: ${nomeArquivo}</p>
-                    <p>Tipo MIME: ${tipoMime}</p>
-                    <p>Tamanho: ${tamanho} bytes</p>
-                    <p>Data de Modificação Original: ${new Date(dataModificacao).toLocaleString()}</p>
-                `; // Está usando template literals do JavaScript (marcados por ${} dentro de uma string delimitada por crases ` `)
-            }
-        }
-    </script>
+    <!-- Importa o arquivo JavaScript que contém as mensagens -->
+    <script src="js/messages.js"></script>
+    <!-- Importa o arquivo JavaScript que contém a função obterMetadadosArquivo -->
+    <script src="js/captureFileMetadata.js"></script>
 </head>
 
 <body>
@@ -210,5 +162,4 @@ $conn->close();
         <div id="metadadosArquivo"></div>
     </div>
 </body>
-
 </html>

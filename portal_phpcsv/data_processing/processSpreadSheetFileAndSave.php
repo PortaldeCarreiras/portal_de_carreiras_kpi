@@ -6,19 +6,22 @@ require_once 'utils.php';
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
-/**
- * Processa o arquivo enviado via formulário, converte para XLSX e salva na pasta /uploads do projeto.
- *
+/**  * Processa o arquivo enviado via formulário, converte para XLSX e salva na pasta /uploads do projeto. *
  * @param array $file O arquivo enviado via formulário.
  * @param string $data_criacao A data de criação do arquivo.
  * @param array $nomesPermitidos Lista de nomes de arquivos permitidos.
  * @param array $extensoesPermitidas Lista de extensões de arquivos permitidas.
- * @param string $message Mensagem de retorno para o usuário.
- */
-function processSpreadSheet($file, $data_criacao, $nomesPermitidos, $extensoesPermitidas, &$message) {
+ * @param string $message Mensagem de retorno para o usuário.  */
+function processSpreadSheet($file, $nomesPermitidos, $extensoesPermitidas, &$message) {
     $fileName = $file['name'];
     $fileTmpName = $file['tmp_name'];
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
+
+    // Captura o valor do timestamp enviado pelo cliente e converte para o formato desejado
+    $timestamp = isset($_POST['dataModificacao']) ? intval($_POST['dataModificacao']) : time();
+        
+    // Converte o timestamp para o formato desejado
+    $data_criacao = date('Y-m-d H:i:s', $timestamp / 1000);
 
     // Normaliza o nome do arquivo (sem a extensão)
     $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($fileName, PATHINFO_FILENAME));
@@ -66,7 +69,7 @@ function processSpreadSheet($file, $data_criacao, $nomesPermitidos, $extensoesPe
         $spreadsheet = $reader->load($fileTmpName);
 
         // Adiciona uma nova coluna a planilha com a data de modificação do arquivo
-        // addColumnAndFill($spreadsheet, "Data Arquivo Original", $data_criacao);
+        addColumnAndFill($spreadsheet, "Data Arquivo Original", $data_criacao);
 
         // Define o nome do arquivo convertido, convertendo o nome do arquivo original
         // para o formato XLSX, salvando com o mesmo nome, mas extensão .xlsx

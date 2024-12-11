@@ -35,5 +35,14 @@ function criaLogs($nomeArquivoOrigem, $mensagem)
         // Escreve o novo conteúdo no arquivo de log
         file_put_contents($logFilePath, $novoConteudo);
     }
-}
-?>
+}   //  Fim da função criaLogs
+
+// Função para registrar erros
+function registrarLogErro($nomeArquivoOrigem, $mensagemErro)
+{
+    // Chama a função criaLogs para registrar o erro, adicionando o prefixo "ERRO"
+    criaLogs($nomeArquivoOrigem, "ERRO: $mensagemErro");
+}   //  Fim da função registrarLogErro
+
+// Utilize ferramentas de depuração: Ferramentas como o Xdebug podem ajudar a depurar o código e verificar
+// se o fluxo de execução está entrando no bloco catch quando ocorre um erro.
