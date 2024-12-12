@@ -592,3 +592,22 @@
 [2024-12-12 19:19:33] Exibindo mensagem resumida no navegador (portal_acesso).
 [2024-12-12 19:19:33] Mensagem resumida exibida (portal_acesso).
 
+[2024-12-12 19:35:48] Erros capturados e registrados no log (planilha_upload).
+[2024-12-12 19:35:48] Exibindo mensagem resumida no navegador (planilha_upload).
+[2024-12-12 19:35:48] Mensagem resumida exibida (planilha_upload).
+
+[2024-12-12 19:35:48] Função processarAcessoPortal iniciada.
+[2024-12-12 19:35:48] Tabela portal_acesso truncada.
+[2024-12-12 19:35:48] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx carregada.
+[2024-12-12 19:35:48] Aba ativa da planilha obtida.
+[2024-12-12 19:35:48] Iniciando iteração sobre as linhas da planilha.
+[2024-12-12 19:35:48] Tabela portal_acesso Linha 2 processada: {"codigo":16,"portal":"Fatec","mes_acesso":1,"ano_acesso":2022,"numero_acessos":239,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-12 19:35:48] Tabela portal_acesso Linha 3 processada: {"codigo":17,"portal":"Fatec","mes_acesso":2,"ano_acesso":2022,"numero_acessos":238,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-12 19:35:48] Tabela portal_acesso Linha 4 processada: {"codigo":18,"portal":"Fatec","mes_acesso":3,"ano_acesso":2022,"numero_acessos":412,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-12 19:35:48] Tabela portal_acesso Linha 5 processada: {"codigo":19,"portal":"Fatec","mes_acesso":4,"ano_acesso":2022,"numero_acessos":222,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-12 19:35:48] Tabela portal_acesso Linha 6 processada: {"codigo":20,"portal":"Fatec","mes_acesso":5,"ano_acesso":2022,"numero_acessos":225,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-12 19:35:48] Iteração sobre as linhas finalizada. Total de linhas processadas: 28. Total de erros: 0.
+[2024-12-12 19:35:48] Erros capturados e registrados no log (portal_acesso).
+[2024-12-12 19:35:48] Exibindo mensagem resumida no navegador (portal_acesso).
+[2024-12-12 19:35:48] Mensagem resumida exibida (portal_acesso).
+

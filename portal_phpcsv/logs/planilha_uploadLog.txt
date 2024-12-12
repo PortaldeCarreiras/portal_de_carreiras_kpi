@@ -1,3 +1,10 @@
+[2024-12-12 19:35:48] AcessoPortal.xls
+[2024-12-12 19:35:48] Todas as informações carregadas com sucesso!
+[2024-12-12 19:35:48] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-12 19:35:48] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-12 19:35:48] Total de linhas que apresentaram erro: 0
+
+
 [2024-12-12 19:19:33] AcessoPortal.xls
 [2024-12-12 19:19:33] Todas as informações carregadas com sucesso!
 [2024-12-12 19:19:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
@@ -2630,3 +2637,10 @@ Total de linhas que apresentaram erro: 0
 [2024-12-12 19:19:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
 [2024-12-12 19:19:33] Todas as informações carregadas com sucesso!
 [2024-12-12 19:19:33] AcessoPortal.xls
+[2024-12-12 19:35:48] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-12 19:35:48] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-12 19:35:48] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-12 19:35:48] Todas as informações carregadas com sucesso!
+[2024-12-12 19:35:48] AcessoPortal.xls

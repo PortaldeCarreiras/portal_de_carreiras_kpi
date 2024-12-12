@@ -10,12 +10,12 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
  * Processa o arquivo enviado via formulário, converte para XLSX e salva na pasta /uploads do projeto.
  *
  * @param array $file O arquivo enviado via formulário.
- * @param string $data_criacao A data de criação do arquivo.
+ * @param string $dataCriacao A data de criação do arquivo.
  * @param array $nomesPermitidos Lista de nomes de arquivos permitidos.
  * @param array $extensoesPermitidas Lista de extensões de arquivos permitidas.
  * @param string $message Mensagem de retorno para o usuário.
  */
-function processSpreadSheet($file, $data_criacao, $nomesPermitidos, $extensoesPermitidas, &$message) {
+function processSpreadSheet($file, $dataCriacao, $nomesPermitidos, $extensoesPermitidas, &$message) {
     $fileName = $file['name'];
     $fileTmpName = $file['tmp_name'];
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
@@ -59,7 +59,7 @@ function processSpreadSheet($file, $data_criacao, $nomesPermitidos, $extensoesPe
         $spreadsheet = $reader->load($fileTmpName);
 
         // Adiciona a nova coluna com a data de modificação do arquivo
-        addColumnAndFill($spreadsheet, "Data Arquivo Ori", $data_criacao);
+        addColumnAndFill($spreadsheet, "Data Arquivo Ori", $dataCriacao);
 
         // Define o nome do arquivo convertido, convertendo o nome do arquivo original
         $newFileName = pathinfo($fileName, PATHINFO_FILENAME) . '.xlsx';
@@ -84,7 +84,7 @@ function processSpreadSheet($file, $data_criacao, $nomesPermitidos, $extensoesPe
         // PROCESSAMENTO DO ARQUIVO AO SER CLICADO O BOTÃO "ENVIAR".
         $newFileName = converterParaCamelCase(pathinfo($newFileName, PATHINFO_FILENAME)) . '.xlsx';
         if (strcasecmp($newFileName, 'acessoPortal.xlsx') == 0) {
-            header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath) . "&dataModificacao=" . urlencode($data_criacao));
+            header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath) . "&dataModificacao=" . urlencode($dataCriacao));
         } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
             header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath));
         } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {

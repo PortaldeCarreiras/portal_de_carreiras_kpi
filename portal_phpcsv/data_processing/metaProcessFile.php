@@ -1,11 +1,11 @@
-<?php
+<?php   // PLANILHA UPLOADED, INFORMAÇÕES DE METADADOS DO PLANILHA ORIGINAL
 include_once(__DIR__ . '/../logs/criaLogs.php'); // Inclui a função de log
 include_once(__DIR__ . '/../dbSql/truncarTabelaSql.php'); // Inclui a função de truncar tabela
 include_once(__DIR__ . '/../dbSql/inserirDados.php'); // Inclui a função de inserção de dados
 include_once(__DIR__ . '/../data_processing/utils.php'); // Inclui as funções comuns
 include_once('metaDataPipeline.php');
 
-function metaProcessFile($conn, $data_criacao)
+function metaProcessFile($conn, $dataCriacao)
 {
     // Define a tabela a ser usada
     $tabela = 'planilha_upload';
@@ -17,7 +17,7 @@ function metaProcessFile($conn, $data_criacao)
         $fileName = $file['name'];
         $fileType = $file['type'];
         $fileSize = $file['size'];
-        $dataModificacao = $data_criacao;
+        $dataModificacao = $dataCriacao;
         $dataUpload = date('Y-m-d H:i:s');
         $outputFilePath = __DIR__ . '/../uploads/original/' . $fileName;
         $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);

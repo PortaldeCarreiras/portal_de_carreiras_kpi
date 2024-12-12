@@ -14,7 +14,7 @@ $message = metaProcessFile($conn, (obterDataOriArquivo($_POST['dataModificacao']
 // Variáveis que serão utilizadas em IFs diferentes abaixo
 $fileExtension = '';
 $fileName = '';
-$data_criacao = '';
+$dataCriacao = '';
 
 // Lista de nomes de arquivos permitidos (normalizados, sem extensão)
 $nomesPermitidos = [
@@ -28,8 +28,6 @@ $nomesPermitidos = [
 // Lista de extensões de arquivos permitidas
 $extensoesPermitidas = ['csv', 'xls', 'xlsx'];
 
-// $message = '';
-
 // PEGA O FORMULÁRIO VIA POST, verifica se ele foi enviado e se o arquivo foi submetido corretamente
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     // Obtém informações sobre o arquivo enviado
@@ -37,13 +35,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     $fileName = $file['name'];
     
     // Captura o valor do timestamp obtido do Metadado e converte o timestamp para o formato desejado
-    $data_criacao = obterDataOriArquivo($_POST['dataModificacao'] ?? null);
+    $dataCriacao = obterDataOriArquivo($_POST['dataModificacao'] ?? null);
 
-    processSpreadSheet($file, $data_criacao, $nomesPermitidos, $extensoesPermitidas, $message);
+    processSpreadSheet($file, $dataCriacao, $nomesPermitidos, $extensoesPermitidas, $message);
 }
 
 // echo "<label>&nbsp Arquivo Carregado: $fileName</label><br>";
-// echo "<label>&nbsp Data de Criação: $data_criacao</label><br>";
+// echo "<label>&nbsp Data de Criação: $dataCriacao</label><br>";
 
 $conn->close();
 ?>
