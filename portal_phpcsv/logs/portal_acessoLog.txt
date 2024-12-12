@@ -1,3 +1,190 @@
+[2024-12-12 19:19:33] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:19:33] Todas as informações carregadas com sucesso!
+[2024-12-12 19:19:33] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:19:33] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:19:33] Total de linhas que apresentaram erro: 0
+[2024-12-12 19:19:33] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:13:26] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:13:26] Todas as informações carregadas com sucesso!
+[2024-12-12 19:13:26] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:13:26] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:13:26] Total de linhas que apresentaram erro: 0
+[2024-12-12 19:13:25] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:10:25] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:10:25] Todas as informações carregadas com sucesso!
+[2024-12-12 19:10:25] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:10:25] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:10:25] Total de linhas que apresentaram erro: 0
+[2024-12-12 19:10:25] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:07:15] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:07:15] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:07:15] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:07:15] Total de linhas que apresentaram erro: 28
+[2024-12-12 19:07:15] Erro na linha 2, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 3, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 4, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 5, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 6, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 7, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 8, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 9, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 10, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 11, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 12, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 13, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 14, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 15, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 16, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 17, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 18, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 19, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 20, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 21, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 22, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 23, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 24, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 25, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 26, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 27, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 28, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 29, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:04:41] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:04:41] Todas as informações carregadas com sucesso!
+[2024-12-12 19:04:41] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:04:41] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:04:41] Total de linhas que apresentaram erro: 0
+[2024-12-12 19:04:41] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 18:51:14] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 18:51:14] Todas as informações carregadas com sucesso!
+[2024-12-12 18:51:14] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 18:51:14] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 18:51:14] Total de linhas que apresentaram erro: 0
+[2024-12-12 18:51:13] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 18:15:56] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 18:15:56] Todas as informações carregadas com sucesso!
+[2024-12-12 18:15:56] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 18:15:56] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 18:15:56] Total de linhas que apresentaram erro: 0
+[2024-12-12 18:15:56] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 18:01:25] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 18:01:25] Todas as informações carregadas com sucesso!
+[2024-12-12 18:01:25] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 18:01:25] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 18:01:25] Total de linhas que apresentaram erro: 0
+[2024-12-12 18:01:25] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 17:52:10] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 17:52:10] Todas as informações carregadas com sucesso!
+[2024-12-12 17:52:10] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 17:52:10] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 17:52:10] Total de linhas que apresentaram erro: 0
+[2024-12-12 17:52:10] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 17:49:34] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 17:49:34] Todas as informações carregadas com sucesso!
+[2024-12-12 17:49:34] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 17:49:34] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 17:49:34] Total de linhas que apresentaram erro: 0
+[2024-12-12 17:49:34] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:26:17] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:26:17] Todas as informações carregadas com sucesso!
+[2024-12-12 15:26:17] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:26:17] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:26:17] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:26:17] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:15:01] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:15:01] Todas as informações carregadas com sucesso!
+[2024-12-12 15:15:01] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:15:01] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:15:01] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:15:01] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:10:03] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:10:03] Todas as informações carregadas com sucesso!
+[2024-12-12 15:10:03] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:10:03] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:10:03] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:10:03] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:01:05] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:01:05] Todas as informações carregadas com sucesso!
+[2024-12-12 15:01:05] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:01:05] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:01:05] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:01:05] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:00:30] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:00:30] Todas as informações carregadas com sucesso!
+[2024-12-12 15:00:30] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:00:30] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:00:30] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:00:30] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:36:35] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:36:35] Todas as informações carregadas com sucesso!
+[2024-12-12 14:36:35] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:36:35] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:36:35] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:36:35] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:29:17] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:29:17] Todas as informações carregadas com sucesso!
+[2024-12-12 14:29:17] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:29:17] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:29:17] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:29:17] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:21:09] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:21:09] Todas as informações carregadas com sucesso!
+[2024-12-12 14:21:09] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:21:09] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:21:09] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:21:09] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:18:33] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:18:33] Todas as informações carregadas com sucesso!
+[2024-12-12 14:18:33] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:18:33] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:18:33] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:18:33] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:08:26] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:08:26] Todas as informações carregadas com sucesso!
+[2024-12-12 14:08:26] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:08:26] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:08:26] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:08:26] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
 [2024-12-11 18:21:23] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
 [2024-12-11 18:21:22] Todas as informações carregadas com sucesso!
 [2024-12-11 18:21:22] Os dados da tabela portal_acesso foram substituídas com sucesso!
@@ -1404,3 +1591,190 @@
 [2024-12-11 18:21:22] Os dados da tabela portal_acesso foram substituídas com sucesso!
 [2024-12-11 18:21:22] Todas as informações carregadas com sucesso!
 [2024-12-11 18:21:23] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:08:26] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:08:26] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:08:26] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:08:26] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:08:26] Todas as informações carregadas com sucesso!
+[2024-12-12 14:08:26] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:18:33] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:18:33] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:18:33] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:18:33] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:18:33] Todas as informações carregadas com sucesso!
+[2024-12-12 14:18:33] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:21:09] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:21:09] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:21:09] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:21:09] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:21:09] Todas as informações carregadas com sucesso!
+[2024-12-12 14:21:09] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:29:17] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:29:17] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:29:17] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:29:17] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:29:17] Todas as informações carregadas com sucesso!
+[2024-12-12 14:29:17] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 14:36:35] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 14:36:35] Total de linhas que apresentaram erro: 0
+[2024-12-12 14:36:35] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 14:36:35] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 14:36:35] Todas as informações carregadas com sucesso!
+[2024-12-12 14:36:35] C:\xampp\htdocs\portal\portal_phpcsv/uploads/AcessoPortal.xlsx
+[2024-12-12 15:00:30] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:00:30] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:00:30] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:00:30] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:00:30] Todas as informações carregadas com sucesso!
+[2024-12-12 15:00:30] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:01:05] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:01:05] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:01:05] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:01:05] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:01:05] Todas as informações carregadas com sucesso!
+[2024-12-12 15:01:05] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:10:03] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:10:03] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:10:03] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:10:03] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:10:03] Todas as informações carregadas com sucesso!
+[2024-12-12 15:10:03] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:15:01] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:15:01] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:15:01] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:15:01] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:15:01] Todas as informações carregadas com sucesso!
+[2024-12-12 15:15:01] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 15:26:17] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 15:26:17] Total de linhas que apresentaram erro: 0
+[2024-12-12 15:26:17] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 15:26:17] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 15:26:17] Todas as informações carregadas com sucesso!
+[2024-12-12 15:26:17] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 17:49:34] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 17:49:34] Total de linhas que apresentaram erro: 0
+[2024-12-12 17:49:34] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 17:49:34] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 17:49:34] Todas as informações carregadas com sucesso!
+[2024-12-12 17:49:34] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 17:52:10] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 17:52:10] Total de linhas que apresentaram erro: 0
+[2024-12-12 17:52:10] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 17:52:10] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 17:52:10] Todas as informações carregadas com sucesso!
+[2024-12-12 17:52:10] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 18:01:25] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 18:01:25] Total de linhas que apresentaram erro: 0
+[2024-12-12 18:01:25] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 18:01:25] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 18:01:25] Todas as informações carregadas com sucesso!
+[2024-12-12 18:01:25] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 18:15:56] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 18:15:56] Total de linhas que apresentaram erro: 0
+[2024-12-12 18:15:56] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 18:15:56] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 18:15:56] Todas as informações carregadas com sucesso!
+[2024-12-12 18:15:56] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 18:51:13] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 18:51:14] Total de linhas que apresentaram erro: 0
+[2024-12-12 18:51:14] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 18:51:14] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 18:51:14] Todas as informações carregadas com sucesso!
+[2024-12-12 18:51:14] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:04:41] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:04:41] Total de linhas que apresentaram erro: 0
+[2024-12-12 19:04:41] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:04:41] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:04:41] Todas as informações carregadas com sucesso!
+[2024-12-12 19:04:41] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:07:15] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:07:15] Erro na linha 29, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 28, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 27, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 26, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 25, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 24, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 23, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 22, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 21, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 20, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 19, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 18, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 17, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 16, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 15, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 14, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 13, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 12, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 11, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 10, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 9, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 8, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 7, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 6, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 5, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 4, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 3, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Erro na linha 2, coluna F: Célula vazia, sem informação.
+[2024-12-12 19:07:15] Total de linhas que apresentaram erro: 28
+[2024-12-12 19:07:15] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:07:15] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:07:15] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:10:25] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:10:25] Total de linhas que apresentaram erro: 0
+[2024-12-12 19:10:25] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:10:25] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:10:25] Todas as informações carregadas com sucesso!
+[2024-12-12 19:10:25] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:13:25] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:13:26] Total de linhas que apresentaram erro: 0
+[2024-12-12 19:13:26] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:13:26] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:13:26] Todas as informações carregadas com sucesso!
+[2024-12-12 19:13:26] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 19:19:33] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 19:19:33] Total de linhas que apresentaram erro: 0
+[2024-12-12 19:19:33] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 19:19:33] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 19:19:33] Todas as informações carregadas com sucesso!
+[2024-12-12 19:19:33] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx

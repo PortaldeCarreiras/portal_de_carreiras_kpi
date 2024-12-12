@@ -151,6 +151,13 @@ function normalizarNomeArquivo($nomeArquivo){
     return strtolower($nomeArquivo);
 }
 
+// Função para obter a data de criação do arquivo (Data original da planilha)
+// Captura o valor do timestamp obtido do Metadado e converte o timestamp para o formato desejado
+function obterDataOriArquivo($dataModificacao = null) {
+    $timestamp = isset($dataModificacao) ? intval($dataModificacao) : time();
+    return date('Y-m-d H:i:s', $timestamp / 1000); // Formata e retorna a data, divide por 1000 para converter de milissegundos para segundos
+}
+
 // Função para registrar log de depuração
 function registrarLogDepuracao($mensagem){
     $arquivoLog = __DIR__ . '/../logs/log_depuracao.txt';

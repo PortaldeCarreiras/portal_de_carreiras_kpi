@@ -9,15 +9,13 @@ include_once('../dbSql/truncarTabelaSql.php');
 include_once('../logs/ordenarGravarErrosLog.php');
 include_once('acessoDataPipeline.php'); // Inclui a função de processamento de linha
 
-function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArquivo){
-    try {
-        // Iniciar uma transação
+function processarAcessoPortal($file, $conn, $tabela, $processarLinha){
+    try {   // Iniciar uma transação
         mysqli_autocommit($conn, FALSE);
 
         registrarLogDepuracao("Função processarAcessoPortal iniciada.");
-        // Limpa a tabela antes de inserir novos dados
-        // LEMBRAR DE CODIFICAR PARA QUE APENAS O USUÁRIO ADM POSSA EXECUTAR ESSA FUNÇÃO.
-        truncarTabela($conn, $tabela);
+        
+        truncarTabela($conn, $tabela);  // Limpa a tabela antes de inserir novos dados
 
         $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);    // Carrega a planilha
         registrarLogDepuracao("Planilha $file carregada.");
@@ -29,6 +27,7 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
         $totalLinhas = 0;
         $totalColunas = 0;
         $erros = 0;
+        
         // Array para armazenar os erros detalhados
         $errosDetalhados = [];
 
@@ -43,20 +42,20 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha, $dataArqu
 
         // Confirmar a transação
         $conn->commit();
-    } catch (Exception $e) {
+
+    } catch (Exception $e) {    // Captura exceções
         // Rollback da transação em caso de erro
         mysqli_rollback($conn);
         registrarLogErro("Erro ao processar o arquivo: " . $e->getMessage(), $file);
         // Enviar notificação por e-mail ou outro canal
-    }
+    }   //  Fim da função processarAcessoPortal
 }   //  Fim da função processarAcessoPortal
 
 // Verifica se o arquivo foi enviado via GET
-if (isset($_GET['file']) && isset($_GET['dataModificacao'])) {
+if (isset($_GET['file'])) {
     $file = urldecode($_GET['file']);
     $tabela = 'portal_acesso'; // Informar a tabela que será trabalhada
-    $dataArquivo = urldecode($_GET['dataModificacao']); // Obtém a data do arquivo do formulário
-    processarAcessoPortal($file, $conn, $tabela, 'acessoPlanilhaExtrairMapToDb', $dataArquivo);
+    processarAcessoPortal($file, $conn, $tabela, 'acessoPlanilhaExtrairMapToDb');
 }   //  Fim do IF de verificação de arquivo enviado via GET
 
 $conn->close();

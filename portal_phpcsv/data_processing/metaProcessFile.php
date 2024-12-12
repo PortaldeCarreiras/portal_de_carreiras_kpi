@@ -5,7 +5,7 @@ include_once(__DIR__ . '/../dbSql/inserirDados.php'); // Inclui a função de in
 include_once(__DIR__ . '/../data_processing/utils.php'); // Inclui as funções comuns
 include_once('metaDataPipeline.php');
 
-function metaProcessFile($conn)
+function metaProcessFile($conn, $data_criacao)
 {
     // Define a tabela a ser usada
     $tabela = 'planilha_upload';
@@ -17,7 +17,7 @@ function metaProcessFile($conn)
         $fileName = $file['name'];
         $fileType = $file['type'];
         $fileSize = $file['size'];
-        $dataModificacao = $_POST['dataModificacao'];
+        $dataModificacao = $data_criacao;
         $dataUpload = date('Y-m-d H:i:s');
         $outputFilePath = __DIR__ . '/../uploads/original/' . $fileName;
         $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);

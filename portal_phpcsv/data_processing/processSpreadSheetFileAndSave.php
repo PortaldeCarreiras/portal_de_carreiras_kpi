@@ -6,22 +6,19 @@ require_once 'utils.php';
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
-/**  * Processa o arquivo enviado via formulário, converte para XLSX e salva na pasta /uploads do projeto. *
+/**
+ * Processa o arquivo enviado via formulário, converte para XLSX e salva na pasta /uploads do projeto.
+ *
  * @param array $file O arquivo enviado via formulário.
  * @param string $data_criacao A data de criação do arquivo.
  * @param array $nomesPermitidos Lista de nomes de arquivos permitidos.
  * @param array $extensoesPermitidas Lista de extensões de arquivos permitidas.
- * @param string $message Mensagem de retorno para o usuário.  */
-function processSpreadSheet($file, $nomesPermitidos, $extensoesPermitidas, &$message) {
+ * @param string $message Mensagem de retorno para o usuário.
+ */
+function processSpreadSheet($file, $data_criacao, $nomesPermitidos, $extensoesPermitidas, &$message) {
     $fileName = $file['name'];
     $fileTmpName = $file['tmp_name'];
     $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
-
-    // Captura o valor do timestamp enviado pelo cliente e converte para o formato desejado
-    $timestamp = isset($_POST['dataModificacao']) ? intval($_POST['dataModificacao']) : time();
-        
-    // Converte o timestamp para o formato desejado
-    $data_criacao = date('Y-m-d H:i:s', $timestamp / 1000);
 
     // Normaliza o nome do arquivo (sem a extensão)
     $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($fileName, PATHINFO_FILENAME));
@@ -42,37 +39,29 @@ function processSpreadSheet($file, $nomesPermitidos, $extensoesPermitidas, &$mes
         exit();
     }
 
-    // Verifica se o arquivo foi enviado sem erros
     if ($file['error'] == UPLOAD_ERR_OK) {
-
         // Verifica a extensão do arquivo para escolher o leitor apropriado
         switch (strtolower($fileExtension)) {
             case 'csv':
-                // Se for um arquivo CSV, usa o leitor de CSV
                 $reader = IOFactory::createReader('Csv');
                 break;
             case 'xls':
-                // Se for um arquivo XLS, usa o leitor de XLS
                 $reader = IOFactory::createReader('Xls');
                 break;
             case 'xlsx':
-                // Se for um arquivo XLSX, usa o leitor de XLSX
                 $reader = IOFactory::createReader('Xlsx');
                 break;
             default:
-                // Se o formato não for suportado, exibe uma mensagem de erro
-                criaLogs('processSpreadSheetFileAndSave', 'Formato de arquivo não suportado.');
                 die("Formato de arquivo não suportado.");
-        }   //  Fim do SWITCH de verificação de extensão de arquivo
+        }
 
         // Carrega o arquivo temporário para ser manipulado
         $spreadsheet = $reader->load($fileTmpName);
 
-        // Adiciona uma nova coluna a planilha com a data de modificação do arquivo
-        addColumnAndFill($spreadsheet, "Data Arquivo Original", $data_criacao);
+        // Adiciona a nova coluna com a data de modificação do arquivo
+        addColumnAndFill($spreadsheet, "Data Arquivo Ori", $data_criacao);
 
         // Define o nome do arquivo convertido, convertendo o nome do arquivo original
-        // para o formato XLSX, salvando com o mesmo nome, mas extensão .xlsx
         $newFileName = pathinfo($fileName, PATHINFO_FILENAME) . '.xlsx';
 
         // Define o gravador (writer) para o formato XLSX
@@ -94,20 +83,15 @@ function processSpreadSheet($file, $nomesPermitidos, $extensoesPermitidas, &$mes
 
         // PROCESSAMENTO DO ARQUIVO AO SER CLICADO O BOTÃO "ENVIAR".
         $newFileName = converterParaCamelCase(pathinfo($newFileName, PATHINFO_FILENAME)) . '.xlsx';
-        
-        // Use SEMPRE o arquivo incrementado ($outputFilePath) ao redirecionar
-        $baseUrl = 'http://localhost/portal/portal_phpcsv/data_processing/';    //  URL base para redirecionamento
         if (strcasecmp($newFileName, 'acessoPortal.xlsx') == 0) {
-            header("Location: {$baseUrl}acessoPortal.php?file=" . urlencode($outputFilePath));
+            header("Location: data_processing/acessoPortal.php?file=" . urlencode($outputFilePath) . "&dataModificacao=" . urlencode($data_criacao));
         } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
-            header("Location: {$baseUrl}vagasEstagio.php?file=" . urlencode($outputFilePath));
+            header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath));
         } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
-            header("Location: {$baseUrl}saidaFile.php?file=" . urlencode($outputFilePath));
-        }   //  Fim do IF de verificação de nome de arquivo
-
+            header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath));
+        }
         exit();
     } else {
-        criaLogs('processSpreadSheetFileAndSave', 'Erro no upload do arquivo.');
         $message .= "Erro ao fazer upload do arquivo.";
-    }   //  Fim do IF de verificação de erro no upload do arquivo
+    }
 }
