@@ -1,3 +1,11 @@
+[2024-12-12 20:11:28] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 20:11:28] Todas as informações carregadas com sucesso!
+[2024-12-12 20:11:28] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 20:11:28] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 20:11:28] Total de linhas que apresentaram erro: 0
+[2024-12-12 20:11:28] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
 [2024-12-12 19:35:48] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
 [2024-12-12 19:35:48] Todas as informações carregadas com sucesso!
 [2024-12-12 19:35:48] Os dados da tabela portal_acesso foram substituídas com sucesso!
@@ -1794,3 +1802,11 @@
 [2024-12-12 19:35:48] Os dados da tabela portal_acesso foram substituídas com sucesso!
 [2024-12-12 19:35:48] Todas as informações carregadas com sucesso!
 [2024-12-12 19:35:48] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx
+[2024-12-12 20:11:28] Dados da tabela portal_acesso foram apagados, antes do Upload.
+
+
+[2024-12-12 20:11:28] Total de linhas que apresentaram erro: 0
+[2024-12-12 20:11:28] Total de linhas inseridas: 28, Total de colunas: 6
+[2024-12-12 20:11:28] Os dados da tabela portal_acesso foram substituídas com sucesso!
+[2024-12-12 20:11:28] Todas as informações carregadas com sucesso!
+[2024-12-12 20:11:28] C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx

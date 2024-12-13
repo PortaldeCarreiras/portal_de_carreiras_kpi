@@ -88,7 +88,7 @@ function processSpreadSheet($file, $dataCriacao, $nomesPermitidos, $extensoesPer
         } elseif (strcasecmp($newFileName, 'consultaDeVagasDeEstagio.xlsx') == 0) {
             header("Location: data_processing/vagasEstagio.php?file=" . urlencode($outputFilePath));
         } elseif (strcasecmp($newFileName, 'saida.xlsx') == 0) {
-            header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath));
+            header("Location: data_processing/saidaFile.php?file=" . urlencode($outputFilePath) . "&dataModificacao=" . urlencode($dataCriacao));
         }
         exit();
     } else {
