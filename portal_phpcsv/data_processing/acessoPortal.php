@@ -46,9 +46,9 @@ function processarAcessoPortal($file, $conn, $tabela, $processarLinha){
     } catch (Exception $e) {    // Captura exceções
         // Rollback da transação em caso de erro
         mysqli_rollback($conn);
-        registrarLogErro("Erro ao processar o arquivo: " . $e->getMessage(), $file);
+        registrarLogErro("Erro ao processar o arquivo {$file}: " . $e->getMessage(), $file);
         // Enviar notificação por e-mail ou outro canal
-    }   //  Fim da função processarAcessoPortal
+    }   //  Fim do bloco TRY-CATCH
 }   //  Fim da função processarAcessoPortal
 
 // Verifica se o arquivo foi enviado via GET

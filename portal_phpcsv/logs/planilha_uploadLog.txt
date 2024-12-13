@@ -1,3 +1,241 @@
+[2024-12-13 11:10:51] Consulta de Vagas de estágio.xls
+[2024-12-13 11:10:51] Todas as informações carregadas com sucesso!
+[2024-12-13 11:10:51] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 11:10:51] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 11:10:51] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:46:32] Consulta de Vagas de estágio.xls
+[2024-12-13 10:46:32] Todas as informações carregadas com sucesso!
+[2024-12-13 10:46:31] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:46:31] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:46:31] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:38:37] Consulta de Vagas de estágio.xls
+[2024-12-13 10:38:37] Todas as informações carregadas com sucesso!
+[2024-12-13 10:38:37] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:38:37] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:38:37] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:36:33] Consulta de Vagas de estágio.xls
+[2024-12-13 10:36:33] Todas as informações carregadas com sucesso!
+[2024-12-13 10:36:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:36:33] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:36:33] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:34:00] saida.csv
+[2024-12-13 10:34:00] Todas as informações carregadas com sucesso!
+[2024-12-13 10:34:00] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:34:00] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:34:00] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:33:48] AcessoPortal.xls
+[2024-12-13 10:33:48] Todas as informações carregadas com sucesso!
+[2024-12-13 10:33:48] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:33:48] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:33:48] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:32:38] saida.csv
+[2024-12-13 10:32:38] Todas as informações carregadas com sucesso!
+[2024-12-13 10:32:38] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:32:38] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:32:38] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:32:26] AcessoPortal.xls
+[2024-12-13 10:32:26] Todas as informações carregadas com sucesso!
+[2024-12-13 10:32:26] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:32:26] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:32:26] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:23:46] Consulta de Vagas de estágio.xls
+[2024-12-13 10:23:46] Todas as informações carregadas com sucesso!
+[2024-12-13 10:23:46] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:23:46] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:23:46] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:22:33] Consulta de Vagas de estágio.xls
+[2024-12-13 10:22:33] Todas as informações carregadas com sucesso!
+[2024-12-13 10:22:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:22:33] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:22:33] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:14:01] Consulta de Vagas de estágio.xls
+[2024-12-13 10:14:01] Todas as informações carregadas com sucesso!
+[2024-12-13 10:14:01] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:14:01] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:14:01] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:13:50] saida.csv
+[2024-12-13 10:13:50] Todas as informações carregadas com sucesso!
+[2024-12-13 10:13:50] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:13:50] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:13:50] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:13:37] AcessoPortal.xls
+[2024-12-13 10:13:37] Todas as informações carregadas com sucesso!
+[2024-12-13 10:13:37] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:13:37] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:13:37] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:54:15] AcessoPortal.xls
+[2024-12-13 09:54:15] Todas as informações carregadas com sucesso!
+[2024-12-13 09:54:15] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:54:15] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:54:15] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:33:36] saida.csv
+[2024-12-13 09:33:36] Todas as informações carregadas com sucesso!
+[2024-12-13 09:33:36] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:33:36] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:33:36] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:33:26] AcessoPortal.xls
+[2024-12-13 09:33:26] Todas as informações carregadas com sucesso!
+[2024-12-13 09:33:26] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:33:26] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:33:26] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:23:36] saida.csv
+[2024-12-13 09:23:36] Todas as informações carregadas com sucesso!
+[2024-12-13 09:23:36] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:23:36] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:23:36] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:22:57] AcessoPortal.xls
+[2024-12-13 09:22:57] Todas as informações carregadas com sucesso!
+[2024-12-13 09:22:57] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:22:57] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:22:57] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:21:45] saida.csv
+[2024-12-13 09:21:45] Todas as informações carregadas com sucesso!
+[2024-12-13 09:21:45] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:21:45] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:21:45] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:21:36] AcessoPortal.xls
+[2024-12-13 09:21:36] Todas as informações carregadas com sucesso!
+[2024-12-13 09:21:36] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:21:36] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:21:36] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:19:58] saida.csv
+[2024-12-13 09:19:58] Todas as informações carregadas com sucesso!
+[2024-12-13 09:19:58] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:19:58] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:19:58] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:19:47] AcessoPortal.xls
+[2024-12-13 09:19:47] Todas as informações carregadas com sucesso!
+[2024-12-13 09:19:47] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:19:47] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:19:47] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:07:06] AcessoPortal.xls
+[2024-12-13 09:07:06] Todas as informações carregadas com sucesso!
+[2024-12-13 09:07:06] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:07:06] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:07:06] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:05:17] AcessoPortal.xls
+[2024-12-13 09:05:17] Todas as informações carregadas com sucesso!
+[2024-12-13 09:05:17] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:05:16] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:05:16] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:05:03] AcessoPortal.xls
+[2024-12-13 09:05:03] Todas as informações carregadas com sucesso!
+[2024-12-13 09:05:03] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:05:03] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:05:03] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:54:25] AcessoPortal.xls
+[2024-12-13 08:54:25] Todas as informações carregadas com sucesso!
+[2024-12-13 08:54:25] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:54:25] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:54:25] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:45:59] AcessoPortal.xls
+[2024-12-13 08:45:59] Todas as informações carregadas com sucesso!
+[2024-12-13 08:45:59] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:45:59] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:45:59] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:45:12] saida.csv
+[2024-12-13 08:45:12] Todas as informações carregadas com sucesso!
+[2024-12-13 08:45:12] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:45:12] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:45:12] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:44:56] AcessoPortal.xls
+[2024-12-13 08:44:56] Todas as informações carregadas com sucesso!
+[2024-12-13 08:44:56] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:44:56] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:44:56] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:40:25] saida.csv
+[2024-12-13 08:40:25] Todas as informações carregadas com sucesso!
+[2024-12-13 08:40:25] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:40:25] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:40:25] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:40:14] AcessoPortal.xls
+[2024-12-13 08:40:14] Todas as informações carregadas com sucesso!
+[2024-12-13 08:40:14] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:40:14] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:40:14] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:25:37] AcessoPortal.xls
+[2024-12-13 08:25:37] Todas as informações carregadas com sucesso!
+[2024-12-13 08:25:37] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:25:37] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:25:37] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:22:10] AcessoPortal.xls
+[2024-12-13 08:22:10] Todas as informações carregadas com sucesso!
+[2024-12-13 08:22:10] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:22:10] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:22:10] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 07:56:30] saida.csv
+[2024-12-13 07:56:30] Todas as informações carregadas com sucesso!
+[2024-12-13 07:56:30] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 07:56:30] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 07:56:30] Total de linhas que apresentaram erro: 0
+
+
 [2024-12-12 21:01:47] saida.csv
 [2024-12-12 21:01:47] Todas as informações carregadas com sucesso!
 [2024-12-12 21:01:47] Os dados da tabela planilha_upload foram inseridas com sucesso!
@@ -2756,3 +2994,241 @@ Total de linhas que apresentaram erro: 0
 [2024-12-12 21:01:47] Os dados da tabela planilha_upload foram inseridas com sucesso!
 [2024-12-12 21:01:47] Todas as informações carregadas com sucesso!
 [2024-12-12 21:01:47] saida.csv
+[2024-12-13 07:56:30] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 07:56:30] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 07:56:30] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 07:56:30] Todas as informações carregadas com sucesso!
+[2024-12-13 07:56:30] saida.csv
+[2024-12-13 08:22:10] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:22:10] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:22:10] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:22:10] Todas as informações carregadas com sucesso!
+[2024-12-13 08:22:10] AcessoPortal.xls
+[2024-12-13 08:25:37] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:25:37] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:25:37] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:25:37] Todas as informações carregadas com sucesso!
+[2024-12-13 08:25:37] AcessoPortal.xls
+[2024-12-13 08:40:14] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:40:14] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:40:14] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:40:14] Todas as informações carregadas com sucesso!
+[2024-12-13 08:40:14] AcessoPortal.xls
+[2024-12-13 08:40:25] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:40:25] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:40:25] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:40:25] Todas as informações carregadas com sucesso!
+[2024-12-13 08:40:25] saida.csv
+[2024-12-13 08:44:56] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:44:56] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:44:56] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:44:56] Todas as informações carregadas com sucesso!
+[2024-12-13 08:44:56] AcessoPortal.xls
+[2024-12-13 08:45:12] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:45:12] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:45:12] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:45:12] Todas as informações carregadas com sucesso!
+[2024-12-13 08:45:12] saida.csv
+[2024-12-13 08:45:59] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:45:59] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:45:59] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:45:59] Todas as informações carregadas com sucesso!
+[2024-12-13 08:45:59] AcessoPortal.xls
+[2024-12-13 08:54:25] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 08:54:25] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 08:54:25] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 08:54:25] Todas as informações carregadas com sucesso!
+[2024-12-13 08:54:25] AcessoPortal.xls
+[2024-12-13 09:05:03] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:05:03] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:05:03] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:05:03] Todas as informações carregadas com sucesso!
+[2024-12-13 09:05:03] AcessoPortal.xls
+[2024-12-13 09:05:16] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:05:16] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:05:17] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:05:17] Todas as informações carregadas com sucesso!
+[2024-12-13 09:05:17] AcessoPortal.xls
+[2024-12-13 09:07:06] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:07:06] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:07:06] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:07:06] Todas as informações carregadas com sucesso!
+[2024-12-13 09:07:06] AcessoPortal.xls
+[2024-12-13 09:19:47] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:19:47] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:19:47] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:19:47] Todas as informações carregadas com sucesso!
+[2024-12-13 09:19:47] AcessoPortal.xls
+[2024-12-13 09:19:58] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:19:58] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:19:58] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:19:58] Todas as informações carregadas com sucesso!
+[2024-12-13 09:19:58] saida.csv
+[2024-12-13 09:21:36] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:21:36] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:21:36] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:21:36] Todas as informações carregadas com sucesso!
+[2024-12-13 09:21:36] AcessoPortal.xls
+[2024-12-13 09:21:45] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:21:45] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:21:45] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:21:45] Todas as informações carregadas com sucesso!
+[2024-12-13 09:21:45] saida.csv
+[2024-12-13 09:22:57] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:22:57] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:22:57] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:22:57] Todas as informações carregadas com sucesso!
+[2024-12-13 09:22:57] AcessoPortal.xls
+[2024-12-13 09:23:36] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:23:36] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:23:36] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:23:36] Todas as informações carregadas com sucesso!
+[2024-12-13 09:23:36] saida.csv
+[2024-12-13 09:33:26] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:33:26] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:33:26] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:33:26] Todas as informações carregadas com sucesso!
+[2024-12-13 09:33:26] AcessoPortal.xls
+[2024-12-13 09:33:36] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:33:36] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:33:36] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:33:36] Todas as informações carregadas com sucesso!
+[2024-12-13 09:33:36] saida.csv
+[2024-12-13 09:54:15] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 09:54:15] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 09:54:15] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 09:54:15] Todas as informações carregadas com sucesso!
+[2024-12-13 09:54:15] AcessoPortal.xls
+[2024-12-13 10:13:37] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:13:37] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:13:37] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:13:37] Todas as informações carregadas com sucesso!
+[2024-12-13 10:13:37] AcessoPortal.xls
+[2024-12-13 10:13:50] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:13:50] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:13:50] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:13:50] Todas as informações carregadas com sucesso!
+[2024-12-13 10:13:50] saida.csv
+[2024-12-13 10:14:01] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:14:01] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:14:01] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:14:01] Todas as informações carregadas com sucesso!
+[2024-12-13 10:14:01] Consulta de Vagas de estágio.xls
+[2024-12-13 10:22:33] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:22:33] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:22:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:22:33] Todas as informações carregadas com sucesso!
+[2024-12-13 10:22:33] Consulta de Vagas de estágio.xls
+[2024-12-13 10:23:46] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:23:46] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:23:46] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:23:46] Todas as informações carregadas com sucesso!
+[2024-12-13 10:23:46] Consulta de Vagas de estágio.xls
+[2024-12-13 10:32:26] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:32:26] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:32:26] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:32:26] Todas as informações carregadas com sucesso!
+[2024-12-13 10:32:26] AcessoPortal.xls
+[2024-12-13 10:32:38] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:32:38] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:32:38] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:32:38] Todas as informações carregadas com sucesso!
+[2024-12-13 10:32:38] saida.csv
+[2024-12-13 10:33:48] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:33:48] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:33:48] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:33:48] Todas as informações carregadas com sucesso!
+[2024-12-13 10:33:48] AcessoPortal.xls
+[2024-12-13 10:34:00] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:34:00] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:34:00] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:34:00] Todas as informações carregadas com sucesso!
+[2024-12-13 10:34:00] saida.csv
+[2024-12-13 10:36:33] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:36:33] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:36:33] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:36:33] Todas as informações carregadas com sucesso!
+[2024-12-13 10:36:33] Consulta de Vagas de estágio.xls
+[2024-12-13 10:38:37] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:38:37] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:38:37] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:38:37] Todas as informações carregadas com sucesso!
+[2024-12-13 10:38:37] Consulta de Vagas de estágio.xls
+[2024-12-13 10:46:31] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 10:46:31] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 10:46:31] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 10:46:32] Todas as informações carregadas com sucesso!
+[2024-12-13 10:46:32] Consulta de Vagas de estágio.xls
+[2024-12-13 11:10:51] Total de linhas que apresentaram erro: 0
+
+
+[2024-12-13 11:10:51] Total de linhas inseridas: 1, Total de colunas: 6
+[2024-12-13 11:10:51] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2024-12-13 11:10:51] Todas as informações carregadas com sucesso!
+[2024-12-13 11:10:51] Consulta de Vagas de estágio.xls

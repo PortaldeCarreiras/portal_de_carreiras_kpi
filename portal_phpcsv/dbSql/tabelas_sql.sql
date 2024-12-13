@@ -6,6 +6,7 @@ CREATE TABLE 'portal_acesso' (
   'mes_acesso' int(2) NOT NULL,
   'ano_acesso' int(4) NOT NULL,
   'numero_acessos' int(6) NOT NULL,
+  `data_arquivo` datetime NOT NULL DEFAULT '2024-01-01 00:00:00',
   'data' datetime NOT NULL,
   PRIMARY KEY ('id')  -- Chave primária definida
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -28,6 +29,7 @@ CREATE TABLE 'portal_vagas_estagio' (
   'responsavel_telefone' varchar(50),
   'data_alteracao' datetime NOT NULL,
   'revisao' int(4),
+  `data_arquivo` datetime NOT NULL DEFAULT '2024-01-01 00:00:00',
   'data' date NOT NULL,
   PRIMARY KEY ('id')  -- Chave primária definida
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -52,23 +54,25 @@ CREATE TABLE 'portal_saida_estagio' (
 	'data_final' date NOT NULL,
 	'orientador' VARCHAR(50) NOT NULL,
 	'resp_empresa' VARCHAR(50) NOT NULL,
-  'data_arquivo' date NOT NULL,
+  `data_arquivo` datetime NOT NULL DEFAULT '2024-01-01 00:00:00',
   'data' datetime NOT NULL,
   PRIMARY KEY ('id')  -- Chave primária definida
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
+--
 -- Estrutura da tabela 'planilha_upload'
 CREATE TABLE planilha_upload (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
     arquivo_nome VARCHAR(255) NOT NULL,
-    arquivo_tipo VARCHAR(255) NOT NULL,
-    arquivo_tamanho INT NOT NULL,
+    arquivo_tipo VARCHAR(100) NOT NULL,
+    arquivo_tamanho INT(11) NOT NULL,
     arquivo_data DATETIME NOT NULL,
     arquivo_data_upload DATETIME NOT NULL,
     arquivo_local_armazenado VARCHAR(255) NOT NULL
-);
-
+)ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+-- Estrutura para tabela `planilha_upload`
+--
 -- --------------------------------------------------------
 -- Alguns comandos
 DELETE FROM portal_acesso;  -- Deleta todos itens de uma tabela

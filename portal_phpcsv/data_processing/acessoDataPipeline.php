@@ -1,5 +1,5 @@
 <?php
-function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados, $dataArquivo) {
+function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, &$errosDetalhados) {
     // Processar linha específica para portal_acesso
     // Obtendo os valores de cada célula
     $codigo = (int)$cellIterator->current()->getValue();
@@ -24,4 +24,3 @@ function acessoPlanilhaExtrairMapToDb($cellIterator, $indice, &$erros, $tabela, 
         'data_arquivo' => $dataArquivo // Adiciona a data do arquivo
     ];
 }
-?>

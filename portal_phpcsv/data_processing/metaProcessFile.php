@@ -5,8 +5,7 @@ include_once(__DIR__ . '/../dbSql/inserirDados.php'); // Inclui a função de in
 include_once(__DIR__ . '/../data_processing/utils.php'); // Inclui as funções comuns
 include_once('metaDataPipeline.php');
 
-function metaProcessFile($conn, $dataCriacao)
-{
+function metaProcessFile($conn, $dataCriacao){
     // Define a tabela a ser usada
     $tabela = 'planilha_upload';
 
@@ -14,7 +13,7 @@ function metaProcessFile($conn, $dataCriacao)
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
         $file = $_FILES['xls_file'];
         $fileTmpName = $file['tmp_name'];
-        $fileName = $file['name'];
+        $fileName = basename($file['name']);
         $fileType = $file['type'];
         $fileSize = $file['size'];
         $dataModificacao = $dataCriacao;
@@ -36,13 +35,23 @@ function metaProcessFile($conn, $dataCriacao)
             $counter++;
         }
 
-        copy($fileTmpName, $outputFilePath);
-        touch($outputFilePath, strtotime($dataModificacao));
+        copy($fileTmpName, $outputFilePath);    // Copia o arquivo para a pasta de uploads
+        touch($outputFilePath, strtotime($dataModificacao));    // Define a data de modificação do arquivo
+        registrarLogDepuracao("Arquivo {$fileName} salvo em {$outputFilePath} com timestamp {$dataModificacao}.");
+
 
         // Chama a função para truncar a tabela antes de inserir novos dados
         // Não mexer nessa função, ela serve para limpar a tabela durante o processo de desenvolvimento.
         // truncarTabela($conn, $tabela);
 
+        if ($fileSize > 10 * 1024 * 1024) {
+            return "O arquivo é muito grande.";
+            registrarLogDepuracao("Arquivo {$fileName} grande demais (maior que 10MB): {$fileSize} Bytes.");
+        } else {
+            registrarLogDepuracao("Arquivo {$fileName} dentro do tamanho esperado (até 10MB): {$fileSize} Bytes.");
+        }
+
+        // Chama a função para inserir os metadados no banco de dados
         $fileMetaData = metaDataPipeline($fileName, $fileType, $fileSize, $dataModificacao, $dataUpload, $outputFilePath);
 
         // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
@@ -53,18 +62,26 @@ function metaProcessFile($conn, $dataCriacao)
         $errosDetalhados = [];
 
         // Insere os dados no banco de dados
-        if (!inserirDados($conn, $tabela, $fileMetaData)) {
-            $erros++;
-        } else {
-            $totalLinhas++;
-            $totalColunas = max($totalColunas, count($fileMetaData));
+        try{
+            if (!inserirDados($conn, $tabela, $fileMetaData)) {
+                $erros++;
+            } else {
+                $totalLinhas++;
+                $totalColunas = max($totalColunas, count($fileMetaData));
+            }
+        } catch (Exception $e) {
+            // Captura erros e registra no log
+            registrarLogDepuracao("Erro ao inserir metadados do {$fileName} no DB: " . $e->getMessage());
+            capturarErrosToLog(["Erro ao inserir metadados do {$fileName} no DB: " . $e->getMessage()], $tabela, 0, 0, 1, $fileName, true);
+        
+            return "Erro ao salvar metadados no banco de dados.";
         }
-
         // Captura e grava os erros no log com a variável $metaProcess
         capturarErrosToLog($errosDetalhados, $tabela, $totalLinhas, $totalColunas, $erros, $fileName, $metaProcess = true);
 
         // Exibir mensagem resumida no navegador
         exibirMensagemResumida($tabela, $totalLinhas, $totalColunas, $erros, $metaProcess = true);
+        registrarLogDepuracao("Metadados do arquivo {$fileName} processado com sucesso.");
 
         return "Arquivo carregado e metadados salvos com sucesso.";
     }
