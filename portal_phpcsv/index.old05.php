@@ -2,7 +2,6 @@
 require_once 'vendor/autoload.php';
 require_once 'data_processing/utils.php';
 require_once 'data_processing/metaProcessFile.php';
-require_once 'js/obterFileNameDrop.js';
 
 function adicionarColunaComValor($spreadsheet, $coluna, $valor) {
     $sheet = $spreadsheet->getActiveSheet();
@@ -17,7 +16,7 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
 include_once('conn.php');
 
-$message = metaProcessFile($conn);
+$message = metaProcessFile($conn, (obterDataOriArquivo($_POST['dataModificacao'] ?? null)));
 
 // Variáveis que serão utilizadas em IFs diferentes abaixo
 $fileExtension = '';
@@ -203,87 +202,10 @@ $conn->close();
     <meta charset="utf-8" />
     <title>Upload de Arquivos</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script>
-        function confirmarExclusao() {
-            const arquivo = document.getElementById("arquivo").files[0];
-            if (arquivo) {
-                return confirm(`Deseja realmente deletar todos os dados e carregar o novo arquivo ${arquivo.name} ao Banco de dados?`);
-            }
-            return false;
-        }
-
-        // Função para exibir a mensagem de processamento
-        function exibirMensagemProcessamento() {
-            const mensagemProcessamento = document.getElementById("mensagemProcessamento");
-            mensagemProcessamento.style.display = "block";
-        }
-
-        // Função para obter os metadados do arquivo
-        function obterMetadadosArquivo() {
-            const arquivo = document.getElementById("arquivo").files[0];
-            if (arquivo) {
-                // Obtém os metadados do arquivo
-                const nomeArquivo = arquivo.name;
-                const tipoMime = arquivo.type;
-                const tamanho = arquivo.size;
-                const dataModificacao = new Date(arquivo.lastModifiedDate).toISOString().slice(0, 19).replace('T', ' ');
-
-                // Atualiza os campos hidden com os metadados do arquivo
-                document.getElementById("nomeArquivo").value = nomeArquivo;
-                document.getElementById("tipoMime").value = tipoMime;
-                document.getElementById("tamanho").value = tamanho;
-                document.getElementById("dataModificacao").value = dataModificacao;
-
-                // Exibe os metadados no console
-                console.log("Nome do Arquivo:", nomeArquivo); // Adiciona um log no console para verificar o nome do arquivo
-                console.log("Tipo MIME:", tipoMime); // Adiciona um log no console para verificar o tipo MIME
-                console.log("Tamanho:", tamanho); // Adiciona um log no console para verificar o tamanho
-                console.log("Data de Modificação:", dataModificacao); // Adiciona um log no console para verificar a data
-
-                // // Exibir os metadados no HTML
-                // document.getElementById("metadadosArquivo").innerHTML = `
-                //     <p>Nome do Arquivo: ${nomeArquivo}</p>
-                //     <p>Tipo MIME: ${tipoMime}</p>
-                //     <p>Tamanho: ${tamanho} bytes</p>
-                //     <p>Data de Modificação Original: ${new Date(arquivo.lastModifiedDate).toLocaleString()}</p>
-                // `;
-            }
-        }
-
-        addEventListener();
-
-        // document.addEventListener('DOMContentLoaded', function () {
-        //     const dropdown = document.getElementById('dropdownArquivos');
-        //     if (dropdown.options.length > 0) {
-        //         dropdown.selectedIndex = 0; // Seleciona o primeiro item como padrão
-        //         if (!sessionStorage.getItem('formSubmitted')) {
-        //             capturarNomeArquivoSelDropdown();
-        //             sessionStorage.setItem('formSubmitted', 'true');
-        //         }
-        //     }
-        // });
-
-        //         function capturarNomeArquivoSelDropdown() {
-        //     // Captura o dropdown pelo ID
-        //     const dropdown = document.getElementById('dropdownArquivos');
-
-        //     // Obtém o valor selecionado
-        //     const nomeArquivoSelecionado = dropdown.value;
-
-        //     // Atualiza o texto visível no dropdown
-        //     dropdown.textContent = nomeArquivoSelecionado;
-
-        //     // Captura as cinco primeiras letras do nome do arquivo
-        //     const cincoPrimeirasLetras = nomeArquivoSelecionado.substring(0, 5);
-
-        //     // Atualiza o campo hidden
-        //     document.getElementById('nomeArquivoSelDrop').value = cincoPrimeirasLetras;
-
-        //     // Envia o formulário
-        //     document.getElementById('formDropdown').submit();
-        // }
-    </script>
-    <script src="js/obterFileNameDrop.js"></script>
+    <!-- Importa o arquivo JavaScript que contém as mensagens -->
+    <script src="js/messages.js"></script>
+    <!-- Importa o arquivo JavaScript que contém a função obterMetadadosArquivo -->
+    <script src="js/captureFileMetadata.js"></script>
 </head>
 
 <body>
