@@ -87,6 +87,92 @@ $message .= "Dados importados com sucesso!";
 // Redireciona para evitar a reenvio do formulário
 header("Location: " . $_SERVER['PHP_SELF']);
 exit; // Certifique-se de usar exit após header
+
+<?php
+require_once '../vendor/autoload.php';
+include('../conn.php');
+include('../logs/criaLogs.php'); // Inclui a função de log
+include('../dbSql/inserirDados.php'); // Inclui a função genérica de inserção de dados
+
+function processarAcessoPortal($file, $conn) {
+    // Limpa a tabela antes de inserir novos dados
+    include_once('../dbSql/truncarTabelaSql.php');
+    truncarTabela($conn, 'portal_acesso');
+
+    $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($file);
+    $worksheet = $spreadsheet->getActiveSheet();
+
+    $totalLinhas = 0;
+    $totalColunas = 0;
+    $erros = 0;
+    $errosDetalhados = '';
+
+    foreach ($worksheet->getRowIterator() as $indice => $row) {
+        if ($indice > 1) {
+            $cellIterator = $row->getCellIterator();
+            $cellIterator->setIterateOnlyExistingCells(false);
+
+            $codigo = (int)$cellIterator->current()->getValue();
+            $cellIterator->next();
+            $portal = $cellIterator->current()->getValue();
+            $cellIterator->next();
+            $mes_acesso = (int)$cellIterator->current()->getValue();
+            $cellIterator->next();
+            $ano_acesso = (int)$cellIterator->current()->getValue();
+            $cellIterator->next();
+            $numero_acessos = (int)$cellIterator->current()->getValue();
+
+            $dados = [
+                'codigo' => $codigo,
+                'portal' => $portal,
+                'mes_acesso' => $mes_acesso,
+                'ano_acesso' => $ano_acesso,
+                'numero_acessos' => $numero_acessos,
+                'data' => date('Y-m-d H:i:s')
+            ];
+
+            if (!inserirDados($conn, 'portal_acesso', $dados)) {
+                $erros++;
+                $errosDetalhados .= "Erro na linha $indice, coluna " . $cellIterator->key() . ": " . mysqli_error($conn) . "\n";
+            } else {
+                $totalLinhas++;
+                $totalColunas = max($totalColunas, count($dados));
+            }
+        }
+    }
+
+    criaLogs('portal_acesso', "Dados da tabela portal_acesso foram apagados.");
+    criaLogs('portal_acesso', "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas");
+    criaLogs('portal_acesso', "Total de linhas que apresentaram erro: $erros");
+    if ($erros > 0) {
+        criaLogs('portal_acesso', $errosDetalhados);
+    } else {
+        criaLogs('portal_acesso', "Todas as informações carregadas com sucesso!");
+    }
+
+    // Exibe a mensagem resumida no navegador
+    echo "<script>
+        alert('Dados da tabela portal_acesso foram apagados.\\n" .
+                "Total de linhas inseridas: $totalLinhas, Total de colunas: $totalColunas\\n" .
+                "Total de linhas que apresentaram erro: $erros\\n" .
+                ($erros === 0
+                    ? "Todas as informações carregadas com sucesso!\\n"
+                    : "As informações de erros podem ser vistas no arquivo de log portal_acessoLog.txt") . "');
+        window.location.href = '../index.php';
+        </script>";
+}
+
+if (isset($_GET['file'])) {
+    $file = urldecode($_GET['file']);
+    processarAcessoPortal($file, $conn);
+}
+
+$conn->close();
+?>
+
+
+
+
 ?>
 
 
