@@ -1,11 +1,12 @@
-<?php   // PLANILHA UPLOADED, INFORMAÇÕES DE METADADOS DO PLANILHA ORIGINAL
+<?php
+// PLANILHA UPLOADED, INFORMAÇÕES DE METADADOS DO PLANILHA ORIGINAL
 include_once(__DIR__ . '/../logs/criaLogs.php'); // Inclui a função de log
 include_once(__DIR__ . '/../dbSql/truncarTabelaSql.php'); // Inclui a função de truncar tabela
 include_once(__DIR__ . '/../dbSql/inserirDados.php'); // Inclui a função de inserção de dados
 include_once(__DIR__ . '/../data_processing/utils.php'); // Inclui as funções comuns
 include_once('metaDataPipeline.php');
 
-function metaProcessFile($conn, $dataCriacao){
+function metaProcessFile($conn, $dateCreation){
     // Define a tabela a ser usada
     $tabela = 'planilha_upload';
 
@@ -16,9 +17,9 @@ function metaProcessFile($conn, $dataCriacao){
         $fileName = basename($file['name']);
         $fileType = $file['type'];
         $fileSize = $file['size'];
-        $dataModificacao = $dataCriacao;
-        $dataUpload = date('Y-m-d H:i:s');
-        $outputFilePath = __DIR__ . '/../uploads/original/' . $fileName;
+        $dateCreation = $dateCreation;
+        $dateUpload = date('Y-m-d H:i:s');
+        $outputFilePath = '/../uploads/original/' . $fileName;  // Caminho do arquivo de upload
         $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
 
         if (!file_exists(__DIR__ . '/../uploads/original')) {
@@ -36,8 +37,8 @@ function metaProcessFile($conn, $dataCriacao){
         }
 
         copy($fileTmpName, $outputFilePath);    // Copia o arquivo para a pasta de uploads
-        touch($outputFilePath, strtotime($dataModificacao));    // Define a data de modificação do arquivo
-        registrarLogDepuracao("Arquivo {$fileName} salvo em {$outputFilePath} com timestamp {$dataModificacao}.");
+        touch($outputFilePath, strtotime($dateCreation));    // Define a data de modificação do arquivo
+        registrarLogDepuracao("Arquivo {$fileName} salvo em {$outputFilePath} com timestamp {$dateCreation}.");
 
 
         // Chama a função para truncar a tabela antes de inserir novos dados
@@ -52,7 +53,7 @@ function metaProcessFile($conn, $dataCriacao){
         }
 
         // Chama a função para inserir os metadados no banco de dados
-        $fileMetaData = metaDataPipeline($fileName, $fileType, $fileSize, $dataModificacao, $dataUpload, $outputFilePath);
+        $fileMetaData = metaDataPipeline($fileName, $fileType, $fileSize, $dateCreation, $dateUpload, $outputFilePath);
 
         // Inicializa as variáveis que contarão as linhas e colunas inseridas e os erros
         $totalLinhas = 0;
