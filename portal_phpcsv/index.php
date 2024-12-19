@@ -6,6 +6,29 @@ require_once 'data_processing/processSpreadSheetFileAndSave.php';
 require_once 'dbSql/selectPlanilhaUpload.php';
 include_once('conn.php');
 
+// Lógica para fazer o download do arquivo
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['downloadArquivo'])) {
+    $outputFilePath = $_POST['outputFilePath'] ?? ''; // Caminho do arquivo enviado pelo formulário
+    $fileName = $_POST['fileName'] ?? ''; // Nome do arquivo enviado pelo formulário
+
+    if (!empty($outputFilePath) && file_exists($outputFilePath)) {
+        // Configura os cabeçalhos para forçar o download
+        header('Content-Description: File Transfer');
+        header('Content-Type: application/octet-stream');
+        header('Content-Disposition: attachment; filename="' . basename($fileName) . '"');
+        header('Content-Length: ' . filesize($outputFilePath));
+        header('Cache-Control: must-revalidate');
+        header('Pragma: public');
+
+        // Envia o conteúdo do arquivo
+        readfile($outputFilePath);
+        exit;
+    } else {
+        // Exibe uma mensagem de erro caso o arquivo não seja encontrado
+        $mensagemErro = "Erro: O arquivo selecionado não foi encontrado no servidor.";
+    }
+}
+
 $message = metaProcessFile($conn, (obterDataOriArquivo($_POST['dataModificacao'] ?? null)));
 
 // Variáveis que serão utilizadas em IFs diferentes abaixo
@@ -60,15 +83,17 @@ $arquivos = array_filter(
     fn($f) => is_file($diretorioUploads . DIRECTORY_SEPARATOR . $f)
 );
 
-// Inicializa variáveis para exibição
+// Inicializa variáveis para exibição de detalhes do arquivo selecionado no dropdown
 $id = $fileName = $fileSize = $valorInput = $dateCreation = $dateUpload = $outputFilePath = '';
 $nomeArquivoSelDrop = $_POST['nomeArquivoSelDrop'] ?? '';
-registrarLogDepuracao("Nome do arquivo que está selecionado no Dropdown {$nomeArquivoSelDrop}.");
-$aux = 'AcessoPortal';
+$mensagemLog = empty($nomeArquivoSelDrop) ? "Nenhum arquivo foi selecionado no Dropdown." :
+    "Nome do arquivo que está selecionado no Dropdown: {$nomeArquivoSelDrop}";
+registrarLogDepuracao("{$mensagemLog}");
+// $aux = 'AcessoPortal';  // Nome do arquivo que será utilizado para teste no DB
 
 // Se um arquivo foi selecionado no dropdown, busca os detalhes no banco
 if (!empty($nomeArquivoSelDrop)) {
-    $detalhesArquivo = selectPlanilhaUpload($conn, $nomeArquivoSelDrop);
+    $detalhesArquivo = selectPlanilhaUpload($conn, $nomeArquivoSelDrop);    // Trocar a variável $nomeArquivoSelDrop por $aux e descomentar linha 69, se for fazer teste no DB
     if ($detalhesArquivo) {
         // Extrai os dados retornados pelo banco para variáveis
         extract($detalhesArquivo); // Cria $id, $arquivoNome, $arquivoTamanho, etc.
@@ -129,7 +154,7 @@ $conn->close();
                 <form id="formDropdown" action="index.php" method="POST">
                     <!-- Dropdown de arquivos -->
                     <div class="form-group col-md-auto">
-                        <select class="form-control" id="dropdownArquivos" name="nomeArquivoSelDrop" onchange="this.form.submit()">
+                        <select class="form-control" id="dropdownArquivos" name="nomeArquivoSelDrop" onchange="this.form.submit()" required>
                             <option value="" disabled selected>Selecione um arquivo para download.</option>
                             <?php foreach ($arquivos as $arquivo): ?>
                                 <option value="<?= htmlspecialchars($arquivo); ?>" <?= $arquivo === $nomeArquivoSelDrop ? 'selected' : ''; ?>>
@@ -151,20 +176,40 @@ $conn->close();
                                 <input type="text" readonly class="form-control-plaintext" id="tamanhoArquivo" value="<?= htmlspecialchars($fileSize); ?> bytes">
                             </div>
                             <div class="form-group">
-                                <label for="dateCreation">Data original do arquivo</label>
+                                <label for="dateCreation">Data original do arquivo: </label>
                                 <input type="text" readonly class="form-control-plaintext" id="dateCreation" value="<?= htmlspecialchars($dateCreation); ?>">
                             </div>
                             <div class="form-group">
-                                <label for="dataArquivoUpload">Data de upload</label>
+                                <label for="dataArquivoUpload">Data de upload: </label>
                                 <input type="text" readonly class="form-control-plaintext" id="dataArquivoUpload" value="<?= htmlspecialchars($dateUpload); ?>">
                             </div>
                             <div class="form-group">
-                                <label for="outputFilePath">Local armazenado</label>
+                                <label for="outputFilePath">Local armazenado: </label>
                                 <input type="text" readonly class="form-control-plaintext" id="outputFilePath" value="<?= htmlspecialchars($outputFilePath); ?>">
                             </div>
                         <?php endif; ?>
+                        <!-- <input type="submit" value="Download" class="btn btn-success"> -->
                     </div>
+
+                    <!-- Campos ocultos para enviar o caminho e o nome do arquivo -->
+                    <input type="hidden" name="outputFilePath" value="<?= htmlspecialchars($outputFilePath); ?>">
+                    <input type="hidden" name="fileName" value="<?= htmlspecialchars($fileName); ?>">
+
+                    <!-- Botão para download -->
+                    <?php if (!empty($nomeArquivoSelDrop) && !empty($outputFilePath)): ?>
+                        <button type="submit" name="downloadArquivo" class="btn btn-success">Download</button>
+                    <?php else: ?>
+                        <div class="alert alert-warning" role="alert">
+                            Selecione um arquivo para habilitar o download.
+                        </div>
+                    <?php endif; ?>
                 </form>
+                <!-- Exibição da mensagem de erro -->
+                <?php if (!empty($mensagemErro)): ?>
+                    <div class="alert alert-danger" role="alert">
+                        <?= htmlspecialchars($mensagemErro); ?>
+                    </div>
+                <?php endif; ?>
             </div>
 
         </div>

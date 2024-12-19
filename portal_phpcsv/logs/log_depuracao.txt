@@ -2117,3 +2117,405 @@ Arquivo AcessoPortal.xls salvo em /../uploads/original/AcessoPortal.xls com time
 [2024-12-18 11:51:05] Mensagem resumida exibida (portal_saida_estagio).
 
 [2024-12-18 11:51:07] Nome do arquivo que está selecionado no Dropdown .
+[2024-12-18 15:03:52] Nome do arquivo que está selecionado no Dropdown AcessoPortal.xlsx.
+[2024-12-18 15:03:52] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:03:52] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:10:56] Nome do arquivo que está selecionado no Dropdown {if (!empty(AcessoPortal.xlsx)){'Nenhum arquivo foi selecionado.'}}.
+[2024-12-18 15:10:56] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:10:56] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:17:03] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-18 15:17:03] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:17:03] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:17:05] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-18 15:17:05] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:17:05] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:17:06] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-18 15:17:06] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:17:06] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:17:15] Nenhum arquivo foi selecionado.
+[2024-12-18 15:18:28] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 15:18:36] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-18 15:18:36] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:18:36] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:20:33] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-18 15:20:33] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:20:33] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:20:34] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-18 15:20:34] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:20:34] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:20:37] Nome do arquivo que está selecionado no Dropdown: saida.xlsx
+[2024-12-18 15:20:37] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:20:37] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 15:21:07] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 15:55:22] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 15:55:22] Iniciando busca DB (planilha_upload).
+[2024-12-18 15:55:22] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:06:55] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:06:55] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:06:55] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:08:18] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:08:18] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:08:18] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:08:39] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:08:39] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:08:39] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:08:57] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:08:57] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:08:57] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:09:34] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:09:34] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:09:34] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:10:12] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:10:12] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:10:12] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:11:24] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:11:24] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:11:24] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:12:29] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:12:29] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:12:29] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:15:08] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:15:08] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:15:08] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:18:18] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:18:18] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:18:18] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:19:37] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:19:37] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:19:37] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:23:41] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:23:41] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:23:41] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:26:47] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:26:47] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:26:47] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:32:50] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:32:50] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:32:50] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:33:14] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:33:14] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:33:14] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:33:32] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:33:32] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:33:32] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:33:57] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:33:57] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:33:57] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:35:05] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:35:05] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:35:05] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:35:48] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:35:48] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:35:48] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:36:17] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:36:17] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:36:17] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:43:15] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:43:15] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:43:15] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:44:42] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:44:42] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:44:42] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:45:40] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:45:40] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:45:40] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:46:29] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:46:29] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:46:29] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:47:11] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:47:11] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:47:11] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:47:16] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 16:48:15] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 16:49:22] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 16:49:26] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:49:26] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:49:26] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:52:49] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:52:49] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:52:49] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 16:53:25] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 16:53:25] Iniciando busca DB (planilha_upload).
+[2024-12-18 16:53:25] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 17:02:30] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 17:02:30] Iniciando busca DB (planilha_upload).
+[2024-12-18 17:02:30] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 17:06:32] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:25:02] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:25:08] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:29:17] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:37:52] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:37:56] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-18 17:37:56] Iniciando busca DB (planilha_upload).
+[2024-12-18 17:37:56] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 17:38:01] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-18 17:38:01] Iniciando busca DB (planilha_upload).
+[2024-12-18 17:38:01] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 17:38:09] Nome do arquivo que está selecionado no Dropdown: saida.xlsx
+[2024-12-18 17:38:09] Iniciando busca DB (planilha_upload).
+[2024-12-18 17:38:09] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 17:38:17] Nome do arquivo que está selecionado no Dropdown: saida.xlsx
+[2024-12-18 17:38:17] Iniciando busca DB (planilha_upload).
+[2024-12-18 17:38:17] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 17:38:18] Nome do arquivo que está selecionado no Dropdown: saida.xlsx
+[2024-12-18 17:38:18] Iniciando busca DB (planilha_upload).
+[2024-12-18 17:38:18] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-18 17:39:22] Arquivo AcessoPortal.xls salvo em /../uploads/original/AcessoPortal.xls com timestamp 2024-09-03 16:09:14.
+[2024-12-18 17:39:22] Arquivo AcessoPortal.xls dentro do tamanho esperado (até 10MB): 22016 Bytes.
+[2024-12-18 17:39:22] Erros capturados e registrados no log (planilha_upload).
+[2024-12-18 17:39:22] Exibindo mensagem resumida no navegador (planilha_upload).
+[2024-12-18 17:39:22] Mensagem resumida exibida (planilha_upload).
+
+[2024-12-18 17:39:22] Metadados do arquivo AcessoPortal.xls processado com sucesso.
+[2024-12-18 17:39:22] Função processarAcessoPortal iniciada.
+[2024-12-18 17:39:22] Tabela portal_acesso truncada.
+[2024-12-18 17:39:22] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx carregada.
+[2024-12-18 17:39:22] Aba ativa da planilha obtida.
+[2024-12-18 17:39:22] Iniciando iteração sobre as linhas da planilha.
+[2024-12-18 17:39:22] Tabela portal_acesso Linha 2 processada: {"codigo":16,"portal":"Fatec","mes_acesso":1,"ano_acesso":2022,"numero_acessos":239,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:39:22] Tabela portal_acesso Linha 3 processada: {"codigo":17,"portal":"Fatec","mes_acesso":2,"ano_acesso":2022,"numero_acessos":238,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:39:22] Tabela portal_acesso Linha 4 processada: {"codigo":18,"portal":"Fatec","mes_acesso":3,"ano_acesso":2022,"numero_acessos":412,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:39:22] Tabela portal_acesso Linha 5 processada: {"codigo":19,"portal":"Fatec","mes_acesso":4,"ano_acesso":2022,"numero_acessos":222,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:39:22] Tabela portal_acesso Linha 6 processada: {"codigo":20,"portal":"Fatec","mes_acesso":5,"ano_acesso":2022,"numero_acessos":225,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:39:22] Iteração sobre as linhas finalizada. Total de linhas processadas: 28. Total de erros: 0.
+[2024-12-18 17:39:22] Erros capturados e registrados no log (portal_acesso).
+[2024-12-18 17:39:22] Exibindo mensagem resumida no navegador (portal_acesso).
+[2024-12-18 17:39:22] Mensagem resumida exibida (portal_acesso).
+
+[2024-12-18 17:39:25] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:53:05] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:53:12] Arquivo AcessoPortal.xls salvo em /../uploads/original/AcessoPortal.xls com timestamp 2024-09-03 16:09:14.
+[2024-12-18 17:53:12] Arquivo AcessoPortal.xls dentro do tamanho esperado (até 10MB): 22016 Bytes.
+[2024-12-18 17:53:12] Erros capturados e registrados no log (planilha_upload).
+[2024-12-18 17:53:12] Exibindo mensagem resumida no navegador (planilha_upload).
+[2024-12-18 17:53:12] Mensagem resumida exibida (planilha_upload).
+
+[2024-12-18 17:53:12] Metadados do arquivo AcessoPortal.xls processado com sucesso.
+[2024-12-18 17:53:12] Função processarAcessoPortal iniciada.
+[2024-12-18 17:53:12] Tabela portal_acesso truncada.
+[2024-12-18 17:53:12] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx carregada.
+[2024-12-18 17:53:12] Aba ativa da planilha obtida.
+[2024-12-18 17:53:12] Iniciando iteração sobre as linhas da planilha.
+[2024-12-18 17:53:12] Tabela portal_acesso Linha 2 processada: {"codigo":16,"portal":"Fatec","mes_acesso":1,"ano_acesso":2022,"numero_acessos":239,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:53:12] Tabela portal_acesso Linha 3 processada: {"codigo":17,"portal":"Fatec","mes_acesso":2,"ano_acesso":2022,"numero_acessos":238,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:53:12] Tabela portal_acesso Linha 4 processada: {"codigo":18,"portal":"Fatec","mes_acesso":3,"ano_acesso":2022,"numero_acessos":412,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:53:12] Tabela portal_acesso Linha 5 processada: {"codigo":19,"portal":"Fatec","mes_acesso":4,"ano_acesso":2022,"numero_acessos":222,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:53:12] Tabela portal_acesso Linha 6 processada: {"codigo":20,"portal":"Fatec","mes_acesso":5,"ano_acesso":2022,"numero_acessos":225,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-18 17:53:12] Iteração sobre as linhas finalizada. Total de linhas processadas: 28. Total de erros: 0.
+[2024-12-18 17:53:12] Erros capturados e registrados no log (portal_acesso).
+[2024-12-18 17:53:12] Exibindo mensagem resumida no navegador (portal_acesso).
+[2024-12-18 17:53:12] Mensagem resumida exibida (portal_acesso).
+
+[2024-12-18 17:53:14] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:53:22] Arquivo Consulta de Vagas de estágio.xls salvo em /../uploads/original/Consulta de Vagas de estágio.xls com timestamp 2024-09-03 16:10:55.
+[2024-12-18 17:53:22] Arquivo Consulta de Vagas de estágio.xls dentro do tamanho esperado (até 10MB): 1651712 Bytes.
+[2024-12-18 17:53:22] Erros capturados e registrados no log (planilha_upload).
+[2024-12-18 17:53:22] Exibindo mensagem resumida no navegador (planilha_upload).
+[2024-12-18 17:53:22] Mensagem resumida exibida (planilha_upload).
+
+[2024-12-18 17:53:22] Metadados do arquivo Consulta de Vagas de estágio.xls processado com sucesso.
+[2024-12-18 17:53:25] Função processarVagasEstagio iniciada.
+[2024-12-18 17:53:25] Tabela portal_vagas_estagio truncada.
+[2024-12-18 17:53:28] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/Consulta de Vagas de estágio.xlsx carregada.
+[2024-12-18 17:53:28] Aba ativa da planilha obtida.
+[2024-12-18 17:53:28] Iniciando iteração sobre as linhas da planilha.
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 2 processada: {"empresa":"167 - SAFRAN CABIN BRAZIL LTDA","item":1,"codigo":1,"nome_vaga":"ESTAGIO","data_abertura":"2015-10-27","data_final_candidatar":"2016-04-27","data_previsao_contratacao":"2015-10-27","eixo_formacao":3,"confidencial":"N","responsavel":"LUCIANE VIEIRA DOS S. SIQUEIRA","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2015-10-27","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 3 processada: {"empresa":"162 - FATEC-SJC-VAGAS","item":1,"codigo":2,"nome_vaga":"ESTAGIO","data_abertura":"2015-10-27","data_final_candidatar":"2015-12-17","data_previsao_contratacao":"2015-10-27","eixo_formacao":1,"confidencial":"N","responsavel":"LUIZ ANTONIO TOZI","responsavel_email":"luizantoniotozi@gmail.com","responsavel_telefone":null,"data_alteracao":"2015-10-27","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 4 processada: {"empresa":"167 - SAFRAN CABIN BRAZIL LTDA","item":2,"codigo":3,"nome_vaga":"ESTAGIO PROJETO DE ESTRUTURAS AERONAUTICAS","data_abertura":"2015-11-02","data_final_candidatar":"2016-10-30","data_previsao_contratacao":"2015-11-02","eixo_formacao":3,"confidencial":"N","responsavel":"LUCIANE VIEIRA SIQUEIRA","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2015-10-27","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 5 processada: {"empresa":"168 - BAUMEC CONSTRUCOES PRE MOLDADAS","item":1,"codigo":4,"nome_vaga":"ESTAGIO","data_abertura":"2015-09-16","data_final_candidatar":"2016-09-15","data_previsao_contratacao":"2015-09-16","eixo_formacao":2,"confidencial":"N","responsavel":"MARCOS BORNHOLDT","responsavel_email":"dp@bumec.com.br","responsavel_telefone":null,"data_alteracao":"2015-10-27","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 6 processada: {"empresa":"170 - FUNDACAO CULTURAL CASSIANO RICARDO","item":1,"codigo":5,"nome_vaga":"ESTAGIO FCCR","data_abertura":"2014-12-14","data_final_candidatar":"2015-12-17","data_previsao_contratacao":"2014-12-14","eixo_formacao":2,"confidencial":"N","responsavel":"VICENTE DE MORAES CIOFFI","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2015-11-04","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 1001 processada: {"empresa":"51 - D4W COMUNICACAO LTDA","item":3,"codigo":1004,"nome_vaga":"LEONARDO GABRIEL DA SILVA","data_abertura":"2019-11-03","data_final_candidatar":"2021-01-03","data_previsao_contratacao":null,"eixo_formacao":2,"confidencial":"N","responsavel":"CASSIO RICARDO MINAME","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 1002 processada: {"empresa":"207 - MGT CONSULTORIIA E TREINAMENTO","item":5,"codigo":1005,"nome_vaga":"WASHINGTON HENRIQUE FERNANDES DE SOUSA","data_abertura":"2019-07-31","data_final_candidatar":"2020-07-30","data_previsao_contratacao":null,"eixo_formacao":2,"confidencial":"N","responsavel":"JULIANA TEIXEIRA ALVES","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 1003 processada: {"empresa":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","item":15,"codigo":1006,"nome_vaga":"AFRANIO DIMAS DA SILVA","data_abertura":"2019-08-04","data_final_candidatar":"2019-12-19","data_previsao_contratacao":null,"eixo_formacao":3,"confidencial":"N","responsavel":"JOSE LUIZ BERNARDES","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 1004 processada: {"empresa":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","item":16,"codigo":1007,"nome_vaga":"ALAN OLIVEIRA DE SOUSA","data_abertura":"2019-02-05","data_final_candidatar":"2019-05-29","data_previsao_contratacao":null,"eixo_formacao":3,"confidencial":"N","responsavel":"JOSE LUIZ BERNADES","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 1005 processada: {"empresa":"327 - FLIPFLOP LAB ENG ELETRICA E SOFTWARE LTDA","item":5,"codigo":1008,"nome_vaga":"HENRIQUE SOUZA ALEXANDRE","data_abertura":"2019-09-30","data_final_candidatar":"2020-09-30","data_previsao_contratacao":null,"eixo_formacao":2,"confidencial":"N","responsavel":"EMANUEL","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 2001 processada: {"empresa":"522 - ALLIANCA","item":14,"codigo":2020,"nome_vaga":"CLOUD ENGINEER","data_abertura":"2022-06-09","data_final_candidatar":"2022-06-29","data_previsao_contratacao":null,"eixo_formacao":2,"confidencial":null,"responsavel":"CASSIA","responsavel_email":"cassia.cintra@fatec.sp.gov.br","responsavel_telefone":"(12) 3905-4699","data_alteracao":"2022-06-11","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 2002 processada: {"empresa":"452 - GROUP SERVICOS DE ENGENHARIA DO BRASIL LTDA","item":2,"codigo":2021,"nome_vaga":"PROJETISTA","data_abertura":"2022-06-12","data_final_candidatar":"2022-06-19","data_previsao_contratacao":null,"eixo_formacao":3,"confidencial":null,"responsavel":null,"responsavel_email":"EBR-Recruiting@umlaut.com","responsavel_telefone":"NA","data_alteracao":"2022-06-12","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 2003 processada: {"empresa":"593 - CT CIA DE TALENTOS RECURSOS HUMANOS LTDA","item":57,"codigo":2022,"nome_vaga":"PROGRAMA DE ESTAGIO IGUA 2022","data_abertura":"2022-06-15","data_final_candidatar":"2022-07-06","data_previsao_contratacao":null,"eixo_formacao":4,"confidencial":null,"responsavel":null,"responsavel_email":"universidades@grupociadetalentos.com.br","responsavel_telefone":"11 997665750","data_alteracao":"2022-06-15","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 2004 processada: {"empresa":"329 - EVEREST ENCOMENDAS URGENTES LTDA","item":5,"codigo":2023,"nome_vaga":"AUXILIAR DE LOGISTICA - IGOR","data_abertura":"2022-06-30","data_final_candidatar":"2022-06-30","data_previsao_contratacao":"2022-06-30","eixo_formacao":1,"confidencial":null,"responsavel":".","responsavel_email":"JULIANA@EVERESTOG.COM","responsavel_telefone":".","data_alteracao":"2022-06-19","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Tabela portal_vagas_estagio Linha 2005 processada: {"empresa":"694 - WR LOCACOES E TRANSPORTES","item":1,"codigo":2024,"nome_vaga":"AUXILIAR DE GESTAO EMPRESARIAL - LETICIA","data_abertura":"2022-05-29","data_final_candidatar":"2022-05-29","data_previsao_contratacao":"2022-05-29","eixo_formacao":1,"confidencial":null,"responsavel":"PRISCILA SOARES LIMA VALENTIM","responsavel_email":"RH@GRUPOWRLOCACOES.COM.BR","responsavel_telefone":12997765815,"data_alteracao":"2022-06-19","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-18 17:53:28] Iteração sobre as linhas finalizada. Total de linhas processadas: 2700. Total de erros: 1319.
+[2024-12-18 17:53:50] Erros capturados e registrados no log (portal_vagas_estagio).
+[2024-12-18 17:53:50] Exibindo mensagem resumida no navegador (portal_vagas_estagio).
+[2024-12-18 17:53:50] Mensagem resumida exibida (portal_vagas_estagio).
+
+[2024-12-18 17:54:00] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:54:09] Arquivo saida.csv salvo em /../uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2024-12-18 17:54:09] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2024-12-18 17:54:09] Erros capturados e registrados no log (planilha_upload).
+[2024-12-18 17:54:09] Exibindo mensagem resumida no navegador (planilha_upload).
+[2024-12-18 17:54:09] Mensagem resumida exibida (planilha_upload).
+
+[2024-12-18 17:54:09] Metadados do arquivo saida.csv processado com sucesso.
+[2024-12-18 17:54:09] Função processarAcessoPortal iniciada.
+[2024-12-18 17:54:09] Tabela portal_saida_estagio truncada.
+[2024-12-18 17:54:10] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2024-12-18 17:54:10] Aba ativa da planilha obtida.
+[2024-12-18 17:54:10] Iniciando iteração sobre as linhas da planilha.
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-18 17:54:10] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2024-12-18 17:54:10] Erros capturados e registrados no log (portal_saida_estagio).
+[2024-12-18 17:54:10] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2024-12-18 17:54:10] Mensagem resumida exibida (portal_saida_estagio).
+
+[2024-12-18 17:54:17] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-18 17:55:09] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 10:04:59] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 10:05:05] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 10:05:05] Iniciando busca DB (planilha_upload).
+[2024-12-19 10:05:05] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 10:22:15] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 10:22:29] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 10:22:29] Iniciando busca DB (planilha_upload).
+[2024-12-19 10:22:29] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 10:22:37] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 10:22:37] Iniciando busca DB (planilha_upload).
+[2024-12-19 10:22:37] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 10:34:57] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 10:35:07] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 10:35:07] Iniciando busca DB (planilha_upload).
+[2024-12-19 10:35:07] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 10:35:23] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 10:35:23] Iniciando busca DB (planilha_upload).
+[2024-12-19 10:35:23] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 10:57:52] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 10:58:03] Arquivo AcessoPortal.xls salvo em uploads/original/AcessoPortal.xls com timestamp 2024-09-03 16:09:14.
+[2024-12-19 10:58:03] Arquivo AcessoPortal.xls dentro do tamanho esperado (até 10MB): 22016 Bytes.
+[2024-12-19 10:58:03] Erros capturados e registrados no log (planilha_upload).
+[2024-12-19 10:58:03] Exibindo mensagem resumida no navegador (planilha_upload).
+[2024-12-19 10:58:03] Mensagem resumida exibida (planilha_upload).
+
+[2024-12-19 10:58:03] Metadados do arquivo AcessoPortal.xls processado com sucesso.
+[2024-12-19 10:58:05] Função processarAcessoPortal iniciada.
+[2024-12-19 10:58:05] Tabela portal_acesso truncada.
+[2024-12-19 10:58:05] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx carregada.
+[2024-12-19 10:58:05] Aba ativa da planilha obtida.
+[2024-12-19 10:58:05] Iniciando iteração sobre as linhas da planilha.
+[2024-12-19 10:58:05] Tabela portal_acesso Linha 2 processada: {"codigo":16,"portal":"Fatec","mes_acesso":1,"ano_acesso":2022,"numero_acessos":239,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-19 10:58:05] Tabela portal_acesso Linha 3 processada: {"codigo":17,"portal":"Fatec","mes_acesso":2,"ano_acesso":2022,"numero_acessos":238,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-19 10:58:05] Tabela portal_acesso Linha 4 processada: {"codigo":18,"portal":"Fatec","mes_acesso":3,"ano_acesso":2022,"numero_acessos":412,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-19 10:58:05] Tabela portal_acesso Linha 5 processada: {"codigo":19,"portal":"Fatec","mes_acesso":4,"ano_acesso":2022,"numero_acessos":222,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-19 10:58:05] Tabela portal_acesso Linha 6 processada: {"codigo":20,"portal":"Fatec","mes_acesso":5,"ano_acesso":2022,"numero_acessos":225,"data_arquivo":"2024-09-03 16:09:14"}
+[2024-12-19 10:58:06] Iteração sobre as linhas finalizada. Total de linhas processadas: 28. Total de erros: 0.
+[2024-12-19 10:58:06] Erros capturados e registrados no log (portal_acesso).
+[2024-12-19 10:58:06] Exibindo mensagem resumida no navegador (portal_acesso).
+[2024-12-19 10:58:06] Mensagem resumida exibida (portal_acesso).
+
+[2024-12-19 10:58:07] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 10:58:56] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 10:58:56] Iniciando busca DB (planilha_upload).
+[2024-12-19 10:58:56] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 10:59:14] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-19 10:59:14] Iniciando busca DB (planilha_upload).
+[2024-12-19 10:59:14] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 10:59:18] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-19 10:59:18] Iniciando busca DB (planilha_upload).
+[2024-12-19 10:59:18] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 10:59:34] Arquivo Consulta de Vagas de estágio.xls salvo em uploads/original/Consulta de Vagas de estágio.xls com timestamp 2024-09-03 16:10:55.
+[2024-12-19 10:59:34] Arquivo Consulta de Vagas de estágio.xls dentro do tamanho esperado (até 10MB): 1651712 Bytes.
+[2024-12-19 10:59:34] Erros capturados e registrados no log (planilha_upload).
+[2024-12-19 10:59:34] Exibindo mensagem resumida no navegador (planilha_upload).
+[2024-12-19 10:59:34] Mensagem resumida exibida (planilha_upload).
+
+[2024-12-19 10:59:34] Metadados do arquivo Consulta de Vagas de estágio.xls processado com sucesso.
+[2024-12-19 10:59:37] Função processarVagasEstagio iniciada.
+[2024-12-19 10:59:37] Tabela portal_vagas_estagio truncada.
+[2024-12-19 10:59:40] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/Consulta de Vagas de estágio.xlsx carregada.
+[2024-12-19 10:59:40] Aba ativa da planilha obtida.
+[2024-12-19 10:59:40] Iniciando iteração sobre as linhas da planilha.
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 2 processada: {"empresa":"167 - SAFRAN CABIN BRAZIL LTDA","item":1,"codigo":1,"nome_vaga":"ESTAGIO","data_abertura":"2015-10-27","data_final_candidatar":"2016-04-27","data_previsao_contratacao":"2015-10-27","eixo_formacao":3,"confidencial":"N","responsavel":"LUCIANE VIEIRA DOS S. SIQUEIRA","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2015-10-27","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 3 processada: {"empresa":"162 - FATEC-SJC-VAGAS","item":1,"codigo":2,"nome_vaga":"ESTAGIO","data_abertura":"2015-10-27","data_final_candidatar":"2015-12-17","data_previsao_contratacao":"2015-10-27","eixo_formacao":1,"confidencial":"N","responsavel":"LUIZ ANTONIO TOZI","responsavel_email":"luizantoniotozi@gmail.com","responsavel_telefone":null,"data_alteracao":"2015-10-27","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 4 processada: {"empresa":"167 - SAFRAN CABIN BRAZIL LTDA","item":2,"codigo":3,"nome_vaga":"ESTAGIO PROJETO DE ESTRUTURAS AERONAUTICAS","data_abertura":"2015-11-02","data_final_candidatar":"2016-10-30","data_previsao_contratacao":"2015-11-02","eixo_formacao":3,"confidencial":"N","responsavel":"LUCIANE VIEIRA SIQUEIRA","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2015-10-27","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 5 processada: {"empresa":"168 - BAUMEC CONSTRUCOES PRE MOLDADAS","item":1,"codigo":4,"nome_vaga":"ESTAGIO","data_abertura":"2015-09-16","data_final_candidatar":"2016-09-15","data_previsao_contratacao":"2015-09-16","eixo_formacao":2,"confidencial":"N","responsavel":"MARCOS BORNHOLDT","responsavel_email":"dp@bumec.com.br","responsavel_telefone":null,"data_alteracao":"2015-10-27","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 6 processada: {"empresa":"170 - FUNDACAO CULTURAL CASSIANO RICARDO","item":1,"codigo":5,"nome_vaga":"ESTAGIO FCCR","data_abertura":"2014-12-14","data_final_candidatar":"2015-12-17","data_previsao_contratacao":"2014-12-14","eixo_formacao":2,"confidencial":"N","responsavel":"VICENTE DE MORAES CIOFFI","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2015-11-04","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 1001 processada: {"empresa":"51 - D4W COMUNICACAO LTDA","item":3,"codigo":1004,"nome_vaga":"LEONARDO GABRIEL DA SILVA","data_abertura":"2019-11-03","data_final_candidatar":"2021-01-03","data_previsao_contratacao":null,"eixo_formacao":2,"confidencial":"N","responsavel":"CASSIO RICARDO MINAME","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 1002 processada: {"empresa":"207 - MGT CONSULTORIIA E TREINAMENTO","item":5,"codigo":1005,"nome_vaga":"WASHINGTON HENRIQUE FERNANDES DE SOUSA","data_abertura":"2019-07-31","data_final_candidatar":"2020-07-30","data_previsao_contratacao":null,"eixo_formacao":2,"confidencial":"N","responsavel":"JULIANA TEIXEIRA ALVES","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 1003 processada: {"empresa":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","item":15,"codigo":1006,"nome_vaga":"AFRANIO DIMAS DA SILVA","data_abertura":"2019-08-04","data_final_candidatar":"2019-12-19","data_previsao_contratacao":null,"eixo_formacao":3,"confidencial":"N","responsavel":"JOSE LUIZ BERNARDES","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 1004 processada: {"empresa":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","item":16,"codigo":1007,"nome_vaga":"ALAN OLIVEIRA DE SOUSA","data_abertura":"2019-02-05","data_final_candidatar":"2019-05-29","data_previsao_contratacao":null,"eixo_formacao":3,"confidencial":"N","responsavel":"JOSE LUIZ BERNADES","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 1005 processada: {"empresa":"327 - FLIPFLOP LAB ENG ELETRICA E SOFTWARE LTDA","item":5,"codigo":1008,"nome_vaga":"HENRIQUE SOUZA ALEXANDRE","data_abertura":"2019-09-30","data_final_candidatar":"2020-09-30","data_previsao_contratacao":null,"eixo_formacao":2,"confidencial":"N","responsavel":"EMANUEL","responsavel_email":null,"responsavel_telefone":null,"data_alteracao":"2019-11-06","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 2001 processada: {"empresa":"522 - ALLIANCA","item":14,"codigo":2020,"nome_vaga":"CLOUD ENGINEER","data_abertura":"2022-06-09","data_final_candidatar":"2022-06-29","data_previsao_contratacao":null,"eixo_formacao":2,"confidencial":null,"responsavel":"CASSIA","responsavel_email":"cassia.cintra@fatec.sp.gov.br","responsavel_telefone":"(12) 3905-4699","data_alteracao":"2022-06-11","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 2002 processada: {"empresa":"452 - GROUP SERVICOS DE ENGENHARIA DO BRASIL LTDA","item":2,"codigo":2021,"nome_vaga":"PROJETISTA","data_abertura":"2022-06-12","data_final_candidatar":"2022-06-19","data_previsao_contratacao":null,"eixo_formacao":3,"confidencial":null,"responsavel":null,"responsavel_email":"EBR-Recruiting@umlaut.com","responsavel_telefone":"NA","data_alteracao":"2022-06-12","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 2003 processada: {"empresa":"593 - CT CIA DE TALENTOS RECURSOS HUMANOS LTDA","item":57,"codigo":2022,"nome_vaga":"PROGRAMA DE ESTAGIO IGUA 2022","data_abertura":"2022-06-15","data_final_candidatar":"2022-07-06","data_previsao_contratacao":null,"eixo_formacao":4,"confidencial":null,"responsavel":null,"responsavel_email":"universidades@grupociadetalentos.com.br","responsavel_telefone":"11 997665750","data_alteracao":"2022-06-15","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 2004 processada: {"empresa":"329 - EVEREST ENCOMENDAS URGENTES LTDA","item":5,"codigo":2023,"nome_vaga":"AUXILIAR DE LOGISTICA - IGOR","data_abertura":"2022-06-30","data_final_candidatar":"2022-06-30","data_previsao_contratacao":"2022-06-30","eixo_formacao":1,"confidencial":null,"responsavel":".","responsavel_email":"JULIANA@EVERESTOG.COM","responsavel_telefone":".","data_alteracao":"2022-06-19","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Tabela portal_vagas_estagio Linha 2005 processada: {"empresa":"694 - WR LOCACOES E TRANSPORTES","item":1,"codigo":2024,"nome_vaga":"AUXILIAR DE GESTAO EMPRESARIAL - LETICIA","data_abertura":"2022-05-29","data_final_candidatar":"2022-05-29","data_previsao_contratacao":"2022-05-29","eixo_formacao":1,"confidencial":null,"responsavel":"PRISCILA SOARES LIMA VALENTIM","responsavel_email":"RH@GRUPOWRLOCACOES.COM.BR","responsavel_telefone":12997765815,"data_alteracao":"2022-06-19","revisao":1,"data_arquivo":"2024-09-03 16:10:55"}
+[2024-12-19 10:59:40] Iteração sobre as linhas finalizada. Total de linhas processadas: 2700. Total de erros: 1319.
+[2024-12-19 11:00:02] Erros capturados e registrados no log (portal_vagas_estagio).
+[2024-12-19 11:00:02] Exibindo mensagem resumida no navegador (portal_vagas_estagio).
+[2024-12-19 11:00:02] Mensagem resumida exibida (portal_vagas_estagio).
+
+[2024-12-19 11:00:07] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 11:00:19] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2024-12-19 11:00:19] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2024-12-19 11:00:20] Erros capturados e registrados no log (planilha_upload).
+[2024-12-19 11:00:20] Exibindo mensagem resumida no navegador (planilha_upload).
+[2024-12-19 11:00:20] Mensagem resumida exibida (planilha_upload).
+
+[2024-12-19 11:00:20] Metadados do arquivo saida.csv processado com sucesso.
+[2024-12-19 11:00:20] Função processarAcessoPortal iniciada.
+[2024-12-19 11:00:20] Tabela portal_saida_estagio truncada.
+[2024-12-19 11:00:21] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2024-12-19 11:00:21] Aba ativa da planilha obtida.
+[2024-12-19 11:00:21] Iniciando iteração sobre as linhas da planilha.
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2024-12-19 11:00:21] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2024-12-19 11:00:21] Erros capturados e registrados no log (portal_saida_estagio).
+[2024-12-19 11:00:21] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2024-12-19 11:00:21] Mensagem resumida exibida (portal_saida_estagio).
+
+[2024-12-19 11:00:30] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 11:01:31] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 11:01:31] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:01:31] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:01:46] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-19 11:01:46] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:01:46] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:01:53] Nome do arquivo que está selecionado no Dropdown: saida.xlsx
+[2024-12-19 11:01:53] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:01:53] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:09:02] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 11:09:09] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 11:09:09] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:09:09] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:09:12] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 11:09:12] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:09:12] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:09:53] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-19 11:09:53] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:09:53] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:09:58] Nome do arquivo que está selecionado no Dropdown: Consulta de Vagas de estágio.xlsx
+[2024-12-19 11:09:58] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:09:58] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:15:49] Nenhum arquivo foi selecionado no Dropdown.
+[2024-12-19 11:15:53] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 11:15:53] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:15:53] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:15:59] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 11:15:59] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:15:59] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:16:33] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 11:16:33] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:16:33] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:16:34] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 11:16:34] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:16:34] Busca DB finalizada com sucesso (planilha_upload).
+[2024-12-19 11:16:38] Nome do arquivo que está selecionado no Dropdown: AcessoPortal.xlsx
+[2024-12-19 11:16:38] Iniciando busca DB (planilha_upload).
+[2024-12-19 11:16:38] Busca DB finalizada com sucesso (planilha_upload).

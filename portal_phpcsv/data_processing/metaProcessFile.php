@@ -19,7 +19,7 @@ function metaProcessFile($conn, $dateCreation){
         $fileSize = $file['size'];
         $dateCreation = $dateCreation;
         $dateUpload = date('Y-m-d H:i:s');
-        $outputFilePath = '/../uploads/original/' . $fileName;  // Caminho do arquivo de upload
+        $outputFilePath = 'uploads/original/' . $fileName;  // Caminho relativo do arquivo de upload
         $fileExtension = pathinfo($fileName, PATHINFO_EXTENSION);
 
         if (!file_exists(__DIR__ . '/../uploads/original')) {
@@ -32,7 +32,7 @@ function metaProcessFile($conn, $dateCreation){
             if (md5_file($fileTmpName) === md5_file($outputFilePath)) {
                 break; // Arquivo idêntico, pode sobrescrever
             }
-            $outputFilePath = __DIR__ . '/../uploads/original/' . $baseName . " ($counter)." . $fileExtension;
+            $outputFilePath = 'uploads/original/' . $baseName . " ($counter)." . $fileExtension;    // Caminho relativo do arquivo de upload
             $counter++;
         }
 

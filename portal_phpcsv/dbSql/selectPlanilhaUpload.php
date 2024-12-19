@@ -11,7 +11,7 @@ function selectPlanilhaUpload($conn, $nomeArquivoSelDrop){
     // Verificar valor de $nomeArquivoSelDrop
     var_dump($nomeArquivoSelDrop);
 
-    // Consulta SQL com preparação para evitar SQL injection
+    // Consulta SQL com preparação para evitar SQL injection e escape de caracteres especiais (', \ e ;) no nome do arquivo.
     $stmt = $conn->prepare("
         SELECT id, arquivo_nome, arquivo_tamanho, arquivo_data, arquivo_data_upload, arquivo_local_armazenado
         FROM planilha_upload 
