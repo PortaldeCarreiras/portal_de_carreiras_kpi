@@ -7,27 +7,7 @@ require_once 'dbSql/selectPlanilhaUpload.php';
 include_once('conn.php');
 
 // Lógica para fazer o download do arquivo
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['downloadArquivo'])) {
-    $outputFilePath = $_POST['outputFilePath'] ?? ''; // Caminho do arquivo enviado pelo formulário
-    $fileName = $_POST['fileName'] ?? ''; // Nome do arquivo enviado pelo formulário
-
-    if (!empty($outputFilePath) && file_exists($outputFilePath)) {
-        // Configura os cabeçalhos para forçar o download
-        header('Content-Description: File Transfer');
-        header('Content-Type: application/octet-stream');
-        header('Content-Disposition: attachment; filename="' . basename($fileName) . '"');
-        header('Content-Length: ' . filesize($outputFilePath));
-        header('Cache-Control: must-revalidate');
-        header('Pragma: public');
-
-        // Envia o conteúdo do arquivo
-        readfile($outputFilePath);
-        exit;
-    } else {
-        // Exibe uma mensagem de erro caso o arquivo não seja encontrado
-        $mensagemErro = "Erro: O arquivo selecionado não foi encontrado no servidor.";
-    }
-}
+include_once('data_processing/download.php');
 
 $message = metaProcessFile($conn, (obterDataOriArquivo($_POST['dataModificacao'] ?? null)));
 
@@ -142,6 +122,7 @@ $conn->close();
                 <div id="mensagemProcessamento" style="display:none;">
                     <p class="text-warning">Sua solicitação está sendo executada, aguarde o término da mesma!</p>
                 </div>
+                <!-- Adiciona a chamada para exibir os metadados do arquivo selecionado -->
                 <div id="metadadosArquivo"></div>
             </div>
 
@@ -172,20 +153,17 @@ $conn->close();
                             </div>
                         <?php else: ?>
                             <div class="form-group">
-                                <label for="tamanhoArquivo">Tamanho do arquivo / <?= htmlspecialchars($id); ?> / <?= htmlspecialchars($fileName); ?></label>
-                                <input type="text" readonly class="form-control-plaintext" id="tamanhoArquivo" value="<?= htmlspecialchars($fileSize); ?> bytes">
+                                <label>Tam. do arquivo: / <?= htmlspecialchars($id); ?> / <?= htmlspecialchars($fileName); ?> &emsp; <?= htmlspecialchars($fileSize); ?> bytes</label>
+                                <!-- <input type="text" readonly class="form-control-plaintext" id="tamanhoArquivo" value="<?= htmlspecialchars($fileSize); ?> bytes"> -->
                             </div>
                             <div class="form-group">
-                                <label for="dateCreation">Data original do arquivo: </label>
-                                <input type="text" readonly class="form-control-plaintext" id="dateCreation" value="<?= htmlspecialchars($dateCreation); ?>">
+                                <label>Data original do arquivo: &emsp; <?= htmlspecialchars($dateCreation); ?></label>
                             </div>
                             <div class="form-group">
-                                <label for="dataArquivoUpload">Data de upload: </label>
-                                <input type="text" readonly class="form-control-plaintext" id="dataArquivoUpload" value="<?= htmlspecialchars($dateUpload); ?>">
+                                <label>Data de upload: &emsp; <?= htmlspecialchars($dateUpload); ?></label>
                             </div>
                             <div class="form-group">
-                                <label for="outputFilePath">Local armazenado: </label>
-                                <input type="text" readonly class="form-control-plaintext" id="outputFilePath" value="<?= htmlspecialchars($outputFilePath); ?>">
+                                <label>Local armazenado: &emsp; <?= htmlspecialchars($outputFilePath); ?></label>
                             </div>
                         <?php endif; ?>
                         <!-- <input type="submit" value="Download" class="btn btn-success"> -->
@@ -197,7 +175,7 @@ $conn->close();
 
                     <!-- Botão para download -->
                     <?php if (!empty($nomeArquivoSelDrop) && !empty($outputFilePath)): ?>
-                        <button type="submit" name="downloadArquivo" class="btn btn-success">Download</button>
+                        <button type="submit" name="downloadArquivo" class="btn btn-success">Download  <?= htmlspecialchars($fileName); ?></button>
                     <?php else: ?>
                         <div class="alert alert-warning" role="alert">
                             Selecione um arquivo para habilitar o download.

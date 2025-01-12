@@ -9,7 +9,7 @@ function selectPlanilhaUpload($conn, $nomeArquivoSelDrop){
     }
 
     // Verificar valor de $nomeArquivoSelDrop
-    var_dump($nomeArquivoSelDrop);
+    // var_dump($nomeArquivoSelDrop);
 
     // Consulta SQL com preparação para evitar SQL injection e escape de caracteres especiais (', \ e ;) no nome do arquivo.
     $stmt = $conn->prepare("
