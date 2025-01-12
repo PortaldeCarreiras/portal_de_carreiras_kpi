@@ -135,3 +135,4 @@
 [2025-01-12 19:27:09] Mensagem resumida exibida (portal_acesso).
 
 [2025-01-12 19:27:12] Nenhum arquivo foi selecionado no Dropdown.
+[2025-01-12 19:38:45] Nenhum arquivo foi selecionado no Dropdown.
