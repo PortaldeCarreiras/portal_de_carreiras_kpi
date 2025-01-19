@@ -136,3 +136,5 @@
 
 [2025-01-12 19:27:12] Nenhum arquivo foi selecionado no Dropdown.
 [2025-01-12 19:38:45] Nenhum arquivo foi selecionado no Dropdown.
+[2025-01-15 14:16:35] Nenhum arquivo foi selecionado no Dropdown.
+[2025-01-15 16:07:17] Nenhum arquivo foi selecionado no Dropdown.

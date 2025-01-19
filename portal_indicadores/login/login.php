@@ -14,19 +14,25 @@ if (isset($_GET["logar"])) {
         $usuario = testarValor($_GET["usuario"]);
         $senha = testarValor($_GET["senha"]);
 
+        // Recupera os dados do usuário, incluindo tipo_adm
         $sql = "SELECT * FROM tab_usuarios 
         WHERE usuario ='$usuario' AND senha ='$senha'";
         $result = mysqli_query($conn, $sql);
         $quantReg = mysqli_num_rows($result);
 
+        // Se existir o usuário, cria a sessão
         if ($quantReg > 0) {
             while ($linha = mysqli_fetch_assoc($result)) {
                 $id = $linha["id"];
-                $senha = $linha["senha"];
+                $tipo_adm = $linha["tipo_adm"];
             }
+
+            // Cria a sessão e armazena os dados do usuário na sessão
             $_SESSION["usuario"] = $usuario;
             $_SESSION["id"] = $id;
-            $_SESSION["senha"] = $senha;
+            $_SESSION["nome_usuario"] = $usuario;
+            $_SESSION["tipo_adm"] = $tipo_adm;
+            
             header('location:../index.php');
         } else {
             header('location:login.php?erro=1');

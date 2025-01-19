@@ -251,16 +251,16 @@ if (isset($_GET["cadastrar"])) {
                       continue;
                     }
 
-                    $cellIterator = $row->getCellIterator();
-                    $cellIterator->setFormat(DataType::TYPE_STRING);
-                    $cellIterator->setFormat(PhpOffice\PhpSpreadsheet\Cell\DataType::TYPE_STRING);
+                    // $cellIterator = $row->getCellIterator();
+                    // $cellIterator->setFormat(DataType::TYPE_STRING);
+                    // $cellIterator->setFormat(PhpOffice\PhpSpreadsheet\Cell\DataType::TYPE_STRING);
 
-                    // Convertendo os tipos de dados de acordo com a tebela do BD
-                    $codigo = (int) $cellIterator->current()->getValue();
-                    $portal = (string) $cellIterator->next()->getValue();
-                    $mes_acesso = (int) $cellIterator->next()->getValue();
-                    $ano_acesso = (int) $cellIterator->next()->getValue();
-                    $numero_acessos = (int) $cellIterator->next()->getValue();
+                    // // Convertendo os tipos de dados de acordo com a tebela do BD
+                    // $codigo = (int) $cellIterator->current()->getValue();
+                    // $portal = (string) $cellIterator->next()->getValue();
+                    // $mes_acesso = (int) $cellIterator->next()->getValue();
+                    // $ano_acesso = (int) $cellIterator->next()->getValue();
+                    // $numero_acessos = (int) $cellIterator->next()->getValue();
 
                     // Insere os dados no banco de dados
                     $sql = "INSERT INTO acesso_portal (codigo, portal, mes_acesso, ano_acesso, numero_acessos) VALUES (?, ?, ?, ?, ?)";
@@ -508,7 +508,7 @@ if (isset($_GET["cadastrar"])) {
       <footer class="py-4 bg-light mt-auto">
         <div class="container-fluid px-4">
           <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Website 2024</div>
+            <div class="text-muted">Copyright &copy; Website 4</div>
 
           </div>
         </div>

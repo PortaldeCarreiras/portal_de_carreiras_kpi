@@ -114,7 +114,7 @@ function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros){
 
 // Itera sobre todas as linhas da planilha
 // Variável global para o contador de inserções bem-sucedidas
-$contadorInsercoes = 0;
+$contadorInsercoes = 0; // O & é usado para passar a variável por referência o que permite alterar o valor da variável fora da função
 function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas, 
                             &$erros, &$errosDetalhados, $metaProcess = false){
     global $contadorInsercoes; // Torna o contador acessível dentro da função 
