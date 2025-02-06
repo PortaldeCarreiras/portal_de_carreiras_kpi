@@ -2,51 +2,60 @@
 session_start();
 include('../conn.php');
 
-if (isset($_GET["logar"])) {
-    if (!empty($_GET["usuario"]) && !empty($_GET["senha"])) {
+if (isset($_GET["logar"])) {    // Se o botão de logar foi clicado
+    if (!empty($_GET["usuario"]) && !empty($_GET["senha"])) {   // Se os campos de usuário e senha não estão vazios
+
+        // Função para testar o valor do campo e evitar SQL Injection
         function testarValor($valor)
-        {
-            $valor = htmlspecialchars($valor);
-            $valor = stripslashes($valor);
-            $valor = trim($valor);
-            return $valor;
+        {   // Versão compacta da função testarValor
+            return trim(htmlspecialchars(stripslashes($valor)));
         }
+        // function testarValor($valor){   // Versão explicita
+        //     $valor = stripslashes($valor);  // Remove barras invertidas de uma string
+        //     $valor = htmlspecialchars($valor);  // Converte caracteres especiais para a realidade HTML
+        //     $valor = trim($valor);  // Retira espaços no início e final de uma string
+        //     return $valor;
+        // }
+
+        // Recupera os valores dos campos
         $usuario = testarValor($_GET["usuario"]);
         $senha = testarValor($_GET["senha"]);
 
-        // Recupera os dados do usuário, incluindo tipo_adm
+        // Cria a query para buscar o usuário, somente o usuário
+        // quando fazemos a busca (SELECT) por usuário, obtemos todos os dados do usuário,
+        // inclusive a senha, que será usada para comparação
         $sql = "SELECT * FROM tab_usuarios 
-        WHERE usuario ='$usuario' AND senha ='$senha'";
-        $result = mysqli_query($conn, $sql);
-        $quantReg = mysqli_num_rows($result);
+        WHERE usuario = ?";
+        $statement = mysqli_prepare($conn, $sql);    // Prepara a query
+        mysqli_stmt_bind_param($statement, 's', $usuario);    // Substitui o ? pelo valor do usuário
+        mysqli_stmt_execute($statement);    // Executa a query
+        $result = mysqli_stmt_get_result($statement);    // Obtém o resultado de todas informações do usuário (usuário, senha e tipo de adm)
+        $quantReg = mysqli_num_rows($result);   // Conta quantos registros foram encontrados
 
-        // Se existir o usuário, cria a sessão
-        if ($quantReg > 0) {
-            while ($linha = mysqli_fetch_assoc($result)) {
-                $id = $linha["id"];
-                $tipo_adm = $linha["tipo_adm"];
+        // Verifica se o usuário existe e se a senha está correta
+        if ($linha = mysqli_fetch_assoc($result)) {   // Se existir o usuário
+            // Verifica a senha criptografada, que só irá existir se o usuário existir
+            if (password_verify($senha, $linha['senha'])) {    // Se a senha estiver correta
+                $_SESSION["usuario"] = $usuario;    // Cria a sessão se a senha estiver correta
+                $_SESSION["id"] = $linha["id"];
+                $_SESSION["nome_usuario"] = $usuario;
+                $_SESSION["tipo_adm"] = $linha["tipo_adm"];
+
+                header('location:../index.php');
+                exit();
             }
-
-            // Cria a sessão e armazena os dados do usuário na sessão
-            $_SESSION["usuario"] = $usuario;
-            $_SESSION["id"] = $id;
-            $_SESSION["nome_usuario"] = $usuario;
-            $_SESSION["tipo_adm"] = $tipo_adm;
-            
-            header('location:../index.php');
-        } else {
-            header('location:login.php?erro=1');
         }
+
+        // Redireciona para login.php caso o usuário ou senha estejam errados
+        header('location:login.php?erro=1');
+        exit();
     } else {
         header('location:login.php?erro=2');
+        exit();
     }
 }
-
-
-
-
-
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
