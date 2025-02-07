@@ -35,7 +35,7 @@ if (isset($_GET["logar"])) {    // Se o botão de logar foi clicado
         // Verifica se o usuário existe e se a senha está correta
         if ($linha = mysqli_fetch_assoc($result)) {   // Se existir o usuário
             // Verifica a senha criptografada, que só irá existir se o usuário existir
-            if (password_verify($senha, $linha['senha'])) {    // Se a senha estiver correta
+            if (password_verify($senha, $linha['senha'])) {    // Se a senha estiver correta, a função password_verify retorna true
                 $_SESSION["usuario"] = $usuario;    // Cria a sessão se a senha estiver correta
                 $_SESSION["id"] = $linha["id"];
                 $_SESSION["nome_usuario"] = $usuario;

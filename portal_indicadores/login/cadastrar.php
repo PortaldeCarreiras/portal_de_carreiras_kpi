@@ -8,8 +8,8 @@ if (isset($_GET["cadastrar"])) {    // Se o botão de cadastrar foi clicado
 
         // Função para testar o valor do campo e evitar SQL Injection
         function testarValor($valor){
-            $valor = htmlspecialchars($valor);  // Converte caracteres especiais para a realidade HTML
             $valor = stripslashes($valor);  // Remove barras invertidas de uma string
+            $valor = htmlspecialchars($valor);  // Converte caracteres especiais para a realidade HTML
             $valor = trim($valor);  // Retira espaços no início e final de uma string
             return $valor;
         }
