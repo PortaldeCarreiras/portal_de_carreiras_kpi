@@ -1,0 +1,9 @@
+.idea/
+vendor/
+rascunho.php
+info.php
+test.php
+autoload.inc.php
+*.rar
+bk_db/
+estrutura/cabecalho_formulario.php
