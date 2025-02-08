@@ -1,0 +1,41 @@
+*.rar
+*.zip
+
+# portal_arquivo_upload
+.idea/
+portal_arquivo_upload/vendor/
+portal_arquivo_upload/rascunho.php
+portal_arquivo_upload/*.rar
+portal_arquivo_upload/uploads/*.xlsx
+portal_arquivo_upload/uploads/*.xls
+portal_arquivo_upload/uploads/*.csv
+
+# portal_indicadores
+portal_indicadores/.idea/
+portal_indicadores/vendor/
+portal_indicadores/rascunho.php
+portal_indicadores/info.php
+portal_indicadores/test.php
+portal_indicadores/autoload.inc.php
+portal_indicadores/*.rar
+portal_indicadores/bk_db/
+portal_indicadores/estrutura/cabecalho_formulario.php
+portal_indicadores/uploads/original/*.xlsx
+portal_indicadores/uploads/original/*.xls
+portal_indicadores/uploads/original/*.csv
+portal_indicadores/uploads/*.xlsx
+portal_indicadores/uploads/*.xls
+portal_indicadores/uploads/*.csv
+
+portal_indicadores/uploads/.gitignore
+
+# portal_phpcsv
+portal_phpcsv/.idea/
+portal_phpcsv/vendor/
+portal_phpcsv/index.old05.php
+portal_phpcsv/*.rar
+portal_phpcsv/original/uploads/*.xlsx
+portal_phpcsv/original/uploads/*.xls
+portal_phpcsv/original/uploads/*.csv
+portal_phpcsv/uploads/*.xlsx
+portal_phpcsv/dbSql/selectPlanilhaUpload.php.old
