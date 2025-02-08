@@ -34,8 +34,8 @@ portal_phpcsv/.idea/
 portal_phpcsv/vendor/
 portal_phpcsv/index.old05.php
 portal_phpcsv/*.rar
-portal_phpcsv/original/uploads/*.xlsx
-portal_phpcsv/original/uploads/*.xls
-portal_phpcsv/original/uploads/*.csv
+portal_phpcsv/uploads/original/*.xlsx
+portal_phpcsv/uploads/original/*.xls
+portal_phpcsv/uploads/original/*.csv
 portal_phpcsv/uploads/*.xlsx
 portal_phpcsv/dbSql/selectPlanilhaUpload.php.old
