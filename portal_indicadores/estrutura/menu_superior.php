@@ -16,10 +16,15 @@
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-user fa-fw"></i>
-                <?php echo isset($_SESSION['nome_usuario']) ? $_SESSION['nome_usuario'] : 'Usuário'; ?>
+                <?php echo isset($_SESSION['usuario']) ? $_SESSION['usuario'] : 'Usuário'; ?>
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#!">Configurações</a></li>
+                <li>
+                    <a class="dropdown-item"><?php echo isset($_SESSION['email']) ? $_SESSION['email'] : 'Usuário'; ?></a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#!">Configurações</a>
+                </li>
                 <li>
                     <hr class="dropdown-divider" />
                 </li>
@@ -30,7 +35,7 @@
                     </li>
                 <?php endif; ?>
                 <?php // Verifica se o usuário é tipo_adm e se a página atual é adm.php
-                if (isset($_SESSION['tipo_adm']) && $_SESSION['tipo_adm'] == 1): 
+                if (isset($_SESSION['tipo_adm']) && $_SESSION['tipo_adm'] == 1):
                     $isAdmPage = basename($_SERVER['PHP_SELF']) === 'adm.php';
                     // Exibe o item do menu apenas se ambas as condições forem verdadeiras
                     if ($isAdmPage): ?>
@@ -38,7 +43,7 @@
                         <li>
                             <hr class="dropdown-divider" />
                         </li>
-                    <?php endif; 
+                <?php endif;
                 endif; ?>
                 <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#modalSair">Sair</a></li>
             </ul>
