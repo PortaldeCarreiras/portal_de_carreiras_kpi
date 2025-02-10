@@ -2,6 +2,12 @@
 session_start();
 include('../conn.php');
 
+// Para evitar que o usuário faça login novamente estando logado e crie uma nova sessão
+if(isset($_SESSION['logado']) && $_SESSION['logado'] == true){   // Se existe a sessão logado e ela é verdadeira
+    header('location:../index.php');    // Redireciona para o index.php
+    exit();
+}
+
 if (isset($_GET["logar"])) {    // Se o botão de logar foi clicado
     if ((!empty($_GET["usuario"]) || !empty($_GET["email"])) && !empty($_GET["senha"])) {   // Se os campos de usuário/senha e senha não estão vazios
 
@@ -37,6 +43,7 @@ if (isset($_GET["logar"])) {    // Se o botão de logar foi clicado
         $result = mysqli_stmt_get_result($statement);    // Obtém o resultado de todas informações do usuário (usuário, email, senha e tipo de adm)
         $quantReg = mysqli_num_rows($result);   // Conta quantos registros foram encontrados
         // Verifica se o usuário existe e se a senha está correta
+
         if ($linha = mysqli_fetch_assoc($result)) {   // Se existir o usuário
             // Verifica a senha criptografada, que só irá existir se o usuário existir
             if (password_verify($senha, $linha['senha'])) {    // Se a senha estiver correta, a função password_verify retorna true
@@ -44,6 +51,7 @@ if (isset($_GET["logar"])) {    // Se o botão de logar foi clicado
                 $_SESSION["id"] = $linha["id"];
                 $_SESSION["email"] = $linha["email"];
                 $_SESSION["tipo_adm"] = $linha["tipo_adm"];
+                $_SESSION["logado"] = true; // Cria a sessão logado
 
                 header('location:../index.php');
                 exit();

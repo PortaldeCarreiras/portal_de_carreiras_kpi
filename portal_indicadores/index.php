@@ -9,8 +9,10 @@ if (isset($_GET["fntarefa"])) {
 
   if (mysqli_query($conn, $sql)) {
     header('location:index.php');
+    exit();
   } else {
     header('location:index.php?err=fn');
+    exit();
   }
 }
 
@@ -21,15 +23,18 @@ if (isset($_GET["excluir"])) {
 
   if (mysqli_query($conn, $sql)) {
     header('location:index.php?msg=2');
+    exit();
   } else {
     header('location:index.php?msg=errexc');
+    exit();
   }
 }
 
 
-//Verifica a sessão do usuario
-if (empty($_SESSION["usuario"])) {
+//Verifica a sessão se o usuario está logado
+if (empty($_SESSION["logado"]) || $_SESSION["logado"] != true) {
   header('location:./login/login.php');
+  exit();
 }
 
 //Atualizar
@@ -47,6 +52,7 @@ if (isset($_GET["atualizar"])) {
 
     if (mysqli_query($conn, $sql)) {
       header('location:index.php?msg=1');
+      exit();
     } else {
       echo "<script>alert('Erro!!!')</script>";
     }
@@ -109,6 +115,7 @@ if (isset($_GET["cadastrar"])) {
     if (mysqli_query($conn, $sql)) {
       echo "<script>alert('Cadastro Realizado!!!')</script>";
       header('location:index.php');
+      exit();
     } else {
       echo "<script>alert('Erro!!!')</script>";
     }
