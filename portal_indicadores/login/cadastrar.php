@@ -1,53 +1,70 @@
 <?php
 include('../conn.php');
 
-if (isset($_GET["cadastrar"])) {
-    if (!empty($_GET["usuario"]) && !empty($_GET["senha"]) && !empty($_GET["confirmsenha"])) {
-        function testarValor($valor)
-        {
-            $valor = htmlspecialchars($valor);
-            $valor = stripslashes($valor);
-            $valor = trim($valor);
+// Página de cadastro de novos usuário
+if (isset($_GET["cadastrar"])) {    // Se o botão de cadastrar foi clicado
+    // Testar se os campos de usuário e senha não estão vazios
+    if (!empty($_GET["usuario"]) && !empty($_GET["email"]) && !empty($_GET["senha"]) && !empty($_GET["confirmsenha"])) {
+
+        // Função para testar o valor do campo e evitar SQL Injection
+        function testarValor($valor){
+            $valor = stripslashes($valor);  // Remove barras invertidas de uma string
+            $valor = htmlspecialchars($valor);  // Converte caracteres especiais para a realidade HTML
+            $valor = trim($valor);  // Retira espaços no início e final de uma string
             return $valor;
         }
-        $usuario = testarValor($_GET["usuario"]);
-        $senha = testarValor($_GET["senha"]);
-        $confirmsenha = testarValor($_GET["confirmsenha"]);
+        $usuario = testarValor($_GET["usuario"]);   // Recupera o valor do campo usuário
+        $email = testarValor($_GET["email"]);    // Recupera o valor do campo email
+        $senha = testarValor($_GET["senha"]);    // Recupera o valor do campo senha
+        $confirmsenha = testarValor($_GET["confirmsenha"]);   // Recupera o valor do campo confirmação de senha
         $loginOk = false;
         $senhaOk = false;
 
+        // Verifica se a senha e a confirmação de senha são iguais
         if ($senha == $confirmsenha) {
             $senhaOk = true;
         } else {
             header('location:cadastrar.php?erro=senha');
+            exit(); // Encerra o script
         }
 
-        $sql = "SELECT * FROM tab_usuarios WHERE usuario='$usuario'";
-        $result = mysqli_query($conn, $sql);
-        $quantReg = mysqli_num_rows($result);
-        if ($quantReg > 0) {
-            header('location:cadastrar.php?erro=login');
+        // Verifica se o login já existe no DB
+        $sql = "SELECT * FROM tab_usuarios WHERE usuario=? OR email=?";
+        $statement = mysqli_prepare($conn, $sql);   // Prepara a query e busca o usuário e email
+        mysqli_stmt_bind_param($statement, 'ss', $usuario, $email);    // Substitui o ? pelo valor do usuário e email
+        mysqli_stmt_execute($statement);    // Executa a query
+        $result = mysqli_stmt_get_result($statement);    // Obtém o resultado de todas informações do usuário (usuário, email, senha e tipo de adm)
+        $quantReg = mysqli_num_rows($result);   // Conta o número de registros encontrados
+
+        if ($quantReg > 0) {    // Se o login (usuário ou senha) já existe
+            header('location:cadastrar.php?erro=login');    // Redireciona para a página de cadastro com erro
+            exit(); // Encerra o script
         } else {
-            $loginOk = true;
+            $loginOk = true;    // Se o login (usuário e/ou email) não existe, a variável loginOk recebe true
         }
 
-        if ($loginOk && $senhaOk) {
-            $sql = "INSERT INTO tab_usuarios(usuario,senha)
-            VALUES('$usuario','$senha')";
+        // Se o login e a senha estão corretos
+        if ($loginOk && $senhaOk) {   // NÃO ESQUECER DE TIRAR A INSERÇÃO DE "TEMP" NO INSERT DB
+            $hash = password_hash($senha, PASSWORD_ARGON2ID);    // Criptografa a senha
+            // Insere o novo usuário no DB, POSTERIORMENTE TIRAR O "TEMP" ($senha) COMO PARÂMETRO
+            $sql = "INSERT INTO tab_usuarios (usuario, email, senha,temp) VALUES (?, ?, ?, ?)";
+            $statement = mysqli_prepare($conn, $sql);    // Prepara a query para inserir o novo usuário com os 4 campos
+            mysqli_stmt_bind_param($statement, 'ssss', $usuario, $email, $hash, $senha);    // Substitui os ? pelos valores dos campos
 
-            if (mysqli_query($conn, $sql)) {
-                header('location:login.php?cad=ok');
+            if (mysqli_stmt_execute($statement)) {    // Se a query foi executada com sucesso
+                header('location:login.php?cad=ok');    // Se o cadastro foi realizado com sucesso
+                exit(); // Encerra o script
             } else {
-                header('location:cadastrar.php?erro=cad');
+                header('location:cadastrar.php?erro=cad');  // Se houve erro no cadastro
+                exit(); // Encerra o script
             }
         }
     } else {
-        header('location:cadastrar.php?erro=cadnaopre');
+        header('location:cadastrar.php?erro=cadnaopre');    // Se os campos não foram preenchidos
+        exit(); // Encerra o script
     }
 }
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -107,7 +124,7 @@ if (isset($_GET["cadastrar"])) {
                                     ?>
                                         <div class="alert alert-danger d-flex align-items-center" role="alert">
                                             <div>
-                                                Senha diferente !!!
+                                                Senha diferente nos dois campos, favor digitar senhas iguais!!!
                                             </div>
                                         </div>
                                     <?php
@@ -119,7 +136,7 @@ if (isset($_GET["cadastrar"])) {
                                     ?>
                                         <div class="alert alert-danger d-flex align-items-center" role="alert">
                                             <div>
-                                                Login já existe !!!
+                                                Este Login (usuário ou email) já existe !!!
                                             </div>
                                         </div>
                                     <?php
@@ -131,7 +148,7 @@ if (isset($_GET["cadastrar"])) {
                                     ?>
                                         <div class="alert alert-danger d-flex align-items-center" role="alert">
                                             <div>
-                                                Erro no cadastro !!!
+                                                Erro no cadastro, favor tentar novamente!!!
                                             </div>
                                         </div>
                                     <?php
@@ -143,7 +160,7 @@ if (isset($_GET["cadastrar"])) {
                                     ?>
                                         <div class="alert alert-danger d-flex align-items-center" role="alert">
                                             <div>
-                                                Preencha todos os campos !!!
+                                                Preencha todos os campos do formulário!!!
                                             </div>
                                         </div>
                                     <?php
@@ -158,13 +175,16 @@ if (isset($_GET["cadastrar"])) {
                                         <p>Crie sua conta</p>
 
                                         <div class="form-outline mb-4">
-                                            <input type="text" id="form2Example11" name="usuario" class="form-control" placeholder="Usuario" />
+                                            <input type="text" id="form2Example11" name="usuario" class="form-control" placeholder="Usuário" />
                                         </div>
                                         <div class="form-outline mb-4">
-                                            <input type="text" id="form2Example22" name="senha" class="form-control" placeholder="Senha" />
+                                            <input type="email" id="form2Example11" name="email" class="form-control" placeholder="email@example.com" />
                                         </div>
                                         <div class="form-outline mb-4">
-                                            <input type="text" id="form2Example22" name="confirmsenha" class="form-control" placeholder="Confirmar Senha" />
+                                            <input type="password" id="form2Example22" name="senha" class="form-control" placeholder="Senha" />
+                                        </div>
+                                        <div class="form-outline mb-4">
+                                            <input type="password" id="form2Example22" name="confirmsenha" class="form-control" placeholder="Confirmar Senha" />
                                         </div>
 
                                         <div class="text-center pt-1 mb-5 pb-1">

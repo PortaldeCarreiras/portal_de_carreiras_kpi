@@ -25,11 +25,11 @@ function obterMetadadosArquivo() {
         // Chamando diretamente o método toLocaleString() de um objeto Date no JavaScript. Nesse contexto não é necessário usar ${} para interpolação
 
         // Exibe os metadados no HTML (opcional)
-        document.getElementById("metadadosArquivo").innerHTML = `
-            <p>Nome do Arquivo: ${nomeArquivo}</p>
-            <p>Tipo MIME: ${tipoMime}</p>
-            <p>Tamanho: ${tamanho} bytes</p>
-            <p>Data de Modificação Original: ${new Date(dataModificacao).toLocaleString()}</p>
-        `; // Está usando template literals do JavaScript (marcados por ${} dentro de uma string delimitada por crases ` `)
+        // document.getElementById("metadadosArquivo").innerHTML = `
+        //     <p>Nome do Arquivo: ${nomeArquivo}</p>
+        //     <p>Tipo MIME: ${tipoMime}</p>
+        //     <p>Tamanho: ${tamanho} bytes</p>
+        //     <p>Data de Modificação Original: ${new Date(dataModificacao).toLocaleString()}</p>
+        // `; // Está usando template literals do JavaScript (marcados por ${} dentro de uma string delimitada por crases ` `)
     }
 }

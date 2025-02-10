@@ -114,7 +114,7 @@ function exibirLogProcessamento($tabela, $totalLinhas, $totalColunas, $erros){
 
 // Itera sobre todas as linhas da planilha
 // Variável global para o contador de inserções bem-sucedidas
-$contadorInsercoes = 0;
+$contadorInsercoes = 0; // O & é usado para passar a variável por referência o que permite alterar o valor da variável fora da função
 function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalLinhas, &$totalColunas, 
                             &$erros, &$errosDetalhados, $metaProcess = false){
     global $contadorInsercoes; // Torna o contador acessível dentro da função 
@@ -145,16 +145,16 @@ function iterarSobreLinhas($worksheet, $processarLinha, $conn, $tabela, &$totalL
 }
 
 // Função para normalizar o nome do arquivo
-function normalizarNomeArquivo($nomeArquivo){
-    $nomeArquivo = removerAcentos($nomeArquivo);
-    $nomeArquivo = str_replace(' ', '', $nomeArquivo); // Remove espaços em branco
-    return strtolower($nomeArquivo);
+function normalizarNomeArquivo($fileName){
+    $fileName = removerAcentos($fileName);
+    $fileName = str_replace(' ', '', $fileName); // Remove espaços em branco
+    return strtolower($fileName);
 }
 
 // Função para obter a data de criação do arquivo (Data original da planilha)
 // Captura o valor do timestamp obtido do Metadado e converte o timestamp para o formato desejado
-function obterDataOriArquivo($dataModificacao = null) {
-    $timestamp = isset($dataModificacao) ? intval($dataModificacao) : time();
+function obterDataOriArquivo($dateCreation = null) {
+    $timestamp = isset($dateCreation) ? intval($dateCreation) : time();
     return date('Y-m-d H:i:s', $timestamp / 1000); // Formata e retorna a data, divide por 1000 para converter de milissegundos para segundos
 }
 
@@ -191,7 +191,7 @@ function verificarExtensaoArquivo($extensaoArquivo, $extensoesPermitidas){
 }
 
 // Função para verificar se o nome do arquivo é permitido
-function verificarNomeArquivo($nomeArquivo, $nomesPermitidos){
-    $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($nomeArquivo, PATHINFO_FILENAME));
+function verificarNomeArquivo($fileName, $nomesPermitidos){
+    $nomeArquivoNormalizado = normalizarNomeArquivo(pathinfo($fileName, PATHINFO_FILENAME));
     return in_array($nomeArquivoNormalizado, $nomesPermitidos);
 }

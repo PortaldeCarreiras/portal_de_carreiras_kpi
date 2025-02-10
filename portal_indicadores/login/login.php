@@ -2,45 +2,63 @@
 session_start();
 include('../conn.php');
 
-if (isset($_GET["logar"])) {
-    if (!empty($_GET["usuario"]) && !empty($_GET["senha"])) {
+if (isset($_GET["logar"])) {    // Se o botão de logar foi clicado
+    if ((!empty($_GET["usuario"]) || !empty($_GET["email"])) && !empty($_GET["senha"])) {   // Se os campos de usuário/senha e senha não estão vazios
+
+        // Função para testar o valor do campo e evitar SQL Injection
         function testarValor($valor)
-        {
-            $valor = htmlspecialchars($valor);
-            $valor = stripslashes($valor);
-            $valor = trim($valor);
-            return $valor;
+        {   // Versão compacta da função testarValor
+            return trim(htmlspecialchars(stripslashes($valor)));
         }
+        // function testarValor($valor){   // Versão explicita
+        //     $valor = stripslashes($valor);  // Remove barras invertidas de uma string
+        //     $valor = htmlspecialchars($valor);  // Converte caracteres especiais para a realidade HTML
+        //     $valor = trim($valor);  // Retira espaços no início e final de uma string
+        //     return $valor;
+        // }
+
+        // Recupera os valores dos campos
         $usuario = testarValor($_GET["usuario"]);
+        $email = isset($_GET['usuario']) ? $_GET['usuario'] : '';
+        if (filter_var($email, FILTER_VALIDATE_EMAIL)) {    // Se o email estiver no formato correto
+            $email = $email;
+          } else {
+            $email = '';
+          }
         $senha = testarValor($_GET["senha"]);
 
-        $sql = "SELECT * FROM tab_usuarios 
-        WHERE usuario ='$usuario' AND senha ='$senha'";
-        $result = mysqli_query($conn, $sql);
-        $quantReg = mysqli_num_rows($result);
+        // Cria a query para buscar o usuário ou email, somente o campo usuário
+        // quando fazemos a busca (SELECT) por usuário/email, obtemos todos os dados do usuário,
+        // inclusive a senha, que será usada para comparação
+        $sql = "SELECT * FROM tab_usuarios WHERE LOWER(usuario) = ? OR LOWER(email) = LOWER(?)";    // Query para buscar o usuário e o email
+        $statement = mysqli_prepare($conn, $sql);    // Prepara a query
+        mysqli_stmt_bind_param($statement, 'ss', $usuario, $email);    // Substitui o ? pelo valor do usuário
+        mysqli_stmt_execute($statement);    // Executa a query
+        $result = mysqli_stmt_get_result($statement);    // Obtém o resultado de todas informações do usuário (usuário, email, senha e tipo de adm)
+        $quantReg = mysqli_num_rows($result);   // Conta quantos registros foram encontrados
+        // Verifica se o usuário existe e se a senha está correta
+        if ($linha = mysqli_fetch_assoc($result)) {   // Se existir o usuário
+            // Verifica a senha criptografada, que só irá existir se o usuário existir
+            if (password_verify($senha, $linha['senha'])) {    // Se a senha estiver correta, a função password_verify retorna true
+                $_SESSION["usuario"] = $linha["usuario"];    // Cria a sessão se a senha estiver correta
+                $_SESSION["id"] = $linha["id"];
+                $_SESSION["email"] = $linha["email"];
+                $_SESSION["tipo_adm"] = $linha["tipo_adm"];
 
-        if ($quantReg > 0) {
-            while ($linha = mysqli_fetch_assoc($result)) {
-                $id = $linha["id"];
-                $senha = $linha["senha"];
+                header('location:../index.php');
+                exit();
             }
-            $_SESSION["usuario"] = $usuario;
-            $_SESSION["id"] = $id;
-            $_SESSION["senha"] = $senha;
-            header('location:../index.php');
-        } else {
-            header('location:login.php?erro=1');
         }
-    } else {
+        // Redireciona para login.php caso o usuário ou senha estejam errados
+        header('location:login.php?erro=1');    // Se o usuário ou senha estiverem errados
+        exit();
+    } else {    // Se os campos de usuário/senha e senha estão vazios
         header('location:login.php?erro=2');
+        exit();
     }
 }
-
-
-
-
-
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -111,7 +129,9 @@ if (isset($_GET["logar"])) {
                                         <p>Acessar sua conta</p>
 
                                         <div class="form-outline mb-4">
-                                            <input type="text" id="form2Example11" name="usuario" class="form-control" placeholder="Usuario" />
+                                            <input type="text" id="form2Example11" name="usuario" class="form-control" placeholder="Usuário ou email" />
+                                            <!-- Campo oculto no formulário para enviar o email com o valor do campo usuário -->
+                                            <input type="hidden" name="email" value="<?php echo isset($_GET['usuario']) ? $_GET['usuario'] : ''; ?>">
                                         </div>
 
                                         <div class="form-outline mb-4">
