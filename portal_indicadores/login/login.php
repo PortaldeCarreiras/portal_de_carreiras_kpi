@@ -3,7 +3,7 @@ session_start();
 include('../conn.php');
 
 // Para evitar que o usuário faça login novamente estando logado e crie uma nova sessão
-if(isset($_SESSION['logado']) && $_SESSION['logado'] == true){   // Se existe a sessão logado e ela é verdadeira
+if(array_key_exists('logado', $_SESSION) && $_SESSION['logado'] === true){   // Se existe a sessão logado e ela é verdadeira
     header('location:../index.php');    // Redireciona para o index.php
     exit();
 }
@@ -137,13 +137,11 @@ if (isset($_GET["logar"])) {    // Se o botão de logar foi clicado
                                         <p>Acessar sua conta</p>
 
                                         <div class="form-outline mb-4">
-                                            <input type="text" id="form2Example11" name="usuario" class="form-control" placeholder="Usuário ou email" />
-                                            <!-- Campo oculto no formulário para enviar o email com o valor do campo usuário -->
-                                            <input type="hidden" name="email" value="<?php echo isset($_GET['usuario']) ? $_GET['usuario'] : ''; ?>">
+                                            <input type="text" id="form2Example11" name="usuario" class="form-control" required placeholder="Usuário ou email" />
                                         </div>
 
                                         <div class="form-outline mb-4">
-                                            <input type="text" id="form2Example22" name="senha" class="form-control" placeholder="Senha" />
+                                            <input type="password" id="form2Example22" name="senha" class="form-control" required placeholder="Senha" />
                                         </div>
 
                                         <div class="text-center pt-1 mb-5 pb-1">

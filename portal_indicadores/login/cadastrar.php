@@ -175,16 +175,16 @@ if (isset($_GET["cadastrar"])) {    // Se o botão de cadastrar foi clicado
                                         <p>Crie sua conta</p>
 
                                         <div class="form-outline mb-4">
-                                            <input type="text" id="form2Example11" name="usuario" class="form-control" placeholder="Usuário" />
+                                            <input type="text" id="form2Example11" name="usuario" class="form-control" required placeholder="Usuário" />
                                         </div>
                                         <div class="form-outline mb-4">
-                                            <input type="email" id="form2Example11" name="email" class="form-control" placeholder="email@example.com" />
+                                            <input type="email" id="form2Example11" name="email" class="form-control" required placeholder="email@example.com" />
                                         </div>
                                         <div class="form-outline mb-4">
-                                            <input type="password" id="form2Example22" name="senha" class="form-control" placeholder="Senha" />
+                                            <input type="password" id="form2Example22" name="senha" class="form-control" required placeholder="Senha" />
                                         </div>
                                         <div class="form-outline mb-4">
-                                            <input type="password" id="form2Example22" name="confirmsenha" class="form-control" placeholder="Confirmar Senha" />
+                                            <input type="password" id="form2Example22" name="confirmsenha" class="form-control" required placeholder="Confirmar Senha" />
                                         </div>
 
                                         <div class="text-center pt-1 mb-5 pb-1">

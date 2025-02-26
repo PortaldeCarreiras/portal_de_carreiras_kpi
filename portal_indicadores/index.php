@@ -1,5 +1,9 @@
 <?php
-session_start();
+// Verifica se foi enviado um cookie de sessão, se não, cria um novo.
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+// Se já existir, ele pega o cookie e continua a sessão
 include('conn.php');
 
 //Finalisar tarefa
@@ -277,14 +281,14 @@ if (isset($_GET["cadastrar"])) {
 
 
 
-                //     $sql = "INSERT INTO acesso_portal (codigo, portal, mes_acesso, ano_acesso, numero_acessos) 
-                //             VALUES (?, ?, ?, ?, ?)";
-                //     if ($conn->query($sql) === TRUE) {
-                //       echo "Novo registro criado com sucesso";
-                //     } else {
-                //       echo "Error: " . $sql . "<br>" . $conn->error;
-                //     }
-                   }
+                    //     $sql = "INSERT INTO acesso_portal (codigo, portal, mes_acesso, ano_acesso, numero_acessos) 
+                    //             VALUES (?, ?, ?, ?, ?)";
+                    //     if ($conn->query($sql) === TRUE) {
+                    //       echo "Novo registro criado com sucesso";
+                    //     } else {
+                    //       echo "Error: " . $sql . "<br>" . $conn->error;
+                    //     }
+                  }
                 } else {
                   echo "Erro ao fazer upload do arquivo.";
                 }

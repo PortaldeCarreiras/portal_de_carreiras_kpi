@@ -35,14 +35,22 @@
                     </li>
                 <?php endif; ?>
                 <?php // Verifica se o usuário é tipo_adm e se a página atual é adm.php
-                if (isset($_SESSION['tipo_adm']) && $_SESSION['tipo_adm'] == 1):
-                    $isAdmPage = basename($_SERVER['PHP_SELF']) === 'adm.php';
+                if (isset($_SESSION['tipo_adm']) && $_SESSION['tipo_adm'] == 1):    // Verifica se o usuário é tipo_adm
+                    $isAdmPage = basename($_SERVER['PHP_SELF']) === 'adm.php';  // Verifica se a página atual é adm.php
                     // Exibe o item do menu apenas se ambas as condições forem verdadeiras
                     if ($isAdmPage): ?>
-                        <li><a class="dropdown-item" href="#?">Adm - usuário</a></li>
+                        <li><a class="dropdown-item" href="#?">Adm - acesso</a></li>
                         <li>
                             <hr class="dropdown-divider" />
                         </li>
+                        <li><a class="dropdown-item" href="index.php">Home</a></li>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#uploadModal">Upload - Selecione Arquivo</a>
+                                <a class="nav-link" href="index.php?tarefasf=1">Filtrar Informações</a>
+                                <a class="nav-link" href="relatorio.php">Gerar Relatório</a>
+                            </nav>
+                        </div>
                 <?php endif;
                 endif; ?>
                 <li><a class="dropdown-item" href="" data-bs-toggle="modal" data-bs-target="#modalSair">Sair</a></li>
