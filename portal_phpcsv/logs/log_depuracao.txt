@@ -139,3 +139,517 @@
 [2025-01-15 14:16:35] Nenhum arquivo foi selecionado no Dropdown.
 [2025-01-15 16:07:17] Nenhum arquivo foi selecionado no Dropdown.
 [2025-02-10 14:17:28] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 16:47:14] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:18:40] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:19:03] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:09:21] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:10:26] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:10:52] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:13:51] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:13:56] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:14:15] Arquivo AcessoPortal.xls salvo em uploads/original/AcessoPortal.xls com timestamp 2024-09-03 16:09:14.
+[2025-02-27 17:14:15] Arquivo AcessoPortal.xls dentro do tamanho esperado (até 10MB): 22016 Bytes.
+[2025-02-27 17:14:15] Erros capturados e registrados no log (planilha_upload).
+[2025-02-27 17:14:15] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-02-27 17:14:15] Mensagem resumida exibida (planilha_upload).
+
+[2025-02-27 17:14:15] Metadados do arquivo AcessoPortal.xls processado com sucesso.
+[2025-02-27 17:14:19] Função processarAcessoPortal iniciada.
+[2025-02-27 17:14:19] Tabela portal_acesso truncada.
+[2025-02-27 17:14:19] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx carregada.
+[2025-02-27 17:14:19] Aba ativa da planilha obtida.
+[2025-02-27 17:14:19] Iniciando iteração sobre as linhas da planilha.
+[2025-02-27 17:14:19] Tabela portal_acesso Linha 2 processada: {"codigo":16,"portal":"Fatec","mes_acesso":1,"ano_acesso":2022,"numero_acessos":239,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:14:19] Tabela portal_acesso Linha 3 processada: {"codigo":17,"portal":"Fatec","mes_acesso":2,"ano_acesso":2022,"numero_acessos":238,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:14:19] Tabela portal_acesso Linha 4 processada: {"codigo":18,"portal":"Fatec","mes_acesso":3,"ano_acesso":2022,"numero_acessos":412,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:14:19] Tabela portal_acesso Linha 5 processada: {"codigo":19,"portal":"Fatec","mes_acesso":4,"ano_acesso":2022,"numero_acessos":222,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:14:19] Tabela portal_acesso Linha 6 processada: {"codigo":20,"portal":"Fatec","mes_acesso":5,"ano_acesso":2022,"numero_acessos":225,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:14:19] Iteração sobre as linhas finalizada. Total de linhas processadas: 28. Total de erros: 0.
+[2025-02-27 17:14:20] Erros capturados e registrados no log (portal_acesso).
+[2025-02-27 17:14:20] Exibindo mensagem resumida no navegador (portal_acesso).
+[2025-02-27 17:14:20] Mensagem resumida exibida (portal_acesso).
+
+[2025-02-27 17:14:22] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:15:38] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-02-27 17:15:38] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-02-27 17:15:38] Erros capturados e registrados no log (planilha_upload).
+[2025-02-27 17:15:38] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-02-27 17:15:38] Mensagem resumida exibida (planilha_upload).
+
+[2025-02-27 17:15:38] Metadados do arquivo saida.csv processado com sucesso.
+[2025-02-27 17:15:39] Função processarAcessoPortal iniciada.
+[2025-02-27 17:15:39] Tabela portal_saida_estagio truncada.
+[2025-02-27 17:15:40] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-02-27 17:15:40] Aba ativa da planilha obtida.
+[2025-02-27 17:15:40] Iniciando iteração sobre as linhas da planilha.
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-02-27 17:15:40] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-02-27 17:15:40] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-02-27 17:15:40] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-02-27 17:15:40] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-02-27 17:15:43] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:21:20] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:21:22] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:21:24] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:21:47] Arquivo AcessoPortal.xls salvo em uploads/original/AcessoPortal.xls com timestamp 2024-09-03 16:09:14.
+[2025-02-27 17:21:47] Arquivo AcessoPortal.xls dentro do tamanho esperado (até 10MB): 22016 Bytes.
+[2025-02-27 17:21:47] Erros capturados e registrados no log (planilha_upload).
+[2025-02-27 17:21:47] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-02-27 17:21:47] Mensagem resumida exibida (planilha_upload).
+
+[2025-02-27 17:21:47] Metadados do arquivo AcessoPortal.xls processado com sucesso.
+[2025-02-27 17:21:47] Função processarAcessoPortal iniciada.
+[2025-02-27 17:21:47] Tabela portal_acesso truncada.
+[2025-02-27 17:21:48] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx carregada.
+[2025-02-27 17:21:48] Aba ativa da planilha obtida.
+[2025-02-27 17:21:48] Iniciando iteração sobre as linhas da planilha.
+[2025-02-27 17:21:48] Tabela portal_acesso Linha 2 processada: {"codigo":16,"portal":"Fatec","mes_acesso":1,"ano_acesso":2022,"numero_acessos":239,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:21:48] Tabela portal_acesso Linha 3 processada: {"codigo":17,"portal":"Fatec","mes_acesso":2,"ano_acesso":2022,"numero_acessos":238,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:21:48] Tabela portal_acesso Linha 4 processada: {"codigo":18,"portal":"Fatec","mes_acesso":3,"ano_acesso":2022,"numero_acessos":412,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:21:48] Tabela portal_acesso Linha 5 processada: {"codigo":19,"portal":"Fatec","mes_acesso":4,"ano_acesso":2022,"numero_acessos":222,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:21:48] Tabela portal_acesso Linha 6 processada: {"codigo":20,"portal":"Fatec","mes_acesso":5,"ano_acesso":2022,"numero_acessos":225,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:21:48] Iteração sobre as linhas finalizada. Total de linhas processadas: 28. Total de erros: 0.
+[2025-02-27 17:21:48] Erros capturados e registrados no log (portal_acesso).
+[2025-02-27 17:21:48] Exibindo mensagem resumida no navegador (portal_acesso).
+[2025-02-27 17:21:48] Mensagem resumida exibida (portal_acesso).
+
+[2025-02-27 17:21:51] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:29:10] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:29:14] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:29:29] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:57:35] Nenhum arquivo foi selecionado no Dropdown.
+[2025-02-27 17:57:52] Arquivo AcessoPortal.xls salvo em uploads/original/AcessoPortal.xls com timestamp 2024-09-03 16:09:14.
+[2025-02-27 17:57:52] Arquivo AcessoPortal.xls dentro do tamanho esperado (até 10MB): 22016 Bytes.
+[2025-02-27 17:57:52] Erros capturados e registrados no log (planilha_upload).
+[2025-02-27 17:57:52] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-02-27 17:57:52] Mensagem resumida exibida (planilha_upload).
+
+[2025-02-27 17:57:52] Metadados do arquivo AcessoPortal.xls processado com sucesso.
+[2025-02-27 17:57:52] Função processarAcessoPortal iniciada.
+[2025-02-27 17:57:52] Tabela portal_acesso truncada.
+[2025-02-27 17:57:52] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/AcessoPortal.xlsx carregada.
+[2025-02-27 17:57:52] Aba ativa da planilha obtida.
+[2025-02-27 17:57:52] Iniciando iteração sobre as linhas da planilha.
+[2025-02-27 17:57:52] Tabela portal_acesso Linha 2 processada: {"codigo":16,"portal":"Fatec","mes_acesso":1,"ano_acesso":2022,"numero_acessos":239,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:57:52] Tabela portal_acesso Linha 3 processada: {"codigo":17,"portal":"Fatec","mes_acesso":2,"ano_acesso":2022,"numero_acessos":238,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:57:52] Tabela portal_acesso Linha 4 processada: {"codigo":18,"portal":"Fatec","mes_acesso":3,"ano_acesso":2022,"numero_acessos":412,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:57:52] Tabela portal_acesso Linha 5 processada: {"codigo":19,"portal":"Fatec","mes_acesso":4,"ano_acesso":2022,"numero_acessos":222,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:57:52] Tabela portal_acesso Linha 6 processada: {"codigo":20,"portal":"Fatec","mes_acesso":5,"ano_acesso":2022,"numero_acessos":225,"data_arquivo":"2024-09-03 16:09:14"}
+[2025-02-27 17:57:52] Iteração sobre as linhas finalizada. Total de linhas processadas: 28. Total de erros: 0.
+[2025-02-27 17:57:52] Erros capturados e registrados no log (portal_acesso).
+[2025-02-27 17:57:52] Exibindo mensagem resumida no navegador (portal_acesso).
+[2025-02-27 17:57:52] Mensagem resumida exibida (portal_acesso).
+
+[2025-02-27 17:57:54] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 10:49:55] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 10:50:10] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-02 10:50:10] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-02 10:50:10] Erros capturados e registrados no log (planilha_upload).
+[2025-03-02 10:50:10] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-02 10:50:10] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-02 10:50:10] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-02 10:50:12] Função processarAcessoPortal iniciada.
+[2025-03-02 10:50:12] Tabela portal_saida_estagio truncada.
+[2025-03-02 10:50:13] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-02 10:50:13] Aba ativa da planilha obtida.
+[2025-03-02 10:50:13] Iniciando iteração sobre as linhas da planilha.
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 10:50:13] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-02 10:50:14] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-02 10:50:14] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-02 10:50:14] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-02 10:50:17] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:02:36] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:02:50] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-02 11:02:50] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-02 11:02:50] Erros capturados e registrados no log (planilha_upload).
+[2025-03-02 11:02:50] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-02 11:02:50] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-02 11:02:50] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-02 11:02:50] Função processarAcessoPortal iniciada.
+[2025-03-02 11:02:50] Tabela portal_saida_estagio truncada.
+[2025-03-02 11:02:51] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-02 11:02:51] Aba ativa da planilha obtida.
+[2025-03-02 11:02:51] Iniciando iteração sobre as linhas da planilha.
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:02:51] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-02 11:02:51] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-02 11:02:51] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-02 11:02:51] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-02 11:02:54] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:03:36] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:03:45] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-02 11:03:45] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-02 11:03:45] Erros capturados e registrados no log (planilha_upload).
+[2025-03-02 11:03:45] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-02 11:03:45] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-02 11:03:45] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-02 11:03:55] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:05:10] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:05:22] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:05:30] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-02 11:05:30] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-02 11:05:31] Erros capturados e registrados no log (planilha_upload).
+[2025-03-02 11:05:31] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-02 11:05:31] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-02 11:05:31] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-02 11:05:34] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:06:44] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-02 11:06:51] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-02 11:06:51] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-02 11:06:52] Erros capturados e registrados no log (planilha_upload).
+[2025-03-02 11:06:52] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-02 11:06:52] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-02 11:06:52] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-02 11:06:52] Função processarAcessoPortal iniciada.
+[2025-03-02 11:06:52] Tabela portal_saida_estagio truncada.
+[2025-03-02 11:06:53] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-02 11:06:53] Aba ativa da planilha obtida.
+[2025-03-02 11:06:53] Iniciando iteração sobre as linhas da planilha.
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-02 11:06:53] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-02 11:06:53] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-02 11:06:53] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-02 11:06:53] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-02 11:06:56] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:20:05] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:21:29] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 09:21:29] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 09:21:29] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 09:21:29] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 09:21:29] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 09:21:29] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 09:21:35] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:22:23] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 09:22:23] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 09:22:23] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 09:22:23] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 09:22:23] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 09:22:23] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 09:22:26] Função processarAcessoPortal iniciada.
+[2025-03-04 09:22:26] Tabela portal_saida_estagio truncada.
+[2025-03-04 09:22:27] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-04 09:22:27] Aba ativa da planilha obtida.
+[2025-03-04 09:22:27] Iniciando iteração sobre as linhas da planilha.
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:22:27] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-04 09:22:27] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-04 09:22:27] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-04 09:22:27] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-04 09:22:30] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:41:14] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:41:15] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:41:22] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 09:41:22] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 09:41:22] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 09:41:22] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 09:41:22] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 09:41:22] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 09:41:23] Função processarAcessoPortal iniciada.
+[2025-03-04 09:41:23] Tabela portal_saida_estagio truncada.
+[2025-03-04 09:41:23] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-04 09:41:23] Aba ativa da planilha obtida.
+[2025-03-04 09:41:23] Iniciando iteração sobre as linhas da planilha.
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:41:23] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-04 09:41:24] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-04 09:41:24] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-04 09:41:24] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-04 09:41:26] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:52:27] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:52:27] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:52:38] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 09:52:38] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 09:52:38] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 09:52:38] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 09:52:38] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 09:52:38] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 09:52:38] Função processarAcessoPortal iniciada.
+[2025-03-04 09:52:39] Tabela portal_saida_estagio truncada.
+[2025-03-04 09:52:39] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-04 09:52:39] Aba ativa da planilha obtida.
+[2025-03-04 09:52:39] Iniciando iteração sobre as linhas da planilha.
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:52:39] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-04 09:52:39] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-04 09:52:39] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-04 09:52:39] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-04 09:52:43] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:53:17] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 09:53:17] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 09:53:17] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 09:53:17] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 09:53:17] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 09:53:17] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 09:53:24] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:58:03] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:58:04] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:58:12] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 09:58:12] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 09:58:12] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 09:58:12] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 09:58:12] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 09:58:12] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 09:58:15] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:58:28] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:58:36] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 09:58:36] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 09:58:36] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 09:58:36] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 09:58:36] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 09:58:36] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 09:58:40] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:59:43] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:59:44] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 09:59:58] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 09:59:58] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 09:59:58] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 09:59:58] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 09:59:58] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 09:59:58] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 09:59:59] Função processarAcessoPortal iniciada.
+[2025-03-04 09:59:59] Tabela portal_saida_estagio truncada.
+[2025-03-04 09:59:59] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-04 09:59:59] Aba ativa da planilha obtida.
+[2025-03-04 09:59:59] Iniciando iteração sobre as linhas da planilha.
+[2025-03-04 09:59:59] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:59:59] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:59:59] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:59:59] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 09:59:59] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:00:00] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:00:00] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:00:00] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:00:00] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:00:00] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:00:00] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-04 10:00:00] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-04 10:00:00] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-04 10:00:00] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-04 10:00:03] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:15:15] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:15:16] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:15:28] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 10:15:28] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 10:15:28] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 10:15:28] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 10:15:28] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 10:15:28] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 10:15:28] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:15:36] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:29:44] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:29:45] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:29:47] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:29:59] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 10:29:59] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 10:29:59] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 10:29:59] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 10:29:59] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 10:29:59] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 10:29:59] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:30:02] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:33:54] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:34:01] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 10:34:01] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 10:34:01] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 10:34:01] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 10:34:01] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 10:34:01] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 10:34:02] Função processarSaida iniciada.
+[2025-03-04 10:34:02] Tabela portal_saida_estagio truncada.
+[2025-03-04 10:34:02] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-04 10:34:02] Aba ativa da planilha obtida.
+[2025-03-04 10:34:02] Iniciando iteração sobre as linhas da planilha.
+[2025-03-04 10:34:02] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:02] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:02] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:02] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:02] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:03] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:03] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:03] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:03] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:03] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:34:03] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-04 10:34:03] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-04 10:34:03] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-04 10:34:03] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-04 10:34:08] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:45:11] Arquivo saida.csv salvo em uploads/original/saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 10:45:11] Arquivo saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 10:45:11] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 10:45:11] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 10:45:11] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 10:45:12] Metadados do arquivo saida.csv processado com sucesso.
+[2025-03-04 10:45:13] Função processarSaida iniciada.
+[2025-03-04 10:45:13] Tabela portal_saida_estagio truncada.
+[2025-03-04 10:45:14] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-04 10:45:14] Aba ativa da planilha obtida.
+[2025-03-04 10:45:14] Iniciando iteração sobre as linhas da planilha.
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:45:14] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-04 10:45:14] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-04 10:45:14] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-04 10:45:14] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-04 10:45:18] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:48:04] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:48:05] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:48:06] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 10:48:13] Arquivo uploaded_67c7049dc4a31_saida.csv salvo em uploads/original/uploaded_67c7049dc4a31_saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 10:48:13] Arquivo uploaded_67c7049dc4a31_saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 10:48:13] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 10:48:13] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 10:48:13] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 10:48:13] Metadados do arquivo uploaded_67c7049dc4a31_saida.csv processado com sucesso.
+[2025-03-04 10:48:14] Função processarSaida iniciada.
+[2025-03-04 10:48:14] Tabela portal_saida_estagio truncada.
+[2025-03-04 10:48:14] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-04 10:48:14] Aba ativa da planilha obtida.
+[2025-03-04 10:48:14] Iniciando iteração sobre as linhas da planilha.
+[2025-03-04 10:48:14] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:14] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:14] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:14] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:14] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:15] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:15] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:15] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:15] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:15] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 10:48:15] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-04 10:48:15] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-04 10:48:15] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-04 10:48:15] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-04 10:48:18] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 11:05:26] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 11:05:37] Arquivo uploaded_67c708b18781f_saida.csv salvo em uploads/original/uploaded_67c708b18781f_saida.csv com timestamp 2024-09-03 16:13:58.
+[2025-03-04 11:05:37] Arquivo uploaded_67c708b18781f_saida.csv dentro do tamanho esperado (até 10MB): 471572 Bytes.
+[2025-03-04 11:05:37] Erros capturados e registrados no log (planilha_upload).
+[2025-03-04 11:05:37] Exibindo mensagem resumida no navegador (planilha_upload).
+[2025-03-04 11:05:37] Mensagem resumida exibida (planilha_upload).
+
+[2025-03-04 11:05:37] Metadados do arquivo uploaded_67c708b18781f_saida.csv processado com sucesso.
+[2025-03-04 11:05:38] Função processarSaida iniciada.
+[2025-03-04 11:05:38] Tabela portal_saida_estagio truncada.
+[2025-03-04 11:05:38] Planilha C:\xampp\htdocs\portal\portal_phpcsv\data_processing/../uploads/saida.xlsx carregada.
+[2025-03-04 11:05:38] Aba ativa da planilha obtida.
+[2025-03-04 11:05:38] Iniciando iteração sobre as linhas da planilha.
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 2 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":147,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"111","aluno_ra_periodo":"3","aluno_ra_siga":"006","aluno_nome":"DEBORA BAGATTINI GUEDES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"GRADUADO","aluno_data":"2011-01-19","data_inicio":"2013-03-12","data_final":"2014-08-04","orientador":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","resp_empresa":"PROF. DR. REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 3 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7067,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"035","aluno_nome":"PATRICIA UCHOAS BARBOSA.","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2018-06-11","data_final":"2019-06-11","orientador":"VALTER JOAO DE SOUSA","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 4 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":7184,"aluno_ra_unidade":"146","aluno_ra_curso":"077","aluno_ra_ano_sem":"161","aluno_ra_periodo":"3","aluno_ra_siga":"023","aluno_nome":"LEONARDO CORREA DE AS.","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2016-01-19","data_inicio":"2019-01-14","data_final":"2019-01-25","orientador":"VIVIANE","resp_empresa":"REINALDO FACUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 5 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9254,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"161","aluno_ra_periodo":"1","aluno_ra_siga":"006","aluno_nome":"CAMILA LEMES DOS SANTOS MONTEIRO","aluno_eixo":6,"aluno_periodo":"NOITE","aluno_categoria":"CONCLUIDO","aluno_data":"2019-07-30","data_inicio":"2019-10-01","data_final":"2020-01-06","orientador":"CARLOS LINEU DE FARIA E ALVES","resp_empresa":"REINALDO FAGUNDES DOS SANTOS","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 6 processada: {"empresa_estagio":"1 - CIS-ERP SOLUCOES GERENCIAS LTDA","aluno_codigo":9476,"aluno_ra_unidade":"146","aluno_ra_curso":"074","aluno_ra_ano_sem":"192","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"DAIANE SILVA DE GOES","aluno_eixo":1,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2019-07-18","data_inicio":"2021-02-01","data_final":"2022-02-01","orientador":"REINALDO FAGUNDES","resp_empresa":"REINALDO FAGUNDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 1001 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8072,"aluno_ra_unidade":"146","aluno_ra_curso":"048","aluno_ra_ano_sem":"191","aluno_ra_periodo":"1","aluno_ra_siga":"056","aluno_nome":"MARIANA DOS SANTOS ARAUJO","aluno_eixo":2,"aluno_periodo":"MANHA","aluno_categoria":"EM CURSO","aluno_data":"2019-01-11","data_inicio":"2021-10-06","data_final":"2012-12-21","orientador":"FABIANO SABHA WALCZAK","resp_empresa":"CLAUDIO ETELVINO DE LIMA","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 1002 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8584,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"172","aluno_ra_periodo":"3","aluno_ra_siga":"011","aluno_nome":"CHRISTIAN LUIZ RIBEIRO DO NASCIMENTO","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2017-07-26","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 1003 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8583,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"010","aluno_nome":"CARLOS PEDRO DA SILVA","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-09","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 1004 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8638,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"055","aluno_nome":"LUCAS VIEIRA ALVES","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-03-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:38] Tabela portal_saida_estagio Linha 1005 processada: {"empresa_estagio":"266 - EMPRESA FATEC JR SAO JOSE DOS CAMPOS","aluno_codigo":8632,"aluno_ra_unidade":"146","aluno_ra_curso":"068","aluno_ra_ano_sem":"181","aluno_ra_periodo":"3","aluno_ra_siga":"024","aluno_nome":"KEVIN CRISTIAN SOARES DOS SANTOS","aluno_eixo":4,"aluno_periodo":"NOITE","aluno_categoria":"EM CURSO","aluno_data":"2018-02-08","data_inicio":"2022-02-24","data_final":"2022-07-02","orientador":"GERSON CARLOS FAVALI","resp_empresa":"JOSE LUIZ BERNARDES","data_arquivo":"2024-09-03 16:13:58"}
+[2025-03-04 11:05:39] Iteração sobre as linhas finalizada. Total de linhas processadas: 1981. Total de erros: 10.
+[2025-03-04 11:05:39] Erros capturados e registrados no log (portal_saida_estagio).
+[2025-03-04 11:05:39] Exibindo mensagem resumida no navegador (portal_saida_estagio).
+[2025-03-04 11:05:39] Mensagem resumida exibida (portal_saida_estagio).
+
+[2025-03-04 11:05:43] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 11:09:29] Nenhum arquivo foi selecionado no Dropdown.
+[2025-03-04 13:45:02] Nenhum arquivo foi selecionado no Dropdown.

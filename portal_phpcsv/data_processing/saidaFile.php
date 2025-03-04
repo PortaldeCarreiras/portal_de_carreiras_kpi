@@ -13,7 +13,7 @@ function processarSaidaFile($file, $conn, $tabela, $processarLinha){
     try {   // Iniciar uma transação
         mysqli_autocommit($conn, FALSE);
 
-        registrarLogDepuracao("Função processarAcessoPortal iniciada.");
+        registrarLogDepuracao("Função processarSaida iniciada.");
         
         truncarTabela($conn, $tabela);  // Limpa a tabela antes de inserir novos dados
 

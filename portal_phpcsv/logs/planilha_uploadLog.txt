@@ -1,3 +1,164 @@
+[2025-03-04 11:05:37] uploaded_67c708b18781f_saida.csv
+[2025-03-04 11:05:37] Todas as informações carregadas com sucesso!
+[2025-03-04 11:05:37] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 11:05:37] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 11:05:37] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:48:13] uploaded_67c7049dc4a31_saida.csv
+[2025-03-04 10:48:13] Todas as informações carregadas com sucesso!
+[2025-03-04 10:48:13] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:48:13] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:48:13] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:45:11] saida.csv
+[2025-03-04 10:45:11] Todas as informações carregadas com sucesso!
+[2025-03-04 10:45:11] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:45:11] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:45:11] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:34:01] saida.csv
+[2025-03-04 10:34:01] Todas as informações carregadas com sucesso!
+[2025-03-04 10:34:01] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:34:01] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:34:01] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:29:59] saida.csv
+[2025-03-04 10:29:59] Todas as informações carregadas com sucesso!
+[2025-03-04 10:29:59] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:29:59] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:29:59] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:15:28] saida.csv
+[2025-03-04 10:15:28] Todas as informações carregadas com sucesso!
+[2025-03-04 10:15:28] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:15:28] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:15:28] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:59:58] saida.csv
+[2025-03-04 09:59:58] Todas as informações carregadas com sucesso!
+[2025-03-04 09:59:58] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:59:58] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:59:58] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:58:36] saida.csv
+[2025-03-04 09:58:36] Todas as informações carregadas com sucesso!
+[2025-03-04 09:58:36] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:58:36] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:58:36] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:58:12] saida.csv
+[2025-03-04 09:58:12] Todas as informações carregadas com sucesso!
+[2025-03-04 09:58:12] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:58:12] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:58:12] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:53:17] saida.csv
+[2025-03-04 09:53:17] Todas as informações carregadas com sucesso!
+[2025-03-04 09:53:17] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:53:17] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:53:17] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:52:38] saida.csv
+[2025-03-04 09:52:38] Todas as informações carregadas com sucesso!
+[2025-03-04 09:52:38] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:52:38] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:52:38] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:41:22] saida.csv
+[2025-03-04 09:41:22] Todas as informações carregadas com sucesso!
+[2025-03-04 09:41:22] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:41:22] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:41:22] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:22:23] saida.csv
+[2025-03-04 09:22:23] Todas as informações carregadas com sucesso!
+[2025-03-04 09:22:23] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:22:23] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:22:23] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:21:29] saida.csv
+[2025-03-04 09:21:29] Todas as informações carregadas com sucesso!
+[2025-03-04 09:21:29] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:21:29] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:21:29] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 11:06:52] saida.csv
+[2025-03-02 11:06:52] Todas as informações carregadas com sucesso!
+[2025-03-02 11:06:51] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 11:06:51] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 11:06:51] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 11:05:31] saida.csv
+[2025-03-02 11:05:31] Todas as informações carregadas com sucesso!
+[2025-03-02 11:05:31] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 11:05:30] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 11:05:30] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 11:03:45] saida.csv
+[2025-03-02 11:03:45] Todas as informações carregadas com sucesso!
+[2025-03-02 11:03:45] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 11:03:45] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 11:03:45] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 11:02:50] saida.csv
+[2025-03-02 11:02:50] Todas as informações carregadas com sucesso!
+[2025-03-02 11:02:50] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 11:02:50] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 11:02:50] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 10:50:10] saida.csv
+[2025-03-02 10:50:10] Todas as informações carregadas com sucesso!
+[2025-03-02 10:50:10] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 10:50:10] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 10:50:10] Total de linhas que apresentaram erro: 0
+
+
+[2025-02-27 17:57:52] AcessoPortal.xls
+[2025-02-27 17:57:52] Todas as informações carregadas com sucesso!
+[2025-02-27 17:57:52] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-02-27 17:57:52] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-02-27 17:57:52] Total de linhas que apresentaram erro: 0
+
+
+[2025-02-27 17:21:47] AcessoPortal.xls
+[2025-02-27 17:21:47] Todas as informações carregadas com sucesso!
+[2025-02-27 17:21:47] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-02-27 17:21:47] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-02-27 17:21:47] Total de linhas que apresentaram erro: 0
+
+
+[2025-02-27 17:15:38] saida.csv
+[2025-02-27 17:15:38] Todas as informações carregadas com sucesso!
+[2025-02-27 17:15:38] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-02-27 17:15:38] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-02-27 17:15:38] Total de linhas que apresentaram erro: 0
+
+
+[2025-02-27 17:14:15] AcessoPortal.xls
+[2025-02-27 17:14:15] Todas as informações carregadas com sucesso!
+[2025-02-27 17:14:15] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-02-27 17:14:15] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-02-27 17:14:15] Total de linhas que apresentaram erro: 0
+
+
 [2025-01-12 19:27:08] AcessoPortal.xls
 [2025-01-12 19:27:08] Todas as informações carregadas com sucesso!
 [2025-01-12 19:27:08] Os dados da tabela planilha_upload foram inseridas com sucesso!
@@ -54,3 +215,164 @@
 [2025-01-12 19:27:08] Os dados da tabela planilha_upload foram inseridas com sucesso!
 [2025-01-12 19:27:08] Todas as informações carregadas com sucesso!
 [2025-01-12 19:27:08] AcessoPortal.xls
+[2025-02-27 17:14:15] Total de linhas que apresentaram erro: 0
+
+
+[2025-02-27 17:14:15] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-02-27 17:14:15] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-02-27 17:14:15] Todas as informações carregadas com sucesso!
+[2025-02-27 17:14:15] AcessoPortal.xls
+[2025-02-27 17:15:38] Total de linhas que apresentaram erro: 0
+
+
+[2025-02-27 17:15:38] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-02-27 17:15:38] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-02-27 17:15:38] Todas as informações carregadas com sucesso!
+[2025-02-27 17:15:38] saida.csv
+[2025-02-27 17:21:47] Total de linhas que apresentaram erro: 0
+
+
+[2025-02-27 17:21:47] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-02-27 17:21:47] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-02-27 17:21:47] Todas as informações carregadas com sucesso!
+[2025-02-27 17:21:47] AcessoPortal.xls
+[2025-02-27 17:57:52] Total de linhas que apresentaram erro: 0
+
+
+[2025-02-27 17:57:52] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-02-27 17:57:52] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-02-27 17:57:52] Todas as informações carregadas com sucesso!
+[2025-02-27 17:57:52] AcessoPortal.xls
+[2025-03-02 10:50:10] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 10:50:10] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 10:50:10] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 10:50:10] Todas as informações carregadas com sucesso!
+[2025-03-02 10:50:10] saida.csv
+[2025-03-02 11:02:50] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 11:02:50] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 11:02:50] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 11:02:50] Todas as informações carregadas com sucesso!
+[2025-03-02 11:02:50] saida.csv
+[2025-03-02 11:03:45] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 11:03:45] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 11:03:45] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 11:03:45] Todas as informações carregadas com sucesso!
+[2025-03-02 11:03:45] saida.csv
+[2025-03-02 11:05:30] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 11:05:30] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 11:05:31] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 11:05:31] Todas as informações carregadas com sucesso!
+[2025-03-02 11:05:31] saida.csv
+[2025-03-02 11:06:51] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-02 11:06:51] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-02 11:06:51] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-02 11:06:52] Todas as informações carregadas com sucesso!
+[2025-03-02 11:06:52] saida.csv
+[2025-03-04 09:21:29] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:21:29] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:21:29] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:21:29] Todas as informações carregadas com sucesso!
+[2025-03-04 09:21:29] saida.csv
+[2025-03-04 09:22:23] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:22:23] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:22:23] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:22:23] Todas as informações carregadas com sucesso!
+[2025-03-04 09:22:23] saida.csv
+[2025-03-04 09:41:22] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:41:22] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:41:22] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:41:22] Todas as informações carregadas com sucesso!
+[2025-03-04 09:41:22] saida.csv
+[2025-03-04 09:52:38] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:52:38] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:52:38] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:52:38] Todas as informações carregadas com sucesso!
+[2025-03-04 09:52:38] saida.csv
+[2025-03-04 09:53:17] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:53:17] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:53:17] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:53:17] Todas as informações carregadas com sucesso!
+[2025-03-04 09:53:17] saida.csv
+[2025-03-04 09:58:12] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:58:12] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:58:12] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:58:12] Todas as informações carregadas com sucesso!
+[2025-03-04 09:58:12] saida.csv
+[2025-03-04 09:58:36] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:58:36] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:58:36] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:58:36] Todas as informações carregadas com sucesso!
+[2025-03-04 09:58:36] saida.csv
+[2025-03-04 09:59:58] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 09:59:58] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 09:59:58] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 09:59:58] Todas as informações carregadas com sucesso!
+[2025-03-04 09:59:58] saida.csv
+[2025-03-04 10:15:28] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:15:28] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:15:28] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:15:28] Todas as informações carregadas com sucesso!
+[2025-03-04 10:15:28] saida.csv
+[2025-03-04 10:29:59] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:29:59] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:29:59] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:29:59] Todas as informações carregadas com sucesso!
+[2025-03-04 10:29:59] saida.csv
+[2025-03-04 10:34:01] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:34:01] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:34:01] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:34:01] Todas as informações carregadas com sucesso!
+[2025-03-04 10:34:01] saida.csv
+[2025-03-04 10:45:11] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:45:11] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:45:11] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:45:11] Todas as informações carregadas com sucesso!
+[2025-03-04 10:45:11] saida.csv
+[2025-03-04 10:48:13] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 10:48:13] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 10:48:13] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 10:48:13] Todas as informações carregadas com sucesso!
+[2025-03-04 10:48:13] uploaded_67c7049dc4a31_saida.csv
+[2025-03-04 11:05:37] Total de linhas que apresentaram erro: 0
+
+
+[2025-03-04 11:05:37] Total de linhas inseridas: 1, Total de colunas: 6
+[2025-03-04 11:05:37] Os dados da tabela planilha_upload foram inseridas com sucesso!
+[2025-03-04 11:05:37] Todas as informações carregadas com sucesso!
+[2025-03-04 11:05:37] uploaded_67c708b18781f_saida.csv

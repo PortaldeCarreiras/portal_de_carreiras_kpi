@@ -9,6 +9,7 @@ include_once('conn.php');
 // Lógica para fazer o download do arquivo
 include_once('data_processing/download.php');
 
+// Inclui a função para processar o arquivo e salvar os metadados no banco de dados em data_processing/metaProcessFile.php
 $message = metaProcessFile($conn, (obterDataOriArquivo($_POST['dataModificacao'] ?? null)));
 
 // Variáveis que serão utilizadas em IFs diferentes abaixo
@@ -22,13 +23,30 @@ $outputFilePath = '';
 
 
 // PEGA O FORMULÁRIO VIA POST, verifica se ele foi enviado e se o arquivo foi submetido corretamente
-// Processa upload de arquivo
-if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
+// 002 upload - Processa upload de arquivo, onde 'xls_file' é o nome do campo do formulário
+if ($_SERVER['REQUEST_METHOD'] == 'POST' && $_FILES['xls_file']['error'] === UPLOAD_ERR_OK) {   // Se o método de requisição for POST e o arquivo xls_file foi enviado
     // Obtém informações sobre o arquivo enviado
+    // Gera um nome de arquivo seguro
+    $safeFileName = uniqid('upload_') . '_' . pathinfo($_FILES['xls_file']['name'], PATHINFO_BASENAME);
+    // Ler o arquivo temporário e analisar os primeiros 8 bytes para determinar o tipo de arquivo
+    $fileInfo = new finfo(FILEINFO_MIME_TYPE);  // Instância um objeto finfo para recuperar o tipo MIME do arquivo
+    $mimeType = $fileInfo->file($_FILES['xls_file']['tmp_name']);  // Obtém o tipo MIME do arquivo
+    // echo '<pre>';
+    // var_dump($mimeType);
+    // echo '</pre>';
+    // exit();
+        // Converte a variável para JSON
+        $mimeTypeJson = json_encode($mimeType);
+
+        // Gera um script JavaScript para exibir a variável no console
+        echo "<script>console.log('MIME Type: ', $mimeTypeJson);</script>";
+        // exit();
+
+    // Se o arquivo for um CSV, XLS ou XLSX, continua o processamento
     $file = $_FILES['xls_file'];
     $fileName = $file['name'];
     // Captura o valor do timestamp obtido do Metadado e converte o timestamp para o formato desejado
-    $dateCreation = obterDataOriArquivo($_POST['dataModificacao'] ?? null);
+    $dateCreation = obterDataOriArquivo($_POST['dataModificacao'] ?? null); // função obterDataOriArquivo() em js/metaProcessFile.php
 
     // Lista de nomes de arquivos permitidos (normalizados, sem extensão)
     $nomesPermitidos = [
@@ -42,6 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
     // Lista de extensões de arquivos permitidas
     $extensoesPermitidas = ['csv', 'xls', 'xlsx'];
 
+    // Chama a função processSpreadSheet() localizada em data_processing/processSpreadSheetFileAndSave.php
     processSpreadSheet($file, $dateCreation, $nomesPermitidos, $extensoesPermitidas, $message);
 }
 
@@ -105,13 +124,20 @@ $conn->close();
     <div class="container mt-5">
         <div class="row">
             <!-- Coluna para Upload de Arquivos -->
+            <!-- 001 upload (next index) - formulário para upload de arquivos-->
             <div class="col-md-6">
                 <h1 class="text-danger">Upload de Arquivos</h1>
                 <p>Selecione um arquivo para fazer o upload.</p>
                 <!-- Adiciona a chamada para exibir a mensagem de processamento ao enviar o formulário -->
                 <form action="" method="post" enctype="multipart/form-data" onsubmit="exibirMensagemProcessamento(); return confirmarExclusao();">
                     <div class="form-group">
-                        <input type="file" id="arquivo" name="xls_file" class="btn btn-success" required onchange="obterMetadadosArquivo()">
+                        <input name="xls_file" 
+                            type="file" 
+                            accept=".csv, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                            id="arquivo" 
+                            class="btn btn-success" 
+                            required 
+                            onchange="obterMetadadosArquivo()" />
                     </div>
                     <input type="hidden" id="nomeArquivo" name="nomeArquivo">
                     <input type="hidden" id="tipoMime" name="tipoMime">

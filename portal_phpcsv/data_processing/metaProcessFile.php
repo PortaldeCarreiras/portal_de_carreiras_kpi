@@ -1,5 +1,7 @@
 <?php
 // PLANILHA UPLOADED, INFORMAÇÕES DE METADADOS DO PLANILHA ORIGINAL
+// Grava o arquivo de upload e seus metadados no banco de dados e 
+// no diretório de uploads (uploads/original/).
 include_once(__DIR__ . '/../logs/criaLogs.php'); // Inclui a função de log
 include_once(__DIR__ . '/../dbSql/truncarTabelaSql.php'); // Inclui a função de truncar tabela
 include_once(__DIR__ . '/../dbSql/inserirDados.php'); // Inclui a função de inserção de dados
@@ -8,13 +10,13 @@ include_once('metaDataPipeline.php');
 
 function metaProcessFile($conn, $dateCreation){
     // Define a tabela a ser usada
-    $tabela = 'planilha_upload';
+    $tabela = 'planilha_upload';    // Nome da tabela no banco de dados
 
     // Função para processar o arquivo e salvar os metadados no banco de dados
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_FILES['xls_file'])) {
         $file = $_FILES['xls_file'];
         $fileTmpName = $file['tmp_name'];
-        $fileName = basename($file['name']);
+        $fileName = uniqid('uploaded_') . '_' . pathinfo($file['name'], PATHINFO_BASENAME); // Nome do arquivo com prefixo único
         $fileType = $file['type'];
         $fileSize = $file['size'];
         $dateCreation = $dateCreation;
@@ -26,15 +28,16 @@ function metaProcessFile($conn, $dateCreation){
             mkdir(__DIR__ . '/../uploads/original', 0777, true);
         }
 
-        $counter = 1;
-        $baseName = pathinfo($fileName, PATHINFO_FILENAME);
-        while (file_exists($outputFilePath)) {
-            if (md5_file($fileTmpName) === md5_file($outputFilePath)) {
-                break; // Arquivo idêntico, pode sobrescrever
-            }
-            $outputFilePath = 'uploads/original/' . $baseName . " ($counter)." . $fileExtension;    // Caminho relativo do arquivo de upload
-            $counter++;
-        }
+        // Não precisa mais, pois já está sendo usado uniqid para garantir a unicidade do nome
+        // $counter = 1;
+        // $baseName = pathinfo($fileName, PATHINFO_FILENAME);
+        // while (file_exists($outputFilePath)) {
+        //     if (md5_file($fileTmpName) === md5_file($outputFilePath)) {
+        //         break; // Arquivo idêntico, pode sobrescrever
+        //     }
+        //     $outputFilePath = 'uploads/original/' . $baseName . " ($counter)." . $fileExtension;    // Caminho relativo do arquivo de upload
+        //     $counter++;
+        // }
 
         copy($fileTmpName, $outputFilePath);    // Copia o arquivo para a pasta de uploads
         touch($outputFilePath, strtotime($dateCreation));    // Define a data de modificação do arquivo
@@ -43,7 +46,7 @@ function metaProcessFile($conn, $dateCreation){
 
         // Chama a função para truncar a tabela antes de inserir novos dados
         // Não mexer nessa função, ela serve para limpar a tabela durante o processo de desenvolvimento.
-        // truncarTabela($conn, $tabela);
+        // truncarTabela($conn, $tabela);   // função em dbSql/truncarTabelaSql.php
 
         if ($fileSize > 10 * 1024 * 1024) {
             return "O arquivo é muito grande.";

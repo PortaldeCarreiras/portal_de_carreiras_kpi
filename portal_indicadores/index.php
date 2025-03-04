@@ -1,7 +1,8 @@
 <?php
 // Verifica se foi enviado um cookie de sessão, se não, cria um novo.
 if (session_status() === PHP_SESSION_NONE) {
-    session_start();
+  session_start();
+  session_regenerate_id();  // Evita ataques de fixação de sessão
 }
 // Se já existir, ele pega o cookie e continua a sessão
 include('conn.php');
@@ -198,7 +199,7 @@ if (isset($_GET["cadastrar"])) {
               <!-- Botão de Upload e Obtenção dos dados -->
               <div>
                 <form action="upload.php" method="POST" enctype="multipart/form-data">
-                  <span class="text-center align-text-bottom">&nbsp;&nbsp;&nbsp;&nbsp;Upload Arquivos</span>
+                  <span class="text-center align-text-bottom text-danger">&nbsp;&nbsp;&nbsp;&nbsp;Upload Arquivos</span>
                   <input type="file" id="arquivo" name="arquivo_xls" class="btn btn-success">
                   <input type="submit" value="Enviar" class="btn btn-success">
                 </form>
